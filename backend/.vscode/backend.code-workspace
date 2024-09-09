@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"terminal.integrated.profiles.windows": {
+			"PowerShell": {
+				"source": "PowerShell",
+				"icon": "terminal-powershell"
+			},
+			"Command Prompt": {
+				"path": [
+					"${env:windir}\\Sysnative\\cmd.exe",
+					"${env:windir}\\System32\\cmd.exe"
+				],
+				"args": [],
+				"icon": "terminal-cmd"
+			},
+			"Git Bash": {
+				"source": "Git Bash"
+			},
+			"my-pwsh": {
+				"source": "PowerShell",
+				"args": ["-NoExit", "-Command", "C:/Python/venv/backend/Scripts/activate.ps1"]
+			}
+		},
+		"terminal.integrated.defaultProfile.windows": "my-pwsh"
+	}
+}
