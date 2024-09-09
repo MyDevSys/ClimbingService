@@ -221,6 +221,9 @@ CSRF_COOKIE_DOMAIN = ".climbing-mountain.com"
 
 # logs ディレクトリのベースディレクトリを設定
 log_base_dir = os.path.join(BASE_DIR, "logs")
+if not os.path.exists(log_base_dir):
+    os.makedirs(log_base_dir)
+
 date = datetime.date.today().strftime("%Y%m%d")
 
 LOGGER = {
