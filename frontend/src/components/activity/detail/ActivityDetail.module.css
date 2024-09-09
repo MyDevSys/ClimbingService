@@ -1,0 +1,139 @@
+.Breadcrumbs:global(.MuiBreadcrumbs-root){
+    margin: 0 auto;
+    max-width: 1200px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    padding: 15px 32px 5px;
+    font-size: 2.0rem;
+}
+
+.Breadcrumbs__Link{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.Breadcrumbs__Text{
+    color: #000;
+}
+
+
+.ActivityDetail__Body{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-bottom: 48px;
+}
+
+main.ActivityDetail__Main{
+    display: block;
+}
+
+.ActivitiesId__Section {
+    font-size: 1.6rem;
+}
+
+.ActivitiesId__SectionInner {
+    padding: 0 16px;
+}
+
+.ActivitiesId__Heading {
+    font-size: 2.4rem;
+    line-height: 1;
+}
+
+.ActivitiesId__ActivityContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.ActivitiesId__Map__Outer{
+    border-radius: 12px;
+}
+
+.ActivitiesId__Map {
+    border-radius: 12px;
+    height: 320px;
+    overflow: hidden;
+}
+
+.ActivityDetailLeaflet{
+    height: 100%;
+    width: 100%;
+}
+
+.otherInfo__Container{
+    display: flex;
+    flex-direction: column;
+}
+
+.otherInfo__Row{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.otherInfo__Row__Header{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+    .ActivitiesId__Heading {
+        font-size: 4rem;
+    }
+    .ActivitiesId__Map {
+        height: 400px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .UserAvatarImage__Avatar{
+        width: 32px;
+    }
+
+    .ActivityDetail__Breadcrumbs{
+        font-size: 2.0rem !important;
+    }
+
+    .ActivityDetail__Body{
+        padding-bottom: 96px;
+    }
+
+    .ActivitiesId__SectionInner {
+        padding: 0 32px;
+    }
+
+    .ActivitiesId__ActivityContainer {
+        display: grid;
+        gap: 64px;
+        grid-template-columns: 1fr 1fr ;
+        row-gap: 28px;
+    }
+
+    .ActivitiesId__FitnessInfo__Container{
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .ActivitiesId__Map__Outer {
+        grid-column: 1;
+        grid-row: 1 / 3;
+        overflow: hidden;
+    }
+
+    .ActivitiesId__Map {
+        height: 100%;
+    }
+
+    .ActivitiesId__DataDetail {
+        grid-column: 2;
+        grid-row: 2;
+    }
+}
+
+

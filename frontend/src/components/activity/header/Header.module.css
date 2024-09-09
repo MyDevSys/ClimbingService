@@ -1,0 +1,337 @@
+.ContentHeader__Inner {
+    margin: 0 auto;
+    padding: 5px 16px 5px 16px;
+}
+
+.ContentHeader__ContentWrapper, .ContentHeader__Item {
+    align-items: center;
+    display: flex;
+}
+
+.ContentHeader__ContentWrapper {
+    justify-content: flex-end;
+}
+
+.ContentHeader__Item--pc{
+    display: none;
+}
+
+.ContentHeader__Item--mb{
+    display: none;
+}
+
+.ContentHeader__Navigation__Item{
+    cursor: pointer;
+    margin-left: 16px;
+}
+
+.DomoPoint {
+    position: relative;
+    z-index: 1;
+}
+
+.DomoAvailableAmountBadge{
+    display: inline-flex;
+    text-decoration: none;
+    align-items: center;
+    background: #f0f0f0;
+    border-radius: 30px;
+    color: #000;
+    padding: 2px 8px;
+}
+
+.DomoAvailableAmountBadge:hover {
+    opacity: .5;
+}
+
+.DomoAvailableAmountBadge__Icon{
+    color: #f56971;
+    height: 14px;
+    width: 14px;
+    margin-right: 4px;
+}
+
+.DomoAvailableAmountBadge__Amount {
+    margin-top: 3px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 2.0rem;
+}
+
+.AccountMenu__Container{
+    position: relative;
+}
+
+.AccountMenu {
+    overflow: visible;
+    filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.32));
+    margin-top: 1.5rem;
+    min-width: 230px;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.AccountMenu__List{
+    padding: 0;
+}
+
+.AccountMenu__item{
+    padding: 8px;
+}
+
+.AccountMenu__item:hover{
+    background-color: #efefef;
+}
+
+.AccountMenu::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 14px;
+    width: 10px;
+    height: 10px;
+    background-color: white;  
+    transform: translateY(-50%) rotate(45deg);
+    z-index: 0;
+}
+
+.Avatar__Icon__Container{
+    position: relative;
+    margin-right: 8px;
+}
+
+.AccountMenu__Icon:global(.MuiSvgIcon-root){
+    font-size: 24px;
+    color: #222;
+    margin-right: 16px;
+}
+
+.DrawerMenu__Icon{
+    width: 24px;
+    height: 24px;
+}
+
+.DrawerMenu__Logout__Icon:global(.MuiSvgIcon-root){
+    font-size: 24px ;
+}
+
+.DrawerMenu__Icon, .DrawerMenu__Logout__Icon{
+    color: #222;
+    margin-left: 8px;
+}
+
+.AccountMenu__Title, .Avatar__NickName, .DrawerMenu__Title{
+    color: #222;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.Avatar__Title__Container{
+    display: flex;
+    flex-direction: column;
+}
+
+.Avatar__SubTitle{
+    color: #757575;;
+    font-size: 1.2rem;
+}
+
+.ContentHeader__Navigation{
+    align-items: center;
+    display: flex;
+    list-style: none;
+}
+
+.ContentHeader__Navigation__Button{
+    align-items: center;
+    background: white;
+    border: none;
+    color: #000;
+    display: flex;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.ContentHeader__Navigation__Avatar__Button{
+    border: none;
+    background: white;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.Avatar__Icon{
+    border-radius: 50%;
+    height: auto;
+    width: 40px;
+    vertical-align: middle;
+}
+
+.Avatar__Premium__Icon{
+    z-index: 100;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 16px;
+    height: 16px;
+}
+
+.ContentHeader__Navigation__Button:hover,.ContentHeader__Navigation__Button__Avatar:hover {
+    opacity: .5;
+}
+
+.ContentHeader__Navigation__Icon{
+    color: currentColor;
+    height: 24px !important;
+    width: 24px !important;
+}
+
+.CreateContentsMenu__Container{
+}
+
+.Notification__Container{
+}
+
+.Search__Container{
+}
+
+.CreateContentsMenu__DropdownContent{
+    position: absolute;
+    top: 35px;
+    left: 40px;
+    transform: translateX(-100%);
+    margin-top: 12px;
+    margin-bottom: 5px;
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #0000001a;
+    background-color: white;
+    list-style: none;
+    z-index: 2000;
+    width: 200px;
+}
+
+.CreateContentsMenu__DropdownItem{
+    line-height: 1;
+    padding: 0;
+    color: #606266;
+    cursor: pointer;
+    font-size: 14px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+}
+
+.CreateContentsMenu__DropdownLink{
+    align-items: center;
+    display: flex;
+    color: #000;
+    font-size: 1.4rem;
+    font-weight: 700;
+    width: 100%;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.CreateContentsMenu__DropdownLink:hover{
+    background-color: #ececec;
+}
+
+.CreateContentsMenu__DropdownIcon{
+    color: #000;
+    height: 24px;
+    width: 24px;
+    margin-right: 16px;
+}
+
+.DrawerPaper{
+    width: 250px;
+}
+
+.DrawerMenu__List{
+    padding: 0;
+}
+
+.DrawerMenu__CloseButton__ListItem{
+    justify-content: flex-end !important;
+    padding: 8px 16px 0px 8px;
+    padding-right: 16px;
+}
+
+.DrawerMenu__CloseButton{
+    display: inline-flex;
+    align-items: center;
+    justify-content: right;
+    height: 40px;
+    width: 40px;
+    padding: 8px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.DrawerMenu__CloseButton:hover{
+    opacity: .5;
+}
+
+.DrawerMenu__CloseButton__Icon{
+    height: 30px;
+    width: 30px;
+    border: none;
+    background-color: white;
+}
+
+.DrawerMenu__Avatar__Button{
+    padding: 12px;
+}
+
+.DrawerMenu__Button{
+    padding: 8px 16px;
+}
+
+.DrawerMenu__Button:hover{
+    background-color: #ececec;
+}
+
+.DrawerPaper :global(.MuiBackdrop-root){
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.DrawerMenu__Divider{
+    position: relative;
+    margin-top: 8px !important;
+    margin-bottom: 8px !important;
+}
+
+@media screen and (max-width: 991px) {
+    .ContentHeader__Item--mb{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .ContentHeader__Inner {
+        padding: 20px 32px 26px;
+    }
+    .ContentHeader__Item--pc{
+        display: block;
+    }
+
+    .DomoAvailableAmountBadge{
+        padding: 8px 12px;
+    }
+    .DomoAvailableAmountBadge__Icon{
+        height: 24px;
+        width: 24px;
+    }
+    .DomoAvailableAmountBadge__Amount{
+        font-size: 1.4rem;
+    }
+    .ContentHeader__Navigation__Button{
+        background: #f0f0f0;
+        border-radius: 50%;
+    }
+
+}

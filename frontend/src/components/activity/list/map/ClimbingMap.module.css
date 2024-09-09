@@ -1,0 +1,118 @@
+.mapBox{
+  border: 1px solid lightgray;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.mapContainer {
+  height: 300px;
+  width: 100%;
+  background-color: #f7fafc;
+}
+
+.tooltip{
+  background-color: black;  
+  color: white; 
+  font-size: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+  pointer-events: none;
+}
+
+.tooltip:global(.leaflet-tooltip-left)::before {
+  border-left-color: black;  /* 吹き出しの矢印部分の色を変更（左方向の場合） */
+}
+
+.tooltip:global(.leaflet-tooltip-right)::before {
+  border-right-color: black;  /* 吹き出しの矢印部分の色を変更（右方向の場合） */
+}
+
+.tooltip:global(.leaflet-tooltip-top)::before {
+  border-top-color: black;  /* 吹き出しの矢印部分の色を変更（上方向の場合） */
+}
+
+.tooltip:global(.leaflet-tooltip-bottom)::before {
+  border-bottom-color: black;  /* 吹き出しの矢印部分の色を変更（下方向の場合） */
+}
+
+.mapLegend{
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  text-align: left;
+  line-height: 18px;
+  color: #555;
+  font-size: 1.5rem;
+}
+
+.mapLegend i {
+  width: 9px;
+  height: 9px;
+  float: left;
+  margin-right: 8px;
+  opacity: 1.0;
+}
+
+.legend__title{
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.legend__label__font{
+  font-size: 1rem;
+}
+
+.legend__label{
+  display: inline-block; 
+  width: 15px; 
+  text-align: right;
+}
+
+.legend__label__container{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 0;
+}
+
+.legend__label__tilde{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+
+@media screen and (min-width: 768px){
+  .mapContainer {
+    height: 600px;
+  }
+
+  /* .mapContainer::before {
+    height: 600px;
+  } */
+
+  .legend__title{
+    font-size: 1.5rem;
+  }
+
+  .mapLegend i {
+    width: 18px;
+    height: 18px;
+  }
+
+  .legend__label__container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .legend__label{
+    width: 18px; 
+  }
+
+  .legend__label__font{
+    font-size: 1.5rem;
+  }
+
+}

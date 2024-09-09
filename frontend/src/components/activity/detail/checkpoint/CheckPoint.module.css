@@ -1,0 +1,333 @@
+.ActivitiesId__Section {
+    font-size: 1.6rem;
+}
+
+.ActivitiesId__Section:not(:first-child) {
+    margin-top: 48px;
+}
+
+.ActivitiesId__SectionInner {
+    padding: 0 16px;
+}
+
+.ActivitiesId__CheckPoints {
+    margin-top: 48px;
+    width: 100%;
+}
+
+.ActivitiesId__Heading {
+    font-size: 2.4rem;
+    line-height: 1;
+}
+
+.ActivitiesId__CourseTime {
+    margin-top: 24px;
+}
+
+.CourseTime__Item:not(:first-child) {
+    margin-top: 32px;
+}
+
+.CourseTimeItem__Header {
+    align-items: baseline;
+    border-bottom: 3px solid #000;
+    display: flex;
+    font-weight: 700;
+    justify-content: space-between;
+    line-height: 1.2;
+    padding-bottom: 4px;
+}
+
+.CourseTimeItem__Title {
+    font-size: 1.4rem;
+}
+
+.CourseTimeItem__Title__Number {
+    font-family: SF Pro, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial;
+    font-size: 2.8rem;
+    padding-left: 6px;
+}
+
+.CourseTimeItem__Header .CourseTimeItem__Total {
+    align-items: baseline;
+    display: flex;
+}
+
+
+.CourseTimeItem__Total{
+    color: #222;
+    font-weight: 700;
+}
+
+.CourseTimeItem__Header .CourseTimeItem__Total__Label{
+    color: #000;
+}
+
+.CourseTimeItem__Total__Label {
+    color: #757575;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.CourseTimeItem__Total__Time {
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-left: 8px;
+}
+
+.CourseTimeItem__Header .CourseTimeItem__Total__Number {
+    font-size: 2.8rem;
+}
+
+.CourseTimeItem__Total__Number {
+    font-family: SF Pro, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial;
+    font-size: 2rem;
+}
+
+.CourseTimeItem__Total__Unit{
+    padding-left: 6px;
+    padding-right: 2px;
+}
+
+.CourseTimeItem__Header .CourseTimeItem__Total {
+    align-items: baseline;
+    display: flex;
+}
+
+.CourseTimeItem__Totals{
+    border-bottom: 1px solid #d8d8d8;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.CourseTimeItem__Total__RestTime, .CourseTimeItem__Total__Distance, .CourseTimeItem__Total__Cumulative {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.CourseTimeItem__Total__Slash{
+    padding: 2px;
+}
+
+.CourseTimeItem__PassedPoints{
+    position: relative;
+}
+
+.CourseTimeItem__PassedPoints:before {
+    background-color: #d8d8d8;
+    bottom: 36px;
+    content: "";
+    display: block;
+    left: 114px;
+    margin: auto 0;
+    position: absolute;
+    top: 36px;
+    width: 6px;
+}
+
+.CourseTimeItem__PassedPoint, .CourseTimeItem__PassedPoint__Times {
+    display: flex;
+}
+
+.CourseTimeItem__PassedPoint__Times {
+    flex: 0 0 82px;
+    flex-direction: column;
+    font-size: 1.4rem;
+    font-weight: 700;
+    justify-content: center;
+    margin-right: 15px;
+    position: relative;
+    text-align: right;
+}
+
+.CourseTimeItem__PassedPoint__Time{
+    color: #757575;
+    display: block;
+    font-family: SF Pro, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial;
+    line-height: 1.2;
+}
+
+.CourseTimeItem__PassedPoint__StayAt {
+    align-self: center;
+    font-family: SF Pro, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial;
+    margin-right: 16px;
+    position: relative;
+    width: 40px;
+}
+
+.CourseTimeItem__PassedPoint__Icon {
+    height: 40px;
+    vertical-align: bottom;
+    width: 40px;
+}
+
+
+.CourseTimeItem__PassedPoint__StayingIcon {
+    background-color: #d8d8d8;
+    border-radius: 12px;
+    bottom: 0;
+    display: block;
+    height: 40px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 24px;
+}
+
+.CourseTimeItem__PassedPoint__StayingIcon:before {
+    background-color: #fff;
+    border-radius: 6px;
+    content: "";
+    display: block;
+    height: 28px;
+    left: 6px;
+    position: absolute;
+    top: 6px;
+    width: 12px;
+}
+
+.CourseTimeItem__PassedPoint__StayingIcon--single {
+    height: 24px;
+}
+
+.CourseTimeItem__PassedPoint__StayingIcon--single:before {
+    height: 12px;
+}
+
+.CourseTimeItem__PassedPoint__NameWrapper {
+    border-bottom: 1px solid #d8d8d8;
+    flex: 1;
+    padding: 24px 0;
+}
+
+.CourseTimeItem__PassedPoint__Name {
+    align-items: center;
+    color: #000;
+    cursor: pointer;
+    display: flex;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.3;
+    text-decoration: none;
+    transition-duration: .1s;
+    transition-property: opacity;
+    transition-timing-function: ease-in;
+}
+
+.Icon--angle-right:before {
+    content: "＞";
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CourseTimeItem__PassedPoint__NameIcon{
+    color: #c3c3c3;
+    font-size: 1.8rem;
+    margin-left: 8px;
+}
+
+.CourseTimeItem__PassedPoint__TimeDiff {
+    bottom: -14px;
+    position: absolute;
+    right: 0;
+}
+
+.CourseTimeItem__PassedPoint__TimeDiffValue {
+    color: #222;
+    font-family: SF Pro, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial;
+    font-size: 1.6rem;
+    line-height: 1;
+}
+
+.CourseTimeItem__PassedPoint__TimeDiffValue:after {
+    content: attr(data-unit);
+    display: inline-block;
+    font-size: 1.2rem;
+}
+
+.CourseTimeItem__PassedPoint:last-child .CourseTimeItem__PassedPoint__NameWrapper {
+    border-bottom-width: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .ActivitiesId__Heading{
+        font-size: 4rem;
+    }
+    .ActivitiesId__CourseTime {
+        margin-top: 40px;
+    }
+    .CourseTimeItem__Title{
+        font-size: 2.4rem;
+    }
+    .CourseTimeItem__Title__Number{
+        font-size: 4rem;
+    }
+    .CourseTimeItem__Header .CourseTimeItem__Total {
+        margin-left: 40px;
+    }
+    .CourseTimeItem__Total__Label {
+        font-size: 1.6rem;
+    }
+    .CourseTimeItem__Total__Time {
+        font-size: 1.6rem;
+    }
+    .CourseTimeItem__Header .CourseTimeItem__Total__Number {
+        font-size: 4rem;
+    }
+    .CourseTimeItem__Total__Number {
+        font-size: 2.8rem;
+    }
+    .CourseTimeItem__Totals {
+        border-bottom-width: 2px;
+        justify-content: flex-end;
+        padding-bottom: 24px;
+        padding-top: 24px;
+    }
+    .CourseTimeItem__Total {
+        align-items: baseline;
+        display: flex;
+        margin-left: 40px;
+    }
+    .CourseTimeItem__Total__RestTime, .CourseTimeItem__Total__Distance, .CourseTimeItem__Total__Cumulative {
+        font-size: 1.4rem;
+        margin-left: 8px;
+    }
+    .CourseTimeItem__PassedPoints:before {
+        bottom: 40px;
+        left: 152px;
+        top: 40px;
+    }
+    .CourseTimeItem__PassedPoint__Times {
+        flex-basis: 120px;
+        font-size: 2rem;
+    }
+    .CourseTimeItem__PassedPoint__NameWrapper {
+        border-bottom-width: 2px;
+        padding: 32px 0;
+    }
+    .CourseTimeItem__PassedPoint__Name {
+        font-size: 2rem;
+    }
+    .CourseTimeItem__PassedPoint__TimeDiffValue {
+        font-size: 2rem;
+    }
+    .CourseTimeItem__PassedPoint__TimeDiffValue:after {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .ActivitiesId__Section:not(:first-child) {
+        margin-top: 96px;
+    }
+}

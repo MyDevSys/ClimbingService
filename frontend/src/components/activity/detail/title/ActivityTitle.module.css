@@ -1,0 +1,162 @@
+.ActivityDetailTabLayout__Image {
+    align-items: flex-end;
+    background-color: #f1f1f1;
+    background-position: center center;    
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 100vw;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+
+.ActivityDetailTabLayout__Header{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-bottom: 16px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.ActivityDetailTabLayout__Header__Inner {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px;
+}
+
+.ActivityDetailTabLayout__Title {
+    display: -webkit-box;
+    font-size: 2rem;
+    order: 4;
+    margin-bottom: 8px;
+    overflow: hidden;
+}
+
+.ActivityDetailTabLayout__MapName {
+    font-size: 1.6rem;
+    order: 3;
+}
+
+.ActivityDetailTabLayout__Middle {
+    align-items: center;
+    display: inline-flex;
+    flex-wrap: wrap;
+    font-size: 1.6rem;
+    font-weight: 700;
+    order: 2;
+    margin-bottom: 5px;
+}
+
+.ActivityDetailTabLayout__Middle__Date {
+    margin-right: 16px;
+}
+
+.ActivityDetailTabLayout__Middle__Days {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    line-height: 1;
+    margin-right: 8px;
+    padding: 2px 4px;
+    vertical-align: middle;
+}
+
+.ActivityDetailTabLayout__Middle__Prefecture__Wrapper {
+    align-items: center;
+    display: inline-flex;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.ActivityDetailTabLayout__Middle__Icon{
+    font-size: 2.4rem;
+}
+
+.ActivityDetailTabLayout__Bottom {
+    align-items: center;
+    display: flex;
+    order: 5;
+}
+
+.ActivityDetailTabLayout__User {
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 1.6rem;
+    justify-content: flex-start;
+    max-width: 55%;
+    text-decoration: none;
+}
+
+.ActivityDetailTabLayout__UserAvatar{
+    flex: 1 0 auto;
+    margin-right: 8px;
+}
+
+.UserAvatarImage__Avatar {
+    width: 24px;
+    background-color: #ececec;
+    border-radius: 50%;
+    height: auto;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.ActivityDetailTabLayout__UserName{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+}
+
+.ActivityDetailTabLayout__UserTypeMark {
+    margin-left: 4px;
+    width: 17px;
+    height: 17px;
+}
+
+@media screen and (min-width: 768px) {
+    .ActivityDetailTabLayout__Image{
+        height: 56.25vw;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .ActivityDetailTabLayout__Header {
+        padding-bottom: 32px;
+    }
+
+    .ActivityDetailTabLayout__Header__Inner{
+        padding: 0 32px;
+    }
+
+    .ActivityDetailTabLayout__Title {
+        font-size: 4rem;
+    }
+
+    .ActivityDetailTabLayout__MapName {
+        font-size: 2rem;
+    }
+
+    .ActivityDetailTabLayout__Middle {
+        font-size: 2rem;
+    }
+
+    .ActivityDetailTabLayout__User {
+        font-size: 2rem;
+        max-width: 80%;
+        min-width: auto;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .ActivityDetailTabLayout__Image {
+        height: 675px;
+    }
+}

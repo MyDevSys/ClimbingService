@@ -1,0 +1,100 @@
+
+.TableContainer{
+  max-height: 450px;
+  margin-bottom: 50px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.tableHeaderCell:global(.MuiTableCell-root) {
+  background-color:#F5F5F5;
+  padding: 16px 0px 16px 16px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+}
+
+.tableRow:global(.MuiTableCell-root) {
+  padding: 16px 0px 16px 16px;
+  font-size: 1.4rem;
+  font-weight: 550;
+  color: #606266; 
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+}
+
+.countValue{
+    margin-top: 0;
+    margin-left: 5px;
+    align-items: center;
+    background: #dcdcdcb9;
+    border-radius: 4px;
+    color: #000;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    padding: 0 8px;
+    white-space: nowrap;
+}
+
+.mountain__prefecture__value{
+  display: none !important;
+}
+
+.mountain__textColor{
+  color: #25638f;
+}
+
+.column__mountain{
+  width: 30%; 
+}
+
+.column__prefecture{
+  width: 30%; 
+}
+
+.column__elevation{
+  width: 20%; 
+}
+
+.column__climbCount{
+  width: 20%; 
+}
+
+@media screen and (max-width: 768px){
+  .mountain__prefecture__value{
+    display: block !important;
+  }
+
+  .column__prefecture, .mountain__value, .prefecture__value{
+    display: none !important;
+  }
+  
+  
+  .column__mountain{
+    width: 40%;
+  }
+  
+  .column__elevation{
+    width: 25%; 
+  }
+
+  .column__climbCount{
+    width: 35%; 
+  }
+
+  .label__Counter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .countValue{
+    margin-top: 5px;
+    margin-left: 0px;
+  }
+}

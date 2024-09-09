@@ -1,0 +1,275 @@
+.UsersId {
+    overflow-x: hidden;
+}
+
+.ProfileCover {
+    display: none;
+}
+
+.ProfileCover__Image {
+    padding-bottom: 31.25%;
+    width: 100%;
+    background-color: #f1f1f1;
+    background-position: center center;
+    background-size: cover;
+}
+
+.UsersId__Head__Inner {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.UsersId__FaceInfo__Container{
+    width: 100%;
+}
+
+.UsersId__UserInfo__Container{
+    width: 100%;
+    padding: 0 16px;
+}
+
+.UsersId__FaceInfo {
+    position: relative;
+    word-wrap: break-word;
+    padding: 16px;
+    text-align: center;
+}
+
+.UsersId__FaceInfo__Cover {
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #f1f1f1;
+    background-position: center center;
+    background-size: cover;
+}
+
+.UsersId__FaceInfo__Wrap{
+    position: relative;
+    z-index: 1;
+}
+
+.UsersId__FaceInfo__Overlay {
+    background: #0006;
+    height: 100%;
+    width: 100%;
+}
+
+.UsersId__FaceInfo__Icon {
+    display: inline-block;
+    height: 80px;
+    margin-bottom: 16px;
+    position: relative;
+    width: 80px;
+}
+
+.UserAvatarImage{
+    position: relative;
+}
+
+.UserAvatarImage--profile{
+    height: 100%;
+    width: 100%;
+}
+
+.UserAvatarImage--profile .UserAvatarImage__Avatar {
+    border-width: 0;
+}
+
+.UserAvatarImage__Avatar {
+    background-color: #ececec;
+    border-radius: 50%;
+    height: auto;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.UsersId__FaceInfo__Name__Wrap{
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+
+.UsersId__FaceInfo__Name {
+    color: #fff;
+    font-size: 1.4rem;
+    overflow: hidden;
+}
+
+.UsersId__FaceInfo__premiumIcon{
+    width: 16px;
+    height: 16px;
+}
+
+.UsersId__Info{
+    padding: 16px;
+}
+
+.UserType {
+    display: flex;
+    justify-content: space-between;
+}
+
+.UserType__Name{
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+    white-space: pre-wrap;
+    color: #25638f;
+}
+
+.UserType__Id{
+    color: #222;
+    display: none;
+    font-size: 1.2rem;
+    text-align: right;
+}
+
+
+.UsersId__BasicInfo {
+    border-bottom: 1px solid #d8d8d8;
+    font-size: 1.4rem;
+    margin: 8px 0 0;
+    padding-bottom: 16px;
+    list-style: none;
+}
+
+.UsersId__BasicInfo__Item{
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.UsersId__Tab{
+    margin: 0 auto 16px;
+    max-width: 1200px;
+}
+
+.UsersId__Tab__Inner{
+    align-items: center;
+    border-bottom: 1px solid #d8d8d8;
+    border-top: 1px solid #d8d8d8;
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    white-space: nowrap;
+    width: 100%;
+    list-style: none;
+}
+
+.UsersId__Tab__Item, .UsersId__Tab__Link{
+    display: flex;
+}
+
+.UsersId__Tab__Item{
+    flex-direction: column;
+}
+
+.UsersId__Tab__Link{
+    align-items: center;
+    color: #222;
+    cursor: pointer;
+    font-size: 1.4rem;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: .1s;
+    transition-property: opacity;
+    transition-timing-function: ease-in;
+}
+
+.UsersId__Tab__Link--active {
+    border-bottom: 2px solid #cf0010;
+    font-weight: 700;
+}
+
+.UsersId__Tab__Count{
+    align-items: center;
+    background: #ececec;
+    border-radius: 4px;
+    color: #000;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-left: 8px;
+    padding: 0 8px;
+    white-space: nowrap;
+}
+
+.activeTab {
+    display: block;
+}
+
+.inactiveTab {
+    display: none;
+}
+
+.UsersId__Body {
+    margin: auto;
+    max-width: 1200px;
+    padding: 0 16px;
+}
+
+@media screen and (min-width: 768px){
+    .UsersId__Tab{
+        margin: 32px auto;
+    }
+    .UsersId__Tab__Link{
+        padding: 16px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .ProfileCover{
+        display: block;
+        height: auto;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+    }
+    .UsersId__Head__Inner{
+        max-width: 1000px;
+        flex-direction: row;
+    }
+    .UsersId__FaceInfo__Container{
+        width: 17%;
+    }
+    .UsersId__UserInfo__Container{
+        width: 83%;
+    }
+    .UsersId__FaceInfo__Cover{
+        display: none;
+    }
+    .UsersId__FaceInfo__Icon{
+        display: block;
+        height: 100%;
+        margin-bottom: 0;
+        margin-top: -64px;
+        width: 100%;
+    }
+    .UserAvatarImage--profile .UserAvatarImage__Avatar{
+        border: 4px solid #fff;
+    }
+    .UsersId__FaceInfo__Name{
+        color: #000;
+    }
+    .UsersId__Info{
+        padding: 16px 0 0;
+    }
+    .UserType__Id{
+        display: block;
+    }
+    .UsersId__Tab{
+        padding: 0 32px;
+    }
+    .UsersId__Tab__Inner {
+        overflow-x: visible;
+    }
+    .UsersId__Body{
+        padding: 0 32px;
+    }
+}

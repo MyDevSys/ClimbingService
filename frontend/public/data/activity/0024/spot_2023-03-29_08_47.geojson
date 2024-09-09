@@ -1,0 +1,328 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "天拝山歴史自然公園",
+        "type": 31,
+        "id": "0001",
+        "stay_times": [
+          {
+            "start": "2023-03-29T09:12:51+09:00",
+            "end": "2023-03-29T09:15:24+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.510222,
+          33.489083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "天拝山登山口",
+        "type": 7,
+        "id": "0002",
+        "stay_times": [
+          {
+            "start": "2023-03-29T09:15:53+09:00",
+            "end": "2023-03-29T09:16:52+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.509056,
+          33.489167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "天拝山",
+        "type": 4,
+        "id": "0003",
+        "stay_times": [
+          {
+            "start": "2023-03-29T09:46:23+09:00",
+            "end": "2023-03-29T10:11:55+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.506139,
+          33.481778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "奥天拝",
+        "type": 4,
+        "id": "0004",
+        "stay_times": [
+          {
+            "start": "2023-03-29T10:28:30+09:00",
+            "end": "2023-03-29T10:40:06+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.500389,
+          33.48075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "大佐野山",
+        "type": 4,
+        "id": "0005",
+        "stay_times": [
+          {
+            "start": "2023-03-29T11:32:06+09:00",
+            "end": "2023-03-29T11:40:29+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.490056,
+          33.4705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "前黒金山",
+        "type": 4,
+        "id": "0006",
+        "stay_times": [
+          {
+            "start": "2023-03-29T12:05:56+09:00",
+            "end": "2023-03-29T12:08:47+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.481944,
+          33.464444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "黒金山",
+        "type": 4,
+        "id": "0007",
+        "stay_times": [
+          {
+            "start": "2023-03-29T12:17:54+09:00",
+            "end": "2023-03-29T12:24:37+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.476389,
+          33.465917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "三市町山",
+        "type": 4,
+        "id": "0008",
+        "stay_times": [
+          {
+            "start": "2023-03-29T12:50:00+09:00",
+            "end": "2023-03-29T12:54:29+09:00"
+          },
+          {
+            "start": "2023-03-29T14:59:12+09:00",
+            "end": "2023-03-29T15:01:11+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.466333,
+          33.466472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "髙地山",
+        "type": 4,
+        "id": "0009",
+        "stay_times": [
+          {
+            "start": "2023-03-29T12:58:53+09:00",
+            "end": "2023-03-29T13:35:50+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.464417,
+          33.464861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "茨山",
+        "type": 4,
+        "id": "0010",
+        "stay_times": [
+          {
+            "start": "2023-03-29T13:52:58+09:00",
+            "end": "2023-03-29T13:59:35+09:00"
+          },
+          {
+            "start": "2023-03-29T14:23:37+09:00",
+            "end": "2023-03-29T14:31:35+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.465167,
+          33.461889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "三角山",
+        "type": 4,
+        "id": "0011",
+        "stay_times": [
+          {
+            "start": "2023-03-29T14:07:02+09:00",
+            "end": "2023-03-29T14:16:06+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.468278,
+          33.460694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "牛頸山",
+        "type": 4,
+        "id": "0012",
+        "stay_times": [
+          {
+            "start": "2023-03-29T15:26:43+09:00",
+            "end": "2023-03-29T15:40:23+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.468472,
+          33.471556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "牛頸山入口",
+        "type": 7,
+        "id": "0013",
+        "stay_times": [
+          {
+            "start": "2023-03-29T17:11:09+09:00",
+            "end": "2023-03-29T17:11:46+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.481611,
+          33.480167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "大佐野山入口",
+        "type": 7,
+        "id": "0015",
+        "stay_times": [
+          {
+            "start": "2023-03-29T17:27:09+09:00",
+            "end": "2023-03-29T17:28:17+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.482306,
+          33.486472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "南山手団地バス停",
+        "type": 26,
+        "id": "0016",
+        "stay_times": [
+          {
+            "start": "2023-03-29T17:41:00+09:00",
+            "end": "2023-03-29T17:41:00+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.480667,
+          33.488472
+        ]
+      }
+    }
+  ]
+}

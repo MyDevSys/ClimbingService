@@ -1,0 +1,132 @@
+.ActivitiesId__Section:not(:first-child) {
+    margin-top: 48px;
+    font-size: 1.6rem;
+}
+
+.ActivitiesId__SectionInner {
+    padding: 0 16px;
+}
+
+.ActivitiesId__HeadingWrapper{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ActivitiesId__HeadingInline {
+    flex: 1;
+    font-size: 2.4rem;
+}
+
+.ActivitiesId__Heading__ReadMore{
+    border: none;
+    color: #25638f;
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition-duration: .1s;
+    transition-property: color;
+    transition-timing-function: ease-in;
+}
+
+.ActivitiesId__Description {
+    margin: 32px 0 40px;
+}
+
+.ActivitiesId__Description__Body{
+    font-size: 1.5rem;
+    line-height: 1.5;
+    white-space: pre-wrap;
+}
+
+.LinkableText {
+    word-break: break-all;
+}
+
+.ActivitiesId__Photos {
+    display: grid;
+    gap: 1px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 32px;
+}
+
+.ActivitiesId__Photo {
+    position: relative;
+}
+
+.ActivitiesId__Photo__Link{
+    background-color: #d8d8d8;
+    position: relative;
+    padding-top: 100%; /* 正方形の比率を維持する */
+    display: block; 
+}
+
+
+.ActivitiesId__Photo__Image {
+    left: 0;
+    max-width: 100%;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    vertical-align: bottom;
+    z-index: 1;
+    object-fit: cover;
+}
+
+.ActivitiesId__Photo__Caption{
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .ActivitiesId__HeadingInline {
+        font-size: 4rem;
+    }
+    .ActivitiesId__Photos {
+        gap: 8px;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        margin-top: 40px;
+    }
+    .ActivitiesId__Photo__Caption {
+        background-image: linear-gradient(180deg, #0000 0, #0000004d);
+        bottom: 0;
+        color: #fff;
+        display: block;
+        font-size: 1.5rem;
+        left: 0;
+        opacity: 0;
+        overflow: hidden;
+        padding: 8px;
+        position: absolute;
+        text-overflow: ellipsis;
+        transition: opacity .2s ease-in-out;
+        white-space: nowrap;
+        width: 100%;
+        z-index: 1;
+    }
+    .ActivitiesId__Photo:hover .ActivitiesId__Photo__Caption{
+        opacity: 1;
+    }
+    .ActivitiesId__Description {
+        margin: 64px 0;
+    }
+    .ActivitiesId__Description__Body {
+        font-size: 1.8rem;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    .ActivitiesId__Section:not(:first-child) {
+        margin-top: 96px;
+    }
+    .ActivitiesId__SectionInner {
+        padding: 0 32px;
+    }
+    .ActivitiesId__Heading__ReadMore {
+        font-size: 2rem;
+    }
+    .ActivitiesId__Photos {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}

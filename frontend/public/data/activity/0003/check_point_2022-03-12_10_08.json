@@ -1,0 +1,50 @@
+{
+  "active_days": 1,
+  "day_info": [
+    {
+      "active_time": {
+        "hr": 5,
+        "min": 47
+      },
+      "rest_time": {
+        "hr": 1,
+        "min": 6
+      },
+      "distance": {
+        "route": 11.5,
+        "up": 845,
+        "down": 838
+      },
+      "check_point": [
+        {
+          "type": 1,
+          "next_point_time": {
+            "hr": 2,
+            "min": 50
+          },
+          "stay_time": [
+            "10:08"
+          ]
+        },
+        {
+          "spot_name": "九千部山",
+          "type": 5,
+          "next_point_time": {
+            "hr": 2,
+            "min": 1
+          },
+          "stay_time": [
+            "12:59",
+            "13:53"
+          ]
+        },
+        {
+          "type": 2,
+          "stay_time": [
+            "15:55"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "水源池前バス停",
+        "type": 26,
+        "id": "0001",
+        "stay_times": [
+          {
+            "start": "2022-03-24T09:09:06+09:00",
+            "end": "2022-03-24T09:09:28+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.307083,
+          33.494306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "花乱の滝登山口",
+        "type": 7,
+        "id": "0002",
+        "stay_times": [
+          {
+            "start": "2022-03-24T09:53:15+09:00",
+            "end": "2022-03-24T09:58:57+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.300528,
+          33.482556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "金山",
+        "type": 4,
+        "id": "0003",
+        "stay_times": [
+          {
+            "start": "2022-03-24T12:48:23+09:00",
+            "end": "2022-03-24T13:16:02+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.305861,
+          33.463528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "坊主ヶ滝",
+        "type": 20,
+        "id": "0004",
+        "stay_times": [
+          {
+            "start": "2022-03-24T15:20:17+09:00",
+            "end": "2022-03-24T15:28:48+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.322083,
+          33.474056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "坊主ヶ滝ルート登山口",
+        "type": 7,
+        "id": "0005",
+        "stay_times": [
+          {
+            "start": "2022-03-24T15:57:38+09:00",
+            "end": "2022-03-24T16:03:20+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.32375,
+          33.477389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "多々良瀬バス停",
+        "type": 26,
+        "id": "0006",
+        "stay_times": [
+          {
+            "start": "2022-03-24T16:33:06+09:00",
+            "end": "2022-03-24T16:34:39+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.329944,
+          33.490222
+        ]
+      }
+    }
+  ]
+}

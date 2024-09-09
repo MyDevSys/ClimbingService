@@ -1,0 +1,112 @@
+{
+  "active_days": 1,
+  "day_info": [
+    {
+      "active_time": {
+        "hr": 7,
+        "min": 15
+      },
+      "rest_time": {
+        "hr": 1,
+        "min": 11
+      },
+      "distance": {
+        "route": 14.0,
+        "up": 926,
+        "down": 923
+      },
+      "check_point": [
+        {
+          "type": 1,
+          "stay_time": [
+            "09:25"
+          ]
+        },
+        {
+          "spot_name": "田主丸駅",
+          "type": 4,
+          "next_point_time": {
+            "hr": 0,
+            "min": 54
+          },
+          "stay_time": [
+            "09:25"
+          ]
+        },
+        {
+          "spot_name": "平原公園登山口",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 27
+          },
+          "stay_time": [
+            "10:20",
+            "10:23"
+          ]
+        },
+        {
+          "spot_name": "えぐ水登山口",
+          "type": 5,
+          "next_point_time": {
+            "hr": 1,
+            "min": 42
+          },
+          "stay_time": [
+            "10:50",
+            "10:54"
+          ]
+        },
+        {
+          "spot_name": "鷹取山",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 5
+          },
+          "stay_time": [
+            "12:36",
+            "13:37"
+          ]
+        },
+        {
+          "spot_name": "鷹取山",
+          "type": 5,
+          "next_point_time": {
+            "hr": 2,
+            "min": 2
+          },
+          "stay_time": [
+            "13:43",
+            "13:44"
+          ]
+        },
+        {
+          "spot_name": "平原公園登山口",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 51
+          },
+          "stay_time": [
+            "15:47",
+            "15:48"
+          ]
+        },
+        {
+          "spot_name": "田主丸駅",
+          "type": 4,
+          "stay_time": [
+            "16:39"
+          ]
+        },
+        {
+          "type": 2,
+          "stay_time": [
+            "16:40"
+          ]
+        }
+      ]
+    }
+  ]
+}

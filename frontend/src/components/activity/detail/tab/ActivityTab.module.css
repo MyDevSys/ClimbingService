@@ -1,0 +1,46 @@
+.ActivityDetail__Tab{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.ActivityDetail__TabItem{
+    align-items: center;
+    border-radius: 16px;
+    color: inherit;
+    color: #000;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 1.6rem;
+    height: 32px;
+    justify-content: center;
+    margin: 0 8px;
+    min-width: 80px;
+    padding: 0 16px;
+    text-decoration: none;
+    transition-duration: .1s;
+    transition-property: opacity;
+    transition-timing-function: ease-in;
+}
+
+.ActivityDetail__TabItem:global(.is-active) {
+    background-color: #cf0010;
+    color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+    .ActivityDetail__Tab {
+        padding: 80px 0;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .ActivityDetail__TabItem {
+        border-radius: 24px;
+        font-size: 2rem;
+        height: 48px;
+        margin: 0 16px;
+        min-width: 120px;
+        padding: 0 24px;
+    }
+}

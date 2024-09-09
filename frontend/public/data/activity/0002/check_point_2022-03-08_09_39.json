@@ -1,0 +1,112 @@
+{
+  "active_days": 1,
+  "day_info": [
+    {
+      "active_time": {
+        "hr": 6,
+        "min": 8
+      },
+      "rest_time": {
+        "hr": 2,
+        "min": 21
+      },
+      "distance": {
+        "route": 11.0,
+        "up": 662,
+        "down": 663
+      },
+      "check_point": [
+        {
+          "type": 1,
+          "stay_time": [
+            "09:39"
+          ]
+        },
+        {
+          "spot_name": "福吉駅",
+          "type": 4,
+          "next_point_time": {
+            "hr": 0,
+            "min": 17
+          },
+          "stay_time": [
+            "09:39"
+          ]
+        },
+        {
+          "spot_name": "中村登山口",
+          "type": 4,
+          "next_point_time": {
+            "hr": 1,
+            "min": 27
+          },
+          "stay_time": [
+            "09:56"
+          ]
+        },
+        {
+          "spot_name": "十坊山",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 30
+          },
+          "stay_time": [
+            "11:25",
+            "12:45"
+          ]
+        },
+        {
+          "spot_name": "白木峠",
+          "type": 5,
+          "next_point_time": {
+            "hr": 1,
+            "min": 0
+          },
+          "stay_time": [
+            "13:16",
+            "13:19"
+          ]
+        },
+        {
+          "spot_name": "まむしの湯",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 3
+          },
+          "stay_time": [
+            "14:20",
+            "15:22"
+          ]
+        },
+        {
+          "spot_name": "中村登山口",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 14
+          },
+          "stay_time": [
+            "15:25",
+            "15:28"
+          ]
+        },
+        {
+          "spot_name": "福吉駅",
+          "type": 5,
+          "stay_time": [
+            "15:42",
+            "15:46"
+          ]
+        },
+        {
+          "type": 2,
+          "stay_time": [
+            "15:46"
+          ]
+        }
+      ]
+    }
+  ]
+}

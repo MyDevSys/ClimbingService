@@ -1,0 +1,46 @@
+[
+  {
+    "date_time": "2022.11.04(金) 12:49",
+    "photo_name": "photo_0020_01_1722765280.webp",
+    "photo_comment": "油山牧場のコスモス畑",
+    "domo": 0,
+    "aspect_ratio": 66.7,
+    "coordinates": [
+      33.51036,
+      130.374767
+    ]
+  },
+  {
+    "date_time": "2022.11.04(金) 14:14",
+    "photo_name": "photo_0020_02_1722765280.webp",
+    "photo_comment": "油山山頂の眺望1",
+    "domo": 0,
+    "aspect_ratio": 66.7,
+    "coordinates": [
+      33.514322,
+      130.365782
+    ]
+  },
+  {
+    "date_time": "2022.11.04(金) 14:16",
+    "photo_name": "photo_0020_03_1722765280.webp",
+    "photo_comment": "油山山頂の眺望2",
+    "domo": 0,
+    "aspect_ratio": 66.7,
+    "coordinates": [
+      33.514833,
+      130.365573
+    ]
+  },
+  {
+    "date_time": "2022.11.04(金) 15:19",
+    "photo_name": "photo_0020_04_1722765280.webp",
+    "photo_comment": "妙見望からの眺望",
+    "domo": 0,
+    "aspect_ratio": 66.7,
+    "coordinates": [
+      33.526294,
+      130.364059
+    ]
+  }
+]

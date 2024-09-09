@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "九千部山",
+        "type": 4,
+        "id": "0001",
+        "stay_times": [
+          {
+            "start": "2022-03-12T12:59:23+09:00",
+            "end": "2022-03-12T13:53:53.553675461+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.446056,
+          33.41675
+        ]
+      }
+    }
+  ]
+}

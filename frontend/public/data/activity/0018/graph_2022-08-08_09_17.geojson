@@ -1,0 +1,1161 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.550382,
+          33.528448
+        ]
+      },
+      "properties": {
+        "elevation": 150.07,
+        "average_pace": 56.1,
+        "total_distance": 0,
+        "timestamp": "2022-08-08T09:17:32+09:00",
+        "active_time": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.551448,
+          33.528659
+        ]
+      },
+      "properties": {
+        "elevation": 159.73,
+        "average_pace": 82.8,
+        "total_distance": 0.102,
+        "timestamp": "2022-08-08T09:20:04+09:00",
+        "active_time": 2.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.552056,
+          33.52897
+        ]
+      },
+      "properties": {
+        "elevation": 176.62,
+        "average_pace": 104.8,
+        "total_distance": 0.206,
+        "timestamp": "2022-08-08T09:27:23+09:00",
+        "active_time": 9.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.552312,
+          33.529155
+        ]
+      },
+      "properties": {
+        "elevation": 183.16,
+        "average_pace": 124.5,
+        "total_distance": 0.311,
+        "timestamp": "2022-08-08T09:33:00+09:00",
+        "active_time": 15.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.552859,
+          33.529912
+        ]
+      },
+      "properties": {
+        "elevation": 187.67,
+        "average_pace": 150.6,
+        "total_distance": 0.412,
+        "timestamp": "2022-08-08T09:34:30+09:00",
+        "active_time": 17.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.553386,
+          33.530383
+        ]
+      },
+      "properties": {
+        "elevation": 206.15,
+        "average_pace": 165.3,
+        "total_distance": 0.516,
+        "timestamp": "2022-08-08T09:37:22+09:00",
+        "active_time": 19.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.553932,
+          33.530884
+        ]
+      },
+      "properties": {
+        "elevation": 225.03,
+        "average_pace": 167.4,
+        "total_distance": 0.618,
+        "timestamp": "2022-08-08T09:40:19+09:00",
+        "active_time": 22.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.554933,
+          33.531118
+        ]
+      },
+      "properties": {
+        "elevation": 236.54,
+        "average_pace": 171.3,
+        "total_distance": 0.72,
+        "timestamp": "2022-08-08T09:42:14+09:00",
+        "active_time": 24.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.554794,
+          33.531791
+        ]
+      },
+      "properties": {
+        "elevation": 248.71,
+        "average_pace": 169.2,
+        "total_distance": 0.803,
+        "timestamp": "2022-08-08T09:43:31+09:00",
+        "active_time": 26.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.555243,
+          33.532632
+        ]
+      },
+      "properties": {
+        "elevation": 252.5,
+        "average_pace": 153.3,
+        "total_distance": 0.906,
+        "timestamp": "2022-08-08T09:45:54+09:00",
+        "active_time": 28.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.55571,
+          33.533443
+        ]
+      },
+      "properties": {
+        "elevation": 258.02,
+        "average_pace": 139.0,
+        "total_distance": 1.009,
+        "timestamp": "2022-08-08T09:47:53+09:00",
+        "active_time": 30.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.556616,
+          33.533938
+        ]
+      },
+      "properties": {
+        "elevation": 268.87,
+        "average_pace": 132.4,
+        "total_distance": 1.111,
+        "timestamp": "2022-08-08T09:49:53+09:00",
+        "active_time": 32.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.557617,
+          33.533939
+        ]
+      },
+      "properties": {
+        "elevation": 290.23,
+        "average_pace": 120.8,
+        "total_distance": 1.213,
+        "timestamp": "2022-08-08T09:53:01+09:00",
+        "active_time": 35.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.558592,
+          33.533716
+        ]
+      },
+      "properties": {
+        "elevation": 316.21,
+        "average_pace": 103.2,
+        "total_distance": 1.316,
+        "timestamp": "2022-08-08T10:00:03+09:00",
+        "active_time": 42.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.559425,
+          33.534222
+        ]
+      },
+      "properties": {
+        "elevation": 335.13,
+        "average_pace": 94.8,
+        "total_distance": 1.418,
+        "timestamp": "2022-08-08T10:05:12+09:00",
+        "active_time": 47.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.56018,
+          33.534566
+        ]
+      },
+      "properties": {
+        "elevation": 348.79,
+        "average_pace": 100.3,
+        "total_distance": 1.5,
+        "timestamp": "2022-08-08T10:14:38+09:00",
+        "active_time": 50.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.561006,
+          33.535147
+        ]
+      },
+      "properties": {
+        "elevation": 378.94,
+        "average_pace": 106.0,
+        "total_distance": 1.602,
+        "timestamp": "2022-08-08T10:19:08+09:00",
+        "active_time": 54.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.561869,
+          33.535719
+        ]
+      },
+      "properties": {
+        "elevation": 402.93,
+        "average_pace": 100.6,
+        "total_distance": 1.706,
+        "timestamp": "2022-08-08T10:23:22+09:00",
+        "active_time": 59.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.562724,
+          33.536127
+        ]
+      },
+      "properties": {
+        "elevation": 449.39,
+        "average_pace": 91.4,
+        "total_distance": 1.808,
+        "timestamp": "2022-08-08T10:33:35+09:00",
+        "active_time": 69.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.563373,
+          33.536462
+        ]
+      },
+      "properties": {
+        "elevation": 484.88,
+        "average_pace": 87.1,
+        "total_distance": 1.919,
+        "timestamp": "2022-08-08T10:48:37+09:00",
+        "active_time": 77.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.564294,
+          33.536169
+        ]
+      },
+      "properties": {
+        "elevation": 538.67,
+        "average_pace": 82.7,
+        "total_distance": 2.02,
+        "timestamp": "2022-08-08T10:56:17+09:00",
+        "active_time": 85.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.564972,
+          33.536276
+        ]
+      },
+      "properties": {
+        "elevation": 573.98,
+        "average_pace": 76.0,
+        "total_distance": 2.101,
+        "timestamp": "2022-08-08T11:04:14+09:00",
+        "active_time": 93.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.565736,
+          33.536233
+        ]
+      },
+      "properties": {
+        "elevation": 623.62,
+        "average_pace": 73.1,
+        "total_distance": 2.204,
+        "timestamp": "2022-08-08T11:20:58+09:00",
+        "active_time": 104.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.566794,
+          33.536404
+        ]
+      },
+      "properties": {
+        "elevation": 688.65,
+        "average_pace": 75.9,
+        "total_distance": 2.319,
+        "timestamp": "2022-08-08T11:39:03+09:00",
+        "active_time": 118.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.567238,
+          33.536671
+        ]
+      },
+      "properties": {
+        "elevation": 715.21,
+        "average_pace": 83.8,
+        "total_distance": 2.401,
+        "timestamp": "2022-08-08T11:46:16+09:00",
+        "active_time": 125.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.56771,
+          33.537389
+        ]
+      },
+      "properties": {
+        "elevation": 732.73,
+        "average_pace": 92.3,
+        "total_distance": 2.502,
+        "timestamp": "2022-08-08T11:50:18+09:00",
+        "active_time": 129.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.568223,
+          33.538127
+        ]
+      },
+      "properties": {
+        "elevation": 751.67,
+        "average_pace": 92.4,
+        "total_distance": 2.605,
+        "timestamp": "2022-08-08T11:55:24+09:00",
+        "active_time": 134.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.568898,
+          33.538734
+        ]
+      },
+      "properties": {
+        "elevation": 776.78,
+        "average_pace": 86.2,
+        "total_distance": 2.708,
+        "timestamp": "2022-08-08T12:01:21+09:00",
+        "active_time": 140.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.568801,
+          33.539624
+        ]
+      },
+      "properties": {
+        "elevation": 805.57,
+        "average_pace": 88.4,
+        "total_distance": 2.819,
+        "timestamp": "2022-08-08T12:08:16+09:00",
+        "active_time": 147.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.569423,
+          33.540214
+        ]
+      },
+      "properties": {
+        "elevation": 815.89,
+        "average_pace": 124.2,
+        "total_distance": 2.92,
+        "timestamp": "2022-08-08T12:29:29+09:00",
+        "active_time": 154.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.570298,
+          33.540316
+        ]
+      },
+      "properties": {
+        "elevation": 797.61,
+        "average_pace": 200.5,
+        "total_distance": 3.003,
+        "timestamp": "2022-08-08T12:32:04+09:00",
+        "active_time": 157.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.57099,
+          33.540662
+        ]
+      },
+      "properties": {
+        "elevation": 798.85,
+        "average_pace": 244.2,
+        "total_distance": 3.103,
+        "timestamp": "2022-08-08T12:59:10+09:00",
+        "active_time": 159.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.571707,
+          33.541356
+        ]
+      },
+      "properties": {
+        "elevation": 829.08,
+        "average_pace": 193.5,
+        "total_distance": 3.206,
+        "timestamp": "2022-08-08T13:04:56+09:00",
+        "active_time": 165.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.571802,
+          33.542177
+        ]
+      },
+      "properties": {
+        "elevation": 856.45,
+        "average_pace": 119.7,
+        "total_distance": 3.309,
+        "timestamp": "2022-08-08T13:11:31+09:00",
+        "active_time": 171.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.571688,
+          33.542035
+        ]
+      },
+      "properties": {
+        "elevation": 852.49,
+        "average_pace": 91.4,
+        "total_distance": 3.411,
+        "timestamp": "2022-08-08T13:21:05+09:00",
+        "active_time": 176.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.570865,
+          33.541486
+        ]
+      },
+      "properties": {
+        "elevation": 829.53,
+        "average_pace": 95.5,
+        "total_distance": 3.513,
+        "timestamp": "2022-08-08T13:24:39+09:00",
+        "active_time": 180.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.570201,
+          33.540765
+        ]
+      },
+      "properties": {
+        "elevation": 818.51,
+        "average_pace": 102.4,
+        "total_distance": 3.616,
+        "timestamp": "2022-08-08T13:26:25+09:00",
+        "active_time": 181.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.569814,
+          33.540286
+        ]
+      },
+      "properties": {
+        "elevation": 810.36,
+        "average_pace": 101.3,
+        "total_distance": 3.718,
+        "timestamp": "2022-08-08T13:29:33+09:00",
+        "active_time": 185.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.570478,
+          33.539842
+        ]
+      },
+      "properties": {
+        "elevation": 774.55,
+        "average_pace": 98.9,
+        "total_distance": 3.82,
+        "timestamp": "2022-08-08T13:34:10+09:00",
+        "active_time": 189.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.570107,
+          33.539263
+        ]
+      },
+      "properties": {
+        "elevation": 746.62,
+        "average_pace": 97.3,
+        "total_distance": 3.902,
+        "timestamp": "2022-08-08T13:37:32+09:00",
+        "active_time": 193.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.569517,
+          33.538517
+        ]
+      },
+      "properties": {
+        "elevation": 743.05,
+        "average_pace": 96.8,
+        "total_distance": 4.004,
+        "timestamp": "2022-08-08T13:41:46+09:00",
+        "active_time": 197.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.568634,
+          33.538009
+        ]
+      },
+      "properties": {
+        "elevation": 742.18,
+        "average_pace": 99.6,
+        "total_distance": 4.107,
+        "timestamp": "2022-08-08T13:44:07+09:00",
+        "active_time": 199.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.568055,
+          33.537261
+        ]
+      },
+      "properties": {
+        "elevation": 725.93,
+        "average_pace": 97.6,
+        "total_distance": 4.209,
+        "timestamp": "2022-08-08T13:46:40+09:00",
+        "active_time": 202.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.567248,
+          33.536783
+        ]
+      },
+      "properties": {
+        "elevation": 719.4,
+        "average_pace": 85.4,
+        "total_distance": 4.314,
+        "timestamp": "2022-08-08T13:51:37+09:00",
+        "active_time": 207.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.566796,
+          33.536361
+        ]
+      },
+      "properties": {
+        "elevation": 687.31,
+        "average_pace": 71.0,
+        "total_distance": 4.416,
+        "timestamp": "2022-08-08T14:01:43+09:00",
+        "active_time": 217.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.565805,
+          33.536245
+        ]
+      },
+      "properties": {
+        "elevation": 628.8,
+        "average_pace": 63.4,
+        "total_distance": 4.518,
+        "timestamp": "2022-08-08T14:08:06+09:00",
+        "active_time": 223.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.565282,
+          33.535834
+        ]
+      },
+      "properties": {
+        "elevation": 590.27,
+        "average_pace": 64.2,
+        "total_distance": 4.602,
+        "timestamp": "2022-08-08T14:16:57+09:00",
+        "active_time": 232.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.564657,
+          33.536156
+        ]
+      },
+      "properties": {
+        "elevation": 564.37,
+        "average_pace": 69.2,
+        "total_distance": 4.703,
+        "timestamp": "2022-08-08T14:21:09+09:00",
+        "active_time": 236.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.563742,
+          33.536316
+        ]
+      },
+      "properties": {
+        "elevation": 507.02,
+        "average_pace": 70.5,
+        "total_distance": 4.805,
+        "timestamp": "2022-08-08T14:28:43+09:00",
+        "active_time": 244.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.563148,
+          33.536626
+        ]
+      },
+      "properties": {
+        "elevation": 464.19,
+        "average_pace": 69.1,
+        "total_distance": 4.9,
+        "timestamp": "2022-08-08T14:54:46+09:00",
+        "active_time": 252.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.562664,
+          33.535883
+        ]
+      },
+      "properties": {
+        "elevation": 439.96,
+        "average_pace": 69.1,
+        "total_distance": 5.001,
+        "timestamp": "2022-08-08T15:01:13+09:00",
+        "active_time": 258.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.561784,
+          33.535652
+        ]
+      },
+      "properties": {
+        "elevation": 401.25,
+        "average_pace": 72.5,
+        "total_distance": 5.102,
+        "timestamp": "2022-08-08T15:10:00+09:00",
+        "active_time": 267.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.56095,
+          33.535052
+        ]
+      },
+      "properties": {
+        "elevation": 375.9,
+        "average_pace": 80.1,
+        "total_distance": 5.205,
+        "timestamp": "2022-08-08T15:14:05+09:00",
+        "active_time": 271.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.560114,
+          33.534479
+        ]
+      },
+      "properties": {
+        "elevation": 345.21,
+        "average_pace": 82.4,
+        "total_distance": 5.307,
+        "timestamp": "2022-08-08T15:17:46+09:00",
+        "active_time": 275.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.559147,
+          33.534092
+        ]
+      },
+      "properties": {
+        "elevation": 330.03,
+        "average_pace": 74.5,
+        "total_distance": 5.407,
+        "timestamp": "2022-08-08T15:21:39+09:00",
+        "active_time": 279.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.558357,
+          33.533639
+        ]
+      },
+      "properties": {
+        "elevation": 310.77,
+        "average_pace": 69.0,
+        "total_distance": 5.51,
+        "timestamp": "2022-08-08T15:26:53+09:00",
+        "active_time": 284.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.557433,
+          33.533952
+        ]
+      },
+      "properties": {
+        "elevation": 284.88,
+        "average_pace": 78.8,
+        "total_distance": 5.611,
+        "timestamp": "2022-08-08T15:32:23+09:00",
+        "active_time": 289.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.556475,
+          33.533738
+        ]
+      },
+      "properties": {
+        "elevation": 263.65,
+        "average_pace": 99.4,
+        "total_distance": 5.715,
+        "timestamp": "2022-08-08T15:35:18+09:00",
+        "active_time": 292.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.555539,
+          33.533261
+        ]
+      },
+      "properties": {
+        "elevation": 256.07,
+        "average_pace": 114.9,
+        "total_distance": 5.817,
+        "timestamp": "2022-08-08T15:36:59+09:00",
+        "active_time": 294.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.555186,
+          33.532388
+        ]
+      },
+      "properties": {
+        "elevation": 250.2,
+        "average_pace": 118.8,
+        "total_distance": 5.92,
+        "timestamp": "2022-08-08T15:38:55+09:00",
+        "active_time": 296.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.554865,
+          33.531715
+        ]
+      },
+      "properties": {
+        "elevation": 245.98,
+        "average_pace": 117.4,
+        "total_distance": 6.001,
+        "timestamp": "2022-08-08T15:40:37+09:00",
+        "active_time": 298.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.554748,
+          33.530933
+        ]
+      },
+      "properties": {
+        "elevation": 234.4,
+        "average_pace": 113.7,
+        "total_distance": 6.104,
+        "timestamp": "2022-08-08T15:42:48+09:00",
+        "active_time": 300.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.55375,
+          33.530718
+        ]
+      },
+      "properties": {
+        "elevation": 219.94,
+        "average_pace": 107.8,
+        "total_distance": 6.206,
+        "timestamp": "2022-08-08T15:45:07+09:00",
+        "active_time": 302.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.553566,
+          33.530219
+        ]
+      },
+      "properties": {
+        "elevation": 206.29,
+        "average_pace": 109.0,
+        "total_distance": 6.308,
+        "timestamp": "2022-08-08T15:50:17+09:00",
+        "active_time": 307.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.552721,
+          33.529654
+        ]
+      },
+      "properties": {
+        "elevation": 185.22,
+        "average_pace": 123.9,
+        "total_distance": 6.41,
+        "timestamp": "2022-08-08T15:52:29+09:00",
+        "active_time": 310.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.551806,
+          33.529145
+        ]
+      },
+      "properties": {
+        "elevation": 164.75,
+        "average_pace": 137.9,
+        "total_distance": 6.512,
+        "timestamp": "2022-08-08T15:54:21+09:00",
+        "active_time": 311.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.550748,
+          33.528982
+        ]
+      },
+      "properties": {
+        "elevation": 150.73,
+        "average_pace": 140.0,
+        "total_distance": 6.615,
+        "timestamp": "2022-08-08T15:56:11+09:00",
+        "active_time": 313.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.550274,
+          33.528185
+        ]
+      },
+      "properties": {
+        "elevation": 147.01,
+        "average_pace": 136.9,
+        "total_distance": 6.718,
+        "timestamp": "2022-08-08T15:57:44+09:00",
+        "active_time": 315.3
+      }
+    }
+  ]
+}

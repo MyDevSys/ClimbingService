@@ -1,0 +1,137 @@
+{
+  "active_days": 1,
+  "day_info": [
+    {
+      "active_time": {
+        "hr": 9,
+        "min": 56
+      },
+      "rest_time": {
+        "hr": 1,
+        "min": 34
+      },
+      "distance": {
+        "route": 10.2,
+        "up": 1159,
+        "down": 1152
+      },
+      "check_point": [
+        {
+          "type": 1,
+          "stay_time": [
+            "07:27"
+          ]
+        },
+        {
+          "spot_name": "赤川登山口",
+          "type": 4,
+          "next_point_time": {
+            "hr": 2,
+            "min": 36
+          },
+          "stay_time": [
+            "07:27"
+          ]
+        },
+        {
+          "spot_name": "久住山",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 35
+          },
+          "stay_time": [
+            "10:03",
+            "10:19"
+          ]
+        },
+        {
+          "spot_name": "天狗ヶ城",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 7
+          },
+          "stay_time": [
+            "10:54",
+            "11:09"
+          ]
+        },
+        {
+          "spot_name": "中岳",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 38
+          },
+          "stay_time": [
+            "11:16",
+            "11:31"
+          ]
+        },
+        {
+          "spot_name": "稲星越",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 17
+          },
+          "stay_time": [
+            "12:10",
+            "12:13"
+          ]
+        },
+        {
+          "spot_name": "白口岳",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 10
+          },
+          "stay_time": [
+            "12:30",
+            "12:54"
+          ]
+        },
+        {
+          "spot_name": "稲星越",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 20
+          },
+          "stay_time": [
+            "13:04",
+            "13:09"
+          ]
+        },
+        {
+          "spot_name": "稲星山",
+          "type": 5,
+          "next_point_time": {
+            "hr": 3,
+            "min": 39
+          },
+          "stay_time": [
+            "13:29",
+            "13:39"
+          ]
+        },
+        {
+          "spot_name": "赤川登山口",
+          "type": 5,
+          "stay_time": [
+            "17:18",
+            "17:22"
+          ]
+        },
+        {
+          "type": 2,
+          "stay_time": [
+            "17:22"
+          ]
+        }
+      ]
+    }
+  ]
+}

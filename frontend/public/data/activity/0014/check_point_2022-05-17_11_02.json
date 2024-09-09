@@ -1,0 +1,93 @@
+{
+  "active_days": 1,
+  "day_info": [
+    {
+      "active_time": {
+        "hr": 6,
+        "min": 5
+      },
+      "rest_time": {
+        "hr": 1,
+        "min": 3
+      },
+      "distance": {
+        "route": 8.9,
+        "up": 626,
+        "down": 1053
+      },
+      "check_point": [
+        {
+          "type": 1,
+          "stay_time": [
+            "11:02"
+          ]
+        },
+        {
+          "spot_name": "牧ノ戸峠登山口",
+          "type": 4,
+          "next_point_time": {
+            "hr": 0,
+            "min": 28
+          },
+          "stay_time": [
+            "11:02"
+          ]
+        },
+        {
+          "spot_name": "沓掛山",
+          "type": 5,
+          "next_point_time": {
+            "hr": 1,
+            "min": 36
+          },
+          "stay_time": [
+            "11:32",
+            "11:46"
+          ]
+        },
+        {
+          "spot_name": "星生山",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 50
+          },
+          "stay_time": [
+            "13:23",
+            "13:45"
+          ]
+        },
+        {
+          "spot_name": "扇ヶ鼻",
+          "type": 5,
+          "next_point_time": {
+            "hr": 1,
+            "min": 39
+          },
+          "stay_time": [
+            "14:35",
+            "15:01"
+          ]
+        },
+        {
+          "spot_name": "赤川登山口",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 24
+          },
+          "stay_time": [
+            "16:40",
+            "16:42"
+          ]
+        },
+        {
+          "type": 2,
+          "stay_time": [
+            "17:07"
+          ]
+        }
+      ]
+    }
+  ]
+}

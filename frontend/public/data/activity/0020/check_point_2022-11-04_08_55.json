@@ -1,0 +1,165 @@
+{
+  "active_days": 1,
+  "day_info": [
+    {
+      "active_time": {
+        "hr": 8,
+        "min": 12
+      },
+      "rest_time": {
+        "hr": 0,
+        "min": 31
+      },
+      "distance": {
+        "route": 13.3,
+        "up": 944,
+        "down": 952
+      },
+      "check_point": [
+        {
+          "type": 1,
+          "next_point_time": {
+            "hr": 0,
+            "min": 5
+          },
+          "stay_time": [
+            "08:56"
+          ]
+        },
+        {
+          "spot_name": "登山口",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 59
+          },
+          "stay_time": [
+            "09:01",
+            "09:03"
+          ]
+        },
+        {
+          "spot_name": "片縄山",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 14
+          },
+          "stay_time": [
+            "10:03",
+            "10:08"
+          ]
+        },
+        {
+          "spot_name": "猿山",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 34
+          },
+          "stay_time": [
+            "10:22",
+            "10:29"
+          ]
+        },
+        {
+          "spot_name": "糠塚山",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 32
+          },
+          "stay_time": [
+            "11:03",
+            "11:10"
+          ]
+        },
+        {
+          "spot_name": "萩ノ原峠",
+          "type": 5,
+          "next_point_time": {
+            "hr": 2,
+            "min": 13
+          },
+          "stay_time": [
+            "11:43",
+            "11:46"
+          ]
+        },
+        {
+          "spot_name": "油山",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 9
+          },
+          "stay_time": [
+            "13:59",
+            "14:07"
+          ]
+        },
+        {
+          "spot_name": "国見岩",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 38
+          },
+          "stay_time": [
+            "14:17",
+            "14:19"
+          ]
+        },
+        {
+          "spot_name": "妙見山",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 47
+          },
+          "stay_time": [
+            "14:58",
+            "15:00"
+          ]
+        },
+        {
+          "spot_name": "片江山",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 44
+          },
+          "stay_time": [
+            "15:47",
+            "15:53"
+          ]
+        },
+        {
+          "spot_name": "梅林登山口",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 19
+          },
+          "stay_time": [
+            "16:38",
+            "16:46"
+          ]
+        },
+        {
+          "spot_name": "梅林駅",
+          "type": 4,
+          "stay_time": [
+            "17:06"
+          ]
+        },
+        {
+          "type": 2,
+          "stay_time": [
+            "17:07"
+          ]
+        }
+      ]
+    }
+  ]
+}

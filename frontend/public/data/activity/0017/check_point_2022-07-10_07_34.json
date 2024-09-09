@@ -1,0 +1,168 @@
+{
+  "active_days": 1,
+  "day_info": [
+    {
+      "active_time": {
+        "hr": 7,
+        "min": 18
+      },
+      "rest_time": {
+        "hr": 1,
+        "min": 26
+      },
+      "distance": {
+        "route": 11.3,
+        "up": 886,
+        "down": 901
+      },
+      "check_point": [
+        {
+          "type": 1,
+          "stay_time": [
+            "07:34"
+          ]
+        },
+        {
+          "spot_name": "太宰府駅",
+          "type": 4,
+          "next_point_time": {
+            "hr": 0,
+            "min": 7
+          },
+          "stay_time": [
+            "07:34"
+          ]
+        },
+        {
+          "spot_name": "太宰府天満宮",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 28
+          },
+          "stay_time": [
+            "07:42",
+            "07:44"
+          ]
+        },
+        {
+          "spot_name": "内山",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 2
+          },
+          "stay_time": [
+            "08:12",
+            "08:17"
+          ]
+        },
+        {
+          "spot_name": "竈門神社",
+          "type": 5,
+          "stay_time": [
+            "08:19",
+            "08:27"
+          ]
+        },
+        {
+          "spot_name": "宝満山登山口",
+          "type": 5,
+          "next_point_time": {
+            "hr": 2,
+            "min": 41
+          },
+          "stay_time": [
+            "08:28",
+            "08:30"
+          ]
+        },
+        {
+          "spot_name": "宝満山楞伽院山荘",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 2
+          },
+          "stay_time": [
+            "11:12",
+            "11:49"
+          ]
+        },
+        {
+          "spot_name": "宝満山",
+          "type": 5,
+          "next_point_time": {
+            "hr": 1,
+            "min": 43
+          },
+          "stay_time": [
+            "11:52",
+            "12:10"
+          ]
+        },
+        {
+          "spot_name": "宝満山登山口",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 1
+          },
+          "stay_time": [
+            "13:53",
+            "13:55"
+          ]
+        },
+        {
+          "spot_name": "竈門神社",
+          "type": 4,
+          "next_point_time": {
+            "hr": 0,
+            "min": 2
+          },
+          "stay_time": [
+            "13:56"
+          ]
+        },
+        {
+          "spot_name": "内山",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 37
+          },
+          "stay_time": [
+            "13:58",
+            "14:00"
+          ]
+        },
+        {
+          "spot_name": "太宰府天満宮",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 8
+          },
+          "stay_time": [
+            "14:37",
+            "14:38"
+          ]
+        },
+        {
+          "spot_name": "太宰府駅",
+          "type": 5,
+          "stay_time": [
+            "14:47",
+            "14:52"
+          ]
+        },
+        {
+          "type": 2,
+          "stay_time": [
+            "14:52"
+          ]
+        }
+      ]
+    }
+  ]
+}

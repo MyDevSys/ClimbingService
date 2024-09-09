@@ -1,0 +1,283 @@
+.mapContainer{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.controlPanel__Button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  
+
+  background: #fff;
+  border: 1px solid #d8d8d8;
+  box-sizing: border-box;
+  box-shadow: none;
+  cursor: pointer;
+  
+  border-radius: 4px;
+  margin-bottom: 10px;
+  
+  height: 40px; 
+  min-width: 40px; 
+  width: auto;
+  color:#222;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.6;
+
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+
+  transition-duration: .1s;
+  transition-property: background, color;
+  transition-timing-function: ease-in;
+
+  clear: both;
+  float: left;
+
+  position: relative;
+}
+
+.tooltip__text {
+  visibility: hidden;
+  width: auto;
+  padding: 5px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  left: 115%; 
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  transition-delay: 1s;
+}
+
+.tooltip__text::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%; 
+    margin-top: -5px; 
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+}
+
+.controlPanel__Button:hover .tooltip__text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.controlPanel__Button__Icon{
+  width: 40px;
+}
+
+.controlPanel__Button.button--on {
+  background-color: #cf0010;
+  color: white;
+}
+
+.controlPanel__Button.button--off {
+  background-color: white;
+  color:#222;
+}
+
+
+.controlPanel__Button:hover {
+  color:#555;
+}
+
+.controlPanel__Button.button--clicked:hover {
+  color: white;
+}
+
+.landmarkPopup--center{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.landmarkPopup--left{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.ActivityMap :global(.leaflet-popup-content) {
+    font: 12px / 1.3 Helvetica Neue, Arial, Helvetica, sans-serif;
+}
+
+.ActivityMap :global(.leaflet-control-scale-line) {
+  background: #ffffff80;
+  font-size: 11px;
+}
+
+.landmarkPopup :global(a.leaflet-popup-close-button) {
+    color: #c3c3c3; 
+}
+
+.landmarkPopup :global(.leaflet-popup-content-wrapper) {
+  border-radius: 8px ;
+}
+
+.landmarkPopup :global(.leaflet-popup-content-wrapper), 
+.landmarkPopup :global(.leaflet-popup-tip) {
+    background:black;
+    color: white;
+    box-shadow: 0 2px 4px #00000080;
+}
+
+.landmarkPopup__title{
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.landmarkPopup__spot :global(.leaflet-popup-content-wrapper) {
+  width: auto;
+}
+
+.landmarkPopup__spot :global(.leaflet-popup-content) {
+  margin: 20px 3px 10px;
+}
+
+
+.landmarkPopup__rest :global(.leaflet-popup-content-wrapper) {
+  width: 180px;
+}
+
+.landmarkPopup__rest :global(.leaflet-popup-content) {
+  margin: 20px 16px 16px;
+}
+
+
+.landmarkPopup__photo :global(.leaflet-popup-content-wrapper) {
+  width: 275px;
+}
+
+.landmarkPopup__photo :global(.leaflet-popup-content) {
+  margin: 20px 8px 16px;
+}
+
+.landmarkPopup__photo__index{
+  margin-bottom: 8px;
+}
+
+.landmarkPopup__photo__image{
+  display: block; 
+  width: 100%; 
+  height: 130px; 
+  background-repeat:no-repeat; 
+  background-size:contain;
+  background-position: 50%;
+}
+
+.landmarkPopup__photo__caption{
+  padding-top: 16px;
+}
+
+.landmarkPopup__photo__button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:black;
+  color: white;
+  border: none;
+  padding: 0;
+}
+
+.landmarkPopup__photo__container{
+  display: flex;
+  flex-direction: row; 
+  width: 100%;
+  justify-content: start;
+}
+
+.landmarkPopup__photo__button:hover{
+  color:rgb(196, 192, 192);
+  cursor: pointer;
+}
+
+.PaceColorBar__img{
+  width: 10px;
+  height: 150px;
+}
+
+.PaceColorBar__img:global(.is_large){
+  height: 200px;
+}
+
+.PaceColorBar__barContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.PaceColorBar__textContainer{
+  background-color: #ffffffaa;
+  color: #222;
+  padding: 0;
+  font-size: 12px;
+  font-weight: 600;
+  width: 30px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.PaceColorBar__textContainer:global(.is_large){
+  font-size: 14px;
+  width: 30px;
+}
+
+.PaceColorBar__topText{
+  position: absolute;
+  top: 0;
+  left: 2px;
+}
+
+.PaceColorBar__middleText{
+  position: absolute;
+  top: 60%;
+  left: 2px;
+}
+
+.PaceColorBar__bottomText{
+  position: absolute;
+  bottom: 0;
+  left: 2px;
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+  .controlPanel__Button.button--none {
+    display: none;
+  }
+
+  .ActivityMap{
+    /* pointer-events: none; */
+    cursor: default;
+  }
+
+  .ActivityMap:global(.leaflet-marker-icon) {
+    pointer-events: auto; 
+    cursor: pointer;
+  }
+
+  .PaceColorBar__img:global(.is_large){
+    height: 150px;
+  }
+
+  .PaceColorBar__textContainer:global(.is_large){
+    font-size: 12px;
+    width: 30px;
+  }
+}

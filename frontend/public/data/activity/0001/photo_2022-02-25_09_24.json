@@ -1,0 +1,46 @@
+[
+  {
+    "date_time": "2022.02.25(金) 10:04",
+    "photo_name": "photo_0001_01_1722765280.webp",
+    "photo_comment": "菅原道真公の詠が刻まれた石碑",
+    "domo": 0,
+    "aspect_ratio": 66.7,
+    "coordinates": [
+      33.488013,
+      130.508
+    ]
+  },
+  {
+    "date_time": "2022.02.25(金) 10:05",
+    "photo_name": "photo_0001_02_1722765280.webp",
+    "photo_comment": "天拝山 登山口",
+    "domo": 0,
+    "aspect_ratio": 66.7,
+    "coordinates": [
+      33.48788,
+      130.508047
+    ]
+  },
+  {
+    "date_time": "2022.02.25(金) 10:36",
+    "photo_name": "photo_0001_03_1722765280.webp",
+    "photo_comment": "天拝山社",
+    "domo": 0,
+    "aspect_ratio": 66.7,
+    "coordinates": [
+      33.481809,
+      130.506147
+    ]
+  },
+  {
+    "date_time": "2022.02.25(金) 10:42",
+    "photo_name": "photo_0001_04_1722765280.webp",
+    "photo_comment": "天拝山の眺望",
+    "domo": 0,
+    "aspect_ratio": 66.7,
+    "coordinates": [
+      33.481809,
+      130.506147
+    ]
+  }
+]

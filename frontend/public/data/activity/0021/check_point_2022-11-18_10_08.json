@@ -1,0 +1,113 @@
+{
+  "active_days": 1,
+  "day_info": [
+    {
+      "active_time": {
+        "hr": 5,
+        "min": 40
+      },
+      "rest_time": {
+        "hr": 0,
+        "min": 52
+      },
+      "distance": {
+        "route": 6.6,
+        "up": 823,
+        "down": 831
+      },
+      "check_point": [
+        {
+          "type": 1,
+          "stay_time": [
+            "10:08"
+          ]
+        },
+        {
+          "spot_name": "上野峡入口バス停",
+          "type": 4,
+          "next_point_time": {
+            "hr": 0,
+            "min": 10
+          },
+          "stay_time": [
+            "10:08"
+          ]
+        },
+        {
+          "spot_name": "白糸ノ滝",
+          "type": 5,
+          "next_point_time": {
+            "hr": 2,
+            "min": 4
+          },
+          "stay_time": [
+            "10:19",
+            "10:38"
+          ]
+        },
+        {
+          "spot_name": "福智山",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 41
+          },
+          "stay_time": [
+            "12:42",
+            "13:09"
+          ]
+        },
+        {
+          "spot_name": "上野越・福智山分岐",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 10
+          },
+          "stay_time": [
+            "13:50",
+            "13:52"
+          ]
+        },
+        {
+          "spot_name": "鷹取山",
+          "type": 5,
+          "next_point_time": {
+            "hr": 1,
+            "min": 15
+          },
+          "stay_time": [
+            "14:03",
+            "14:23"
+          ]
+        },
+        {
+          "spot_name": "上野登山口",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 6
+          },
+          "stay_time": [
+            "15:38",
+            "15:40"
+          ]
+        },
+        {
+          "spot_name": "上野峡入口バス停",
+          "type": 5,
+          "stay_time": [
+            "15:46",
+            "15:48"
+          ]
+        },
+        {
+          "type": 2,
+          "stay_time": [
+            "15:48"
+          ]
+        }
+      ]
+    }
+  ]
+}

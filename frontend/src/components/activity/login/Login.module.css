@@ -1,0 +1,115 @@
+.Login__Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 32px 16px;
+    background-color: #d8d8d8;
+}
+
+.Login__Box {
+    width: 100%;
+    max-width: 480px;
+    padding: 32px 16px;
+    margin-top: 32px;
+    background-color: #ececec;
+    border-radius: 4px;
+}
+
+.Login__Title {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.Login__Description{
+    font-size: 1.6rem;
+}
+
+.Login__Description, .Login__Email, .Login__Password, .Login__SubmitButton{
+    margin-top: 24px;
+}
+
+.Login__Email__Input, .Login__Password__Input{
+    width: 100%;
+    padding: 8px;
+    font-family: inherit;
+    font-size: 1.6rem;
+    line-height: 1.4;
+    color: #000000;
+    appearance: none;
+    border: solid 2px #d8d8d8;
+    border-radius: 5px;
+}
+
+.Login__Email__Input:placeholder-shown, .Login__Password__Input:placeholder-shown{
+    color: rgb(173, 173, 173) !important;
+}
+
+.Login__Email__Input::placeholder, .Login__Password__Input::placeholder{
+    color: rgb(160, 160, 160);
+}
+
+.Login__Email__Input:focus, .Login__Password__Input:focus {
+    color: #000000;
+    border-color: #222222;
+    outline: none;
+}
+
+.Input--Error{
+    border-color: #eb3125 !important;
+}
+
+.Input_Error__Message{
+    margin-top: 8px;
+    font-size: 1.4rem;
+    color: #eb3125;
+}
+
+.Login__SubmitButton{
+    display: inline-block;
+    font-family: inherit;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.6;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid rgb(207, 0, 16);
+    border-radius: 4px;
+    color: white;
+    background: rgb(207, 0, 16);
+    width: 100%;
+    padding: 16px 0px;
+    margin-top: 24px;
+}
+
+.Login__SubmitButton:hover{
+    background: rgb(230, 0, 18);
+    border: 1px solid rgb(230, 0, 18);
+}
+
+.Login__SubmitButton[disabled], .Login--Authenticating , .Login--Authenticating:hover{
+    color: #5a5a5a;
+    background-color: #adadad;
+    border-color: #ececec;
+}
+
+.Login__SubmitButton[disabled]{
+    cursor: not-allowed;
+}
+
+@media (min-width: 768px) {
+    .Login__Container {
+        padding: 48px;
+    }
+    .Login__Box {
+        padding: 32px 48px;
+        margin-top: 48px;
+        border-radius: 12px;
+    }
+    .Login__SubmitButton{
+        border-radius: 6px;
+    }
+}
+

@@ -1,0 +1,111 @@
+.ElevationChart__Container{
+  margin: -12px -10px -8px -4px;
+  position: relative;
+  /* padding-bottom: 50%; */
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+.ElevationChart__TabContainer{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.ElevationChart__Tab {
+    border: none;
+    border-radius: 16px;
+    color: inherit;
+    cursor: pointer;
+    font-size: 1.6rem;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: .1s;
+    transition-property: opacity;
+    transition-timing-function: ease-in;
+    width: 120px;
+}
+
+.ElevationChart__Tooltip {
+  position: absolute;
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  padding: 5px;
+  pointer-events: none;
+  width: 164px;
+  visibility: hidden;
+  display: inline-flex;
+  gap: 24px;
+  line-height: 1;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+.Chart__Tooltip__Value{
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+.Chart__Tooltip__Unit{
+  font-size: 1.2rem;
+}
+
+button.ElevationChart__Tab[data-active="true"] {
+    background-color: black;
+    color: white;
+}
+
+button.ElevationChart__Tab[data-active="false"] {
+    background-color: white;
+    color: black;
+}
+
+.ElevationChart__Tab:hover{
+  opacity: 0.7;
+}
+
+.ElevationChart__Container :global(canvas){
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important; 
+  height: 100% !important; 
+} 
+
+@media screen and (min-width: 768px) {
+  .ElevationChart__Chart, .Loading__Chart{
+    min-height: 300px;
+  }
+
+  .ElevationChart__Tab {
+    border-radius: 20px;
+    font-size: 2rem;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  .ElevationChart__Tooltip {
+    width: 210px;
+    top: -24px;
+  }
+
+  .Chart__Tooltip__Value{
+    font-size: 2.0rem;
+  }
+
+  .Chart__Tooltip__Value:global(.is_pace){
+    font-size: 1.8rem;
+  }
+
+  
+}
+
+@media screen and (min-width: 992px) {
+  .ElevationChart__TabContainer {
+      justify-content: space-between;
+      padding-left: 55px;
+  }
+}

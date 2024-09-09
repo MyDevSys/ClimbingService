@@ -1,0 +1,35 @@
+[
+  {
+    "date_time": "2022.10.20(木) 11:12",
+    "photo_name": "photo_0019_01_1722765280.webp",
+    "photo_comment": "登山口の鷹取山の標識とカッパ石",
+    "domo": 0,
+    "aspect_ratio": 66.6,
+    "coordinates": [
+      33.309866,
+      130.717819
+    ]
+  },
+  {
+    "date_time": "2022.10.20(木) 13:44",
+    "photo_name": "photo_0019_02_1722765280.webp",
+    "photo_comment": "鷹取山の眺望1",
+    "domo": 0,
+    "aspect_ratio": 66.7,
+    "coordinates": [
+      33.302929,
+      130.722408
+    ]
+  },
+  {
+    "date_time": "2022.10.20(木) 13:43",
+    "photo_name": "photo_0019_03_1722765280.webp",
+    "photo_comment": "鷹取山の眺望2",
+    "domo": 0,
+    "aspect_ratio": 66.7,
+    "coordinates": [
+      33.302776,
+      130.721813
+    ]
+  }
+]

@@ -1,0 +1,353 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "御井町バス停",
+        "type": 26,
+        "id": "0001",
+        "stay_times": [
+          {
+            "start": "2023-04-18T09:35:33+09:00",
+            "end": "2023-04-18T09:36:16+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.553611,
+          33.306389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "吉見岳",
+        "type": 4,
+        "id": "0002",
+        "stay_times": [
+          {
+            "start": "2023-04-18T09:57:06+09:00",
+            "end": "2023-04-18T09:57:43+09:00"
+          },
+          {
+            "start": "2023-04-18T10:00:28+09:00",
+            "end": "2023-04-18T10:01:46+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.562472,
+          33.305083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "琴平神社",
+        "type": 29,
+        "id": "0003",
+        "stay_times": [
+          {
+            "start": "2023-04-18T09:56:42+09:00",
+            "end": "2023-04-18T09:56:42+09:00"
+          },
+          {
+            "start": "2023-04-18T10:02:07+09:00",
+            "end": "2023-04-18T10:03:25+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.562722,
+          33.305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "展望ポイント",
+        "type": 21,
+        "id": "0004",
+        "stay_times": [
+          {
+            "start": "2023-04-18T09:58:04+09:00",
+            "end": "2023-04-18T10:00:03+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.5615,
+          33.305111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "高良大社",
+        "type": 29,
+        "id": "0005",
+        "stay_times": [
+          {
+            "start": "2023-04-18T10:17:00+09:00",
+            "end": "2023-04-18T10:35:00+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.565639,
+          33.301694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "高良山",
+        "type": 4,
+        "id": "0006",
+        "stay_times": [
+          {
+            "start": "2023-04-18T10:52:34+09:00",
+            "end": "2023-04-18T11:04:14+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.574444,
+          33.297889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "東屋",
+        "type": 15,
+        "id": "0007",
+        "stay_times": [
+          {
+            "start": "2023-04-18T11:21:45+09:00",
+            "end": "2023-04-18T11:22:13+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.577639,
+          33.29725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "兜山",
+        "type": 4,
+        "id": "0008",
+        "stay_times": [
+          {
+            "start": "2023-04-18T11:54:22+09:00",
+            "end": "2023-04-18T12:01:41+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.592083,
+          33.297694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "耳納山",
+        "type": 4,
+        "id": "0009",
+        "stay_times": [
+          {
+            "start": "2023-04-18T12:20:52+09:00",
+            "end": "2023-04-18T12:26:20+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.594694,
+          33.29275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "桝形山",
+        "type": 4,
+        "id": "0010",
+        "stay_times": [
+          {
+            "start": "2023-04-18T14:00:13+09:00",
+            "end": "2023-04-18T14:04:00+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.625778,
+          33.292111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "長岩山",
+        "type": 4,
+        "id": "0011",
+        "stay_times": [
+          {
+            "start": "2023-04-18T14:30:03+09:00",
+            "end": "2023-04-18T14:33:27+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.629694,
+          33.298667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "グライダー山",
+        "type": 4,
+        "id": "0012",
+        "stay_times": [
+          {
+            "start": "2023-04-18T14:56:20+09:00",
+            "end": "2023-04-18T14:57:06+09:00"
+          },
+          {
+            "start": "2023-04-18T15:02:23+09:00",
+            "end": "2023-04-18T15:11:14+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.637417,
+          33.298861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "白山",
+        "type": 4,
+        "id": "0013",
+        "stay_times": [
+          {
+            "start": "2023-04-18T15:21:07+09:00",
+            "end": "2023-04-18T15:22:59+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.641333,
+          33.298806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "発心山",
+        "type": 4,
+        "id": "0014",
+        "stay_times": [
+          {
+            "start": "2023-04-18T15:38:07+09:00",
+            "end": "2023-04-18T15:47:13+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.6485,
+          33.298222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "発心山登山口",
+        "type": 7,
+        "id": "0015",
+        "stay_times": [
+          {
+            "start": "2023-04-18T17:27:43+09:00",
+            "end": "2023-04-18T17:30:44+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.637,
+          33.314139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "筑後草野駅",
+        "type": 27,
+        "id": "0016",
+        "stay_times": [
+          {
+            "start": "2023-04-18T17:50:18+09:00",
+            "end": "2023-04-18T17:50:58+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.642222,
+          33.322083
+        ]
+      }
+    }
+  ]
+}

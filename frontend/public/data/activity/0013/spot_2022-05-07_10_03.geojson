@@ -1,0 +1,51 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "天山上宮登山口",
+        "type": 7,
+        "id": "0001",
+        "stay_times": [
+          {
+            "start": "2022-05-07T13:12:05+09:00",
+            "end": "2022-05-07T13:36:05.902519276+09:00"
+          },
+          {
+            "start": "2022-05-07T15:17:19+09:00",
+            "end": "2022-05-07T15:24:35+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.140611,
+          33.332167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "天山",
+        "type": 4,
+        "id": "0002",
+        "stay_times": [
+          {
+            "start": "2022-05-07T14:13:38+09:00",
+            "end": "2022-05-07T14:45:36+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.142889,
+          33.338889
+        ]
+      }
+    }
+  ]
+}

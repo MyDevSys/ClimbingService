@@ -1,0 +1,4334 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "track_name": "宝満山",
+    "bounds": {
+      "min_latitude": 33.52823348010652,
+      "max_latitude": 33.54030196835945,
+      "min_longitude": 130.550229941733,
+      "max_longitude": 130.57052417958215
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.550515,
+          33.528396
+        ]
+      },
+      "properties": {
+        "elevation": 149.18,
+        "timestamp": "2023-12-29T08:14:02+09:00",
+        "average_pace": 79.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.550702,
+          33.528487
+        ]
+      },
+      "properties": {
+        "elevation": 152.49,
+        "timestamp": "2023-12-29T08:14:20+09:00",
+        "average_pace": 123.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.550917,
+          33.528515
+        ]
+      },
+      "properties": {
+        "elevation": 152.71,
+        "timestamp": "2023-12-29T08:14:39+09:00",
+        "average_pace": 123.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.55113,
+          33.528574
+        ]
+      },
+      "properties": {
+        "elevation": 154.45,
+        "timestamp": "2023-12-29T08:15:00+09:00",
+        "average_pace": 123.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.551337,
+          33.528623
+        ]
+      },
+      "properties": {
+        "elevation": 159.4,
+        "timestamp": "2023-12-29T08:15:27+09:00",
+        "average_pace": 123.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.551552,
+          33.528674
+        ]
+      },
+      "properties": {
+        "elevation": 163.07,
+        "timestamp": "2023-12-29T08:15:45+09:00",
+        "average_pace": 123.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.551685,
+          33.52883
+        ]
+      },
+      "properties": {
+        "elevation": 168.32,
+        "timestamp": "2023-12-29T08:16:18+09:00",
+        "average_pace": 163.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.551903,
+          33.52883
+        ]
+      },
+      "properties": {
+        "elevation": 170.46,
+        "timestamp": "2023-12-29T08:16:37+09:00",
+        "average_pace": 163.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.552123,
+          33.528864
+        ]
+      },
+      "properties": {
+        "elevation": 176.12,
+        "timestamp": "2023-12-29T08:17:10+09:00",
+        "average_pace": 163.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.552228,
+          33.529031
+        ]
+      },
+      "properties": {
+        "elevation": 178.17,
+        "timestamp": "2023-12-29T08:22:05+09:00",
+        "average_pace": 163.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.552304,
+          33.529209
+        ]
+      },
+      "properties": {
+        "elevation": 181.57,
+        "timestamp": "2023-12-29T08:22:20+09:00",
+        "average_pace": 163.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.552405,
+          33.529373
+        ]
+      },
+      "properties": {
+        "elevation": 180.86,
+        "timestamp": "2023-12-29T08:22:36+09:00",
+        "average_pace": 182.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.552446,
+          33.52956
+        ]
+      },
+      "properties": {
+        "elevation": 178.29,
+        "timestamp": "2023-12-29T08:22:54+09:00",
+        "average_pace": 182.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.552639,
+          33.529659
+        ]
+      },
+      "properties": {
+        "elevation": 178.87,
+        "timestamp": "2023-12-29T08:23:10+09:00",
+        "average_pace": 182.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.552801,
+          33.529785
+        ]
+      },
+      "properties": {
+        "elevation": 182.85,
+        "timestamp": "2023-12-29T08:23:27+09:00",
+        "average_pace": 182.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.552937,
+          33.529938
+        ]
+      },
+      "properties": {
+        "elevation": 186.23,
+        "timestamp": "2023-12-29T08:23:52+09:00",
+        "average_pace": 182.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.553145,
+          33.530012
+        ]
+      },
+      "properties": {
+        "elevation": 190.88,
+        "timestamp": "2023-12-29T08:24:13+09:00",
+        "average_pace": 183.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.553356,
+          33.530059
+        ]
+      },
+      "properties": {
+        "elevation": 197.74,
+        "timestamp": "2023-12-29T08:24:31+09:00",
+        "average_pace": 183.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.553565,
+          33.530104
+        ]
+      },
+      "properties": {
+        "elevation": 206.74,
+        "timestamp": "2023-12-29T08:25:01+09:00",
+        "average_pace": 183.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.553385,
+          33.530202
+        ]
+      },
+      "properties": {
+        "elevation": 203.87,
+        "timestamp": "2023-12-29T08:25:22+09:00",
+        "average_pace": 183.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.553532,
+          33.530338
+        ]
+      },
+      "properties": {
+        "elevation": 207.31,
+        "timestamp": "2023-12-29T08:26:34+09:00",
+        "average_pace": 183.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.553541,
+          33.530519
+        ]
+      },
+      "properties": {
+        "elevation": 212.15,
+        "timestamp": "2023-12-29T08:27:08+09:00",
+        "average_pace": 175.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.553415,
+          33.530665
+        ]
+      },
+      "properties": {
+        "elevation": 215.59,
+        "timestamp": "2023-12-29T08:27:51+09:00",
+        "average_pace": 175.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.553601,
+          33.530761
+        ]
+      },
+      "properties": {
+        "elevation": 218.63,
+        "timestamp": "2023-12-29T08:28:34+09:00",
+        "average_pace": 175.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.553812,
+          33.530803
+        ]
+      },
+      "properties": {
+        "elevation": 222.3,
+        "timestamp": "2023-12-29T08:28:52+09:00",
+        "average_pace": 175.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.554003,
+          33.530892
+        ]
+      },
+      "properties": {
+        "elevation": 224.36,
+        "timestamp": "2023-12-29T08:29:16+09:00",
+        "average_pace": 175.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.554212,
+          33.530961
+        ]
+      },
+      "properties": {
+        "elevation": 228.52,
+        "timestamp": "2023-12-29T08:29:50+09:00",
+        "average_pace": 172.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.554437,
+          33.530968
+        ]
+      },
+      "properties": {
+        "elevation": 230.99,
+        "timestamp": "2023-12-29T08:30:09+09:00",
+        "average_pace": 172.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.554663,
+          33.530938
+        ]
+      },
+      "properties": {
+        "elevation": 232.26,
+        "timestamp": "2023-12-29T08:30:31+09:00",
+        "average_pace": 172.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.554863,
+          33.531015
+        ]
+      },
+      "properties": {
+        "elevation": 235.12,
+        "timestamp": "2023-12-29T08:30:51+09:00",
+        "average_pace": 172.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.554968,
+          33.531186
+        ]
+      },
+      "properties": {
+        "elevation": 236.75,
+        "timestamp": "2023-12-29T08:31:12+09:00",
+        "average_pace": 172.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.554914,
+          33.531365
+        ]
+      },
+      "properties": {
+        "elevation": 240.38,
+        "timestamp": "2023-12-29T08:31:31+09:00",
+        "average_pace": 169.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.554772,
+          33.53151
+        ]
+      },
+      "properties": {
+        "elevation": 243.96,
+        "timestamp": "2023-12-29T08:31:48+09:00",
+        "average_pace": 169.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.554736,
+          33.531693
+        ]
+      },
+      "properties": {
+        "elevation": 247.93,
+        "timestamp": "2023-12-29T08:32:11+09:00",
+        "average_pace": 169.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.554855,
+          33.531861
+        ]
+      },
+      "properties": {
+        "elevation": 246.18,
+        "timestamp": "2023-12-29T08:32:28+09:00",
+        "average_pace": 169.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.555009,
+          33.531993
+        ]
+      },
+      "properties": {
+        "elevation": 244.57,
+        "timestamp": "2023-12-29T08:33:02+09:00",
+        "average_pace": 159.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.555073,
+          33.53217
+        ]
+      },
+      "properties": {
+        "elevation": 246.97,
+        "timestamp": "2023-12-29T08:33:33+09:00",
+        "average_pace": 159.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.555114,
+          33.53236
+        ]
+      },
+      "properties": {
+        "elevation": 248.06,
+        "timestamp": "2023-12-29T08:33:51+09:00",
+        "average_pace": 159.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.555221,
+          33.532522
+        ]
+      },
+      "properties": {
+        "elevation": 249.91,
+        "timestamp": "2023-12-29T08:34:07+09:00",
+        "average_pace": 159.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.555302,
+          33.532693
+        ]
+      },
+      "properties": {
+        "elevation": 249.85,
+        "timestamp": "2023-12-29T08:34:25+09:00",
+        "average_pace": 159.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.555361,
+          33.532873
+        ]
+      },
+      "properties": {
+        "elevation": 251.55,
+        "timestamp": "2023-12-29T08:34:42+09:00",
+        "average_pace": 152.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.555421,
+          33.533047
+        ]
+      },
+      "properties": {
+        "elevation": 251.65,
+        "timestamp": "2023-12-29T08:35:04+09:00",
+        "average_pace": 152.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.555491,
+          33.533222
+        ]
+      },
+      "properties": {
+        "elevation": 252.62,
+        "timestamp": "2023-12-29T08:35:31+09:00",
+        "average_pace": 152.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.555601,
+          33.533377
+        ]
+      },
+      "properties": {
+        "elevation": 255.5,
+        "timestamp": "2023-12-29T08:35:55+09:00",
+        "average_pace": 152.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.555784,
+          33.533473
+        ]
+      },
+      "properties": {
+        "elevation": 257.16,
+        "timestamp": "2023-12-29T08:36:14+09:00",
+        "average_pace": 152.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.555976,
+          33.533556
+        ]
+      },
+      "properties": {
+        "elevation": 257.94,
+        "timestamp": "2023-12-29T08:36:34+09:00",
+        "average_pace": 154.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.556172,
+          33.533644
+        ]
+      },
+      "properties": {
+        "elevation": 257.61,
+        "timestamp": "2023-12-29T08:36:54+09:00",
+        "average_pace": 154.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.556374,
+          33.533709
+        ]
+      },
+      "properties": {
+        "elevation": 263.4,
+        "timestamp": "2023-12-29T08:37:17+09:00",
+        "average_pace": 154.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.556538,
+          33.53383
+        ]
+      },
+      "properties": {
+        "elevation": 265.45,
+        "timestamp": "2023-12-29T08:37:45+09:00",
+        "average_pace": 154.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.556688,
+          33.533966
+        ]
+      },
+      "properties": {
+        "elevation": 269.33,
+        "timestamp": "2023-12-29T08:38:17+09:00",
+        "average_pace": 154.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.556905,
+          33.534023
+        ]
+      },
+      "properties": {
+        "elevation": 272.52,
+        "timestamp": "2023-12-29T08:38:36+09:00",
+        "average_pace": 153.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.557104,
+          33.534095
+        ]
+      },
+      "properties": {
+        "elevation": 277.3,
+        "timestamp": "2023-12-29T08:38:58+09:00",
+        "average_pace": 153.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.557325,
+          33.534117
+        ]
+      },
+      "properties": {
+        "elevation": 283.32,
+        "timestamp": "2023-12-29T08:39:35+09:00",
+        "average_pace": 153.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.557477,
+          33.533977
+        ]
+      },
+      "properties": {
+        "elevation": 285.46,
+        "timestamp": "2023-12-29T08:40:02+09:00",
+        "average_pace": 153.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.55769,
+          33.533939
+        ]
+      },
+      "properties": {
+        "elevation": 290.87,
+        "timestamp": "2023-12-29T08:40:52+09:00",
+        "average_pace": 153.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.557908,
+          33.533917
+        ]
+      },
+      "properties": {
+        "elevation": 296.87,
+        "timestamp": "2023-12-29T08:41:39+09:00",
+        "average_pace": 142.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.558082,
+          33.533808
+        ]
+      },
+      "properties": {
+        "elevation": 302.84,
+        "timestamp": "2023-12-29T08:47:21+09:00",
+        "average_pace": 142.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.558273,
+          33.533714
+        ]
+      },
+      "properties": {
+        "elevation": 307.75,
+        "timestamp": "2023-12-29T08:47:55+09:00",
+        "average_pace": 142.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.558464,
+          33.533623
+        ]
+      },
+      "properties": {
+        "elevation": 312.83,
+        "timestamp": "2023-12-29T08:48:35+09:00",
+        "average_pace": 142.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.558628,
+          33.533753
+        ]
+      },
+      "properties": {
+        "elevation": 317.68,
+        "timestamp": "2023-12-29T08:49:24+09:00",
+        "average_pace": 142.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.558811,
+          33.533861
+        ]
+      },
+      "properties": {
+        "elevation": 319.91,
+        "timestamp": "2023-12-29T08:49:55+09:00",
+        "average_pace": 126.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.5589,
+          33.534027
+        ]
+      },
+      "properties": {
+        "elevation": 323.28,
+        "timestamp": "2023-12-29T08:50:40+09:00",
+        "average_pace": 126.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.559068,
+          33.534148
+        ]
+      },
+      "properties": {
+        "elevation": 328.46,
+        "timestamp": "2023-12-29T08:51:17+09:00",
+        "average_pace": 126.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.559279,
+          33.5342
+        ]
+      },
+      "properties": {
+        "elevation": 333.12,
+        "timestamp": "2023-12-29T08:52:00+09:00",
+        "average_pace": 126.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.559481,
+          33.534263
+        ]
+      },
+      "properties": {
+        "elevation": 336.01,
+        "timestamp": "2023-12-29T08:52:36+09:00",
+        "average_pace": 126.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.559701,
+          33.534281
+        ]
+      },
+      "properties": {
+        "elevation": 337.79,
+        "timestamp": "2023-12-29T08:53:07+09:00",
+        "average_pace": 116.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.559916,
+          33.534316
+        ]
+      },
+      "properties": {
+        "elevation": 340.08,
+        "timestamp": "2023-12-29T08:53:50+09:00",
+        "average_pace": 116.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.560048,
+          33.534466
+        ]
+      },
+      "properties": {
+        "elevation": 345.05,
+        "timestamp": "2023-12-29T08:55:35+09:00",
+        "average_pace": 116.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.560212,
+          33.534589
+        ]
+      },
+      "properties": {
+        "elevation": 351.23,
+        "timestamp": "2023-12-29T08:56:16+09:00",
+        "average_pace": 116.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.560358,
+          33.534723
+        ]
+      },
+      "properties": {
+        "elevation": 357.43,
+        "timestamp": "2023-12-29T08:57:01+09:00",
+        "average_pace": 116.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.560551,
+          33.534819
+        ]
+      },
+      "properties": {
+        "elevation": 363.98,
+        "timestamp": "2023-12-29T08:58:32+09:00",
+        "average_pace": 117.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.560727,
+          33.534926
+        ]
+      },
+      "properties": {
+        "elevation": 368.94,
+        "timestamp": "2023-12-29T08:59:02+09:00",
+        "average_pace": 117.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.560892,
+          33.535046
+        ]
+      },
+      "properties": {
+        "elevation": 375.45,
+        "timestamp": "2023-12-29T09:00:24+09:00",
+        "average_pace": 117.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.561058,
+          33.535167
+        ]
+      },
+      "properties": {
+        "elevation": 379.07,
+        "timestamp": "2023-12-29T09:01:03+09:00",
+        "average_pace": 117.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.561209,
+          33.535299
+        ]
+      },
+      "properties": {
+        "elevation": 383.46,
+        "timestamp": "2023-12-29T09:01:46+09:00",
+        "average_pace": 117.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.56139,
+          33.535402
+        ]
+      },
+      "properties": {
+        "elevation": 387.88,
+        "timestamp": "2023-12-29T09:02:33+09:00",
+        "average_pace": 121.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.561551,
+          33.535521
+        ]
+      },
+      "properties": {
+        "elevation": 392.75,
+        "timestamp": "2023-12-29T09:03:09+09:00",
+        "average_pace": 121.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.561684,
+          33.535664
+        ]
+      },
+      "properties": {
+        "elevation": 397.88,
+        "timestamp": "2023-12-29T09:03:41+09:00",
+        "average_pace": 121.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.561884,
+          33.535735
+        ]
+      },
+      "properties": {
+        "elevation": 402.07,
+        "timestamp": "2023-12-29T09:04:06+09:00",
+        "average_pace": 121.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.561961,
+          33.535906
+        ]
+      },
+      "properties": {
+        "elevation": 406.89,
+        "timestamp": "2023-12-29T09:05:25+09:00",
+        "average_pace": 121.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.562187,
+          33.535889
+        ]
+      },
+      "properties": {
+        "elevation": 414.02,
+        "timestamp": "2023-12-29T09:06:12+09:00",
+        "average_pace": 127.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.562407,
+          33.535889
+        ]
+      },
+      "properties": {
+        "elevation": 426.1,
+        "timestamp": "2023-12-29T09:08:18+09:00",
+        "average_pace": 127.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.562586,
+          33.535989
+        ]
+      },
+      "properties": {
+        "elevation": 434.59,
+        "timestamp": "2023-12-29T09:09:33+09:00",
+        "average_pace": 127.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.56273,
+          33.536125
+        ]
+      },
+      "properties": {
+        "elevation": 449.9,
+        "timestamp": "2023-12-29T09:11:20+09:00",
+        "average_pace": 127.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.562774,
+          33.536308
+        ]
+      },
+      "properties": {
+        "elevation": 457.59,
+        "timestamp": "2023-12-29T09:12:21+09:00",
+        "average_pace": 130.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.562899,
+          33.536466
+        ]
+      },
+      "properties": {
+        "elevation": 460.79,
+        "timestamp": "2023-12-29T09:12:44+09:00",
+        "average_pace": 130.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.563081,
+          33.536573
+        ]
+      },
+      "properties": {
+        "elevation": 468.49,
+        "timestamp": "2023-12-29T09:13:19+09:00",
+        "average_pace": 130.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.56314,
+          33.536396
+        ]
+      },
+      "properties": {
+        "elevation": 474.26,
+        "timestamp": "2023-12-29T09:20:01+09:00",
+        "average_pace": 130.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.563347,
+          33.536454
+        ]
+      },
+      "properties": {
+        "elevation": 483.51,
+        "timestamp": "2023-12-29T09:21:13+09:00",
+        "average_pace": 130.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.563545,
+          33.536369
+        ]
+      },
+      "properties": {
+        "elevation": 496.16,
+        "timestamp": "2023-12-29T09:22:39+09:00",
+        "average_pace": 120.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.563762,
+          33.536389
+        ]
+      },
+      "properties": {
+        "elevation": 506.52,
+        "timestamp": "2023-12-29T09:24:12+09:00",
+        "average_pace": 120.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.563961,
+          33.536315
+        ]
+      },
+      "properties": {
+        "elevation": 518.3,
+        "timestamp": "2023-12-29T09:24:52+09:00",
+        "average_pace": 120.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.564176,
+          33.536348
+        ]
+      },
+      "properties": {
+        "elevation": 529.54,
+        "timestamp": "2023-12-29T09:27:01+09:00",
+        "average_pace": 120.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.564308,
+          33.536205
+        ]
+      },
+      "properties": {
+        "elevation": 536.26,
+        "timestamp": "2023-12-29T09:27:38+09:00",
+        "average_pace": 120.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.564418,
+          33.536047
+        ]
+      },
+      "properties": {
+        "elevation": 540.06,
+        "timestamp": "2023-12-29T09:29:20+09:00",
+        "average_pace": 102.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.564542,
+          33.536198
+        ]
+      },
+      "properties": {
+        "elevation": 548.3,
+        "timestamp": "2023-12-29T09:31:46+09:00",
+        "average_pace": 102.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.564771,
+          33.536193
+        ]
+      },
+      "properties": {
+        "elevation": 562.22,
+        "timestamp": "2023-12-29T09:33:59+09:00",
+        "average_pace": 102.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.564938,
+          33.536312
+        ]
+      },
+      "properties": {
+        "elevation": 574.21,
+        "timestamp": "2023-12-29T09:36:39+09:00",
+        "average_pace": 102.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.565028,
+          33.536145
+        ]
+      },
+      "properties": {
+        "elevation": 581.96,
+        "timestamp": "2023-12-29T09:37:19+09:00",
+        "average_pace": 102.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.56519,
+          33.536026
+        ]
+      },
+      "properties": {
+        "elevation": 583.89,
+        "timestamp": "2023-12-29T09:38:17+09:00",
+        "average_pace": 89.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.565293,
+          33.535865
+        ]
+      },
+      "properties": {
+        "elevation": 589.44,
+        "timestamp": "2023-12-29T09:39:00+09:00",
+        "average_pace": 89.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.565218,
+          33.536035
+        ]
+      },
+      "properties": {
+        "elevation": 604.69,
+        "timestamp": "2023-12-29T09:40:29+09:00",
+        "average_pace": 89.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.56525,
+          33.536213
+        ]
+      },
+      "properties": {
+        "elevation": 607.88,
+        "timestamp": "2023-12-29T09:41:43+09:00",
+        "average_pace": 89.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.565439,
+          33.536121
+        ]
+      },
+      "properties": {
+        "elevation": 614.73,
+        "timestamp": "2023-12-29T09:43:14+09:00",
+        "average_pace": 89.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.5656,
+          33.536243
+        ]
+      },
+      "properties": {
+        "elevation": 618.88,
+        "timestamp": "2023-12-29T09:45:31+09:00",
+        "average_pace": 85.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.565815,
+          33.536265
+        ]
+      },
+      "properties": {
+        "elevation": 637.08,
+        "timestamp": "2023-12-29T09:47:28+09:00",
+        "average_pace": 85.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.566026,
+          33.536218
+        ]
+      },
+      "properties": {
+        "elevation": 638.74,
+        "timestamp": "2023-12-29T09:48:39+09:00",
+        "average_pace": 85.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.566241,
+          33.536233
+        ]
+      },
+      "properties": {
+        "elevation": 649.59,
+        "timestamp": "2023-12-29T09:49:48+09:00",
+        "average_pace": 85.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.566457,
+          33.536256
+        ]
+      },
+      "properties": {
+        "elevation": 660.6,
+        "timestamp": "2023-12-29T09:56:27+09:00",
+        "average_pace": 85.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.566674,
+          33.536262
+        ]
+      },
+      "properties": {
+        "elevation": 674.74,
+        "timestamp": "2023-12-29T09:57:47+09:00",
+        "average_pace": 87.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.566797,
+          33.536412
+        ]
+      },
+      "properties": {
+        "elevation": 687.7,
+        "timestamp": "2023-12-29T10:01:17+09:00",
+        "average_pace": 87.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.566986,
+          33.536499
+        ]
+      },
+      "properties": {
+        "elevation": 699.7,
+        "timestamp": "2023-12-29T10:03:09+09:00",
+        "average_pace": 87.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.567138,
+          33.536372
+        ]
+      },
+      "properties": {
+        "elevation": 704.34,
+        "timestamp": "2023-12-29T10:04:07+09:00",
+        "average_pace": 87.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.567282,
+          33.536508
+        ]
+      },
+      "properties": {
+        "elevation": 715.62,
+        "timestamp": "2023-12-29T10:06:30+09:00",
+        "average_pace": 87.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.56724,
+          33.536686
+        ]
+      },
+      "properties": {
+        "elevation": 717.97,
+        "timestamp": "2023-12-29T10:07:14+09:00",
+        "average_pace": 93.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.56723,
+          33.536868
+        ]
+      },
+      "properties": {
+        "elevation": 721.45,
+        "timestamp": "2023-12-29T10:07:43+09:00",
+        "average_pace": 93.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.567363,
+          33.537015
+        ]
+      },
+      "properties": {
+        "elevation": 723.41,
+        "timestamp": "2023-12-29T10:08:04+09:00",
+        "average_pace": 93.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.567427,
+          33.537192
+        ]
+      },
+      "properties": {
+        "elevation": 724.81,
+        "timestamp": "2023-12-29T10:08:41+09:00",
+        "average_pace": 93.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.56757,
+          33.537331
+        ]
+      },
+      "properties": {
+        "elevation": 730.77,
+        "timestamp": "2023-12-29T10:10:23+09:00",
+        "average_pace": 93.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.567791,
+          33.53732
+        ]
+      },
+      "properties": {
+        "elevation": 733.9,
+        "timestamp": "2023-12-29T10:11:20+09:00",
+        "average_pace": 97.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.567967,
+          33.537425
+        ]
+      },
+      "properties": {
+        "elevation": 738.04,
+        "timestamp": "2023-12-29T10:12:01+09:00",
+        "average_pace": 97.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.567974,
+          33.537606
+        ]
+      },
+      "properties": {
+        "elevation": 748.54,
+        "timestamp": "2023-12-29T10:14:10+09:00",
+        "average_pace": 97.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.568091,
+          33.537762
+        ]
+      },
+      "properties": {
+        "elevation": 752.08,
+        "timestamp": "2023-12-29T10:14:41+09:00",
+        "average_pace": 97.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.568185,
+          33.537926
+        ]
+      },
+      "properties": {
+        "elevation": 752.57,
+        "timestamp": "2023-12-29T10:15:05+09:00",
+        "average_pace": 97.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.568238,
+          33.538101
+        ]
+      },
+      "properties": {
+        "elevation": 753.13,
+        "timestamp": "2023-12-29T10:15:34+09:00",
+        "average_pace": 97.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.56835,
+          33.538261
+        ]
+      },
+      "properties": {
+        "elevation": 754.34,
+        "timestamp": "2023-12-29T10:15:56+09:00",
+        "average_pace": 97.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.568555,
+          33.538334
+        ]
+      },
+      "properties": {
+        "elevation": 756.45,
+        "timestamp": "2023-12-29T10:16:33+09:00",
+        "average_pace": 97.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.56877,
+          33.538374
+        ]
+      },
+      "properties": {
+        "elevation": 757.83,
+        "timestamp": "2023-12-29T10:17:04+09:00",
+        "average_pace": 97.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.568916,
+          33.538509
+        ]
+      },
+      "properties": {
+        "elevation": 763.81,
+        "timestamp": "2023-12-29T10:18:08+09:00",
+        "average_pace": 97.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.568963,
+          33.538685
+        ]
+      },
+      "properties": {
+        "elevation": 777.92,
+        "timestamp": "2023-12-29T10:19:44+09:00",
+        "average_pace": 95.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.568916,
+          33.538864
+        ]
+      },
+      "properties": {
+        "elevation": 785.03,
+        "timestamp": "2023-12-29T10:20:45+09:00",
+        "average_pace": 95.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.568906,
+          33.539044
+        ]
+      },
+      "properties": {
+        "elevation": 788.62,
+        "timestamp": "2023-12-29T10:21:19+09:00",
+        "average_pace": 95.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.56876,
+          33.539182
+        ]
+      },
+      "properties": {
+        "elevation": 790.76,
+        "timestamp": "2023-12-29T10:22:17+09:00",
+        "average_pace": 95.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.568811,
+          33.539358
+        ]
+      },
+      "properties": {
+        "elevation": 795.97,
+        "timestamp": "2023-12-29T10:23:26+09:00",
+        "average_pace": 95.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.568774,
+          33.53954
+        ]
+      },
+      "properties": {
+        "elevation": 802.64,
+        "timestamp": "2023-12-29T10:24:30+09:00",
+        "average_pace": 91.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.5689,
+          33.539687
+        ]
+      },
+      "properties": {
+        "elevation": 808.98,
+        "timestamp": "2023-12-29T10:25:10+09:00",
+        "average_pace": 91.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.569013,
+          33.539843
+        ]
+      },
+      "properties": {
+        "elevation": 822.7,
+        "timestamp": "2023-12-29T10:27:40+09:00",
+        "average_pace": 91.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.569125,
+          33.540002
+        ]
+      },
+      "properties": {
+        "elevation": 824.62,
+        "timestamp": "2023-12-29T10:37:25+09:00",
+        "average_pace": 91.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.569318,
+          33.540082
+        ]
+      },
+      "properties": {
+        "elevation": 817.4,
+        "timestamp": "2023-12-29T10:45:42+09:00",
+        "average_pace": 91.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.569487,
+          33.540197
+        ]
+      },
+      "properties": {
+        "elevation": 814.93,
+        "timestamp": "2023-12-29T10:46:54+09:00",
+        "average_pace": 89.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.5697,
+          33.540238
+        ]
+      },
+      "properties": {
+        "elevation": 812.56,
+        "timestamp": "2023-12-29T10:47:21+09:00",
+        "average_pace": 89.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.569907,
+          33.540299
+        ]
+      },
+      "properties": {
+        "elevation": 808.11,
+        "timestamp": "2023-12-29T10:48:36+09:00",
+        "average_pace": 89.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.570135,
+          33.540302
+        ]
+      },
+      "properties": {
+        "elevation": 803.57,
+        "timestamp": "2023-12-29T10:49:28+09:00",
+        "average_pace": 89.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.570182,
+          33.540122
+        ]
+      },
+      "properties": {
+        "elevation": 796.26,
+        "timestamp": "2023-12-29T11:30:38+09:00",
+        "average_pace": 89.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.570246,
+          33.539948
+        ]
+      },
+      "properties": {
+        "elevation": 786.6,
+        "timestamp": "2023-12-29T11:32:45+09:00",
+        "average_pace": 92.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.570429,
+          33.539853
+        ]
+      },
+      "properties": {
+        "elevation": 778.68,
+        "timestamp": "2023-12-29T11:33:51+09:00",
+        "average_pace": 92.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.570524,
+          33.539681
+        ]
+      },
+      "properties": {
+        "elevation": 771.89,
+        "timestamp": "2023-12-29T11:34:43+09:00",
+        "average_pace": 92.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.570407,
+          33.539529
+        ]
+      },
+      "properties": {
+        "elevation": 764.06,
+        "timestamp": "2023-12-29T11:35:13+09:00",
+        "average_pace": 92.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.570212,
+          33.539438
+        ]
+      },
+      "properties": {
+        "elevation": 759.15,
+        "timestamp": "2023-12-29T11:35:55+09:00",
+        "average_pace": 101.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.570087,
+          33.53929
+        ]
+      },
+      "properties": {
+        "elevation": 750.05,
+        "timestamp": "2023-12-29T11:37:03+09:00",
+        "average_pace": 101.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.569889,
+          33.539216
+        ]
+      },
+      "properties": {
+        "elevation": 751.46,
+        "timestamp": "2023-12-29T11:38:22+09:00",
+        "average_pace": 101.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.569788,
+          33.539054
+        ]
+      },
+      "properties": {
+        "elevation": 748.5,
+        "timestamp": "2023-12-29T11:39:16+09:00",
+        "average_pace": 101.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.569667,
+          33.538899
+        ]
+      },
+      "properties": {
+        "elevation": 751.51,
+        "timestamp": "2023-12-29T11:39:41+09:00",
+        "average_pace": 101.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.569564,
+          33.538735
+        ]
+      },
+      "properties": {
+        "elevation": 751.91,
+        "timestamp": "2023-12-29T11:40:10+09:00",
+        "average_pace": 109.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.569575,
+          33.538546
+        ]
+      },
+      "properties": {
+        "elevation": 748.97,
+        "timestamp": "2023-12-29T11:40:41+09:00",
+        "average_pace": 109.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.569405,
+          33.538435
+        ]
+      },
+      "properties": {
+        "elevation": 748.74,
+        "timestamp": "2023-12-29T11:41:02+09:00",
+        "average_pace": 109.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.569322,
+          33.538267
+        ]
+      },
+      "properties": {
+        "elevation": 749.2,
+        "timestamp": "2023-12-29T11:41:34+09:00",
+        "average_pace": 109.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.569128,
+          33.538184
+        ]
+      },
+      "properties": {
+        "elevation": 743.18,
+        "timestamp": "2023-12-29T11:41:50+09:00",
+        "average_pace": 109.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.56891,
+          33.538152
+        ]
+      },
+      "properties": {
+        "elevation": 741.89,
+        "timestamp": "2023-12-29T11:42:11+09:00",
+        "average_pace": 110.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.568705,
+          33.538082
+        ]
+      },
+      "properties": {
+        "elevation": 744.43,
+        "timestamp": "2023-12-29T11:42:37+09:00",
+        "average_pace": 110.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.568533,
+          33.537968
+        ]
+      },
+      "properties": {
+        "elevation": 747.45,
+        "timestamp": "2023-12-29T11:43:44+09:00",
+        "average_pace": 110.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.568504,
+          33.537789
+        ]
+      },
+      "properties": {
+        "elevation": 745.13,
+        "timestamp": "2023-12-29T11:44:16+09:00",
+        "average_pace": 110.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.568465,
+          33.537604
+        ]
+      },
+      "properties": {
+        "elevation": 738.24,
+        "timestamp": "2023-12-29T11:44:43+09:00",
+        "average_pace": 110.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.568314,
+          33.537475
+        ]
+      },
+      "properties": {
+        "elevation": 739.03,
+        "timestamp": "2023-12-29T11:45:10+09:00",
+        "average_pace": 103.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.568159,
+          33.537346
+        ]
+      },
+      "properties": {
+        "elevation": 736.73,
+        "timestamp": "2023-12-29T11:45:52+09:00",
+        "average_pace": 103.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.56796,
+          33.537274
+        ]
+      },
+      "properties": {
+        "elevation": 733.31,
+        "timestamp": "2023-12-29T11:46:13+09:00",
+        "average_pace": 103.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.567744,
+          33.537213
+        ]
+      },
+      "properties": {
+        "elevation": 732.89,
+        "timestamp": "2023-12-29T11:46:35+09:00",
+        "average_pace": 103.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.567524,
+          33.537213
+        ]
+      },
+      "properties": {
+        "elevation": 730.93,
+        "timestamp": "2023-12-29T11:47:14+09:00",
+        "average_pace": 103.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.567402,
+          33.537063
+        ]
+      },
+      "properties": {
+        "elevation": 728.59,
+        "timestamp": "2023-12-29T11:47:48+09:00",
+        "average_pace": 95.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.567267,
+          33.53692
+        ]
+      },
+      "properties": {
+        "elevation": 725.37,
+        "timestamp": "2023-12-29T11:48:12+09:00",
+        "average_pace": 95.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.567267,
+          33.536733
+        ]
+      },
+      "properties": {
+        "elevation": 722.07,
+        "timestamp": "2023-12-29T11:48:33+09:00",
+        "average_pace": 95.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.567293,
+          33.536551
+        ]
+      },
+      "properties": {
+        "elevation": 715.98,
+        "timestamp": "2023-12-29T11:49:23+09:00",
+        "average_pace": 95.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.567153,
+          33.536409
+        ]
+      },
+      "properties": {
+        "elevation": 705.45,
+        "timestamp": "2023-12-29T11:50:57+09:00",
+        "average_pace": 95.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.566943,
+          33.536464
+        ]
+      },
+      "properties": {
+        "elevation": 696.7,
+        "timestamp": "2023-12-29T11:52:30+09:00",
+        "average_pace": 90.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.566813,
+          33.536316
+        ]
+      },
+      "properties": {
+        "elevation": 686.71,
+        "timestamp": "2023-12-29T11:53:46+09:00",
+        "average_pace": 90.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.566645,
+          33.536201
+        ]
+      },
+      "properties": {
+        "elevation": 674.42,
+        "timestamp": "2023-12-29T11:55:07+09:00",
+        "average_pace": 90.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.566423,
+          33.536216
+        ]
+      },
+      "properties": {
+        "elevation": 661.92,
+        "timestamp": "2023-12-29T11:56:11+09:00",
+        "average_pace": 90.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.566223,
+          33.536144
+        ]
+      },
+      "properties": {
+        "elevation": 648.42,
+        "timestamp": "2023-12-29T11:57:17+09:00",
+        "average_pace": 90.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.566011,
+          33.536087
+        ]
+      },
+      "properties": {
+        "elevation": 654.3,
+        "timestamp": "2023-12-29T11:57:47+09:00",
+        "average_pace": 84.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.565858,
+          33.536219
+        ]
+      },
+      "properties": {
+        "elevation": 633.94,
+        "timestamp": "2023-12-29T11:58:37+09:00",
+        "average_pace": 84.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.565682,
+          33.536112
+        ]
+      },
+      "properties": {
+        "elevation": 619.77,
+        "timestamp": "2023-12-29T11:59:54+09:00",
+        "average_pace": 84.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.56548,
+          33.536174
+        ]
+      },
+      "properties": {
+        "elevation": 612.4,
+        "timestamp": "2023-12-29T12:01:20+09:00",
+        "average_pace": 84.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.565306,
+          33.536065
+        ]
+      },
+      "properties": {
+        "elevation": 593.74,
+        "timestamp": "2023-12-29T12:03:47+09:00",
+        "average_pace": 84.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.565297,
+          33.535885
+        ]
+      },
+      "properties": {
+        "elevation": 586.48,
+        "timestamp": "2023-12-29T12:04:36+09:00",
+        "average_pace": 78.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.56514,
+          33.536015
+        ]
+      },
+      "properties": {
+        "elevation": 580.7,
+        "timestamp": "2023-12-29T12:05:23+09:00",
+        "average_pace": 78.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.564971,
+          33.536134
+        ]
+      },
+      "properties": {
+        "elevation": 576.62,
+        "timestamp": "2023-12-29T12:06:06+09:00",
+        "average_pace": 78.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.564754,
+          33.536144
+        ]
+      },
+      "properties": {
+        "elevation": 560.26,
+        "timestamp": "2023-12-29T12:08:13+09:00",
+        "average_pace": 78.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.564539,
+          33.536189
+        ]
+      },
+      "properties": {
+        "elevation": 548.12,
+        "timestamp": "2023-12-29T12:09:59+09:00",
+        "average_pace": 78.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.564453,
+          33.536019
+        ]
+      },
+      "properties": {
+        "elevation": 541.18,
+        "timestamp": "2023-12-29T12:11:42+09:00",
+        "average_pace": 76.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.564293,
+          33.536141
+        ]
+      },
+      "properties": {
+        "elevation": 536.61,
+        "timestamp": "2023-12-29T12:12:44+09:00",
+        "average_pace": 76.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.564189,
+          33.536299
+        ]
+      },
+      "properties": {
+        "elevation": 532.11,
+        "timestamp": "2023-12-29T12:13:52+09:00",
+        "average_pace": 76.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.563985,
+          33.536241
+        ]
+      },
+      "properties": {
+        "elevation": 516.99,
+        "timestamp": "2023-12-29T12:15:16+09:00",
+        "average_pace": 76.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.563802,
+          33.536338
+        ]
+      },
+      "properties": {
+        "elevation": 511.13,
+        "timestamp": "2023-12-29T12:16:19+09:00",
+        "average_pace": 76.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.563585,
+          33.536322
+        ]
+      },
+      "properties": {
+        "elevation": 498.58,
+        "timestamp": "2023-12-29T12:17:45+09:00",
+        "average_pace": 82.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.563364,
+          33.536324
+        ]
+      },
+      "properties": {
+        "elevation": 487.6,
+        "timestamp": "2023-12-29T12:18:29+09:00",
+        "average_pace": 82.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.563144,
+          33.536344
+        ]
+      },
+      "properties": {
+        "elevation": 476.72,
+        "timestamp": "2023-12-29T12:20:04+09:00",
+        "average_pace": 82.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.563161,
+          33.536526
+        ]
+      },
+      "properties": {
+        "elevation": 472.7,
+        "timestamp": "2023-12-29T12:21:02+09:00",
+        "average_pace": 82.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.562951,
+          33.53648
+        ]
+      },
+      "properties": {
+        "elevation": 465.56,
+        "timestamp": "2023-12-29T12:21:57+09:00",
+        "average_pace": 82.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.56286,
+          33.536304
+        ]
+      },
+      "properties": {
+        "elevation": 461.67,
+        "timestamp": "2023-12-29T12:22:24+09:00",
+        "average_pace": 91.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.562748,
+          33.536147
+        ]
+      },
+      "properties": {
+        "elevation": 457.19,
+        "timestamp": "2023-12-29T12:22:56+09:00",
+        "average_pace": 91.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.562573,
+          33.536041
+        ]
+      },
+      "properties": {
+        "elevation": 449.15,
+        "timestamp": "2023-12-29T12:23:41+09:00",
+        "average_pace": 91.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.562366,
+          33.535975
+        ]
+      },
+      "properties": {
+        "elevation": 434.94,
+        "timestamp": "2023-12-29T12:25:03+09:00",
+        "average_pace": 91.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.56218,
+          33.535875
+        ]
+      },
+      "properties": {
+        "elevation": 415.67,
+        "timestamp": "2023-12-29T12:27:01+09:00",
+        "average_pace": 95.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.561963,
+          33.535885
+        ]
+      },
+      "properties": {
+        "elevation": 409.64,
+        "timestamp": "2023-12-29T12:27:50+09:00",
+        "average_pace": 95.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.561889,
+          33.535715
+        ]
+      },
+      "properties": {
+        "elevation": 404.23,
+        "timestamp": "2023-12-29T12:29:05+09:00",
+        "average_pace": 95.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.561695,
+          33.535622
+        ]
+      },
+      "properties": {
+        "elevation": 400.33,
+        "timestamp": "2023-12-29T12:29:42+09:00",
+        "average_pace": 95.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.561537,
+          33.535499
+        ]
+      },
+      "properties": {
+        "elevation": 396.78,
+        "timestamp": "2023-12-29T12:30:06+09:00",
+        "average_pace": 95.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.561386,
+          33.535367
+        ]
+      },
+      "properties": {
+        "elevation": 390.58,
+        "timestamp": "2023-12-29T12:30:42+09:00",
+        "average_pace": 99.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.5612,
+          33.535265
+        ]
+      },
+      "properties": {
+        "elevation": 384.22,
+        "timestamp": "2023-12-29T12:31:18+09:00",
+        "average_pace": 99.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.561053,
+          33.53513
+        ]
+      },
+      "properties": {
+        "elevation": 381.53,
+        "timestamp": "2023-12-29T12:31:54+09:00",
+        "average_pace": 99.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.560884,
+          33.535015
+        ]
+      },
+      "properties": {
+        "elevation": 377.11,
+        "timestamp": "2023-12-29T12:32:31+09:00",
+        "average_pace": 99.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.560748,
+          33.534874
+        ]
+      },
+      "properties": {
+        "elevation": 371.01,
+        "timestamp": "2023-12-29T12:33:15+09:00",
+        "average_pace": 99.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.560553,
+          33.534775
+        ]
+      },
+      "properties": {
+        "elevation": 364.72,
+        "timestamp": "2023-12-29T12:33:52+09:00",
+        "average_pace": 100.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.560369,
+          33.534677
+        ]
+      },
+      "properties": {
+        "elevation": 359.78,
+        "timestamp": "2023-12-29T12:34:29+09:00",
+        "average_pace": 100.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.560195,
+          33.534543
+        ]
+      },
+      "properties": {
+        "elevation": 353.84,
+        "timestamp": "2023-12-29T12:35:26+09:00",
+        "average_pace": 100.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.560034,
+          33.534418
+        ]
+      },
+      "properties": {
+        "elevation": 346.52,
+        "timestamp": "2023-12-29T12:36:06+09:00",
+        "average_pace": 100.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.559886,
+          33.534286
+        ]
+      },
+      "properties": {
+        "elevation": 343.08,
+        "timestamp": "2023-12-29T12:36:36+09:00",
+        "average_pace": 100.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.559677,
+          33.534232
+        ]
+      },
+      "properties": {
+        "elevation": 338.07,
+        "timestamp": "2023-12-29T12:37:16+09:00",
+        "average_pace": 97.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.559461,
+          33.53421
+        ]
+      },
+      "properties": {
+        "elevation": 335.01,
+        "timestamp": "2023-12-29T12:37:40+09:00",
+        "average_pace": 97.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.559256,
+          33.534148
+        ]
+      },
+      "properties": {
+        "elevation": 332.6,
+        "timestamp": "2023-12-29T12:38:11+09:00",
+        "average_pace": 97.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.559049,
+          33.534082
+        ]
+      },
+      "properties": {
+        "elevation": 328.33,
+        "timestamp": "2023-12-29T12:38:44+09:00",
+        "average_pace": 97.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.558926,
+          33.533928
+        ]
+      },
+      "properties": {
+        "elevation": 323.69,
+        "timestamp": "2023-12-29T12:39:31+09:00",
+        "average_pace": 97.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.558758,
+          33.533794
+        ]
+      },
+      "properties": {
+        "elevation": 319.26,
+        "timestamp": "2023-12-29T12:40:12+09:00",
+        "average_pace": 97.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.558601,
+          33.533661
+        ]
+      },
+      "properties": {
+        "elevation": 316.21,
+        "timestamp": "2023-12-29T12:40:48+09:00",
+        "average_pace": 97.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.558418,
+          33.533566
+        ]
+      },
+      "properties": {
+        "elevation": 312.92,
+        "timestamp": "2023-12-29T12:41:25+09:00",
+        "average_pace": 97.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.558255,
+          33.533687
+        ]
+      },
+      "properties": {
+        "elevation": 308.1,
+        "timestamp": "2023-12-29T12:42:18+09:00",
+        "average_pace": 97.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.558077,
+          33.533792
+        ]
+      },
+      "properties": {
+        "elevation": 303.52,
+        "timestamp": "2023-12-29T12:42:55+09:00",
+        "average_pace": 97.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.557888,
+          33.533885
+        ]
+      },
+      "properties": {
+        "elevation": 297.51,
+        "timestamp": "2023-12-29T12:43:33+09:00",
+        "average_pace": 106.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.55767,
+          33.533905
+        ]
+      },
+      "properties": {
+        "elevation": 291.71,
+        "timestamp": "2023-12-29T12:44:28+09:00",
+        "average_pace": 106.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.557461,
+          33.533952
+        ]
+      },
+      "properties": {
+        "elevation": 285.13,
+        "timestamp": "2023-12-29T12:45:02+09:00",
+        "average_pace": 106.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.557307,
+          33.534079
+        ]
+      },
+      "properties": {
+        "elevation": 282.35,
+        "timestamp": "2023-12-29T12:45:41+09:00",
+        "average_pace": 106.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.557096,
+          33.534028
+        ]
+      },
+      "properties": {
+        "elevation": 279.75,
+        "timestamp": "2023-12-29T12:46:19+09:00",
+        "average_pace": 106.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.556897,
+          33.533946
+        ]
+      },
+      "properties": {
+        "elevation": 276.9,
+        "timestamp": "2023-12-29T12:46:39+09:00",
+        "average_pace": 118.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.556685,
+          33.5339
+        ]
+      },
+      "properties": {
+        "elevation": 272.7,
+        "timestamp": "2023-12-29T12:47:03+09:00",
+        "average_pace": 118.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.556519,
+          33.533782
+        ]
+      },
+      "properties": {
+        "elevation": 265.92,
+        "timestamp": "2023-12-29T12:47:28+09:00",
+        "average_pace": 118.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.556333,
+          33.533682
+        ]
+      },
+      "properties": {
+        "elevation": 262.61,
+        "timestamp": "2023-12-29T12:47:59+09:00",
+        "average_pace": 118.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.556129,
+          33.533605
+        ]
+      },
+      "properties": {
+        "elevation": 258.32,
+        "timestamp": "2023-12-29T12:48:30+09:00",
+        "average_pace": 118.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.555942,
+          33.533514
+        ]
+      },
+      "properties": {
+        "elevation": 258.24,
+        "timestamp": "2023-12-29T12:48:49+09:00",
+        "average_pace": 126.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.555746,
+          33.533427
+        ]
+      },
+      "properties": {
+        "elevation": 258.44,
+        "timestamp": "2023-12-29T12:49:08+09:00",
+        "average_pace": 126.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.555566,
+          33.533313
+        ]
+      },
+      "properties": {
+        "elevation": 258.86,
+        "timestamp": "2023-12-29T12:49:29+09:00",
+        "average_pace": 126.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.555473,
+          33.533148
+        ]
+      },
+      "properties": {
+        "elevation": 256.22,
+        "timestamp": "2023-12-29T12:49:58+09:00",
+        "average_pace": 126.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.555395,
+          33.532973
+        ]
+      },
+      "properties": {
+        "elevation": 253.29,
+        "timestamp": "2023-12-29T12:50:23+09:00",
+        "average_pace": 126.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.555339,
+          33.532792
+        ]
+      },
+      "properties": {
+        "elevation": 252.39,
+        "timestamp": "2023-12-29T12:50:46+09:00",
+        "average_pace": 134.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.555259,
+          33.532615
+        ]
+      },
+      "properties": {
+        "elevation": 253.33,
+        "timestamp": "2023-12-29T12:51:06+09:00",
+        "average_pace": 134.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.55519,
+          33.532439
+        ]
+      },
+      "properties": {
+        "elevation": 252.34,
+        "timestamp": "2023-12-29T12:51:23+09:00",
+        "average_pace": 134.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.555085,
+          33.53228
+        ]
+      },
+      "properties": {
+        "elevation": 253.06,
+        "timestamp": "2023-12-29T12:51:42+09:00",
+        "average_pace": 134.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.555017,
+          33.532106
+        ]
+      },
+      "properties": {
+        "elevation": 249.71,
+        "timestamp": "2023-12-29T12:52:04+09:00",
+        "average_pace": 143.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.55492,
+          33.531941
+        ]
+      },
+      "properties": {
+        "elevation": 243.7,
+        "timestamp": "2023-12-29T12:52:32+09:00",
+        "average_pace": 143.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.554821,
+          33.531772
+        ]
+      },
+      "properties": {
+        "elevation": 245.17,
+        "timestamp": "2023-12-29T12:52:57+09:00",
+        "average_pace": 143.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.554816,
+          33.531587
+        ]
+      },
+      "properties": {
+        "elevation": 246.51,
+        "timestamp": "2023-12-29T12:53:16+09:00",
+        "average_pace": 143.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.554915,
+          33.531423
+        ]
+      },
+      "properties": {
+        "elevation": 245.38,
+        "timestamp": "2023-12-29T12:53:36+09:00",
+        "average_pace": 143.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.55498,
+          33.531245
+        ]
+      },
+      "properties": {
+        "elevation": 240.74,
+        "timestamp": "2023-12-29T12:53:57+09:00",
+        "average_pace": 145.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.554926,
+          33.531066
+        ]
+      },
+      "properties": {
+        "elevation": 234.63,
+        "timestamp": "2023-12-29T12:54:16+09:00",
+        "average_pace": 145.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.554749,
+          33.530958
+        ]
+      },
+      "properties": {
+        "elevation": 233.69,
+        "timestamp": "2023-12-29T12:54:33+09:00",
+        "average_pace": 145.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.554531,
+          33.530914
+        ]
+      },
+      "properties": {
+        "elevation": 230.28,
+        "timestamp": "2023-12-29T12:54:51+09:00",
+        "average_pace": 145.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.554315,
+          33.530929
+        ]
+      },
+      "properties": {
+        "elevation": 228.93,
+        "timestamp": "2023-12-29T12:55:09+09:00",
+        "average_pace": 145.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.554095,
+          33.530903
+        ]
+      },
+      "properties": {
+        "elevation": 227.36,
+        "timestamp": "2023-12-29T12:55:26+09:00",
+        "average_pace": 135.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.553885,
+          33.530832
+        ]
+      },
+      "properties": {
+        "elevation": 223.35,
+        "timestamp": "2023-12-29T12:55:45+09:00",
+        "average_pace": 135.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.553676,
+          33.530754
+        ]
+      },
+      "properties": {
+        "elevation": 222.4,
+        "timestamp": "2023-12-29T12:56:02+09:00",
+        "average_pace": 135.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.553458,
+          33.530713
+        ]
+      },
+      "properties": {
+        "elevation": 221.03,
+        "timestamp": "2023-12-29T12:56:20+09:00",
+        "average_pace": 135.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.553576,
+          33.530554
+        ]
+      },
+      "properties": {
+        "elevation": 214.77,
+        "timestamp": "2023-12-29T12:57:34+09:00",
+        "average_pace": 135.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.553553,
+          33.530373
+        ]
+      },
+      "properties": {
+        "elevation": 210.05,
+        "timestamp": "2023-12-29T12:58:06+09:00",
+        "average_pace": 127.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.553349,
+          33.530309
+        ]
+      },
+      "properties": {
+        "elevation": 206.25,
+        "timestamp": "2023-12-29T12:58:36+09:00",
+        "average_pace": 127.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.553514,
+          33.530187
+        ]
+      },
+      "properties": {
+        "elevation": 204.8,
+        "timestamp": "2023-12-29T13:00:03+09:00",
+        "average_pace": 127.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.553339,
+          33.530075
+        ]
+      },
+      "properties": {
+        "elevation": 200.97,
+        "timestamp": "2023-12-29T13:00:39+09:00",
+        "average_pace": 127.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.55315,
+          33.529984
+        ]
+      },
+      "properties": {
+        "elevation": 195.91,
+        "timestamp": "2023-12-29T13:01:07+09:00",
+        "average_pace": 127.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.552971,
+          33.529866
+        ]
+      },
+      "properties": {
+        "elevation": 192.94,
+        "timestamp": "2023-12-29T13:01:33+09:00",
+        "average_pace": 134.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.552822,
+          33.529735
+        ]
+      },
+      "properties": {
+        "elevation": 186.2,
+        "timestamp": "2023-12-29T13:02:05+09:00",
+        "average_pace": 134.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.552633,
+          33.529634
+        ]
+      },
+      "properties": {
+        "elevation": 183.2,
+        "timestamp": "2023-12-29T13:02:28+09:00",
+        "average_pace": 134.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.552452,
+          33.529521
+        ]
+      },
+      "properties": {
+        "elevation": 180.22,
+        "timestamp": "2023-12-29T13:02:52+09:00",
+        "average_pace": 134.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.552293,
+          33.529389
+        ]
+      },
+      "properties": {
+        "elevation": 178.01,
+        "timestamp": "2023-12-29T13:03:15+09:00",
+        "average_pace": 134.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.552124,
+          33.529275
+        ]
+      },
+      "properties": {
+        "elevation": 174.03,
+        "timestamp": "2023-12-29T13:03:35+09:00",
+        "average_pace": 142.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.55193,
+          33.529195
+        ]
+      },
+      "properties": {
+        "elevation": 169.16,
+        "timestamp": "2023-12-29T13:03:54+09:00",
+        "average_pace": 142.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.55173,
+          33.529107
+        ]
+      },
+      "properties": {
+        "elevation": 164.31,
+        "timestamp": "2023-12-29T13:04:15+09:00",
+        "average_pace": 142.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.551521,
+          33.529028
+        ]
+      },
+      "properties": {
+        "elevation": 162.25,
+        "timestamp": "2023-12-29T13:04:34+09:00",
+        "average_pace": 142.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.551305,
+          33.528995
+        ]
+      },
+      "properties": {
+        "elevation": 159.94,
+        "timestamp": "2023-12-29T13:04:50+09:00",
+        "average_pace": 142.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.551079,
+          33.528978
+        ]
+      },
+      "properties": {
+        "elevation": 157.4,
+        "timestamp": "2023-12-29T13:05:08+09:00",
+        "average_pace": 134.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.55086,
+          33.528992
+        ]
+      },
+      "properties": {
+        "elevation": 154.3,
+        "timestamp": "2023-12-29T13:05:27+09:00",
+        "average_pace": 134.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.55064,
+          33.528959
+        ]
+      },
+      "properties": {
+        "elevation": 152.37,
+        "timestamp": "2023-12-29T13:05:46+09:00",
+        "average_pace": 134.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.550527,
+          33.528804
+        ]
+      },
+      "properties": {
+        "elevation": 152.96,
+        "timestamp": "2023-12-29T13:06:04+09:00",
+        "average_pace": 134.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.55038,
+          33.528662
+        ]
+      },
+      "properties": {
+        "elevation": 153.05,
+        "timestamp": "2023-12-29T13:06:23+09:00",
+        "average_pace": 114.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.550308,
+          33.528487
+        ]
+      },
+      "properties": {
+        "elevation": 152.3,
+        "timestamp": "2023-12-29T13:06:41+09:00",
+        "average_pace": 114.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.550474,
+          33.528602
+        ]
+      },
+      "properties": {
+        "elevation": 152.68,
+        "timestamp": "2023-12-29T13:07:15+09:00",
+        "average_pace": 114.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.550488,
+          33.528783
+        ]
+      },
+      "properties": {
+        "elevation": 154.47,
+        "timestamp": "2023-12-29T13:08:07+09:00",
+        "average_pace": 114.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.550464,
+          33.528601
+        ]
+      },
+      "properties": {
+        "elevation": 153.97,
+        "timestamp": "2023-12-29T13:08:32+09:00",
+        "average_pace": 114.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.550436,
+          33.528415
+        ]
+      },
+      "properties": {
+        "elevation": 153.19,
+        "timestamp": "2023-12-29T13:08:52+09:00",
+        "average_pace": 99.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.550357,
+          33.528239
+        ]
+      },
+      "properties": {
+        "elevation": 149.87,
+        "timestamp": "2023-12-29T13:09:28+09:00",
+        "average_pace": 99.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.55023,
+          33.528233
+        ]
+      },
+      "properties": {
+        "elevation": 148.76,
+        "timestamp": "2023-12-29T13:16:23+09:00",
+        "average_pace": 99.2
+      }
+    }
+  ]
+}

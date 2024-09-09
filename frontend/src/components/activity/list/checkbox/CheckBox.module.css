@@ -1,0 +1,58 @@
+.CheckBox--Checked{
+    color:#cf0010
+}
+
+.CheckBox__Input{
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    background-color: white;
+    border: 1px solid #dcdfe6;
+    border-radius: 2px;
+    margin-right: 3px;
+    display: inline-block;
+    position: relative;
+}
+
+.CheckBox__Input:hover{
+    border: 1px solid #cf0010;
+    cursor: pointer;
+}
+
+.CheckBox__Input:checked {
+    background-color: #cf0010;
+    border-color: #cf0010;
+}
+
+.CheckBox__Input:checked::before {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    content: "";
+}
+
+.CheckBox__Input:checked:after {
+    content: '';
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    transform: translateY(-50%);
+    display: block;
+    margin-top: -8px;
+    width: 5px;
+    height: 11px;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    /* WebKitベースのブラウザ用 */
+    -webkit-transform: rotate(45deg);
+    /* Firefox用 */
+    -moz-transform: rotate(45deg);
+    /* 旧Opera用 */
+    -o-transform: rotate(45deg);
+    /* Internet Explorer用 */
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}

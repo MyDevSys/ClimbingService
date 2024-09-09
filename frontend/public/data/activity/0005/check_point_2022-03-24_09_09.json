@@ -1,0 +1,101 @@
+{
+  "active_days": 1,
+  "day_info": [
+    {
+      "active_time": {
+        "hr": 7,
+        "min": 26
+      },
+      "rest_time": {
+        "hr": 1,
+        "min": 3
+      },
+      "distance": {
+        "route": 11.0,
+        "up": 952,
+        "down": 1048
+      },
+      "check_point": [
+        {
+          "type": 1,
+          "stay_time": [
+            "09:09"
+          ]
+        },
+        {
+          "spot_name": "水源池前バス停",
+          "type": 4,
+          "next_point_time": {
+            "hr": 0,
+            "min": 43
+          },
+          "stay_time": [
+            "09:09"
+          ]
+        },
+        {
+          "spot_name": "花乱の滝登山口",
+          "type": 5,
+          "next_point_time": {
+            "hr": 2,
+            "min": 49
+          },
+          "stay_time": [
+            "09:53",
+            "09:58"
+          ]
+        },
+        {
+          "spot_name": "金山",
+          "type": 5,
+          "next_point_time": {
+            "hr": 2,
+            "min": 4
+          },
+          "stay_time": [
+            "12:48",
+            "13:16"
+          ]
+        },
+        {
+          "spot_name": "坊主ヶ滝",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 28
+          },
+          "stay_time": [
+            "15:20",
+            "15:28"
+          ]
+        },
+        {
+          "spot_name": "坊主ヶ滝ルート登山口",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 29
+          },
+          "stay_time": [
+            "15:57",
+            "16:03"
+          ]
+        },
+        {
+          "spot_name": "多々良瀬バス停",
+          "type": 5,
+          "stay_time": [
+            "16:33",
+            "16:34"
+          ]
+        },
+        {
+          "type": 2,
+          "stay_time": [
+            "16:34"
+          ]
+        }
+      ]
+    }
+  ]
+}

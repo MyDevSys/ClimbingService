@@ -1,0 +1,230 @@
+{
+  "icon_filenames": [
+    {
+      "id": 0,
+      "filename": "icon_camera.png?v1.0.0",
+      "description": "カメラ"
+    },
+    {
+      "id": 1,
+      "filename": "icon_start.png?v1.0.0",
+      "description": "出発点"
+    },
+    {
+      "id": 2,
+      "filename": "icon_end.png?v1.0.0",
+      "description": "終着点"
+    },
+    {
+      "id": 3,
+      "filename": "icon_rest.svg?v1.0.0",
+      "description": "休憩ポイント"
+    },
+    {
+      "id": 4,
+      "filename": "icon_summit.png?v1.0.0",
+      "description": "山頂"
+    },
+    {
+      "id": 5,
+      "filename": "icon_no_route_summit.png?v1.0.0",
+      "description": "ルートなし山頂"
+    },
+    {
+      "id": 6,
+      "filename": "icon_triangulation_point.png?v1.0.0",
+      "description": "三角点"
+    },
+    {
+      "id": 7,
+      "filename": "icon_trailhead.png?v1.0.0",
+      "description": "登山口"
+    },
+    {
+      "id": 8,
+      "filename": "icon_pass.png?v1.0.0",
+      "description": "峠"
+    },
+    {
+      "id": 9,
+      "filename": "icon_signpost.png?v1.0.0",
+      "description": "道標"
+    },
+    {
+      "id": 10,
+      "filename": "icon_junction.png?v1.0.0",
+      "description": "分岐"
+    },
+    {
+      "id": 11,
+      "filename": "icon_point.png?v1.0.0",
+      "description": "ポイント"
+    },
+    {
+      "id": 12,
+      "filename": "icon_mountain_hut.png?v1.0.0",
+      "description": "山小屋"
+    },
+    {
+      "id": 13,
+      "filename": "icon_shelter.png?v1.0.0",
+      "description": "避難小屋"
+    },
+    {
+      "id": 14,
+      "filename": "icon_tent_site.png?v1.0.0",
+      "description": "テントサイト"
+    },
+    {
+      "id": 15,
+      "filename": "icon_gazebo.svg?v1.0.0",
+      "description": "東屋"
+    },
+    {
+      "id": 16,
+      "filename": "icon_toilet.png?v1.0.0",
+      "description": "トイレ"
+    },
+    {
+      "id": 17,
+      "filename": "icon_water_source.png?v1.0.0",
+      "description": "水場"
+    },
+    {
+      "id": 18,
+      "filename": "icon_flower_field.png?v1.0.0",
+      "description": "お花畑"
+    },
+    {
+      "id": 19,
+      "filename": "icon_rock.png?v1.0.0",
+      "description": "岩"
+    },
+    {
+      "id": 20,
+      "filename": "icon_waterfall.png?v1.0.0",
+      "description": "滝"
+    },
+    {
+      "id": 21,
+      "filename": "icon_viewpoint.png?v1.0.0",
+      "description": "展望ポイント"
+    },
+    {
+      "id": 22,
+      "filename": "icon_observatory.png?v1.0.0",
+      "description": "展望台"
+    },
+    {
+      "id": 23,
+      "filename": "icon_castle_ruins.png?v1.0.0",
+      "description": "城跡"
+    },
+    {
+      "id": 24,
+      "filename": "icon_parking.png?v1.0.0",
+      "description": "駐車場"
+    },
+    {
+      "id": 25,
+      "filename": "icon_cable_car.png?v1.0.0",
+      "description": "ケーブルカー"
+    },
+    {
+      "id": 26,
+      "filename": "icon_bus_stop.png?v1.0.0",
+      "description": "バス停"
+    },
+    {
+      "id": 27,
+      "filename": "icon_station.png?v1.0.0",
+      "description": "駅"
+    },
+    {
+      "id": 28,
+      "filename": "icon_port.png?v1.0.0",
+      "description": "港"
+    },
+    {
+      "id": 29,
+      "filename": "icon_shrine.png?v1.0.0",
+      "description": "神社"
+    },
+    {
+      "id": 30,
+      "filename": "icon_temple.png?v1.0.0",
+      "description": "寺"
+    },
+    {
+      "id": 31,
+      "filename": "icon_park.png?v1.0.0",
+      "description": "公園"
+    },
+    {
+      "id": 32,
+      "filename": "icon_information_center.png?v1.0.0",
+      "description": "案内所"
+    },
+    {
+      "id": 33,
+      "filename": "icon_museum.png?v1.0.0",
+      "description": "博物館・資料館"
+    },
+    {
+      "id": 34,
+      "filename": "icon_hot_spring.png?v1.0.0",
+      "description": "温泉"
+    },
+    {
+      "id": 35,
+      "filename": "icon_accommodation.png?v1.0.0",
+      "description": "宿・ホテル"
+    },
+    {
+      "id": 36,
+      "filename": "icon_restaurant.png?v1.0.0",
+      "description": "飲食店"
+    },
+    {
+      "id": 37,
+      "filename": "icon_roadside_station.png?v1.0.0",
+      "description": "道の駅"
+    },
+    {
+      "id": 38,
+      "filename": "icon_others.png?v1.0.0",
+      "description": "その他"
+    },
+    {
+      "id": 39,
+      "filename": "icon_no_entry.png?v1.0.0",
+      "description": "立入禁止"
+    },
+    {
+      "id": 40,
+      "filename": "icon_caution_area.png?v1.0.0",
+      "description": "注意箇所"
+    },
+    {
+      "id": 41,
+      "filename": "icon_danger_area.png?v1.0.0",
+      "description": "危険箇所"
+    },
+    {
+      "id": 42,
+      "filename": "icon_beware_of_bears.png?v1.0.0",
+      "description": "熊に注意"
+    },
+    {
+      "id": 43,
+      "filename": "icon_tap_point.png?v1.0.0",
+      "description": "タップポイント"
+    },
+    {
+      "id": 44,
+      "filename": "icon_stamp_point.png?v1.0.0",
+      "description": "スタンプポイント"
+    }
+  ]
+}
+

@@ -1,0 +1,146 @@
+{
+  "active_days": 1,
+  "day_info": [
+    {
+      "active_time": {
+        "hr": 8,
+        "min": 2
+      },
+      "rest_time": {
+        "hr": 1,
+        "min": 22
+      },
+      "distance": {
+        "route": 11.1,
+        "up": 1038,
+        "down": 1261
+      },
+      "check_point": [
+        {
+          "type": 1,
+          "next_point_time": {
+            "hr": 0,
+            "min": 30
+          },
+          "stay_time": [
+            "09:28"
+          ]
+        },
+        {
+          "spot_name": "アンノ滝",
+          "type": 5,
+          "next_point_time": {
+            "hr": 2,
+            "min": 2
+          },
+          "stay_time": [
+            "09:58",
+            "10:22"
+          ]
+        },
+        {
+          "spot_name": "井原山",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 34
+          },
+          "stay_time": [
+            "12:25",
+            "12:59"
+          ]
+        },
+        {
+          "spot_name": "本富士山",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 20
+          },
+          "stay_time": [
+            "13:34",
+            "13:36"
+          ]
+        },
+        {
+          "spot_name": "富士山",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 27
+          },
+          "stay_time": [
+            "13:57",
+            "14:05"
+          ]
+        },
+        {
+          "spot_name": "雷山",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 35
+          },
+          "stay_time": [
+            "14:33",
+            "14:44"
+          ]
+        },
+        {
+          "spot_name": "上宮",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 43
+          },
+          "stay_time": [
+            "15:20",
+            "15:26"
+          ]
+        },
+        {
+          "spot_name": "清賀の滝",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 34
+          },
+          "stay_time": [
+            "16:09",
+            "16:19"
+          ]
+        },
+        {
+          "spot_name": "雷山登山口",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 2
+          },
+          "stay_time": [
+            "16:53",
+            "16:55"
+          ]
+        },
+        {
+          "spot_name": "雷山観音前バス停",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 30
+          },
+          "stay_time": [
+            "16:58",
+            "16:59"
+          ]
+        },
+        {
+          "type": 2,
+          "stay_time": [
+            "17:30"
+          ]
+        }
+      ]
+    }
+  ]
+}

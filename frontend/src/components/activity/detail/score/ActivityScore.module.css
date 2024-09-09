@@ -1,0 +1,159 @@
+.ActivitiesId__FitnessInfo__Top{
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    padding-bottom: 9px !important;
+    position: relative;
+}
+
+.CourseConstant.ActivitiesId__FitnessInfo__Top::after {
+    content: "";
+    display: block;
+    width: 95%;
+    height: 1px;
+    background-color: #cecece;
+    position: absolute; /* 絶対位置に設定 */
+    left: 50%; /* 左端を中央に設定 */
+    transform: translateX(-50%); /* 要素の幅の半分だけ左に移動して中央揃え */
+    bottom: 0; /* 要素を親の下部に配置 */
+}
+
+.ActivitiesId__FitnessInfo__Bottom {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    padding-top: 8px !important;
+}
+
+.CourseConstant{
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.CourseConstant__Header{
+    margin-right: 16px;
+    align-items: center;
+    column-gap: 4px;
+    display: flex;
+}
+
+.CourseConstant__Icon, .ActivityPace__Icon{
+    /* Safariブラウザは標準のuser-selectプロパティをサポートしていないことによる対応 */
+    -webkit-user-select: none; 
+    user-select: none;
+    height: 24px;
+    width: 24px;
+}
+
+.CourseConstant__Heading, .ActivityPace__Heading{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.CourseConstant__CalculateBy {
+    color: #757575;
+    font-size: 1.2rem;
+}
+
+.CourseConstant__Details, .ActivityPace__Details {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.CourseConstant__DifficultyLevel, .ActivityPace__Status{
+    color: #757575;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.CourseConstant__Value{
+    align-items: center;
+    display: flex;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.ActivityPace{
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.ActivityPace__Header {
+    align-items: center;
+    display: flex;
+    gap: 4px;
+    margin-right: 16px;
+}
+
+.ActivityPace__Values{
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.ActivityPace__Rate{
+    align-items: baseline;
+    display: flex;
+    font-size: 2.4rem;
+    font-weight: 700;
+    gap: 2px;
+    line-height: 1;
+}
+
+.ActivityPace__Rate__Range {
+    align-self: center;
+    font-size: 1.6rem;
+}
+
+.ActivityPace__Unit {
+    font-size: 1.4rem;
+}
+
+@media screen and (min-width: 768px) {
+    .CourseConstant{
+        padding: 16px;
+    }
+    
+    .CourseConstant__Heading, .ActivityPace__Heading {
+        font-size: 1.6rem;
+    }
+    
+    .CourseConstant__CalculateBy{
+        font-size: 1.4rem;
+    }
+    
+    .CourseConstant__DifficultyLevel, .ActivityPace__Status{
+        font-size: 1.4rem;
+    }
+    
+    .CourseConstant__Value, .ActivityPace__Rate {
+        font-size: 3.6rem;
+    }
+
+    .ActivityPace{
+        padding: 16px;
+    }
+    
+    .ActivityPace__Details {
+        gap: 8px;
+    }
+    
+    .ActivityPace__Rate__Range{
+        font-size: 2rem;
+    }
+    
+    .ActivityPace__Unit {
+        font-size: 1.6rem;
+    }
+}

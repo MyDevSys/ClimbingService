@@ -1,0 +1,74 @@
+{
+  "active_days": 1,
+  "day_info": [
+    {
+      "active_time": {
+        "hr": 7,
+        "min": 44
+      },
+      "rest_time": {
+        "hr": 1,
+        "min": 0
+      },
+      "distance": {
+        "route": 22.0,
+        "up": 1189,
+        "down": 1186
+      },
+      "check_point": [
+        {
+          "type": 1,
+          "next_point_time": {
+            "hr": 3,
+            "min": 8
+          },
+          "stay_time": [
+            "10:03"
+          ]
+        },
+        {
+          "spot_name": "天山上宮登山口",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 37
+          },
+          "stay_time": [
+            "13:12",
+            "13:36"
+          ]
+        },
+        {
+          "spot_name": "天山",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 31
+          },
+          "stay_time": [
+            "14:13",
+            "14:45"
+          ]
+        },
+        {
+          "spot_name": "天山上宮登山口",
+          "type": 5,
+          "next_point_time": {
+            "hr": 2,
+            "min": 22
+          },
+          "stay_time": [
+            "15:17",
+            "15:24"
+          ]
+        },
+        {
+          "type": 2,
+          "stay_time": [
+            "17:47"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,423 @@
+.UserActivityList__Box{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.ActivityFilter__Sidebar{
+    display: none;
+}
+
+.ActivityFilter{
+    background-color: #fff;
+    width: 100%;
+}
+
+.ActivityFilter__Title{
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.ActivityFilter__Container{
+    background-color: #ececec;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    padding: 8px 16px 16px;
+    position: relative;
+}
+
+.ActivityFilter__Input{
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #d8d8d8;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #606266;
+    display: inline-block;
+    font-size: 1.6rem;
+    height: 40px;
+    line-height: 40px;
+    outline: none;
+    width: 100%;
+}
+
+input.ActivityFilter__Input{
+    padding-left: 27px;
+    padding-right: 15px;
+}
+
+.ActivityFilter__Input:focus {
+    border-color: #cf0010;
+    outline: none;
+}
+
+.ActivityFilter__Search{
+    position: relative;
+}
+
+.ActivityFilter__Search__Icon::before{
+    color: #c0c4cc;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+    margin: 0 8px;
+    font-family: 'Material Symbols Outlined';
+    content: "search";
+    display: inline-block;
+    font-size: 16px;
+}
+
+.ActivityFilter__Input__Date__wrapper{
+    position: relative;
+}
+
+.ActivityFilter__Input__Date__wrapper input{
+    padding-left: 28px; 
+}
+
+.ActivityFilter__Input__Date__wrapper input::placeholder{
+    color: #6062667e;
+}
+
+.ActivityFilter__Period__Start{
+    margin-bottom: 16px;
+}
+
+.ActivityFilter__Period__Label{
+    font-size: 1.2rem;
+}
+
+.ActivityFilter__CheckBox__Label__Month {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    color: #222222;
+    width: 48px;
+}
+
+.ActivityFilter__CheckBox__Label__Type {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    color: #222222;
+    width: 100%;
+    margin-bottom: 8px;
+    /* margin-left: 10px; */
+}
+
+.ActivityFilter__CheckBox__Type{
+    margin-right: 10px;
+}
+
+.ActivityFilter__Container label:hover{
+    cursor: pointer;
+}
+
+.UserActivityList__Container{
+    width: 100%;
+}
+
+main.UserActivityList__Main {
+    display: block;
+    width: 100%;
+}
+
+.UserActivityList__FilterMessage{
+    font-size: 1.6rem;
+}
+
+.UserActivityList__List{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -7px -7px -14px;
+}
+
+ul.UserActivityList__List{
+    list-style: none;
+}
+
+.UserActivityList__Item{
+    padding: 7px 7px 14px;
+    width: 100%;
+}
+
+.ActivityItem__Thumbnail{
+    display: block;
+    margin-bottom: 8px;
+    position: relative;
+    padding-top: 56.25%; 
+}
+
+.ActivityItem__Thumbnail__Img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    background-color: #f1f1f1;
+    background-position: 50%;
+    background-size: cover;
+    border-radius: 8px;
+    transition: all .1s ease-in-out;
+}
+
+.ActivityItem__Thumbnail__Img:hover{
+    opacity: 0.8;
+}
+
+.ActivityItem__Link{
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+    transition-duration: .1s;
+    transition-property: opacity;
+    transition-timing-function: ease-in;
+    width: 100%;
+}
+
+.ActivityParameter__Container{
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+}
+
+.ActivityItem__Heading{
+    font-size: 1.8rem;
+    line-height: 1.4;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.ActivityParameter__Inner{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ActivityParameter__Inner:not(:first-child){
+    margin-top: 4px;
+}
+
+
+.ActivityParameter__Top{
+    align-items: center;
+    background-color: #0009;
+    border-radius: 10px;
+    color: #fff;
+    display: inline-flex;
+    height: 20px;
+    line-height: 1;
+    padding: 2px 8px;
+}
+
+.ActivityParameter__Top:not(:first-child){
+    margin-left: 4px;
+}
+
+.ActivityParameter__Top__Icon, .ActivityParameter__Bottom__Icon{
+    height: 12px;
+    width: 12px;
+}
+
+.ActivityParameter__Top__Counter, .ActivityParameter__Bottom__Counter{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 4px;
+}
+
+.ActivityParameter__Bottom{
+    align-items: center;
+    background-color: #0009;
+    border-radius: 10px;
+    color: #fff;
+    display: inline-flex;
+    height: 20px;
+    line-height: 1;
+    padding: 2px 4px;
+}
+
+.ActivityParameter__Bottom__Item{
+    display: flex;
+    align-items: center;
+}
+
+.ActivityParameter__Bottom__Item:not(:first-child){
+    margin-left: 8px;
+}
+
+.ActivityParameter__Bottom__Icon{
+    width: 12px;
+    height: 12px;
+}
+
+
+.ActivityItem__MapName{
+    color: #757575;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    margin-top: 4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.ActivityItem__Meta{
+    align-items: center;
+    color: #757575;
+    display: flex;
+    margin-top: 4px;
+    padding: 2px 0;
+}
+
+.ActivityItem__Date{
+    font-size: 1.2rem;
+    line-height: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.ActivityItem__Days{
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    line-height: 1;
+    margin-left: 4px;
+    padding: 4px 8px;
+}
+
+.ActivityItem__Author{
+    margin-top: 4px;
+}
+
+.ActivityItem__User {
+    align-items: center;
+    color: #222;
+    cursor: pointer;
+    display: inline-flex;
+    max-width: 100%;
+    text-decoration: none;
+    transition-duration: .1s;
+    transition-property: opacity;
+    transition-timing-function: ease-in;
+}
+
+.ActivityItem__Avatar {
+    flex: 1 0 auto;
+    margin-right: 8px;
+}
+
+.RidgeUserAvatarImage__Avatar{
+    background-color: #ececec;
+    border-radius: 50%;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.ActivityItem__UserName{
+    color: #000;
+    font-size: 1.3rem;
+    line-height: 1.2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.ActivityItem__UserTypeMark {
+    margin-left: 4px;
+}
+
+.Pagination__Container{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 32px auto;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.Pagination__text {
+    color: #606266;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+.Pagination__Container :global(.MuiPaginationItem-root){
+    font-size: 1.4rem; 
+    font-weight: bold; 
+    background-color: #f4f4f5; 
+    color: #606266; 
+}
+
+.Pagination__Container :global(.MuiPaginationItem-root):global(.Mui-selected){
+    background-color: black; 
+    color: white;    
+}
+
+.Pagination__Container :global(.MuiPaginationItem-icon){
+    font-size: 20px;
+}
+
+.Pagination__Container button:disabled{
+    cursor: not-allowed;
+    pointer-events: auto;
+}
+
+@media screen and (max-width: 767px){
+    .Pagination__Container :global(.MuiPaginationItem-page){
+        display: none;
+    }
+
+    .Pagination__Container :global(.MuiPaginationItem-ellipsis){
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .UserActivityList__Item{
+        width: 33.333%;
+    }
+    .ActivityItem__Thumbnail{
+        padding-top: 75%; 
+    }
+    .ActivityItem__Author{
+        margin-top: 8px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .ActivityFilter__Box{
+        width: 25%;
+        padding: 0 20px 0 0;
+    }
+    .ActivityFilter__Sidebar{
+        display: block;
+    }
+    .UserActivityList__Container{
+        width: 75%;
+        padding-left: 24px;
+    }
+    .UserActivityList__List{
+        margin: -14px;
+    }
+    .UserActivityList__Item{
+        padding: 14px;
+    }
+    .ActivityItem__Thumbnail__Img{
+        border-radius: 12px;
+    }
+    .ActivityItem__MapName {
+        font-size: 1.4rem;
+    }
+    .ActivityItem__Date{
+        font-size: 1.4rem;
+    }
+    .Pagination__Padding {
+        padding-left: 316px;
+    }
+}

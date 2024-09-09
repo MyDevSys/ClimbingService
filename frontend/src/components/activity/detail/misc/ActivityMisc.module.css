@@ -1,0 +1,140 @@
+/* その他情報のCSS */
+.ActivitiesId__Miscs{
+    margin-top: 16px;
+}
+
+.ActivitiesId__Misc__Label{
+    align-items: center;
+    display: inline-flex;
+    font-size: 1.6rem;
+    font-weight: 700;
+    min-width: 120px;
+}
+
+.RidgeIcon{
+    display: inline-block;
+}
+
+.ActivitiesId__Misc__Icon{
+    margin-right: 8px;
+}
+
+.ActivitiesId__Misc__Value{
+    color: #757575;
+    flex: 1;
+    padding-left: 16px;
+    text-align: right;
+}
+
+.ActivitiesId__Misc__Calorie {
+    align-items: center;
+    color: #000;
+    display: flex;
+    font-size: 1.6rem;
+    justify-content: flex-end;
+}
+
+.ActivitiesId__Misc__ScoreUnit{
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.ActivitiesId__Misc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #d8d8d8;
+    padding: 16px 8px;
+}
+
+
+.ActivitiesId__Misc__MountainName{
+    font-size: 1.4rem;
+}
+
+.ActivitiesId__Misc__MountainLink {
+    color: #25638f;
+    word-break: keep-all;
+    cursor: pointer;
+    font-weight: 700;
+    text-decoration: none;
+    transition-duration: .1s;
+    transition-property: color;
+    transition-timing-function: ease-in;
+}
+
+.ActivitiesId__Misc__MountainLink:hover {
+    color: #6792b1;
+}
+
+.ActivitiesId__Misc__Tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-top: -6px;
+}
+
+.ActivitiesId__Misc__Tag {
+    font-size: 1.4rem;
+    margin-left: 6px;
+    margin-top: 6px;
+}
+
+ul.ActivitiesId__Misc__Tags {
+    list-style: none;
+    margin-block-end: 0;
+}
+
+.ActivitiesId__Misc__TagLink .RidgeLinkButton__Text {
+    display: -webkit-box;
+    overflow: hidden;
+    flex: 1;
+}
+
+.RidgeLinkButton.is-variant-secondary{
+    background: #f0f0f0;
+    color: #000;
+}
+
+.RidgeLinkButton.is-size-s {
+    font-size: 1.4rem;
+    height: 32px;
+    line-height: 1.6rem;
+}
+
+.RidgeLinkButton {
+    align-items: center;
+    border: none;
+    border-radius: 28px;
+    box-sizing: border-box;
+    display: flex;
+    font-weight: 700;
+    justify-content: center;
+    line-height: normal;
+    padding: 0 16px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: .2s;
+    transition-property: opacity, background-color, color, border-color;
+}
+
+@media screen and (min-width: 768px) {
+    .ActivitiesId__MiscCalorie {
+        display: none;
+    }
+
+    .ActivitiesId__Misc__MountainName{
+        font-size: 1.6rem;
+    }
+
+    .ActivitiesId__Misc__Tags {
+        margin-top: -8px;
+    }
+
+    .ActivitiesId__Misc__Tag {
+        font-size: 1.6rem;
+        margin-left: 8px;
+        margin-top: 8px;
+    }
+    
+}

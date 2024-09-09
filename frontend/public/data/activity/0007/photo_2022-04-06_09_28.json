@@ -1,0 +1,68 @@
+[
+  {
+    "date_time": "2022.04.06(水) 10:16",
+    "photo_name": "photo_0007_01_1722765280.webp",
+    "photo_comment": "アンノ滝",
+    "domo": 0,
+    "aspect_ratio": 150.0,
+    "coordinates": [
+      33.483091,
+      130.254015
+    ]
+  },
+  {
+    "date_time": "2022.04.06(水) 12:54",
+    "photo_name": "photo_0007_02_1722765280.webp",
+    "photo_comment": "井原山の眺望1",
+    "domo": 0,
+    "aspect_ratio": 66.7,
+    "coordinates": [
+      33.47055,
+      130.249434
+    ]
+  },
+  {
+    "date_time": "2022.04.06(水) 12:59",
+    "photo_name": "photo_0007_03_1722765280.webp",
+    "photo_comment": "井原山の眺望2",
+    "domo": 0,
+    "aspect_ratio": 66.7,
+    "coordinates": [
+      33.47055,
+      130.249434
+    ]
+  },
+  {
+    "date_time": "2022.04.06(水) 14:04",
+    "photo_name": "photo_0007_04_1722765280.webp",
+    "photo_comment": "冨士山の眺望",
+    "domo": 0,
+    "aspect_ratio": 66.7,
+    "coordinates": [
+      33.478118,
+      130.234062
+    ]
+  },
+  {
+    "date_time": "2022.04.06(水) 14:42",
+    "photo_name": "photo_0007_05_1722765280.webp",
+    "photo_comment": "雷山の眺望",
+    "domo": 0,
+    "aspect_ratio": 66.7,
+    "coordinates": [
+      33.478767,
+      130.223456
+    ]
+  },
+  {
+    "date_time": "2022.04.06(水) 16:21",
+    "photo_name": "photo_0007_06_1722765280.webp",
+    "photo_comment": "清賀の滝",
+    "domo": 0,
+    "aspect_ratio": 150.0,
+    "coordinates": [
+      33.48661,
+      130.228864
+    ]
+  }
+]

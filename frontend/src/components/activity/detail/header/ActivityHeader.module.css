@@ -1,0 +1,80 @@
+.ActivitiesId__Record{
+    margin: 32px 0 16px;
+}
+
+.ActivityRecord__Container{
+    display: flex;
+    justify-content: space-between
+}
+
+.ActivityRecord__Item{
+    padding: 0 2px;
+    text-align: center;
+    width: 20%;
+}
+
+.ActivityRecord__Label{
+    align-items: center;
+    color: #757575;
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 400;
+    justify-content: center;
+    margin-right: 4px;
+    fill:#757575;
+}
+
+.ActivityRecord__Icon{
+    margin-right: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Safariブラウザは標準のuser-selectプロパティをサポートしていないことによる対応 */
+    -webkit-user-select: none; 
+    user-select: none;
+}
+
+.ActivityRecord__Icon :global(.RidgeIcon__Body){
+    width: 16px;
+    height: 16px;
+}
+
+.ActivityRecord__Score{
+    color: #000;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1;
+    margin-top: 8px;
+}
+
+.ActivityRecord__ScoreUnit {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 767px) {
+    .ActivityRecord__Calorie{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .ActivityRecord__Label {
+        font-size: 1.8rem;
+        margin-right: 8px;
+    }
+    .ActivityRecord__Icon{
+        margin-right: 8px;
+    }
+    .ActivityRecord__Icon :global(.RidgeIcon__Body){
+        width: 24px;
+        height: 24px;
+    }
+    .ActivityRecord__Score{
+        font-size: 4rem;
+        margin-top: 12px;
+    }
+    .ActivityRecord__ScoreUnit{
+        font-size: 2.4rem;
+    }
+}

@@ -1,0 +1,173 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "内山",
+        "type": 26,
+        "id": "0001",
+        "stay_times": [
+          {
+            "start": "2023-02-16T08:53:43+09:00",
+            "end": "2023-02-16T08:53:55+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.55025,
+          33.528306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "竈門神社",
+        "type": 29,
+        "id": "0002",
+        "stay_times": [
+          {
+            "start": "2023-02-16T08:55:56+09:00",
+            "end": "2023-02-16T08:57:04+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.552139,
+          33.528861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "宝満山登山口",
+        "type": 7,
+        "id": "0003",
+        "stay_times": [
+          {
+            "start": "2023-02-16T08:57:54+09:00",
+            "end": "2023-02-16T08:59:41+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.552889,
+          33.529806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "宝満山",
+        "type": 4,
+        "id": "0004",
+        "stay_times": [
+          {
+            "start": "2023-02-16T10:59:07+09:00",
+            "end": "2023-02-16T11:24:54+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.569056,
+          33.539917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "仏頂山",
+        "type": 4,
+        "id": "0005",
+        "stay_times": [
+          {
+            "start": "2023-02-16T11:37:44+09:00",
+            "end": "2023-02-16T11:47:07+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.572333,
+          33.542333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "河原谷の大つらら（難所ヶ滝）",
+        "type": 38,
+        "id": "0006",
+        "stay_times": [
+          {
+            "start": "2023-02-16T12:42:30+09:00",
+            "end": "2023-02-16T13:11:48+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.573472,
+          33.546028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "河原谷登山口",
+        "type": 7,
+        "id": "0008",
+        "stay_times": [
+          {
+            "start": "2023-02-16T14:40:58+09:00",
+            "end": "2023-02-16T14:42:16+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.5615,
+          33.553194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "宇美（猫目）新道登山口",
+        "type": 7,
+        "id": "0009",
+        "stay_times": [
+          {
+            "start": "2023-02-16T14:44:48+09:00",
+            "end": "2023-02-16T14:47:09+09:00"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.559306,
+          33.553778
+        ]
+      }
+    }
+  ]
+}

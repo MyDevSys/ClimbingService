@@ -1,0 +1,135 @@
+/* 検索ボックスの背景色などのスタイルを設定 */
+.Autocomplete__Input {
+  background-color: white;
+  border-radius: 4px;
+}
+
+/* 検索ボックスの入力スタイルを指定 */
+.Autocomplete__Input :global(.MuiInputBase-input) {
+  font-size: 1.6rem;
+  color: #606266;
+  height: 40px; 
+  padding: 0 0 0 10px !important;
+}
+
+/* 検索ボックスの親要素のパディングのスタイルを指定 */
+.Autocomplete__Input :global(.MuiInputBase-root) {
+  padding: 0 !important; 
+}
+
+
+/* 検索ボックスのボーター色の変更 */
+.Autocomplete__Input :global(.MuiOutlinedInput-root) {
+  /* 通常時 */
+  & :global(.MuiOutlinedInput-notchedOutline){
+    border: 1px solid #d8d8d8;
+  }
+  /* ホバー時 */
+  &:global(.Mui-focused) :global(.MuiOutlinedInput-notchedOutline){
+    border: 1px solid #cf0010;
+  }
+}
+
+/* 検索ボックス内のアイコンのスタイル設定 */
+.Autocomplete__Input__Icon{
+  margin: 8px;
+  color: #c0c4cc;
+}
+
+
+/* 検索ボックスの検索キーワード候補リストの設定 */
+.Autocomplete__List{
+  display: flex;
+  align-items: center;
+  padding: 0px 12px 0px 13px;
+  height: 34px;
+  justify-content: space-between;
+}
+
+.Autocomplete__List:hover{
+  background-color: #f5f7fa;
+}
+
+.Autocomplete__List:global(.Mui-focused){
+  background-color: #f5f7fa;
+}
+
+.Autocomplete__List__Text :global(.MuiTypography-root){
+  font-size: 14px;
+  color: black;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.Autocomplete__List__Icon{
+  width: 14px;
+  height: 14px;
+  color: black;
+  margin-left: 5px;
+}
+
+.Autocomplete__List :global(.MuiListItemIcon-root){
+  width: 15px;
+  min-width: 15px;
+  padding-right: 2px;
+}
+
+.Autocomplete__No__Options{
+  font-size: 14px;
+  color: black;
+}
+
+.Autocomplete__Keyword__Container{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Autocomplete__Keyword__Item{
+  background-color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+}
+
+.Autocomplete__Keyword__Text{
+  font-size: 1.2rem;
+  color: black;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.Autocomplete__Keyword__Button{
+  background: none;
+  border: none;
+  color: black;
+  margin-left: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1;
+}
+
+/* スクロールバーのトラックのスタイル */
+.Autocomplete__scrollbar::-webkit-scrollbar {
+  width: 10px; 
+}
+
+.Autocomplete__scrollbar::-webkit-scrollbar-track {
+  background: white; 
+}
+
+.Autocomplete__scrollbar::-webkit-scrollbar-thumb {
+  background: #cdcdcd; /* スクロールバーのハンドル */
+  border-radius: 6px; /* スクロールバーのハンドルの角を丸くする */
+  min-height: 100px; /* サムの最小高さを設定 */
+  box-shadow: inset 0 0 0 2px white; 
+}
+
+.Autocomplete__scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #b4b4b4; /* ホバー時のスクロールバーのハンドル */
+}

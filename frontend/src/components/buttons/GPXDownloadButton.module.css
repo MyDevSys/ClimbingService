@@ -1,0 +1,40 @@
+.BaseButton.is-variant-primary{
+    background: #000;
+    color: #fff;
+}
+
+.BaseButton.is-variant-primary:hover {
+    background: #4d4d4d;
+}
+
+.BaseButton:hover {
+    cursor: pointer;
+}
+
+.BaseButton.is-size-m {
+    font-size: 1.6rem;
+    height: 40px;
+    line-height: 2rem;
+}
+
+.BaseButton {
+    align-items: center;
+    border: none;
+    border-radius: 28px;
+    box-sizing: border-box;
+    display: flex;
+    font-weight: 700;
+    justify-content: center;
+    padding: 0 16px;
+    text-align: center;
+    transition-duration: .2s;
+    transition-property: opacity, background-color, color, border-color;
+}
+
+.ActivitiesId__Misc__DownloadButton {
+    margin-left: auto;
+}
+
+.BaseButton__Text {
+    flex: 0 0 auto;
+}

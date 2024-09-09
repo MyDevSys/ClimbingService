@@ -1,0 +1,112 @@
+{
+  "active_days": 1,
+  "day_info": [
+    {
+      "active_time": {
+        "hr": 7,
+        "min": 21
+      },
+      "rest_time": {
+        "hr": 1,
+        "min": 3
+      },
+      "distance": {
+        "route": 12.4,
+        "up": 988,
+        "down": 994
+      },
+      "check_point": [
+        {
+          "type": 1,
+          "stay_time": [
+            "09:29"
+          ]
+        },
+        {
+          "spot_name": "椎原バス停",
+          "type": 4,
+          "next_point_time": {
+            "hr": 2,
+            "min": 52
+          },
+          "stay_time": [
+            "09:29"
+          ]
+        },
+        {
+          "spot_name": "矢筈峠",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 18
+          },
+          "stay_time": [
+            "12:22",
+            "12:27"
+          ]
+        },
+        {
+          "spot_name": "テントサイト",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 8
+          },
+          "stay_time": [
+            "12:45",
+            "12:47"
+          ]
+        },
+        {
+          "spot_name": "脊振山",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 6
+          },
+          "stay_time": [
+            "12:56",
+            "13:59"
+          ]
+        },
+        {
+          "spot_name": "テントサイト",
+          "type": 5,
+          "next_point_time": {
+            "hr": 0,
+            "min": 14
+          },
+          "stay_time": [
+            "14:06",
+            "14:08"
+          ]
+        },
+        {
+          "spot_name": "矢筈峠",
+          "type": 5,
+          "next_point_time": {
+            "hr": 2,
+            "min": 24
+          },
+          "stay_time": [
+            "14:23",
+            "14:25"
+          ]
+        },
+        {
+          "spot_name": "椎原バス停",
+          "type": 4,
+          "stay_time": [
+            "16:49"
+          ]
+        },
+        {
+          "type": 2,
+          "stay_time": [
+            "16:50"
+          ]
+        }
+      ]
+    }
+  ]
+}
