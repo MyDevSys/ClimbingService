@@ -1,0 +1,22 @@
+[
+    {
+        "model": "climbing.contract",
+        "fields": {
+            "contract_start_at": "2024-01-01 00:00:00",
+            "domo_points":0,
+            "is_news_subscribed":false,
+            "user":1,
+            "plan":1
+        }
+    },
+    {
+        "model": "climbing.contract",
+        "fields": {
+            "contract_start_at": "2024-01-02 00:00:00",
+            "domo_points":0,
+            "is_news_subscribed":false,
+            "user":2,
+            "plan":2
+        }
+    }
+]

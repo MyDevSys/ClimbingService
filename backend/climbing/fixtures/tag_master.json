@@ -1,0 +1,248 @@
+[
+    {
+        "model": "climbing.tagmaster",
+        "fields": {
+            "name": "登山"
+        }
+    },
+    {
+        "model": "climbing.tagmaster",
+        "fields": {
+            "name": "山歩"
+        }
+    },
+    {
+        "model": "climbing.tagmaster",
+        "fields": {
+            "name": "縦走"
+        }
+    },
+    {
+        "model": "climbing.tagmaster",
+        "fields": {
+            "name": "低山"
+        }
+    },
+    {
+        "model": "climbing.tagmaster",
+        "fields": {
+            "name": "トレイルランニング"
+        }
+    },
+    {
+        "model": "climbing.tagmaster",
+        "fields": {
+            "name": "ハイキング"
+        }
+    },
+    {
+        "model": "climbing.tagmaster",
+        "fields": {
+            "name": "ウォーキング"
+        }
+    },
+    {
+        "model": "climbing.tagmaster",
+        "fields": {
+            "name": "ランニング"
+        }
+    },
+    {
+        "model": "climbing.tagmaster",
+        "fields": {
+            "name": "スキー"
+        }
+    },
+    {
+        "model": "climbing.tagmaster",
+        "fields": {
+            "name": "スノーボード"
+        }
+    },
+    {
+        "model": "climbing.tagmaster",
+        "fields": {
+            "name": "バックカントリー"
+        }
+    },
+    {
+        "model": "climbing.tagmaster",
+        "fields": {
+            "name": "クロスカントリースキー"
+        }
+    },
+    {
+        "model": "climbing.tagmaster",
+        "fields": {
+            "name": "海釣り"
+        }
+    },
+    {
+        "model": "climbing.tagmaster",
+        "fields": {
+            "name": "渓流釣り"
+        }
+    },
+    {
+        "model": "climbing.tagmaster",
+        "fields": {
+            "name": "サイクリング"
+        }
+    },
+    {
+        "model": "climbing.tagmaster",
+        "fields": {
+            "name": "沢登り"
+        }
+    },
+    {
+        "model": "climbing.tagmaster",
+        "fields": {
+            "name": "クライミング"
+        }
+    },
+    {
+        "model": "climbing.tagmaster",
+        "fields": {
+            "name": "カヌー"
+        }
+    },
+    {
+        "model": "climbing.tagmaster",
+        "fields": {
+            "name": "オートキャンプ"
+        }
+    },
+    {
+        "model": "climbing.tagmaster",
+        "fields": {
+            "name": "巡礼"
+        }
+    },
+    {
+        "model": "climbing.tagmaster",
+        "fields": {
+            "name": "お遍路"
+        }
+    },
+    {
+        "model": "climbing.tagmaster",
+        "fields": {
+            "name": "ロングトレイル"
+        }
+    },
+    {
+        "model": "climbing.tagmaster",
+        "fields": {
+            "name": "観光"
+        }
+    },
+    {
+        "model": "climbing.tagmaster",
+        "fields": {
+            "name": "晴れ"
+        }
+    },
+    {
+        "model": "climbing.tagmaster",
+        "fields": {
+            "name": "曇り"
+        }
+    },
+    {
+        "model": "climbing.tagmaster",
+        "fields": {
+            "name": "雨"
+        }
+    },
+    {
+        "model": "climbing.tagmaster",
+        "fields": {
+            "name": "雪"
+        }
+    },
+    {
+        "model": "climbing.tagmaster",
+        "fields": {
+            "name": "雷"
+        }
+    },
+    {
+        "model": "climbing.tagmaster",
+        "fields": {
+            "name": "春(3～5月)"
+        }
+    },
+    {
+        "model": "climbing.tagmaster",
+        "fields": {
+            "name": "夏(6～8月)"
+        }
+    },
+    {
+        "model": "climbing.tagmaster",
+        "fields": {
+            "name": "秋(9～11月)"
+        }
+    },
+    {
+        "model": "climbing.tagmaster",
+        "fields": {
+            "name": "冬(12～2月)"
+        }
+    },
+    {
+        "model": "climbing.tagmaster",
+        "fields": {
+            "name": "1人(ソロ)"
+        }
+    },
+    {
+        "model": "climbing.tagmaster",
+        "fields": {
+            "name": "2～5人"
+        }
+    },
+    {
+        "model": "climbing.tagmaster",
+        "fields": {
+            "name": "6～10人"
+        }
+    },
+    {
+        "model": "climbing.tagmaster",
+        "fields": {
+            "name": "11人以上"
+        }
+    },
+    {
+        "model": "climbing.tagmaster",
+        "fields": {
+            "name": "日帰り"
+        }
+    },
+    {
+        "model": "climbing.tagmaster",
+        "fields": {
+            "name": "テント泊"
+        }
+    },
+    {
+        "model": "climbing.tagmaster",
+        "fields": {
+            "name": "山小屋"
+        }
+    },
+    {
+        "model": "climbing.tagmaster",
+        "fields": {
+            "name": "車中泊"
+        }
+    },
+    {
+        "model": "climbing.tagmaster",
+        "fields": {
+            "name": "ハンモック泊"
+        }
+    }
+]

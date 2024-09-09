@@ -1,0 +1,20 @@
+[
+    {
+        "model": "climbing.gendermaster",
+        "fields": {
+            "name": "男性"
+        }
+    },
+    {
+        "model": "climbing.gendermaster",
+        "fields": {
+            "name": "女性"
+        }
+    },
+    {
+        "model": "climbing.gendermaster",
+        "fields": {
+            "name": "その他"
+        }
+    }
+]

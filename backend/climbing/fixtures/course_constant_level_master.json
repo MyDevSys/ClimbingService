@@ -1,0 +1,25 @@
+[
+    {
+        "model": "climbing.courseconstantlevelmaster",
+        "fields": {
+            "min": 1,
+            "max": 11,
+            "level":"やさしい"
+        }
+    },
+    {
+        "model": "climbing.courseconstantlevelmaster",
+        "fields": {
+            "min": 12,
+            "max": 24,
+            "level":"ふつう"
+        }
+    },
+    {
+        "model": "climbing.courseconstantlevelmaster",
+        "fields": {
+            "min": 25,
+            "level":"きつい"
+        }
+    }
+]

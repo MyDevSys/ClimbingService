@@ -1,0 +1,17 @@
+[
+    {
+        "model": "climbing.planmaster",
+        "fields": {
+            "name": "無料プラン",
+            "price": 0
+        }
+    },
+    {
+        "model": "climbing.planmaster",
+        "fields": {
+            "name": "有料プラン",
+            "duration": 365,
+            "price": 5000
+        }
+    }
+]

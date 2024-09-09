@@ -1,0 +1,23 @@
+[
+    {
+        "model": "climbing.useractivityprefecture",
+        "fields": {
+            "user": 2,
+            "prefecture": 40
+        }
+    },
+    {
+        "model": "climbing.useractivityprefecture",
+        "fields": {
+            "user": 2,
+            "prefecture": 41
+        }
+    },
+    {
+        "model": "climbing.useractivityprefecture",
+        "fields": {
+            "user": 2,
+            "prefecture": 44
+        }
+    }
+]

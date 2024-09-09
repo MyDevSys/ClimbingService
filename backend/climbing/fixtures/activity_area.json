@@ -1,0 +1,191 @@
+[
+  {
+    "model": "climbing.activityarea",
+    "fields": {
+      "activity": 1,
+      "area": 1
+    }
+  },
+  {
+    "model": "climbing.activityarea",
+    "fields": {
+      "activity": 2,
+      "area": 2
+    }
+  },
+  {
+    "model": "climbing.activityarea",
+    "fields": {
+      "activity": 3,
+      "area": 3
+    }
+  },
+  {
+    "model": "climbing.activityarea",
+    "fields": {
+      "activity": 4,
+      "area": 4
+    }
+  },
+  {
+    "model": "climbing.activityarea",
+    "fields": {
+      "activity": 5,
+      "area": 6
+    }
+  },
+  {
+    "model": "climbing.activityarea",
+    "fields": {
+      "activity": 6,
+      "area": 1
+    }
+  },
+  {
+    "model": "climbing.activityarea",
+    "fields": {
+      "activity": 7,
+      "area": 5
+    }
+  },
+  {
+    "model": "climbing.activityarea",
+    "fields": {
+      "activity": 8,
+      "area": 6
+    }
+  },
+  {
+    "model": "climbing.activityarea",
+    "fields": {
+      "activity": 9,
+      "area": 7
+    }
+  },
+  {
+    "model": "climbing.activityarea",
+    "fields": {
+      "activity": 10,
+      "area": 8
+    }
+  },
+  {
+    "model": "climbing.activityarea",
+    "fields": {
+      "activity": 11,
+      "area": 2
+    }
+  },
+  {
+    "model": "climbing.activityarea",
+    "fields": {
+      "activity": 12,
+      "area": 4
+    }
+  },
+  {
+    "model": "climbing.activityarea",
+    "fields": {
+      "activity": 13,
+      "area": 9
+    }
+  },
+  {
+    "model": "climbing.activityarea",
+    "fields": {
+      "activity": 14,
+      "area": 10
+    }
+  },
+  {
+    "model": "climbing.activityarea",
+    "fields": {
+      "activity": 15,
+      "area": 10
+    }
+  },
+  {
+    "model": "climbing.activityarea",
+    "fields": {
+      "activity": 16,
+      "area": 15
+    }
+  },
+  {
+    "model": "climbing.activityarea",
+    "fields": {
+      "activity": 17,
+      "area": 4
+    }
+  },
+  {
+    "model": "climbing.activityarea",
+    "fields": {
+      "activity": 18,
+      "area": 4
+    }
+  },
+  {
+    "model": "climbing.activityarea",
+    "fields": {
+      "activity": 19,
+      "area": 11
+    }
+  },
+  {
+    "model": "climbing.activityarea",
+    "fields": {
+      "activity": 20,
+      "area": 12
+    }
+  },
+  {
+    "model": "climbing.activityarea",
+    "fields": {
+      "activity": 21,
+      "area": 13
+    }
+  },
+  {
+    "model": "climbing.activityarea",
+    "fields": {
+      "activity": 22,
+      "area": 10
+    }
+  },
+  {
+    "model": "climbing.activityarea",
+    "fields": {
+      "activity": 23,
+      "area": 4
+    }
+  },
+  {
+    "model": "climbing.activityarea",
+    "fields": {
+      "activity": 24,
+      "area": 14
+    }
+  },
+  {
+    "model": "climbing.activityarea",
+    "fields": {
+      "activity": 25,
+      "area": 3
+    }
+  },
+  {
+    "model": "climbing.activityarea",
+    "fields": {
+      "activity": 26,
+      "area": 11
+    }
+  },
+  {
+    "model": "climbing.activityarea",
+    "fields": {
+      "activity": 27,
+      "area": 4
+    }
+  }
+]
