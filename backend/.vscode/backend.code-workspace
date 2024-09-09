@@ -23,7 +23,7 @@
 			},
 			"my-pwsh": {
 				"source": "PowerShell",
-				"args": ["-NoExit", "-Command", "C:/Python/venv/backend/Scripts/activate.ps1"]
+				"args": ["-NoExit", "-Command", "C:/開発/ClimbingService/venv/Scripts/activate.ps1"]
 			}
 		},
 		"terminal.integrated.defaultProfile.windows": "my-pwsh"
