@@ -66,7 +66,27 @@ export const DataSet = ({ children, data }) => {
       resetActivity();
       resetFilePath();
     };
-  }, [data]);
+  }, [
+    data,
+    resetActivity,
+    resetAveragePace,
+    resetCheckPoints,
+    resetCoordinates,
+    resetFilePath,
+    resetGraphInfo,
+    resetPhotos,
+    resetRestPoints,
+    resetSpots,
+    setActivity,
+    setAveragePace,
+    setCheckPoints,
+    setCoordinates,
+    setFilePath,
+    setGraphInfo,
+    setPhotos,
+    setRestPoints,
+    setSpots,
+  ]);
 
   // ローディング画面の表示
   if (isLoading) {
