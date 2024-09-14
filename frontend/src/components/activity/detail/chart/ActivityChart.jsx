@@ -24,7 +24,7 @@ const remToPx = (rem) => {
   return rem * parseFloat(getComputedStyle(document.documentElement).fontSize);
 };
 
-//　タイムスタンプの表示文字列のフォーマット関数
+// タイムスタンプの表示文字列のフォーマット関数
 const formatTimestamp = (timestamp) => {
   const date = new Date(timestamp);
   const hours = String(date.getHours()).padStart(2, "0");
@@ -307,8 +307,6 @@ const getChartOptions = (graphInfo, type, isActiveChart) => {
   let y_max_axis2;
   let y_min_axis2;
   if (type === TYPE_PACE) {
-    const pace = graphInfo.map((item) => item.average_pace);
-    // y_max_axis2 = Math.ceil(Math.max(...pace) / 100) * 100;
     y_max_axis2 = 300;
     y_min_axis2 = 0;
   }
