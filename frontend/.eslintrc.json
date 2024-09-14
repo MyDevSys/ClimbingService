@@ -1,3 +1,15 @@
 {
-  "extends": ["next", "next/core-web-vitals", "prettier"]
+  "env": {
+    "browser": true,  // ブラウザ環境のグローバルオブジェクトを有効にする
+    "es2021": true    // ES6+ (ES2021)の機能を有効にする
+  },
+  "extends": [
+    "next",
+    "next/core-web-vitals",
+    "eslint:recommended", 
+    "prettier"  // Prettierでフォーマット関連のルールを無効化
+  ],
+  "rules": {
+    "no-unused-vars": ["error", { "argsIgnorePattern": "^_" }]
+  }
 }
