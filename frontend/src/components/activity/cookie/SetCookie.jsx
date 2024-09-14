@@ -17,7 +17,7 @@ export const SetCookie = React.memo(
     useEffect(() => {
       if (setCookies) {
         // cookieの設定要求関数
-        async function apiFetch() {
+        const apiFetch = async () => {
           try {
             // cookieの設定要求
             await clientFetch.setCookie(setCookies);
@@ -27,7 +27,7 @@ export const SetCookie = React.memo(
             log.error(`${SetCookie.displayName} error (${error.message})`);
             router.push(URL_PATH.LOGIN);
           }
-        }
+        };
 
         apiFetch();
       }
