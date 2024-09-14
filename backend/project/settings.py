@@ -12,8 +12,40 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 
 import os
 import datetime
+import requests
 from pathlib import Path
 from datetime import timedelta
+
+
+VAULT_ADDR = os.environ.get("VAULT_ADDR")
+if not VAULT_ADDR:
+    raise Exception("VAULT_ADDR is not set in the environment")
+
+
+try:
+    VAULT_TOKEN_FILE = "/etc/vault.d/token.txt"
+    with open(VAULT_TOKEN_FILE, "r") as token_file:
+        VAULT_TOKEN = token_file.read().strip()
+except FileNotFoundError:
+    raise Exception(f"Vault token file not found at {VAULT_TOKEN_FILE}")
+
+
+# Vaultからシークレットを取得する関数
+def get_vault_secret(path):
+    url = f"{VAULT_ADDR}/v1/{path}"
+    headers = {"X-Vault-Token": VAULT_TOKEN}
+
+    try:
+        response = requests.get(url, headers=headers)
+        response.raise_for_status()  # エラーがあれば例外を発生させる
+
+        # シークレットデータをJSONとして取得
+        return response.json().get("data", {}).get("data", {})
+    except requests.exceptions.RequestException as e:
+        raise Exception(f"Error fetching secret from Vault: {e}")
+
+
+vault_data = get_vault_secret("secret/data/climbing-service/backend")
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -22,17 +54,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-txo!7#(asz(nhn2x8fa%4rhu9ymb2_*wtv$$7^9@+tb@6w^h07"
+SECRET_KEY = vault_data.get("SECRET_KEY")
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = vault_data.get("DEBUG", False)
 
-ALLOWED_HOSTS = ["climbing-mountain.com", "api.climbing-mountain.com", "127.0.0.1"]
-
+ALLOWED_HOSTS = vault_data.get("ALLOWED_HOSTS").split(",")
 
 # Application definition
-
 INSTALLED_APPS = [
     "django.contrib.admin",
     "django.contrib.auth",
@@ -66,13 +94,9 @@ MIDDLEWARE = [
 
 CORS_ALLOW_CREDENTIALS = True
 
-CORS_ALLOWED_ORIGINS = [
-    "https://climbing-mountain.com",
-]
+CORS_ALLOWED_ORIGINS = vault_data.get("CORS_ALLOWED_ORIGINS").split(",")
 
-CSRF_TRUSTED_ORIGINS = [
-    "https://climbing-mountain.com",
-]
+CSRF_TRUSTED_ORIGINS = vault_data.get("CSRF_TRUSTED_ORIGINS").split(",")
 
 ROOT_URLCONF = "project.urls"
 
@@ -145,6 +169,8 @@ SIMPLE_JWT = {
     "TOKEN_USER_CLASS": "climbing.models.MyCustomTokenUser",
     # トークンの識別子（JTI: JWT ID）を示すクレーム名を設定
     "JTI_CLAIM": "jti",
+    # トークンを設定するcookieに指定するドメイン
+    "DOMAIN": vault_data.get("COOKIE_DOMAIN"),
 }
 
 AUTHENTICATION_BACKENDS = (
@@ -155,11 +181,11 @@ AUTHENTICATION_BACKENDS = (
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.mysql",
-        "NAME": "climbing",
-        "USER": "root",
-        "PASSWORD": "qnusxt2q",
-        "HOST": "localhost",
-        "PORT": "3306",
+        "NAME": vault_data.get("DB_NAME"),
+        "USER": vault_data.get("DB_USER"),
+        "PASSWORD": vault_data.get("DB_PASSWORD"),
+        "HOST": vault_data.get("DB_HOST"),
+        "PORT": vault_data.get("DB_PORT"),
         "ATOMIC_REQUESTS": True,
     }
 }
@@ -214,10 +240,8 @@ CSRF_COOKIE_NAME = "csrftoken"
 # CSRFトークンをHTTPヘッダーに含める際のカスタムヘッダー名
 CSRF_HEADER_NAME = "HTTP_X_CSRFTOKEN"
 # CSRFトークンを含むCookieが適用されるドメイン
-CSRF_COOKIE_DOMAIN = ".climbing-mountain.com"
+CSRF_COOKIE_DOMAIN = vault_data.get("COOKIE_DOMAIN")
 
-# SSL_CERTIFICATE = "C:/AP/nginx-1.26.1/cert/api.climbing-mountain.com.pem"
-# SSL_KEY = "C:/AP/nginx-1.26.1/cert/api.climbing-mountain.com-key.pem"
 
 # logs ディレクトリのベースディレクトリを設定
 log_base_dir = os.path.join(BASE_DIR, "logs")

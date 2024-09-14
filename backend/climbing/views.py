@@ -114,7 +114,7 @@ class AuthTokenObtainPairView(TokenObtainPairView):
             secure=settings.SIMPLE_JWT["AUTH_COOKIE_SECURE"],
             samesite=settings.SIMPLE_JWT["AUTH_COOKIE_SAMESITE"],
             httponly=True,
-            domain=".climbing-mountain.com",
+            domain=settings.SIMPLE_JWT["DOMAIN"],
         )
         # リフレッシュトークンをcookieに設定
         response.set_cookie(
@@ -124,7 +124,7 @@ class AuthTokenObtainPairView(TokenObtainPairView):
             secure=settings.SIMPLE_JWT["AUTH_COOKIE_SECURE"],
             samesite=settings.SIMPLE_JWT["AUTH_COOKIE_SAMESITE"],
             httponly=True,
-            domain=".climbing-mountain.com",
+            domain=settings.SIMPLE_JWT["DOMAIN"],
         )
         # ユーザーIDをcookieに設定
         response.set_cookie(
@@ -134,7 +134,7 @@ class AuthTokenObtainPairView(TokenObtainPairView):
             secure=settings.SIMPLE_JWT["AUTH_COOKIE_SECURE"],
             samesite=settings.SIMPLE_JWT["AUTH_COOKIE_SAMESITE"],
             httponly=False,
-            domain=".climbing-mountain.com",
+            domain=settings.SIMPLE_JWT["DOMAIN"],
         )
         return response
 
@@ -214,7 +214,7 @@ class AuthTokenRefreshView(TokenRefreshView):
             secure=settings.SIMPLE_JWT["AUTH_COOKIE_SECURE"],
             samesite=settings.SIMPLE_JWT["AUTH_COOKIE_SAMESITE"],
             httponly=True,
-            domain=".climbing-mountain.com",
+            domain=settings.SIMPLE_JWT["DOMAIN"],
         )
         # リフレッシュトークンをcookieに設定
         response.set_cookie(
@@ -224,7 +224,7 @@ class AuthTokenRefreshView(TokenRefreshView):
             secure=settings.SIMPLE_JWT["AUTH_COOKIE_SECURE"],
             samesite=settings.SIMPLE_JWT["AUTH_COOKIE_SAMESITE"],
             httponly=True,
-            domain=".climbing-mountain.com",
+            domain=settings.SIMPLE_JWT["DOMAIN"],
         )
         # ユーザーIDをcookieに設定
         response.set_cookie(
@@ -234,7 +234,7 @@ class AuthTokenRefreshView(TokenRefreshView):
             secure=settings.SIMPLE_JWT["AUTH_COOKIE_SECURE"],
             samesite=settings.SIMPLE_JWT["AUTH_COOKIE_SAMESITE"],
             httponly=True,
-            domain=".climbing-mountain.com",
+            domain=settings.SIMPLE_JWT["DOMAIN"],
         )
 
         return response
@@ -654,6 +654,7 @@ class UserProfile(APIView):
             user_instance,
             fields=["id", "is_paid", "name", "gender", "birth_year", "activity_prefecture"],
         ).data
+        
         contract_data = ContractSerializer(user_instance.contract, fields=["domo_points"]).data
 
         # 辞書をマージ
