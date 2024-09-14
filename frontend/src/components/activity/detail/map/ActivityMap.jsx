@@ -1,7 +1,7 @@
 "use client";
 
 import L from "leaflet";
-import React, { useEffect, useState, useRef, useLayoutEffect } from "react";
+import React, { useEffect, useState, useRef, useLayoutEffect, useCallback } from "react";
 import {
   MapContainer,
   TileLayer,
@@ -12,7 +12,7 @@ import {
   CircleMarker,
 } from "react-leaflet";
 import Link from "next/link";
-import { useRecoilValue, useRecoilState } from "recoil";
+import { useRecoilValue, useRecoilState, useSetRecoilState } from "recoil";
 import { createPortal } from "react-dom";
 import { getColor } from "@utils/style/color";
 import { ICON_IDS, FILE_URL_PATH, GSI_TILE_URL, URL_PATH, FILE_NAME } from "@data/constants";
@@ -27,6 +27,7 @@ import {
   routeRestPointsState,
   routePhotosState,
   activityState,
+  isZoomActivityMapState,
 } from "@state/atoms";
 import AddIcon from "@mui/icons-material/Add";
 import RemoveIcon from "@mui/icons-material/Remove";
@@ -43,7 +44,7 @@ import styles from "./ActivityMap.module.css";
 const ControlPanel = ({ isEnlargedMap, activity_id }) => {
   const map = useMap();
   const [controlPanel, setControlPanel] = useState(false);
-
+  const isZoomMap = useRecoilValue(isZoomActivityMapState);
   //コントロールパネルの初期設定
   useEffect(() => {
     // 処理終了条件
@@ -78,6 +79,7 @@ const ControlPanel = ({ isEnlargedMap, activity_id }) => {
     <>
       {map &&
         controlPanel &&
+        !isZoomMap &&
         createPortal(
           <ButtonPanel
             linkDetailURL={URL_PATH.TRACK.set(activity_id)}
@@ -289,9 +291,16 @@ const ActivityMapper = ({ activity_id, isEnlargedMap }) => {
 const Routes = ({ coordinates }) => {
   const map = useMap();
   const polylineRef = useRef();
+  const setIsZoomMap = useSetRecoilState(isZoomActivityMapState);
 
   // 走行ルート全体が見えるように地図の表示領域を調整
   useLayoutEffect(() => {
+    map.on("moveend", () => {
+      setTimeout(() => {
+        setIsZoomMap(false);
+      }, 150);
+    });
+
     if (coordinates.length > 0 && polylineRef.current) {
       map.fitBounds(polylineRef.current.getBounds(), {
         padding: [60, 60], // 上下左右に余白を追加
@@ -300,7 +309,7 @@ const Routes = ({ coordinates }) => {
 
     // クリーンアップ処理
     return () => {};
-  }, []);
+  }, [coordinates.length, map, setIsZoomMap]);
 
   return (
     <>
@@ -343,7 +352,7 @@ const Spots = ({ spots }) => {
 const Pace = ({ coordinates, averagePace, isEnlargedMap }) => {
   const polylineRef = useRef([]);
   const isPaceButtonOn = useRecoilValue(isPaceButtonOnState);
-
+  const isZoomMap = useRecoilValue(isZoomActivityMapState);
   // 平均ペース表示ボタンのON/OFFによるコンポーネントの表示/非表示設定
   useEffect(() => {
     // 着色したポリラインの表示/非表示設定
@@ -377,7 +386,7 @@ const Pace = ({ coordinates, averagePace, isEnlargedMap }) => {
           }}
         />
       ))}
-      <PaceColorBar isButtonOn={isPaceButtonOn} isEnlargedMap={isEnlargedMap} />
+      {!isZoomMap && <PaceColorBar isButtonOn={isPaceButtonOn} isEnlargedMap={isEnlargedMap} />}
     </>
   );
 };
@@ -394,7 +403,7 @@ const PaceColorBar = ({ isButtonOn, isEnlargedMap }) => {
 
     // カラーバーのカスタムコントロールクラスを作成
     const ColorBar = L.Control.extend({
-      onAdd: function (map) {
+      onAdd: function () {
         // カラーバーのイメージ図の要素作成と設定
         const img = L.DomUtil.create("img");
         img.src = `${FILE_URL_PATH.IMAGE}/${FILE_NAME.PACE_BAR}`;
@@ -429,11 +438,11 @@ const PaceColorBar = ({ isButtonOn, isEnlargedMap }) => {
         return barContainer;
       },
 
-      onRemove: function (map) {},
+      onRemove: function () {},
     });
 
     // カラーバーのインスタンスを作成
-    const customBar = new ColorBar({ position: "bottomright" }).addTo(map);
+    const customBar = new ColorBar({ position: "topright" }).addTo(map);
 
     // クリーンアップ処理
     return () => {
@@ -442,6 +451,7 @@ const PaceColorBar = ({ isButtonOn, isEnlargedMap }) => {
         map.removeControl(customBar);
       }
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [map]);
 
   // カラーバーの表示/非表示を切り替え
@@ -654,27 +664,30 @@ const ActivePoint = () => {
 };
 
 // イベント登録コンポーネント
-const Event = ({ activity_id }) => {
+const Event = ({ activity_id, isEnlargedMap }) => {
   const map = useMap();
 
   // 全画面で走行ルート情報を表示する画面を開くクリックイベントハンドラ関数
-  const onMapClick = () => {
+  const onMapClick = useCallback(() => {
     const linkDetailURL = URL_PATH.TRACK.set(activity_id);
 
     window.open(linkDetailURL, "_blank", "noopener,noreferrer");
-  };
+  }, [activity_id]);
 
   // メディアクエリのイベントハンドラ関数
-  const handleMediaQueryChange = (e) => {
-    // ブラウザの幅が条件にマッチした場合
-    if (e.matches) {
-      // 地図のページリンクのイベント登録
-      map?.on("click", onMapClick);
-    } else {
-      // 地図のページリンクのイベント削除
-      map?.off("click", onMapClick);
-    }
-  };
+  const handleMediaQueryChange = useCallback(
+    (e) => {
+      // ブラウザの幅が条件にマッチした場合
+      if (e.matches) {
+        // 地図のページリンクのイベント登録
+        map?.on("click", onMapClick);
+      } else {
+        // 地図のページリンクのイベント削除
+        map?.off("click", onMapClick);
+      }
+    },
+    [map, onMapClick],
+  );
 
   // イベント伝播停止のイベントハンドラ関数
   const stopPropagationHandler = (e) => {
@@ -686,11 +699,13 @@ const Event = ({ activity_id }) => {
     // メディアクエリを作成
     const mediaQuery = window.matchMedia("(max-width: 767px)");
 
-    // 画面サイズに伴う地図のクリック時の動作設定
-    handleMediaQueryChange(mediaQuery);
+    if (!isEnlargedMap) {
+      // 画面サイズに伴う地図のクリック時の動作設定
+      handleMediaQueryChange(mediaQuery);
 
-    // メディアクエリにイベントリスナーを追加
-    mediaQuery?.addEventListener("change", handleMediaQueryChange);
+      // メディアクエリにイベントリスナーを追加
+      mediaQuery?.addEventListener("change", handleMediaQueryChange);
+    }
 
     // 全てのオーバーレイ（ポリライン、ポリゴン、画像オーバーレイなど）の要素を取得
     const overlayPaneElement = document.querySelector(".leaflet-overlay-pane");
@@ -701,16 +716,18 @@ const Event = ({ activity_id }) => {
 
     // クリーンアップ処理
     return () => {
-      // メディアクエリのイベントリスナー削除
-      mediaQuery?.removeEventListener("change", handleMediaQueryChange);
+      if (!isEnlargedMap) {
+        // メディアクエリのイベントリスナー削除
+        mediaQuery?.removeEventListener("change", handleMediaQueryChange);
 
-      // 地図のページリンクのイベント削除
-      map?.off("click", onMapClick);
+        // 地図のページリンクのイベント削除
+        map?.off("click", onMapClick);
+      }
 
       // オーバーレイのイベントリスナー削除
       overlayPaneElement?.removeEventListener("click", stopPropagationHandler);
     };
-  }, [map]);
+  }, [handleMediaQueryChange, isEnlargedMap, map, onMapClick]);
 
   return null;
 };
@@ -719,6 +736,7 @@ const Event = ({ activity_id }) => {
 const ActivityMap = React.memo(
   ({ activity_id, className, hasWheelZoom = true, isEnlargedMap = true }) => {
     const activity = useRecoilValue(activityState);
+    const isZoomMap = useRecoilValue(isZoomActivityMapState);
 
     useEffect(() => {
       if (activity && isEnlargedMap) {
@@ -733,7 +751,8 @@ const ActivityMap = React.memo(
 
     return (
       <>
-        {activity !== null && (
+        <div className={styles.ActivityMap__Container}>
+          {isZoomMap && <div className={styles.ActivityMap__overlay}></div>}
           <MapContainer
             center={[33.529, 130.55]}
             zoom={10}
@@ -745,11 +764,11 @@ const ActivityMap = React.memo(
           >
             <TileLayer url={GSI_TILE_URL} maxZoom={18} minZoom={5} />
             <ControlPanel activity_id={activity_id} isEnlargedMap={isEnlargedMap} />
-            <ScaleBar />
+            {!isZoomMap && <ScaleBar />}
             <ActivityMapper activity_id={activity_id} isEnlargedMap={isEnlargedMap} />
-            <Event activity_id={activity_id} />
+            <Event activity_id={activity_id} isEnlargedMap={isEnlargedMap} />
           </MapContainer>
-        )}
+        </div>
       </>
     );
   },

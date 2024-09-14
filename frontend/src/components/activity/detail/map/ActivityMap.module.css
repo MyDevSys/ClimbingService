@@ -1,7 +1,17 @@
-.mapContainer{
+.ActivityMap__Container{
   position: relative;
   width: 100%;
   height: 100%;
+}
+
+.ActivityMap__overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f0f0f0; /* グレーアウト */
+  z-index: 1000; /* 地図の上に表示 */
 }
 
 .controlPanel__Button {
