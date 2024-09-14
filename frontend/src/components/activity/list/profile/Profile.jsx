@@ -76,7 +76,7 @@ export const Profile = ({ user_id }) => {
                     {profile?.activity_prefecture.join("、")}で活動
                   </li>
                 )}
-                {profile?.birth_year === null && (
+                {profile?.birth_year !== null && (
                   <li className={styles.UsersId__BasicInfo__Item}>{profile?.birth_year}年生まれ</li>
                 )}
                 <li className={styles.UsersId__BasicInfo__Item}>{profile?.gender}</li>
