@@ -1,17 +1,14 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import Link from "next/link";
+import { useEffect } from "react";
 import Image from "next/image";
 import { useRecoilValue } from "recoil";
 import { routePhotosState, activityState } from "@state/atoms";
-import { ActivityTitle } from "@components/activity/detail/title";
+import { ActivityTitle } from "@components/activity/detail/title/ActivityTitle";
 import { ActivityTab } from "@components/activity/detail/tab";
 import { DoMoIcon } from "@components/icons";
-import { FILE_URL_PATH, URL_PATH } from "@data/constants";
+import { FILE_URL_PATH } from "@data/constants";
 import { scrollToHash } from "@utils/control/scroll";
-import { Breadcrumbs } from "@mui/material";
-import NavigateNextIcon from "@mui/icons-material/NavigateNext";
 
 import styles from "./ActivityDiary.module.css";
 
@@ -19,29 +16,6 @@ import styles from "./ActivityDiary.module.css";
 export const ActivityDiary = ({ activity_id }) => {
   const photos = useRecoilValue(routePhotosState);
   const activity = useRecoilValue(activityState);
-
-  const [isoDate, setIsoDate] = useState([]);
-
-  // 写真撮影日時をISO 8601形式に変換(time要素のdatetime属性用)
-  useEffect(() => {
-    if (!photos) return;
-    const _isoDate = photos.map((item) => {
-      const dateString = item.date_time.replace(
-        /(\d{4})\.(\d{2})\.(\d{2})\(.+\)\s+(\d{2}):(\d{2}):(\d{2})/,
-        "$1-$2-$3T$4:$5:$6",
-      );
-
-      const date = new Date(dateString + "Z");
-      const isoJSTString = date.toISOString().slice(0, 19) + "+09:00";
-
-      return isoJSTString;
-    });
-
-    setIsoDate(_isoDate);
-
-    // クリーンアップ処理
-    return () => {};
-  }, []);
 
   // ハッシュフラグメントスクロールのイベントハンドラ登録処理
   useEffect(() => {
@@ -74,16 +48,6 @@ export const ActivityDiary = ({ activity_id }) => {
   return (
     <article className={styles.ActivityDetailTabLayout__Body}>
       <ActivityTitle activity_id={activity_id} />
-      <Breadcrumbs
-        aria-label="breadcrumb"
-        separator={<NavigateNextIcon fontSize="large" />}
-        className={styles.Breadcrumbs}
-      >
-        <Link href={URL_PATH.USER.set(activity?.user_id)} className={styles.Breadcrumbs__Link}>
-          活動一覧
-        </Link>
-        <span className={styles.Breadcrumbs__Text}>活動日記</span>
-      </Breadcrumbs>
       <ActivityTab activity_id={activity_id} />
       <section className={styles.Article__Section}>
         <div className={styles.Article__SectionInner}>
@@ -115,7 +79,8 @@ export const ActivityDiary = ({ activity_id }) => {
                               {index + 1}/{photos?.length}
                             </span>
                             <time
-                              dateTime={isoDate[index]}
+                              // dateTime={isoDate[index]}
+                              dateTime={item.date_time}
                               className={styles.ImagesGalleryList__Caption__OnList__Date}
                             >
                               {item.date_time}
