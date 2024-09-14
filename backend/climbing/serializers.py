@@ -181,6 +181,7 @@ class UserSerializer(DynamicFieldsModelSerializer):
     id = serializers.SerializerMethodField()
     gender = serializers.SerializerMethodField()
     activity_prefecture = serializers.SerializerMethodField()
+    
 
     class Meta:
         model = User
