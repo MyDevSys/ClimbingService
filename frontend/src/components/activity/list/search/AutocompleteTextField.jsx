@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { useRouter, usePathname, useSearchParams } from "next/navigation";
+import { usePathname, useSearchParams } from "next/navigation";
 import Autocomplete from "@mui/material/Autocomplete";
 import TextField from "@mui/material/TextField";
 import { ListItem, ListItemIcon, ListItemText } from "@mui/material";
@@ -29,7 +29,6 @@ export const AutocompleteTextField = ({
   const [isTokenizerReady, setIsTokenizerReady] = useState(false);
   const [keywordValues, setKeywordValues] = useState([]);
 
-  const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
 
@@ -45,14 +44,6 @@ export const AutocompleteTextField = ({
         );
       });
 
-    // 検索キーワードのクエリパラメータの読み込み処理
-    const keywordValues = getKeywordsQueryParams(searchParams);
-
-    //　検索キーワードをソートして設定
-    if (keywordValues.length > 0) {
-      setSelectedValues(keywordValues.sort(sortByTypeDesc));
-    }
-
     // クリーンアップ処理
     return () => {};
   }, []);
@@ -62,7 +53,7 @@ export const AutocompleteTextField = ({
     // 検索キーワードのクエリパラメータの読み込み処理
     const keywordValues = getKeywordsQueryParams(searchParams);
 
-    //　検索キーワードをソートして設定
+    // 検索キーワードをソートして設定
     if (keywordValues.length > 0) {
       setSelectedValues(keywordValues.sort(sortByTypeDesc));
     } else {
@@ -71,7 +62,7 @@ export const AutocompleteTextField = ({
 
     // クリーンアップ処理
     return () => {};
-  }, [searchParams]);
+  }, [searchParams, setSelectedValues]);
 
   // 活動情報から検索キーワード候補の抽出処理
   useEffect(() => {

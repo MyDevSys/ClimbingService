@@ -1,10 +1,16 @@
-
-.TableContainer{
-  max-height: 450px;
-  margin-bottom: 50px;
-  border: 1px solid lightgray;
+.TableOverlay{
+  width: 100%;
+  height: 460px;
+  background-color: #f0f0f0; 
+  z-index: 1000;
   border-radius: 5px;
   margin-bottom: 50px;
+}
+
+.TableContainer{
+  max-height: 460px;
+  border: 1.5px solid lightgray;
+  border-radius: 5px;
 }
 
 .tableHeaderCell:global(.MuiTableCell-root) {
@@ -13,30 +19,32 @@
   font-size: 1.5rem;
   font-weight: bold;
   white-space: nowrap; 
+  border-bottom: 1.5px solid lightgray;
   overflow: hidden; 
   text-overflow: ellipsis; 
 }
 
 .tableRow:global(.MuiTableCell-root) {
-  padding: 16px 0px 16px 16px;
+  padding: 10px 0px 10px 10px;
   font-size: 1.4rem;
   font-weight: 550;
   color: #606266; 
   white-space: nowrap; 
   overflow: hidden; 
   text-overflow: ellipsis; 
+  background-color: white;
 }
 
 .countValue{
     margin-top: 0;
-    margin-left: 5px;
+    margin-left: 8px;
     align-items: center;
     background: #dcdcdcb9;
     border-radius: 4px;
     color: #000;
     font-size: 1.2rem;
     line-height: 1.5;
-    padding: 0 8px;
+    padding: 2px 4px;
     white-space: nowrap;
 }
 
@@ -86,15 +94,12 @@
     width: 35%; 
   }
 
-  .label__Counter{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
   .countValue{
     margin-top: 5px;
-    margin-left: 0px;
+    margin-left: 4px;
+  }
+
+  .TableContainer{
+    max-height: 480px;
   }
 }

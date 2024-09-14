@@ -23,6 +23,7 @@ export const AchievementTable = ({ achievementList }) => {
   const [sortedField, setSortedField] = useState(null);
   const [sortDirection, setSortDirection] = useState("desc");
   const [filteredAchievementList, setFilteredAchievementList] = useState([]);
+  const [isReady, setIsReady] = useState(false);
   const filterPrefectures = useRecoilValue(climbingFilterState);
   const climbingCount = filteredAchievementList.reduce((accumulator, currentObject) => {
     return accumulator + currentObject.climbCount;
@@ -65,7 +66,7 @@ export const AchievementTable = ({ achievementList }) => {
       sortFieldName: "prefecture_name",
       columnName: "都道府県",
       count: Object.entries(prefectureCount)
-        .filter(([key, value]) => value !== 0)
+        .filter(([_, value]) => value !== 0)
         .map(([key, value]) => `${value}${key}`)
         .join(""),
       className: "column__prefecture",
@@ -165,55 +166,69 @@ export const AchievementTable = ({ achievementList }) => {
     return () => {};
   }, [filterPrefectures, achievementList, sortDirection, sortedField, setFilteredAchievementList]);
 
+  // 初期表示タイミングの調整
+  useEffect(() => {
+    setIsReady(true);
+
+    // クリーンアップ処理
+    return () => {};
+  }, [achievementList]);
+
   return (
-    <TableContainer className={styles.TableContainer}>
-      <Table stickyHeader aria-label="sticky table">
-        <TableHead>
-          <TableRow>
-            {tableColumnInfo.map((item, index) => (
-              <TableCell
-                key={index}
-                className={`${styles.tableHeaderCell} ${styles[item.className]}`}
-              >
-                <TableSortLabel
-                  active={sortedField === item.sortFieldName}
-                  direction={sortDirection}
-                  onClick={() => handleSort(item.sortFieldName)}
-                >
-                  <div className={styles.label__Counter}>
-                    <span>{item.columnName}</span>
-                    {item.count !== "" && <span className={styles.countValue}>{item.count}</span>}
-                  </div>
-                </TableSortLabel>
-              </TableCell>
-            ))}
-          </TableRow>
-        </TableHead>
-        <TableBody>
-          {filteredAchievementList?.map((item, index) => (
-            <TableRow key={index}>
-              <TableCell className={`${styles.tableRow} ${styles.mountain__prefecture__value}`}>
-                <p className={styles.mountain__textColor}>{item.mountain_name}</p>
-                <p>{`(${item.prefecture_name.join("、")})`}</p>
-              </TableCell>
-              <TableCell
-                className={`${styles.tableRow} ${styles.mountain__value} ${styles.mountain__textColor}`}
-              >
-                {item.mountain_name}
-              </TableCell>
-              <TableCell className={`${styles.tableRow} ${styles.prefecture__value}`}>
-                {item.prefecture_name.join("、")}
-              </TableCell>
-              <TableCell className={styles.tableRow}>
-                {item.climbCount.toLocaleString("ja-JP")}
-              </TableCell>
-              <TableCell className={styles.tableRow}>
-                {item.elevation.toLocaleString("ja-JP")} m
-              </TableCell>
-            </TableRow>
-          ))}
-        </TableBody>
-      </Table>
-    </TableContainer>
+    <div className={styles.TableOverlay}>
+      {isReady && (
+        <TableContainer className={styles.TableContainer}>
+          <Table stickyHeader aria-label="sticky table">
+            <TableHead>
+              <TableRow>
+                {tableColumnInfo.map((item, index) => (
+                  <TableCell
+                    key={index}
+                    className={`${styles.tableHeaderCell} ${styles[item.className]}`}
+                  >
+                    <TableSortLabel
+                      active={sortedField === item.sortFieldName}
+                      direction={sortDirection}
+                      onClick={() => handleSort(item.sortFieldName)}
+                    >
+                      <div className={styles.label__Counter}>
+                        <span>{item.columnName}</span>
+                        {item.count !== "" && (
+                          <span className={styles.countValue}>{item.count}</span>
+                        )}
+                      </div>
+                    </TableSortLabel>
+                  </TableCell>
+                ))}
+              </TableRow>
+            </TableHead>
+            <TableBody>
+              {filteredAchievementList?.map((item, index) => (
+                <TableRow key={index}>
+                  <TableCell className={`${styles.tableRow} ${styles.mountain__prefecture__value}`}>
+                    <p className={styles.mountain__textColor}>{item.mountain_name}</p>
+                    <p>{`(${item.prefecture_name.join("、")})`}</p>
+                  </TableCell>
+                  <TableCell
+                    className={`${styles.tableRow} ${styles.mountain__value} ${styles.mountain__textColor}`}
+                  >
+                    {item.mountain_name}
+                  </TableCell>
+                  <TableCell className={`${styles.tableRow} ${styles.prefecture__value}`}>
+                    {item.prefecture_name.join("、")}
+                  </TableCell>
+                  <TableCell className={styles.tableRow}>
+                    {item.climbCount.toLocaleString("ja-JP")}
+                  </TableCell>
+                  <TableCell className={styles.tableRow}>
+                    {item.elevation.toLocaleString("ja-JP")} m
+                  </TableCell>
+                </TableRow>
+              ))}
+            </TableBody>
+          </Table>
+        </TableContainer>
+      )}
+    </div>
   );
 };

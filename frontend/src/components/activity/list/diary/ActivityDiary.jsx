@@ -2,7 +2,7 @@
 
 import dynamic from "next/dynamic";
 import React, { useEffect, useState, useRef } from "react";
-import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { usePathname, useSearchParams } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import { AutocompleteTextField } from "@components/activity/list/search";
@@ -18,6 +18,8 @@ import {
 } from "@components/icons";
 import { getPageQueryParams, setPageQueryParams } from "@utils/control/query";
 import { FILE_URL_PATH, FILE_NAME, KEYWORD_TYPE, URL_PATH } from "@data/constants";
+import { isZoomActivityMapState } from "@state/atoms";
+import { useSetRecoilState } from "recoil";
 
 import styles from "./ActivityDiary.module.css";
 
@@ -55,8 +57,8 @@ export const ActivityDiary = ({ user_id, activityDataList }) => {
   const [filteredMonthList, setFilteredMonthList] = useState([]);
   const [filteredTypeList, setFilteredTypeList] = useState([]);
   const [filteredDataList, setFilteredDataList] = useState([]);
+  const setIsZoomMap = useSetRecoilState(isZoomActivityMapState);
   const [page, setPage] = useState(1);
-  const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const filterMessage = useRef(null);
@@ -247,6 +249,7 @@ export const ActivityDiary = ({ user_id, activityDataList }) => {
 
     // クリーンアップ処理
     return () => {};
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [typeCheckboxes, activityDataList]);
 
   // 各フィルタリング結果の結合処理
@@ -286,6 +289,8 @@ export const ActivityDiary = ({ user_id, activityDataList }) => {
 
     // クリーンアップ処理
     return () => {};
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [
     filteredKeywordList,
     filteredStartAtList,
@@ -300,8 +305,13 @@ export const ActivityDiary = ({ user_id, activityDataList }) => {
     return checkbox.every((item) => item === false);
   };
 
-  // リンクのハンドラ関数
-  const handleLinkClick = (e, href) => {
+  // 活動詳細リンクのハンドラ関数
+  const handleActivityLinkClick = () => {
+    setIsZoomMap(true);
+  };
+
+  // ユーザーリンクのハンドラ関数
+  const handleUserLinkClick = (e, href) => {
     // リンク先が自ページの場合は、ページ先頭に移動しないように設定
     if (pathname === href) {
       e.preventDefault();
@@ -410,109 +420,114 @@ export const ActivityDiary = ({ user_id, activityDataList }) => {
             )}
             <ul className={styles.UserActivityList__List}>
               {paginatedItems?.map((item, index) => (
-                <li key={index} className={styles.UserActivityList__Item}>
-                  <article>
-                    <Link
-                      href={URL_PATH.ACTIVITY.set(item.activity_id)}
-                      className={styles.ActivityItem__Thumbnail}
-                    >
-                      <Image
-                        alt={item.title}
-                        src={`${FILE_URL_PATH.ACTIVITY.set(item.activity_id)}/${item.cover_photo_name}`}
-                        className={styles.ActivityItem__Thumbnail__Img}
-                        loading="lazy"
-                        sizes="(min-width: 768px) 33.33%"
-                        fill
-                      ></Image>
-                      <div className={styles.ActivityParameter__Container}>
-                        <div className={styles.ActivityParameter__Inner}>
-                          <div className={styles.ActivityParameter__Top}>
-                            <CameraIcon className={styles.ActivityParameter__Top__Icon} />
-                            <span className={styles.ActivityParameter__Top__Counter}>
-                              {item.total_photos}
-                            </span>
-                          </div>
-                          <div className={styles.ActivityParameter__Top}>
-                            <PointIcon className={styles.ActivityParameter__Top__Icon} />
-                            <span className={styles.ActivityParameter__Top__Counter}>
-                              {item.total_domo_points}
-                            </span>
-                          </div>
-                        </div>
-                        <div className={styles.ActivityParameter__Inner}>
-                          <div className={styles.ActivityParameter__Bottom}>
-                            <div className={styles.ActivityParameter__Bottom__Item}>
-                              <WatchIcon className={styles.ActivityParameter__Bottom__Icon} />
-                              <span className={styles.ActivityParameter__Bottom__Counter}>
-                                {item.active_time}
-                              </span>
-                            </div>
-                            <div className={styles.ActivityParameter__Bottom__Item}>
-                              <DistanceIcon className={styles.ActivityParameter__Bottom__Icon} />
-                              <span className={styles.ActivityParameter__Bottom__Counter}>
-                                {`${item.route_distance} km`}
-                              </span>
-                            </div>
-                            <div className={styles.ActivityParameter__Bottom__Item}>
-                              <UpIcon className={styles.ActivityParameter__Bottom__Icon} />
-                              <span className={styles.ActivityParameter__Bottom__Counter}>
-                                {`${item.ascent_distance} m`}
-                              </span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </Link>
-                    <Link
-                      href={URL_PATH.ACTIVITY.set(item.activity_id)}
-                      className={styles.ActivityItem__Link}
-                    >
-                      <h3 className={styles.ActivityItem__Heading}>{item.title}</h3>
-                    </Link>
-                    <p className={styles.ActivityItem__MapName}>
-                      {item.areas.join(", ")}({item.prefectures.join(", ")})
-                    </p>
-                    <p className={styles.ActivityItem__Meta}>
-                      <span className={styles.ActivityItem__Date}>{item.start_at_display}</span>
-                      <span className={styles.ActivityItem__Days}>
-                        {item.stay_days == 0 ? "日帰り" : item.activity_days + "DAYS"}
-                      </span>
-                    </p>
-                    <div className={styles.ActivityItem__Author}>
+                <>
+                  <li key={index} className={styles.UserActivityList__Item}>
+                    <article>
                       <Link
-                        href={URL_PATH.USER.set(user_id)}
-                        className={styles.ActivityItem__User}
-                        onClick={(e) => handleLinkClick(e, URL_PATH.USER.set(user_id))}
+                        href={URL_PATH.ACTIVITY.set(item.activity_id)}
+                        className={styles.ActivityItem__Thumbnail}
+                        onClick={handleActivityLinkClick}
                       >
-                        <div className={styles.ActivityItem__Avatar}>
-                          <Image
-                            alt={item.user_name}
-                            src={`${FILE_URL_PATH.USER.set(item.user_id)}/${FILE_NAME.ICON}`}
-                            className={styles.RidgeUserAvatarImage__Avatar}
-                            height={40}
-                            width={40}
-                          ></Image>
+                        <Image
+                          alt={item.title}
+                          src={`${FILE_URL_PATH.ACTIVITY.set(item.activity_id)}/${item.cover_photo_name}`}
+                          className={styles.ActivityItem__Thumbnail__Img}
+                          loading="lazy"
+                          sizes="(min-width: 768px) 33.33%"
+                          fill
+                        ></Image>
+                        <div className={styles.ActivityParameter__Container}>
+                          <div className={styles.ActivityParameter__Inner}>
+                            <div className={styles.ActivityParameter__Top}>
+                              <CameraIcon className={styles.ActivityParameter__Top__Icon} />
+                              <span className={styles.ActivityParameter__Top__Counter}>
+                                {item.total_photos}
+                              </span>
+                            </div>
+                            <div className={styles.ActivityParameter__Top}>
+                              <PointIcon className={styles.ActivityParameter__Top__Icon} />
+                              <span className={styles.ActivityParameter__Top__Counter}>
+                                {item.total_domo_points}
+                              </span>
+                            </div>
+                          </div>
+                          <div className={styles.ActivityParameter__Inner}>
+                            <div className={styles.ActivityParameter__Bottom}>
+                              <div className={styles.ActivityParameter__Bottom__Item}>
+                                <WatchIcon className={styles.ActivityParameter__Bottom__Icon} />
+                                <span className={styles.ActivityParameter__Bottom__Counter}>
+                                  {item.active_time}
+                                </span>
+                              </div>
+                              <div className={styles.ActivityParameter__Bottom__Item}>
+                                <DistanceIcon className={styles.ActivityParameter__Bottom__Icon} />
+                                <span className={styles.ActivityParameter__Bottom__Counter}>
+                                  {`${item.route_distance} km`}
+                                </span>
+                              </div>
+                              <div className={styles.ActivityParameter__Bottom__Item}>
+                                <UpIcon className={styles.ActivityParameter__Bottom__Icon} />
+                                <span className={styles.ActivityParameter__Bottom__Counter}>
+                                  {`${item.ascent_distance} m`}
+                                </span>
+                              </div>
+                            </div>
+                          </div>
                         </div>
-                        <span className={styles.ActivityItem__UserName}>{item.user_name}</span>
-                        {item.is_paid && (
-                          <PremiumIcon
-                            height={16}
-                            width={16}
-                            alt="プレミアムユーザー"
-                            className={styles.ActivityItem__UserTypeMark}
-                          />
-                        )}
                       </Link>
-                    </div>
-                  </article>
-                </li>
+                      <Link
+                        href={URL_PATH.ACTIVITY.set(item.activity_id)}
+                        className={styles.ActivityItem__Link}
+                        onClick={handleActivityLinkClick}
+                      >
+                        <h3 className={styles.ActivityItem__Heading}>{item.title}</h3>
+                      </Link>
+                      <p className={styles.ActivityItem__MapName}>
+                        {item.areas.join(", ")}({item.prefectures.join(", ")})
+                      </p>
+                      <p className={styles.ActivityItem__Meta}>
+                        <span className={styles.ActivityItem__Date}>{item.start_at_display}</span>
+                        <span className={styles.ActivityItem__Days}>
+                          {item.stay_days == 0 ? "日帰り" : item.activity_days + "DAYS"}
+                        </span>
+                      </p>
+                      <div className={styles.ActivityItem__Author}>
+                        <Link
+                          href={URL_PATH.USER.set(user_id)}
+                          className={styles.ActivityItem__User}
+                          onClick={(e) => handleUserLinkClick(e, URL_PATH.USER.set(user_id))}
+                        >
+                          <div className={styles.ActivityItem__Avatar}>
+                            <Image
+                              alt={item.user_name}
+                              src={`${FILE_URL_PATH.USER.set(item.user_id)}/${FILE_NAME.ICON}`}
+                              className={styles.RidgeUserAvatarImage__Avatar}
+                              height={40}
+                              width={40}
+                            ></Image>
+                          </div>
+                          <span className={styles.ActivityItem__UserName}>{item.user_name}</span>
+                          {item.is_paid && (
+                            <PremiumIcon
+                              height={16}
+                              width={16}
+                              alt="プレミアムユーザー"
+                              className={styles.ActivityItem__UserTypeMark}
+                            />
+                          )}
+                        </Link>
+                      </div>
+                    </article>
+                  </li>
+                  <span className={styles.Pagination__text}>総計{filteredDataList?.length}件</span>
+                </>
               ))}
             </ul>
           </main>
         </div>
       </div>
       <div className={`${styles.Pagination__Container} ${styles.Pagination__Padding}`}>
-        <span className={styles.Pagination__text}>総計{filteredDataList?.length}件</span>
+        {/* <span className={styles.Pagination__text}>総計{filteredDataList?.length}件</span> */}
         <Pagination
           count={Math.max(1, Math.ceil(filteredDataList?.length / ITEMS_PER_PAGE))}
           page={page}
