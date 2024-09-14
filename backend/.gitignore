@@ -1,4 +1,9 @@
+# cache
 __pycache__
+
+# migration
 migrations
-*.log
-command.txt
+
+# log
+logs
+
