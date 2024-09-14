@@ -24,11 +24,11 @@ export const QUERY_NAME = {
 };
 
 // 地理院地図の標準地図タイルを取得するURL
-export const GSI_TILE_URL = "https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png";
+export const GSI_TILE_URL = process.env.NEXT_PUBLIC_GSI_TILE_URL
 // フロントエンドのURL
-export const FRONTEND_BASE_URL = "https://climbing-mountain.com";
+export const FRONTEND_BASE_URL = process.env.NEXT_PUBLIC_FRONTEND_BASE_URL
 // バックエンドのURL
-export const BACKEND_BASE_URL = "https://api.climbing-mountain.com";
+export const BACKEND_BASE_URL = process.env.NEXT_PUBLIC_BACKEND_BASE_URL
 
 // 定数の@パラメータの置換関数
 const setParam = function (id) {
