@@ -45,7 +45,7 @@ export default async function ActivityListPage({ params }) {
     return (
       <>
         <SetCookie setCookies={responses.setCookies}>
-          <ActivityList {...props} />;
+          <ActivityList {...props} />
         </SetCookie>
       </>
     );
