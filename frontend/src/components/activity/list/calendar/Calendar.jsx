@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import { useRouter, usePathname, useSearchParams } from "next/navigation";
+import { usePathname, useSearchParams } from "next/navigation";
 import DatePicker, { registerLocale } from "react-datepicker";
 import { DoubleLeftArrow, LeftArrow, DoubleRightArrow, RightArrow } from "@components/icons";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
@@ -33,7 +33,6 @@ export const Calendar = ({
   const typeStr = isStartAt ? "startAt" : "endAt";
 
   const calendarDate = useRef(null);
-  const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const [isOpen, setIsOpen] = useState(false);
@@ -43,12 +42,12 @@ export const Calendar = ({
     // 開始日時/終了日時のクエリパラメータから日時情報を読み込み
     const dateValues = getDateQueryParams(searchParams, isStartAt);
 
-    //　開始日時/終了日時をstateに設定
+    // 開始日時/終了日時をstateに設定
     setState(dateValues);
 
     // クリーンアップ処理
     return () => {};
-  }, [searchParams]);
+  }, [isStartAt, searchParams, setState]);
 
   // カレンダーのヘッダー情報を表示するコンポーネント
   const renderHeader = ({ date, decreaseYear, increaseYear, decreaseMonth, increaseMonth }) => {

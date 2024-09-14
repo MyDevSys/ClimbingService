@@ -1,13 +1,16 @@
 .mapBox{
-  border: 1px solid lightgray;
-  margin-bottom: 20px;
   border-radius: 5px;
+  margin-bottom: 20px;
+  position: relative;
 }
+
 
 .mapContainer {
   height: 300px;
   width: 100%;
   background-color: #f7fafc;
+  border-radius: 5px;
+  border: 1.5px solid lightgray
 }
 
 .tooltip{
@@ -86,12 +89,8 @@
 
 @media screen and (min-width: 768px){
   .mapContainer {
-    height: 600px;
+    height: 500px;
   }
-
-  /* .mapContainer::before {
-    height: 600px;
-  } */
 
   .legend__title{
     font-size: 1.5rem;

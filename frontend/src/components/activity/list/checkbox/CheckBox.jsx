@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-import { useRouter, usePathname, useSearchParams } from "next/navigation";
+import { usePathname, useSearchParams } from "next/navigation";
 import { getCheckBoxQueryParams, setCheckBoxQueryParams } from "@utils/control/query";
 
 import styles from "./CheckBox.module.css";
@@ -16,7 +16,6 @@ export const CheckBox = ({
   labelClassName = "",
   boxClassName = "",
 }) => {
-  const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const isMonth = monthCheckboxState !== null;
@@ -28,7 +27,7 @@ export const CheckBox = ({
     // 活動月/活動タイプのクエリパラメータから日時情報を読み込み
     const checkBoxValues = getCheckBoxQueryParams(searchParams, labelList.length, isMonth);
 
-    //　活動月/活動タイプをstateに設定
+    // 活動月/活動タイプをstateに設定
     if (checkBoxValues !== null) {
       setState(checkBoxValues);
     } else {
@@ -37,7 +36,7 @@ export const CheckBox = ({
 
     // クリーンアップ処理
     return () => {};
-  }, [searchParams]);
+  }, [isMonth, labelList.length, searchParams, setState]);
 
   // チェックボックスの変更用ハンドラ関数
   const handleCheckboxChange = (index) => {
