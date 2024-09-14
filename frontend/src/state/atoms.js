@@ -117,3 +117,9 @@ export const climbingFilterState = atom({
   key: "climbingFilter",
   default: [],
 });
+
+// 登山活動詳細の地図の初期ズームの状態情報
+export const isZoomActivityMapState = atom({
+  key: "isZoomMap",
+  default: true,
+});

@@ -1,4 +1,4 @@
-import { KEYWORD_TYPE, QUERY_NAME, URL_PATH } from "@data/constants";
+import { KEYWORD_TYPE, QUERY_NAME } from "@data/constants";
 
 // クエリパラメータを追記する関数
 export const appendQueryParams = (targetParams, newParams) => {

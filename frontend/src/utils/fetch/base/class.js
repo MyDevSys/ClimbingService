@@ -107,26 +107,22 @@ export class FetchBase {
       return { data, headers };
     } catch (error) {
       if (error instanceof NoAccessTokenError) {
-        try {
-          const { accessToken, setCookies } = await this.refreshAccessToken();
+        const { accessToken, setCookies } = await this.refreshAccessToken();
 
-          this.setAccessToken(accessToken);
+        this.setAccessToken(accessToken);
 
-          requests = requestFunctions.map((requestFunction) => requestFunction());
+        requests = requestFunctions.map((requestFunction) => requestFunction());
 
-          const retryResponses = await Promise.all(requests);
+        const retryResponses = await Promise.all(requests);
 
-          const data = retryResponses.map((response) => response.data);
-          const headers = retryResponses.map((response) => response.headers);
+        const data = retryResponses.map((response) => response.data);
+        const headers = retryResponses.map((response) => response.headers);
 
-          if (requests.length === 1) {
-            return { data: data[0], headers: headers[0], setCookies };
-          }
-
-          return { data, headers, setCookies };
-        } catch (error) {
-          throw error;
+        if (requests.length === 1) {
+          return { data: data[0], headers: headers[0], setCookies };
         }
+
+        return { data, headers, setCookies };
       }
 
       throw error;
