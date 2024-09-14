@@ -1,8 +1,8 @@
 "use client";
 
+import dynamic from "next/dynamic";
 import { useEffect } from "react";
-import Link from "next/link";
-import { ActivityTitle } from "@components/activity/detail/title";
+import { ActivityTitle } from "@components/activity/detail/title/ActivityTitle";
 import { ActivityTab } from "@components/activity/detail/tab";
 import { ActivityHeader } from "@components/activity/detail/header";
 import { ActivityScore } from "@components/activity/detail/score";
@@ -12,13 +12,10 @@ import { ActivityArticle } from "@components/activity/detail/article";
 import { CheckPoint } from "@components/activity/detail/checkpoint";
 import { useRecoilValue } from "recoil";
 import { activityState } from "@state/atoms";
-import NavigateNextIcon from "@mui/icons-material/NavigateNext";
-import { URL_PATH } from "@data/constants";
-import dynamic from "next/dynamic";
 
 import styles from "./ActivityDetail.module.css";
-import { Breadcrumbs } from "@mui/material";
 
+// import ActivityMap from "@components/activity/detail/map";
 const ActivityMap = dynamic(() => import("@components/activity/detail/map"), {
   ssr: false,
 });
@@ -44,16 +41,6 @@ export const ActivityDetail = ({ activity_id }) => {
       {activity !== null && (
         <>
           <ActivityTitle activity_id={activity_id} />
-          <Breadcrumbs
-            aria-label="breadcrumb"
-            separator={<NavigateNextIcon fontSize="large" />}
-            className={styles.Breadcrumbs}
-          >
-            <Link href={URL_PATH.USER.set(activity?.user_id)} className={styles.Breadcrumbs__Link}>
-              活動一覧
-            </Link>
-            <span className={styles.Breadcrumbs__Text}>活動詳細</span>
-          </Breadcrumbs>
           <article className={styles.ActivityDetail__Container}>
             <ActivityTab activity_id={activity_id} />
             <div className={styles.ActivityDetail__Body}>
