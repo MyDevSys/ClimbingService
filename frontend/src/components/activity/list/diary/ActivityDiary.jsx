@@ -519,7 +519,6 @@ export const ActivityDiary = ({ user_id, activityDataList }) => {
                       </div>
                     </article>
                   </li>
-                  <span className={styles.Pagination__text}>総計{filteredDataList?.length}件</span>
                 </>
               ))}
             </ul>
@@ -527,7 +526,7 @@ export const ActivityDiary = ({ user_id, activityDataList }) => {
         </div>
       </div>
       <div className={`${styles.Pagination__Container} ${styles.Pagination__Padding}`}>
-        {/* <span className={styles.Pagination__text}>総計{filteredDataList?.length}件</span> */}
+        <span className={styles.Pagination__text}>総計{filteredDataList?.length}件</span>
         <Pagination
           count={Math.max(1, Math.ceil(filteredDataList?.length / ITEMS_PER_PAGE))}
           page={page}
