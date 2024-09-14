@@ -22,11 +22,7 @@ export const ActivityMisc = () => {
     <div className={styles.ActivitiesId__Miscs}>
       <div className={`${styles.ActivitiesId__Misc} ${styles.ActivitiesId__MiscCalorie}`}>
         <div className={styles.ActivitiesId__Misc__Label}>
-          <span
-            className={`material-symbols-outlined ${styles.RidgeIcon} ${styles.ActivitiesId__Misc__Icon}`}
-          >
-            <HeatIcon />
-          </span>
+          <HeatIcon className={styles.ActivitiesId__Misc__Icon} />
           消費カロリー
         </div>
         <div className={styles.ActivitiesId__Misc__Value}>
