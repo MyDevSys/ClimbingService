@@ -121,9 +121,33 @@
     height: 17px;
 }
 
+.Breadcrumbs:global(.MuiBreadcrumbs-root){
+    margin: 0 auto;
+    max-width: 1200px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    padding: 15px 16px 5px;
+    font-size: 1.5rem;
+}
+
+.Breadcrumbs__Link{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.Breadcrumbs__Text{
+    color: #000;
+}
+
 @media screen and (min-width: 768px) {
     .ActivityDetailTabLayout__Image{
         height: 56.25vw;
+    }
+    
+    .Breadcrumbs:global(.MuiBreadcrumbs-root){
+        font-size: 2.0rem;
+        padding: 15px 32px 5px;
     }
 }
 
