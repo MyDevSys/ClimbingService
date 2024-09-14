@@ -9,6 +9,7 @@ import { Profile } from "@components/activity/list/profile";
 import { ActivityDiary } from "@components/activity/list/diary";
 import { scrollToHash } from "@utils/control/scroll";
 import { getUrlString } from "@utils/control/query";
+import { LoadingIndicator } from "@components/loading";
 
 import styles from "./ActivityList.module.css";
 
@@ -26,16 +27,20 @@ export const ActivityList = ({
   mapData,
 }) => {
   const TABS_NAME = "tab";
+  const TAB_ACTIVITY = "activities";
+  const TAB_ACHIEVEMENT = "achievements";
+
   const pathname = usePathname();
   const initRef = useRef(false);
   const searchParams = useSearchParams();
   const tabInfo = [
-    { name: "activities", label: "活動日記", length: activityDataList?.length },
+    { name: TAB_ACTIVITY, label: "活動日記", length: activityDataList?.length },
 
-    { name: "achievements", label: "登頂した山", length: achievementList?.length },
+    { name: TAB_ACHIEVEMENT, label: "登頂した山", length: achievementList?.length },
   ];
-  const firstTabName = tabInfo[0].name;
-  const [tabParam, setTabParam] = useState(firstTabName);
+  const initTabName = searchParams.get(TABS_NAME) || TAB_ACTIVITY;
+  const [tabParam, setTabParam] = useState(initTabName);
+  const [isLoading, setIsLoading] = useState(true);
 
   // マウント後にハッシュフラグメントの有無で表示位置をスクロール
   useEffect(() => {
@@ -62,6 +67,25 @@ export const ActivityList = ({
     };
   }, []);
 
+  // ローディング画面の表示制御
+  useEffect(() => {
+    const dependencies = [
+      user_id,
+      activityDataList,
+      profile,
+      achievementList,
+      climbingPrefectures,
+      mapData,
+    ];
+
+    if (dependencies.every((dep) => dep != null)) {
+      setIsLoading(false);
+    }
+
+    // クリーンアップ処理
+    return () => {};
+  }, [profile, mapData, user_id, activityDataList, achievementList, climbingPrefectures]);
+
   // ページタイトルと説明の設定
   useEffect(() => {
     if (profile) {
@@ -72,7 +96,7 @@ export const ActivityList = ({
       if (tab === null) {
         title = `活動一覧（${profile.name}）`;
         description = `${profile.name}の登山の活動一覧を表示するページ`;
-      } else if (tab === firstTabName) {
+      } else if (tab === TAB_ACTIVITY) {
         title = `活動日記一覧（${profile.name}）`;
         description = `${profile.name}が登山した日記一覧を表示するページ`;
       } else {
@@ -85,17 +109,17 @@ export const ActivityList = ({
     }
     // クリーンアップ処理
     return () => {};
-  }, [profile, searchParams, firstTabName]);
+  }, [profile, searchParams]);
 
   // クエリパラメータの読み込み/設定処理
   useEffect(() => {
     // タブのクエリパラメータの読み込み処理
     const newTab = searchParams.get(TABS_NAME);
-    setTabParam(newTab || firstTabName);
+    setTabParam(newTab || TAB_ACTIVITY);
 
     // クリーンアップ処理
     return () => {};
-  }, [searchParams, firstTabName]);
+  }, [searchParams]);
 
   // タブクリック時のハンドラ関数
   const handleTabClick = (e, tabName) => {
@@ -112,6 +136,11 @@ export const ActivityList = ({
     window.history.pushState({}, "", urlString);
     scrollToHash();
   };
+
+  // ローディング画面の表示
+  if (isLoading) {
+    return <LoadingIndicator />;
+  }
 
   return (
     <>
@@ -132,7 +161,7 @@ export const ActivityList = ({
                     {tab.label}
                     <span
                       className={styles.UsersId__Tab__Count}
-                    >{`${tab.length}${tab.name === firstTabName ? " 件" : " 座"}`}</span>
+                    >{`${tab.length} ${tab.name === TAB_ACTIVITY ? " 件" : " 座"}`}</span>
                   </Link>
                 </li>
               ))}
@@ -140,19 +169,22 @@ export const ActivityList = ({
           </div>
           {/* 検索フィルタ―と活動リスト */}
           <div className={styles.UsersId__Body}>
-            <section className={tabParam === firstTabName ? styles.activeTab : styles.inactiveTab}>
+            <section className={tabParam === TAB_ACTIVITY ? styles.activeTab : styles.inactiveTab}>
               <ActivityDiary user_id={user_id} activityDataList={activityDataList} />
             </section>
           </div>
           <div className={styles.UsersId__Body}>
             <section
-              className={tabParam === tabInfo[1].name ? styles.activeTab : styles.inactiveTab}
+              className={tabParam === TAB_ACHIEVEMENT ? styles.activeTab : styles.inactiveTab}
             >
-              <ClimbingMap
-                climbingPrefectures={climbingPrefectures}
-                mapData={mapData}
-                tabState={tabParam === tabInfo[1].name}
-              />
+              <div className={styles.ClimbingMap__Container}>
+                <div className={styles.ClimbingMap__Overlay}></div>
+                <ClimbingMap
+                  climbingPrefectures={climbingPrefectures}
+                  mapData={mapData}
+                  tabState={tabParam === TAB_ACHIEVEMENT}
+                />
+              </div>
               <AchievementTable achievementList={achievementList} />
             </section>
           </div>
