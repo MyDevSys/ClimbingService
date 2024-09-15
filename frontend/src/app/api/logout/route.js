@@ -16,22 +16,22 @@ export async function POST(request) {
   // cookieの無効処理
   response.cookies.set("access_token", "", {
     path: "/",
-    domain: ".climbing-mountain.com",
+    domain: process.env.NEXT_PUBLIC_COOKIE_DOMAIN,
     maxAge: -1,
   });
   response.cookies.set("refresh_token", "", {
     path: "/",
-    domain: ".climbing-mountain.com",
+    domain: process.env.NEXT_PUBLIC_COOKIE_DOMAIN,
     maxAge: -1,
   });
   response.cookies.set("user_id", "", {
     path: "/",
-    domain: ".climbing-mountain.com",
+    domain: process.env.NEXT_PUBLIC_COOKIE_DOMAIN,
     maxAge: -1,
   });
   response.cookies.set("csrftoken", "", {
     path: "/",
-    domain: ".climbing-mountain.com",
+    domain: process.env.NEXT_PUBLIC_COOKIE_DOMAIN,
     maxAge: -1,
   });
 

@@ -59,6 +59,7 @@ const nextConfig = async () => {
       NEXT_PUBLIC_GSI_TILE_URL: vaultData.GSI_TILE_URL,
       NEXT_PUBLIC_FRONTEND_BASE_URL: vaultData.FRONTEND_BASE_URL,
       NEXT_PUBLIC_BACKEND_BASE_URL: vaultData.BACKEND_BASE_URL,
+      NEXT_PUBLIC_COOKIE_DOMAIN: vaultData.COOKIE_DOMAIN,
     },
   };
 };
