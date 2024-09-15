@@ -1,0 +1,925 @@
+[
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "宝満山",
+      "name_ruby": "ほうまんざん",
+      "elevation": 829,
+      "lng": 130.569056,
+      "lat": 33.539917,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "発心山",
+      "name_ruby": "ほっしんざん",
+      "elevation": 698,
+      "lng": 130.6485,
+      "lat": 33.298222,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "白山",
+      "name_ruby": "しらやま",
+      "elevation": 677,
+      "lng": 130.641333,
+      "lat": 33.298806,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "グライダー山",
+      "name_ruby": "ぐらいだーやま",
+      "elevation": 640,
+      "lng": 130.637417,
+      "lat": 33.298861,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "長岩山",
+      "name_ruby": "ながいわやま",
+      "elevation": 547,
+      "lng": 130.629694,
+      "lat": 33.298667,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "桝形山",
+      "name_ruby": "ますがたやま",
+      "elevation": 607,
+      "lng": 130.625778,
+      "lat": 33.292111,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "耳納山",
+      "name_ruby": "みのうやま",
+      "elevation": 368,
+      "lng": 130.594694,
+      "lat": 33.29275,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "兜山",
+      "name_ruby": "かぶとやま",
+      "elevation": 314,
+      "lng": 130.592083,
+      "lat": 33.297694,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "高良山",
+      "name_ruby": "こうらやま",
+      "elevation": 312,
+      "lng": 130.574444,
+      "lat": 33.297889,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "吉見岳",
+      "name_ruby": "よしみたけ",
+      "elevation": 158,
+      "lng": 130.562472,
+      "lat": 33.305083,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "城山",
+      "name_ruby": "しろやま",
+      "elevation": 494,
+      "lng": 130.465361,
+      "lat": 33.401472,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "九千部山",
+      "name_ruby": "くせんぶやま",
+      "elevation": 847,
+      "lng": 130.446056,
+      "lat": 33.41675,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "奥山",
+      "name_ruby": "おくやま",
+      "elevation": 312,
+      "lng": 130.495139,
+      "lat": 33.408972,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "杓子ヶ峰",
+      "name_ruby": "しゃくしがみね",
+      "elevation": 247,
+      "lng": 130.498889,
+      "lat": 33.406111,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "牛頸山",
+      "name_ruby": "うしくびやま",
+      "elevation": 448,
+      "lng": 130.468472,
+      "lat": 33.471556,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "三市町山",
+      "name_ruby": "みいちまちやま",
+      "elevation": 440,
+      "lng": 130.466333,
+      "lat": 33.466472,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "髙地山",
+      "name_ruby": "こうちやま",
+      "elevation": 452,
+      "lng": 130.464417,
+      "lat": 33.464861,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "茨山",
+      "name_ruby": "いばらやま",
+      "elevation": 474,
+      "lng": 130.465167,
+      "lat": 33.461889,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "三角山",
+      "name_ruby": "さんかくやま",
+      "elevation": 454,
+      "lng": 130.468278,
+      "lat": 33.460694,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "黒金山",
+      "name_ruby": "くろがねやま",
+      "elevation": 404,
+      "lng": 130.476389,
+      "lat": 33.465917,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "前黒金山",
+      "name_ruby": "まえくろがねやま",
+      "elevation": 396,
+      "lng": 130.481944,
+      "lat": 33.464444,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "大佐野山",
+      "name_ruby": "おおさのやま",
+      "elevation": 333,
+      "lng": 130.490056,
+      "lat": 33.4705,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "奥天拝",
+      "name_ruby": "おくてんぱい",
+      "elevation": 296,
+      "lng": 130.500389,
+      "lat": 33.48075,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "天拝山",
+      "name_ruby": "てんぱいざん",
+      "elevation": 258,
+      "lng": 130.506139,
+      "lat": 33.481778,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "仏頂山",
+      "name_ruby": "ぶっちょうざん",
+      "elevation": 869,
+      "lng": 130.572333,
+      "lat": 33.542333,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "北大船山",
+      "name_ruby": "きたおおふねやま",
+      "elevation": 1706,
+      "lng": 131.277083,
+      "lat": 33.099555,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "大船山",
+      "name_ruby": "おおふねやま",
+      "elevation": 1786,
+      "lng": 131.280806,
+      "lat": 33.095,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "三俣山（西峰）",
+      "name_ruby": "みまたやま（にしみね）",
+      "elevation": 1678,
+      "lng": 131.243222,
+      "lat": 33.100222,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "三俣山（Ⅳ峰）",
+      "name_ruby": "みまたやま（しほう）",
+      "elevation": 1734,
+      "lng": 131.247139,
+      "lat": 33.102472,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "三俣山（南峰）",
+      "name_ruby": "みまたやま（みなみみね）",
+      "elevation": 1743,
+      "lng": 131.249194,
+      "lat": 33.102694,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "三俣山（本峰）",
+      "name_ruby": "みまたやま（ほんみね）",
+      "elevation": 1744,
+      "lng": 131.24652778,
+      "lat": 33.10402778,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "鷹取山",
+      "name_ruby": "たかとりやま",
+      "elevation": 619,
+      "lng": 130.788444,
+      "lat": 33.739389,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "福智山",
+      "name_ruby": "ふくちやま",
+      "elevation": 901,
+      "lng": 130.803917,
+      "lat": 33.742222,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "片江山",
+      "name_ruby": "かたえやま",
+      "elevation": 276,
+      "lng": 130.364167,
+      "lat": 33.532778,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "妙見山",
+      "name_ruby": "みょうけんやま",
+      "elevation": 452,
+      "lng": 130.365139,
+      "lat": 33.524556,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "油山",
+      "name_ruby": "あぶらやま",
+      "elevation": 597,
+      "lng": 130.3645,
+      "lat": 33.511944,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "糠塚山",
+      "name_ruby": "ぬかづかやま",
+      "elevation": 388,
+      "lng": 130.392722,
+      "lat": 33.50775,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "猿山",
+      "name_ruby": "さるやま",
+      "elevation": 276,
+      "lng": 130.397472,
+      "lat": 33.512083,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "片縄山",
+      "name_ruby": "かたなわやま",
+      "elevation": 291,
+      "lng": 130.401306,
+      "lat": 33.513528,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "鷹取山",
+      "name_ruby": "たかとりやま",
+      "elevation": 802,
+      "lng": 130.72275,
+      "lat": 33.302944,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "飯盛ヶ城",
+      "name_ruby": "いいもりがしろ",
+      "elevation": 1067,
+      "lng": 131.3885,
+      "lat": 33.271111,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "由布岳（東峰）",
+      "name_ruby": "ゆふだけ（ひがしみね）",
+      "elevation": 1580,
+      "lng": 131.392667,
+      "lat": 33.280833,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "稲星山",
+      "name_ruby": "いなほしやま",
+      "elevation": 1774,
+      "lng": 131.250528,
+      "lat": 33.080889,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "白口岳",
+      "name_ruby": "しらくちだけ",
+      "elevation": 1720,
+      "lng": 131.254917,
+      "lat": 33.084833,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "中岳",
+      "name_ruby": "なかだけ",
+      "elevation": 1791,
+      "lng": 131.249083,
+      "lat": 33.085972,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "天狗ヶ城",
+      "name_ruby": "てんぐがじょう",
+      "elevation": 1780,
+      "lng": 131.24575,
+      "lat": 33.086556,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "久住山",
+      "name_ruby": "くじゅうさん",
+      "elevation": 1787,
+      "lng": 131.240861,
+      "lat": 33.082194,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "扇ヶ鼻",
+      "name_ruby": "おうぎがはな",
+      "elevation": 1698,
+      "lng": 131.223639,
+      "lat": 33.082333,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "星生山",
+      "name_ruby": "ほっしょうざん",
+      "elevation": 1762,
+      "lng": 131.232722,
+      "lat": 33.09075,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "沓掛山",
+      "name_ruby": "くつかけやま",
+      "elevation": 1503,
+      "lng": 131.214222,
+      "lat": 33.094361,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "天山",
+      "name_ruby": "てんざん",
+      "elevation": 1046,
+      "lng": 130.142889,
+      "lat": 33.338889,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "頭巾山",
+      "name_ruby": "ずきんやま",
+      "elevation": 901,
+      "lng": 130.578389,
+      "lat": 33.553194,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "三郡山",
+      "name_ruby": "さんぐんざん",
+      "elevation": 936,
+      "lng": 130.584972,
+      "lat": 33.5555,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "女岳",
+      "name_ruby": "めだけ",
+      "elevation": 744,
+      "lng": 130.115861,
+      "lat": 33.475,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "二丈岳",
+      "name_ruby": "にじょうだけ",
+      "elevation": 711,
+      "lng": 130.126278,
+      "lat": 33.488472,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "馬見山",
+      "name_ruby": "まみやま",
+      "elevation": 978,
+      "lng": 130.767889,
+      "lat": 33.486472,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "江川岳",
+      "name_ruby": "えがわだけ",
+      "elevation": 861,
+      "lng": 130.748417,
+      "lat": 33.483778,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "屏山",
+      "name_ruby": "びょうざん",
+      "elevation": 927,
+      "lng": 130.740472,
+      "lat": 33.487889,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "古処山",
+      "name_ruby": "こしょざん",
+      "elevation": 860,
+      "lng": 130.725639,
+      "lat": 33.483833,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "釈迦岳",
+      "name_ruby": "しゃかだけ",
+      "elevation": 1230,
+      "lng": 0,
+      "lat": 0,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "釈迦岳（普賢岳）",
+      "name_ruby": "しゃかだけ（ふげんだけ）",
+      "elevation": 1231,
+      "lng": 130.888944,
+      "lat": 33.187556,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "脊振山",
+      "name_ruby": "せふりやま",
+      "elevation": 1055,
+      "lng": 130.368611,
+      "lat": 33.436444,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "雷山",
+      "name_ruby": "らいざん",
+      "elevation": 955,
+      "lng": 130.223528,
+      "lat": 33.478722,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "富士山",
+      "name_ruby": "ふじさん",
+      "elevation": 944,
+      "lng": 130.234167,
+      "lat": 33.477778,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "本富士山",
+      "name_ruby": "ほんふじやま",
+      "elevation": 960,
+      "lng": 130.237444,
+      "lat": 33.474389,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "井原山",
+      "name_ruby": "いばらやま",
+      "elevation": 982,
+      "lng": 130.249833,
+      "lat": 33.470389,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "基山",
+      "name_ruby": "きざん",
+      "elevation": 404,
+      "lng": 130.510194,
+      "lat": 33.442722,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "北峰（北帝）",
+      "name_ruby": "きたみね（ほくてい）",
+      "elevation": 412,
+      "lng": 130.511056,
+      "lat": 33.449083,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "金山",
+      "name_ruby": "かなやま",
+      "elevation": 967,
+      "lng": 130.305861,
+      "lat": 33.463528,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "愛嶽山",
+      "name_ruby": "あいだけやま",
+      "elevation": 437,
+      "lng": 130.5615,
+      "lat": 33.528694,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  },
+  {
+    "model": "climbing.mountainmaster",
+    "fields": {
+      "name": "十坊山",
+      "name_ruby": "とんぼやま",
+      "elevation": 535,
+      "lng": 130.068139,
+      "lat": 33.472611,
+      "course_constant_min": null,
+      "course_constant_max": null,
+      "description": ""
+    }
+  }
+]

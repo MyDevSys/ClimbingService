@@ -1,0 +1,92 @@
+[
+    {
+        "model": "climbing.areamaster",
+        "fields": {
+            "name": "天拝山・基山"
+        }
+    },
+    {
+        "model": "climbing.areamaster",
+        "fields": {
+            "name": "二丈岳・十坊山"
+        }
+    },
+    {
+        "model": "climbing.areamaster",
+        "fields": {
+            "name": "九千部山・石谷山"
+        }
+    },
+    {
+        "model": "climbing.areamaster",
+        "fields": {
+            "name": "宝満山・三郡山・若杉山"
+        }
+    },
+    {
+        "model": "climbing.areamaster",
+        "fields": {
+            "name": "雷山・井原山"
+        }
+    },
+    {
+        "model": "climbing.areamaster",
+        "fields": {
+            "name": "脊振山・金山"
+        }
+    },
+    {
+        "model": "climbing.areamaster",
+        "fields": {
+            "name": "釈迦岳・御前岳"
+        }
+    },
+    {
+        "model": "climbing.areamaster",
+        "fields": {
+            "name": "古処山・屏山・馬見山・江川岳"
+        }
+    },
+    {
+        "model": "climbing.areamaster",
+        "fields": {
+            "name": "天山"
+        }
+    },
+    {
+        "model": "climbing.areamaster",
+        "fields": {
+            "name": "九重山（久住山）・大船山・星生山"
+        }
+    },
+    {
+        "model": "climbing.areamaster",
+        "fields": {
+            "name": "高良山・発心山・鷹取山"
+        }
+    },
+    {
+        "model": "climbing.areamaster",
+        "fields": {
+            "name": "油山・荒平山・片縄山"
+        }
+    },
+    {
+        "model": "climbing.areamaster",
+        "fields": {
+            "name": "福智山・尺岳・雲取山"
+        }
+    },
+    {
+        "model": "climbing.areamaster",
+        "fields": {
+            "name": "牛頸山・黒金山・観音山"
+        }
+    },
+    {
+        "model": "climbing.areamaster",
+        "fields": {
+            "name": "由布岳・鶴見岳"
+        }
+    }
+]

@@ -1,0 +1,331 @@
+[
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 1,
+      "tag": 1
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 1,
+      "tag": 4
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 2,
+      "tag": 1
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 2,
+      "tag": 4
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 3,
+      "tag": 1
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 3,
+      "tag": 4
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 4,
+      "tag": 1
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 4,
+      "tag": 4
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 5,
+      "tag": 1
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 5,
+      "tag": 4
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 6,
+      "tag": 1
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 6,
+      "tag": 4
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 7,
+      "tag": 1
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 7,
+      "tag": 4
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 8,
+      "tag": 1
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 9,
+      "tag": 1
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 10,
+      "tag": 1
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 10,
+      "tag": 4
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 11,
+      "tag": 1
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 11,
+      "tag": 4
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 12,
+      "tag": 1
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 12,
+      "tag": 4
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 13,
+      "tag": 1
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 14,
+      "tag": 1
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 15,
+      "tag": 1
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 16,
+      "tag": 1
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 17,
+      "tag": 1
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 17,
+      "tag": 4
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 18,
+      "tag": 1
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 18,
+      "tag": 4
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 19,
+      "tag": 1
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 19,
+      "tag": 4
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 20,
+      "tag": 1
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 20,
+      "tag": 4
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 21,
+      "tag": 1
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 21,
+      "tag": 4
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 22,
+      "tag": 1
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 23,
+      "tag": 1
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 23,
+      "tag": 4
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 24,
+      "tag": 1
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 24,
+      "tag": 4
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 25,
+      "tag": 1
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 25,
+      "tag": 4
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 26,
+      "tag": 1
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 26,
+      "tag": 4
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 27,
+      "tag": 1
+    }
+  },
+  {
+    "model": "climbing.activitytag",
+    "fields": {
+      "activity": 27,
+      "tag": 4
+    }
+  }
+]

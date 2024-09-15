@@ -1,0 +1,576 @@
+[
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 1,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 2,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 3,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 4,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 5,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 6,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 7,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 8,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 9,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 10,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 11,
+      "prefecture": 41
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 12,
+      "prefecture": 40
+    }
+  },
+    {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 12,
+      "prefecture": 41
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 13,
+      "prefecture": 41
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 14,
+      "prefecture": 41
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 15,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 16,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 17,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 18,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 19,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 20,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 21,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 22,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 23,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 24,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 25,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 26,
+      "prefecture": 44
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 27,
+      "prefecture": 44
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 28,
+      "prefecture": 44
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 29,
+      "prefecture": 44
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 30,
+      "prefecture": 44
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 31,
+      "prefecture": 44
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 32,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 33,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 34,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 35,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 36,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 37,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 38,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 39,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 40,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 41,
+      "prefecture": 44
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 42,
+      "prefecture": 44
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 43,
+      "prefecture": 44
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 44,
+      "prefecture": 44
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 45,
+      "prefecture": 44
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 46,
+      "prefecture": 44
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 47,
+      "prefecture": 44
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 48,
+      "prefecture": 44
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 49,
+      "prefecture": 44
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 50,
+      "prefecture": 44
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 51,
+      "prefecture": 41
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 52,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 53,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 54,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 54,
+      "prefecture": 41
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 55,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 56,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 57,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 58,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 59,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 60,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 60,
+      "prefecture": 44
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 61,
+      "prefecture": 44
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 62,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 62,
+      "prefecture": 41
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 63,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 63,
+      "prefecture": 41
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 64,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 64,
+      "prefecture": 41
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 65,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 65,
+      "prefecture": 41
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 66,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 66,
+      "prefecture": 41
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 67,
+      "prefecture": 41
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 68,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 68,
+      "prefecture": 41
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 69,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 69,
+      "prefecture": 41
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 70,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 71,
+      "prefecture": 40
+    }
+  },
+  {
+    "model": "climbing.mountainprefecture",
+    "fields": {
+      "mountain": 71,
+      "prefecture": 41
+    }
+  }
+]

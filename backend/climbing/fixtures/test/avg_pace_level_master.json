@@ -1,0 +1,122 @@
+[
+    {
+        "model": "climbing.avgpacelevelmaster",
+        "fields": {
+            "min": 50,
+            "max": 70,
+            "level":"ゆっくり"
+        }
+    },
+    {
+        "model": "climbing.avgpacelevelmaster",
+        "fields": {
+            "min": 70,
+            "max": 90,
+            "level":"ややゆっくり"
+        }
+    },
+    {
+        "model": "climbing.avgpacelevelmaster",
+        "fields": {
+            "min": 90,
+            "max": 110,
+            "level":"標準"
+        }
+    },
+    {
+        "model": "climbing.avgpacelevelmaster",
+        "fields": {
+            "min": 110,
+            "max": 130,
+            "level":"やや速い"
+        }
+    },
+    {
+        "model": "climbing.avgpacelevelmaster",
+        "fields": {
+            "min": 130,
+            "max": 150,
+            "level":"速い"
+        }
+    },
+    {
+        "model": "climbing.avgpacelevelmaster",
+        "fields": {
+            "min": 150,
+            "max": 170,
+            "level":"速い"
+        }
+    },
+    {
+        "model": "climbing.avgpacelevelmaster",
+        "fields": {
+            "min": 170,
+            "max": 190,
+            "level":"速い"
+        }
+    },
+    {
+        "model": "climbing.avgpacelevelmaster",
+        "fields": {
+            "min": 190,
+            "max": 210,
+            "level":"速い"
+        }
+    },
+    {
+        "model": "climbing.avgpacelevelmaster",
+        "fields": {
+            "min": 210,
+            "max": 230,
+            "level":"速い"
+        }
+    },
+    {
+        "model": "climbing.avgpacelevelmaster",
+        "fields": {
+            "min": 230,
+            "max": 250,
+            "level":"速い"
+        }
+    },
+    {
+        "model": "climbing.avgpacelevelmaster",
+        "fields": {
+            "min": 250,
+            "max": 270,
+            "level":"速い"
+        }
+    },
+    {
+        "model": "climbing.avgpacelevelmaster",
+        "fields": {
+            "min": 270,
+            "max": 290,
+            "level":"速い"
+        }
+    },
+    {
+        "model": "climbing.avgpacelevelmaster",
+        "fields": {
+            "min": 290,
+            "max": 310,
+            "level":"速い"
+        }
+    },
+    {
+        "model": "climbing.avgpacelevelmaster",
+        "fields": {
+            "min": 310,
+            "max": 330,
+            "level":"速い"
+        }
+    },
+    {
+        "model": "climbing.avgpacelevelmaster",
+        "fields": {
+            "min": 330,
+            "max": 350,
+            "level":"速い"
+        }
+    }
+]

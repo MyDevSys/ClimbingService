@@ -1,0 +1,21 @@
+[
+    {
+        "model": "climbing.user",
+        "fields": {
+            "email": "test@example.com",
+            "name": "テスト太郎",
+            "phone_number": "01234567890",
+            "password": "pbkdf2_sha256$720000$Ex3GPSrUzbnsrOEfYBx2H1$ThYITczZ7nhruFP084jMGkhQmAog0Lek3Bwu7LT64Gc=",
+            "gender": 1,
+            "prefecture":40,
+            "birth_year":1982,
+            "height":174,
+            "weight":82,
+            "is_superuser": false,
+            "is_staff": false,
+            "is_active": true,
+            "is_paid":true,
+            "date_joined": "2024-01-01 00:00:00"
+        }
+    }
+]
