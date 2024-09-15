@@ -16,6 +16,6 @@ urlpatterns = [
     path("api/auth/token/refresh/", AuthTokenRefreshView.as_view(), name="token_refresh"),
     path("api/users/<int:user_id>/", ActivityList.as_view(), name="activity-list"),
     path("api/activities/<int:activity_id>/", ActivityDetail.as_view(), name="activity-detail"),
-    path("api/users/profile/<int:user_id>/", UserProfile.as_view(), name="activity-list"),
-    path("api/achievements/<int:user_id>/", ClimbingAchievements.as_view(), name="search-keyword"),
+    path("api/achievements/<int:user_id>/", ClimbingAchievements.as_view(), name="activity_achievement"),
+    path("api/users/profile/<int:user_id>/", UserProfile.as_view(), name="user_profile"),
 ]
