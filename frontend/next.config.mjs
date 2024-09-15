@@ -10,8 +10,8 @@ axiosRetry(axios, {
 });
 
 // Vaultの設定
-const VAULT_ADDR = process.env.VAULT_ADDR || "https://vault.climbing-service.com:8200";
-const VAULT_TOKEN_PATH = "/etc/vault.d/token.txt";
+const VAULT_ADDR = process.env.VAULT_ADDR;
+const VAULT_TOKEN_PATH = process.env.VAULT_TOKEN_PATH;
 
 // トークンをファイルから読み込む関数
 function getVaultToken() {
