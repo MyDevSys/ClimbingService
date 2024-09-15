@@ -173,7 +173,6 @@ class AuthTokenRefreshView(TokenRefreshView):
             if hasattr(e, "detail") and isinstance(e.detail, dict):
                 error_list = []
                 for field, errors in e.detail.items():
-                    print("errors : ", errors)
                     if isinstance(errors, list):
                         error_message = "; ".join([str(error) for error in errors])
                     else:
@@ -654,7 +653,7 @@ class UserProfile(APIView):
             user_instance,
             fields=["id", "is_paid", "name", "gender", "birth_year", "activity_prefecture"],
         ).data
-        
+
         contract_data = ContractSerializer(user_instance.contract, fields=["domo_points"]).data
 
         # 辞書をマージ
