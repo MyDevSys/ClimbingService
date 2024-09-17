@@ -1,29 +1,48 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { forwardRef, useEffect, useState } from "react";
+import { TableVirtuoso } from "react-virtuoso";
+import { useRecoilValue } from "recoil";
 import Table from "@mui/material/Table";
 import TableHead from "@mui/material/TableHead";
 import TableBody from "@mui/material/TableBody";
 import TableRow from "@mui/material/TableRow";
 import TableCell from "@mui/material/TableCell";
+import TableContainer from "@mui/material/TableContainer";
 import TableSortLabel from "@mui/material/TableSortLabel";
-
-import { useRecoilValue } from "recoil";
 import { climbingFilterState } from "@state/atoms";
-import { TableContainer } from "@mui/material";
 import { usePathname, useSearchParams } from "next/navigation";
 import { QUERY_NAME } from "@data/constants";
 import { getUrlString } from "@utils/control/query";
 import styles from "./AchievementTable.module.css";
 
-// 登山実績をテーブル表示するコンポーネント
-export const AchievementTable = ({ achievementList }) => {
+const VirtuosoTableComponents = {
+  Scroller: forwardRef((props, ref) => (
+    <TableContainer {...props} ref={ref} className={styles.TableContainer} />
+  )),
+  Table: (props) => (
+    <Table
+      {...props}
+      aria-label="sticky table"
+      sx={{ borderCollapse: "separate", tableLayout: "fixed" }}
+    />
+  ),
+  TableHead: forwardRef((props, ref) => <TableHead {...props} ref={ref} />),
+  TableRow,
+  TableBody: forwardRef((props, ref) => <TableBody {...props} ref={ref} />),
+};
+
+VirtuosoTableComponents.Scroller.displayName = "Scroller";
+VirtuosoTableComponents.Table.displayName = "Table";
+VirtuosoTableComponents.TableHead.displayName = "TableHead";
+VirtuosoTableComponents.TableBody.displayName = "TableBody";
+
+export function AchievementTable({ achievementList }) {
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const [sortedField, setSortedField] = useState(null);
   const [sortDirection, setSortDirection] = useState("desc");
   const [filteredAchievementList, setFilteredAchievementList] = useState([]);
-  const [isReady, setIsReady] = useState(false);
   const filterPrefectures = useRecoilValue(climbingFilterState);
   const climbingCount = filteredAchievementList.reduce((accumulator, currentObject) => {
     return accumulator + currentObject.climbCount;
@@ -56,14 +75,14 @@ export const AchievementTable = ({ achievementList }) => {
   const tableColumnInfo = [
     {
       dataFieldName: "mountain_name",
-      sortFieldName: "mountain_name",
+      sortFieldName: "mountain_name_ruby",
       columnName: "山名",
       count: `${filteredAchievementList.length} 座`,
       className: "column__mountain",
     },
     {
       dataFieldName: "prefecture_name",
-      sortFieldName: "prefecture_name",
+      sortFieldName: "prefecture_name_ruby",
       columnName: "都道府県",
       count: Object.entries(prefectureCount)
         .filter(([_, value]) => value !== 0)
@@ -109,6 +128,48 @@ export const AchievementTable = ({ achievementList }) => {
     // ブラウザのURLを変更し、履歴に追記
     window.history.pushState({}, "", urlString);
   };
+
+  function fixedHeaderContent() {
+    return (
+      <TableRow>
+        {tableColumnInfo.map((item, index) => (
+          <TableCell key={index} className={`${styles.tableHeaderCell} ${styles[item.className]}`}>
+            <TableSortLabel
+              active={sortedField === item.sortFieldName}
+              direction={sortDirection}
+              onClick={() => handleSort(item.sortFieldName)}
+            >
+              <div className={styles.label__Counter}>
+                <span>{item.columnName}</span>
+                {item.count !== "" && <span className={styles.countValue}>{item.count}</span>}
+              </div>
+            </TableSortLabel>
+          </TableCell>
+        ))}
+      </TableRow>
+    );
+  }
+
+  function rowContent(_, row) {
+    return (
+      <>
+        <TableCell className={`${styles.tableRow} ${styles.mountain__prefecture__value}`}>
+          <p className={styles.mountain__textColor}>{row.mountain_name}</p>
+          <p>{`(${row.prefecture_name.join("、")})`}</p>
+        </TableCell>
+        <TableCell
+          className={`${styles.tableRow} ${styles.mountain__value} ${styles.mountain__textColor}`}
+        >
+          {row.mountain_name}
+        </TableCell>
+        <TableCell className={`${styles.tableRow} ${styles.prefecture__value}`}>
+          {row.prefecture_name.join("、")}
+        </TableCell>
+        <TableCell className={styles.tableRow}>{row.climbCount.toLocaleString("ja-JP")}</TableCell>
+        <TableCell className={styles.tableRow}>{row.elevation.toLocaleString("ja-JP")} m</TableCell>
+      </>
+    );
+  }
 
   // クエリパラメーターからソート対象のフィールドとソート順を取得
   // (ページリロードしても、リロード前のソート対象とソート順を維持するための処理)
@@ -166,69 +227,14 @@ export const AchievementTable = ({ achievementList }) => {
     return () => {};
   }, [filterPrefectures, achievementList, sortDirection, sortedField, setFilteredAchievementList]);
 
-  // 初期表示タイミングの調整
-  useEffect(() => {
-    setIsReady(true);
-
-    // クリーンアップ処理
-    return () => {};
-  }, [achievementList]);
-
   return (
     <div className={styles.TableOverlay}>
-      {isReady && (
-        <TableContainer className={styles.TableContainer}>
-          <Table stickyHeader aria-label="sticky table">
-            <TableHead>
-              <TableRow>
-                {tableColumnInfo.map((item, index) => (
-                  <TableCell
-                    key={index}
-                    className={`${styles.tableHeaderCell} ${styles[item.className]}`}
-                  >
-                    <TableSortLabel
-                      active={sortedField === item.sortFieldName}
-                      direction={sortDirection}
-                      onClick={() => handleSort(item.sortFieldName)}
-                    >
-                      <div className={styles.label__Counter}>
-                        <span>{item.columnName}</span>
-                        {item.count !== "" && (
-                          <span className={styles.countValue}>{item.count}</span>
-                        )}
-                      </div>
-                    </TableSortLabel>
-                  </TableCell>
-                ))}
-              </TableRow>
-            </TableHead>
-            <TableBody>
-              {filteredAchievementList?.map((item, index) => (
-                <TableRow key={index}>
-                  <TableCell className={`${styles.tableRow} ${styles.mountain__prefecture__value}`}>
-                    <p className={styles.mountain__textColor}>{item.mountain_name}</p>
-                    <p>{`(${item.prefecture_name.join("、")})`}</p>
-                  </TableCell>
-                  <TableCell
-                    className={`${styles.tableRow} ${styles.mountain__value} ${styles.mountain__textColor}`}
-                  >
-                    {item.mountain_name}
-                  </TableCell>
-                  <TableCell className={`${styles.tableRow} ${styles.prefecture__value}`}>
-                    {item.prefecture_name.join("、")}
-                  </TableCell>
-                  <TableCell className={styles.tableRow}>
-                    {item.climbCount.toLocaleString("ja-JP")}
-                  </TableCell>
-                  <TableCell className={styles.tableRow}>
-                    {item.elevation.toLocaleString("ja-JP")} m
-                  </TableCell>
-                </TableRow>
-              ))}
-            </TableBody>
-          </Table>
-        </TableContainer>
-      )}
+      <TableVirtuoso
+        data={filteredAchievementList}
+        components={VirtuosoTableComponents}
+        fixedHeaderContent={fixedHeaderContent}
+        itemContent={rowContent}
+      />
     </div>
   );
-};
+}
