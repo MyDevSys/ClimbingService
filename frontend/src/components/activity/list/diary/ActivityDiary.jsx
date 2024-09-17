@@ -29,7 +29,7 @@ const Pagination = dynamic(() => import("@mui/material/Pagination"), {
 
 // 登山の活動日記の一覧と検索フィルタを表示するコンポーネント
 export const ActivityDiary = ({ user_id, activityDataList }) => {
-  const ITEMS_PER_PAGE = 24;
+  const ITEMS_PER_PAGE = 15;
   const ACTIVITY_TYPES = [
     "登山",
     "山歩",
@@ -419,107 +419,105 @@ export const ActivityDiary = ({ user_id, activityDataList }) => {
               <p className={styles.UserActivityList__FilterMessage}>{filterMessage.current}</p>
             )}
             <ul className={styles.UserActivityList__List}>
-              {paginatedItems?.map((item, index) => (
-                <>
-                  <li key={index} className={styles.UserActivityList__Item}>
-                    <article>
-                      <Link
-                        href={URL_PATH.ACTIVITY.set(item.activity_id)}
-                        className={styles.ActivityItem__Thumbnail}
-                        onClick={handleActivityLinkClick}
-                      >
-                        <Image
-                          alt={item.title}
-                          src={`${FILE_URL_PATH.ACTIVITY.set(item.activity_id)}/${item.cover_photo_name}`}
-                          className={styles.ActivityItem__Thumbnail__Img}
-                          loading="lazy"
-                          sizes="(min-width: 768px) 33.33%"
-                          fill
-                        ></Image>
-                        <div className={styles.ActivityParameter__Container}>
-                          <div className={styles.ActivityParameter__Inner}>
-                            <div className={styles.ActivityParameter__Top}>
-                              <CameraIcon className={styles.ActivityParameter__Top__Icon} />
-                              <span className={styles.ActivityParameter__Top__Counter}>
-                                {item.total_photos}
-                              </span>
-                            </div>
-                            <div className={styles.ActivityParameter__Top}>
-                              <PointIcon className={styles.ActivityParameter__Top__Icon} />
-                              <span className={styles.ActivityParameter__Top__Counter}>
-                                {item.total_domo_points}
-                              </span>
-                            </div>
+              {paginatedItems?.map((item) => (
+                <li key={item.activity_id} className={styles.UserActivityList__Item}>
+                  <article>
+                    <Link
+                      href={URL_PATH.ACTIVITY.set(item.activity_id)}
+                      className={styles.ActivityItem__Thumbnail}
+                      onClick={handleActivityLinkClick}
+                    >
+                      <Image
+                        alt={item.title}
+                        src={`${FILE_URL_PATH.ACTIVITY.set(item.activity_id)}/${item.cover_photo_name}_600x400.webp`}
+                        className={styles.ActivityItem__Thumbnail__Img}
+                        loading="lazy"
+                        sizes="(min-width: 768px) 33.33%"
+                        fill
+                      ></Image>
+                      <div className={styles.ActivityParameter__Container}>
+                        <div className={styles.ActivityParameter__Inner}>
+                          <div className={styles.ActivityParameter__Top}>
+                            <CameraIcon className={styles.ActivityParameter__Top__Icon} />
+                            <span className={styles.ActivityParameter__Top__Counter}>
+                              {item.total_photos}
+                            </span>
                           </div>
-                          <div className={styles.ActivityParameter__Inner}>
-                            <div className={styles.ActivityParameter__Bottom}>
-                              <div className={styles.ActivityParameter__Bottom__Item}>
-                                <WatchIcon className={styles.ActivityParameter__Bottom__Icon} />
-                                <span className={styles.ActivityParameter__Bottom__Counter}>
-                                  {item.active_time}
-                                </span>
-                              </div>
-                              <div className={styles.ActivityParameter__Bottom__Item}>
-                                <DistanceIcon className={styles.ActivityParameter__Bottom__Icon} />
-                                <span className={styles.ActivityParameter__Bottom__Counter}>
-                                  {`${item.route_distance} km`}
-                                </span>
-                              </div>
-                              <div className={styles.ActivityParameter__Bottom__Item}>
-                                <UpIcon className={styles.ActivityParameter__Bottom__Icon} />
-                                <span className={styles.ActivityParameter__Bottom__Counter}>
-                                  {`${item.ascent_distance} m`}
-                                </span>
-                              </div>
+                          <div className={styles.ActivityParameter__Top}>
+                            <PointIcon className={styles.ActivityParameter__Top__Icon} />
+                            <span className={styles.ActivityParameter__Top__Counter}>
+                              {item.total_domo_points}
+                            </span>
+                          </div>
+                        </div>
+                        <div className={styles.ActivityParameter__Inner}>
+                          <div className={styles.ActivityParameter__Bottom}>
+                            <div className={styles.ActivityParameter__Bottom__Item}>
+                              <WatchIcon className={styles.ActivityParameter__Bottom__Icon} />
+                              <span className={styles.ActivityParameter__Bottom__Counter}>
+                                {item.active_time}
+                              </span>
+                            </div>
+                            <div className={styles.ActivityParameter__Bottom__Item}>
+                              <DistanceIcon className={styles.ActivityParameter__Bottom__Icon} />
+                              <span className={styles.ActivityParameter__Bottom__Counter}>
+                                {`${item.route_distance} km`}
+                              </span>
+                            </div>
+                            <div className={styles.ActivityParameter__Bottom__Item}>
+                              <UpIcon className={styles.ActivityParameter__Bottom__Icon} />
+                              <span className={styles.ActivityParameter__Bottom__Counter}>
+                                {`${item.ascent_distance} m`}
+                              </span>
                             </div>
                           </div>
                         </div>
-                      </Link>
-                      <Link
-                        href={URL_PATH.ACTIVITY.set(item.activity_id)}
-                        className={styles.ActivityItem__Link}
-                        onClick={handleActivityLinkClick}
-                      >
-                        <h3 className={styles.ActivityItem__Heading}>{item.title}</h3>
-                      </Link>
-                      <p className={styles.ActivityItem__MapName}>
-                        {item.areas.join(", ")}({item.prefectures.join(", ")})
-                      </p>
-                      <p className={styles.ActivityItem__Meta}>
-                        <span className={styles.ActivityItem__Date}>{item.start_at_display}</span>
-                        <span className={styles.ActivityItem__Days}>
-                          {item.stay_days == 0 ? "日帰り" : item.activity_days + "DAYS"}
-                        </span>
-                      </p>
-                      <div className={styles.ActivityItem__Author}>
-                        <Link
-                          href={URL_PATH.USER.set(user_id)}
-                          className={styles.ActivityItem__User}
-                          onClick={(e) => handleUserLinkClick(e, URL_PATH.USER.set(user_id))}
-                        >
-                          <div className={styles.ActivityItem__Avatar}>
-                            <Image
-                              alt={item.user_name}
-                              src={`${FILE_URL_PATH.USER.set(item.user_id)}/${FILE_NAME.ICON}`}
-                              className={styles.RidgeUserAvatarImage__Avatar}
-                              height={40}
-                              width={40}
-                            ></Image>
-                          </div>
-                          <span className={styles.ActivityItem__UserName}>{item.user_name}</span>
-                          {item.is_paid && (
-                            <PremiumIcon
-                              height={16}
-                              width={16}
-                              alt="プレミアムユーザー"
-                              className={styles.ActivityItem__UserTypeMark}
-                            />
-                          )}
-                        </Link>
                       </div>
-                    </article>
-                  </li>
-                </>
+                    </Link>
+                    <Link
+                      href={URL_PATH.ACTIVITY.set(item.activity_id)}
+                      className={styles.ActivityItem__Link}
+                      onClick={handleActivityLinkClick}
+                    >
+                      <p className={styles.ActivityItem__Heading}>{item.title}</p>
+                    </Link>
+                    <p className={styles.ActivityItem__MapName}>
+                      {item.areas.join(", ")}({item.prefectures.join(", ")})
+                    </p>
+                    <p className={styles.ActivityItem__Meta}>
+                      <span className={styles.ActivityItem__Date}>{item.start_at_display}</span>
+                      <span className={styles.ActivityItem__Days}>
+                        {item.stay_days == 0 ? "日帰り" : item.activity_days + "DAYS"}
+                      </span>
+                    </p>
+                    <div className={styles.ActivityItem__Author}>
+                      <Link
+                        href={URL_PATH.USER.set(user_id)}
+                        className={styles.ActivityItem__User}
+                        onClick={(e) => handleUserLinkClick(e, URL_PATH.USER.set(user_id))}
+                      >
+                        <div className={styles.ActivityItem__Avatar}>
+                          <Image
+                            alt={`${item.user_name}_Activity_${item.activity_id}`}
+                            src={`${FILE_URL_PATH.USER.set(item.user_id)}/${FILE_NAME.ICON}`}
+                            className={styles.RidgeUserAvatarImage__Avatar}
+                            height={40}
+                            width={40}
+                          ></Image>
+                        </div>
+                        <span className={styles.ActivityItem__UserName}>{item.user_name}</span>
+                        {item.is_paid && (
+                          <PremiumIcon
+                            height={16}
+                            width={16}
+                            alt="プレミアムユーザー"
+                            className={styles.ActivityItem__UserTypeMark}
+                          />
+                        )}
+                      </Link>
+                    </div>
+                  </article>
+                </li>
               ))}
             </ul>
           </main>
