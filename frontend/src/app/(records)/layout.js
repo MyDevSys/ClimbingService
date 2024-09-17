@@ -2,7 +2,6 @@ import { headers } from "next/headers";
 import { redirect } from "next/navigation";
 import serverFetch from "@utils/fetch/server";
 import { Header } from "@components/activity/header";
-import { Footer } from "@components/activity/footer";
 import { API_URL_PATH, URL_PATH } from "@data/constants";
 import { SetCookie } from "@components/activity/cookie";
 import { getErrorComponent } from "@utils/handler/error";
@@ -10,6 +9,11 @@ import { UnauthorizedError, RefreshRetryOverError } from "@exceptions/auth";
 import { appLogger } from "@utils/logger/server";
 
 import styles from "./RecordsLayout.module.css";
+
+import dynamic from "next/dynamic";
+const Footer = dynamic(() => import("@components/activity/footer"), {
+  ssr: false,
+});
 
 // 登山の活動内容やリストを表示するページのレイアウトコンポーネント
 export default async function RecordsLayout({ children }) {
