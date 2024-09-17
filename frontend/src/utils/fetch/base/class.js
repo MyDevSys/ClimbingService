@@ -16,7 +16,7 @@ export class FetchBase {
   }
 
   // データフェッチのリクエストメソッド
-  async request(url, method, { headers = {}, data = null, cache = "no-cache" } = {}) {
+  async request(url, method, { headers = {}, data = null, cache = "default" } = {}) {
     // リクエストヘッダーの設定
     let authHeaders = {
       "Content-Type": "application/json",
