@@ -27,26 +27,12 @@ export const AutocompleteTextField = ({
 }) => {
   const [inputValue, setInputValue] = useState("");
   const [isTokenizerReady, setIsTokenizerReady] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
+  const [isError, setIsError] = useState(false);
   const [keywordValues, setKeywordValues] = useState([]);
 
   const pathname = usePathname();
   const searchParams = useSearchParams();
-
-  // kuromojiの初期化処理
-  useEffect(() => {
-    initTokenizer()
-      .then(() => {
-        setIsTokenizerReady(true);
-      })
-      .catch((error) => {
-        log.error(
-          `${AutocompleteTextField.displayName} Tokenizer initialization failed (${error.message})`,
-        );
-      });
-
-    // クリーンアップ処理
-    return () => {};
-  }, []);
 
   // クエリパラメータの読み込み
   useEffect(() => {
@@ -92,6 +78,11 @@ export const AutocompleteTextField = ({
 
   // テキストフィールドの値が変化した際のハンドラ処理
   const handleChange = (_, newInputValue) => {
+    // kuromojiの初期化が終わっていない場合、入力を無視する
+    if (!isTokenizerReady) {
+      return;
+    }
+
     setInputValue(newInputValue);
   };
 
@@ -223,11 +214,29 @@ export const AutocompleteTextField = ({
     setPage(1);
   };
 
+  // テキストフィールドのフォーカスハンドラ関数
+  const handleFocus = async () => {
+    // kuromojiの初期化が未実施の場合、初期化処理を実施
+    if (!isTokenizerReady) {
+      try {
+        setIsLoading(true);
+        await initTokenizer();
+        setIsTokenizerReady(true);
+      } catch (error) {
+        setIsError(true);
+        log.error(
+          `${AutocompleteTextField.displayName} Tokenizer initialization failed (${error.message})`,
+        );
+      } finally {
+        setIsLoading(false);
+      }
+    }
+  };
+
   return (
     <div>
       <Autocomplete
         id="filter"
-        disabled={!isTokenizerReady}
         multiple
         options={keywordValues}
         openOnFocus
@@ -250,9 +259,10 @@ export const AutocompleteTextField = ({
           return (
             <TextField
               {...params}
-              placeholder="例.福岡県"
+              placeholder={isError ? "エラー発生中" : isLoading ? "読み込み中..." : "例.福岡県"}
               variant="outlined"
               fullWidth
+              onFocus={handleFocus}
               slotProps={{
                 ...params.InputProps,
                 endAdornment: (
@@ -261,7 +271,7 @@ export const AutocompleteTextField = ({
                   </InputAdornment>
                 ),
               }}
-              className={styles.Autocomplete__Input}
+              className={`${styles["Autocomplete__Input"]} ${isError ? styles["Autocomplete--Error"] : styles["Autocomplete--Normal"]}`}
             />
           );
         }}

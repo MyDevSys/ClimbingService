@@ -7,9 +7,16 @@
 /* 検索ボックスの入力スタイルを指定 */
 .Autocomplete__Input :global(.MuiInputBase-input) {
   font-size: 1.6rem;
-  color: #606266;
   height: 40px; 
   padding: 0 0 0 10px !important;
+}
+
+.Autocomplete--Normal :global(.MuiInputBase-input) {
+  color: #606266;
+}
+
+.Autocomplete--Error :global(.MuiInputBase-input) {
+  color: red;
 }
 
 /* 検索ボックスの親要素のパディングのスタイルを指定 */
