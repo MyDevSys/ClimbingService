@@ -181,7 +181,6 @@ class UserSerializer(DynamicFieldsModelSerializer):
     id = serializers.SerializerMethodField()
     gender = serializers.SerializerMethodField()
     activity_prefecture = serializers.SerializerMethodField()
-    
 
     class Meta:
         model = User
@@ -235,7 +234,7 @@ class ActivityPhotosSerializer(serializers.Serializer):
     def get_cover_photo_name(self, obj):
         seq_no = obj["seq_no"]
         timestamp = obj["timestamp"]
-        cover_photo_name = f"photo_{str(obj['id']).zfill(4)}_{str(seq_no).zfill(2)}_{str(timestamp)}.webp"
+        cover_photo_name = f"photo_{str(obj['id']).zfill(4)}_{str(seq_no).zfill(2)}_{str(timestamp)}"
         return cover_photo_name
 
 
