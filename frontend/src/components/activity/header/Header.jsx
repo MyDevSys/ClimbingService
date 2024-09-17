@@ -39,6 +39,7 @@ const AvatarIcon = ({ user_id, profile }) => {
         className={styles.ContentHeader__Navigation__Avatar}
         height={40}
         width={40}
+        priority={true}
       ></Image>
       {profile.is_paid && <PremiumIcon className={styles.Avatar__Premium__Icon} />}
     </>

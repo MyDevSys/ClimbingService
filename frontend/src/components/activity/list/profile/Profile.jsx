@@ -15,12 +15,15 @@ export const Profile = ({ user_id }) => {
     <>
       <header className={styles.UsersId__Head}>
         <div className={styles.ProfileCover}>
-          <div
-            className={styles.ProfileCover__Image}
-            style={{
-              backgroundImage: `url(${FILE_URL_PATH.USER.set(user_id)}/${FILE_NAME.BACKGROUND_IMG})`,
-            }}
-          ></div>
+          <div className={styles.ProfileCover__Image}>
+            <Image
+              src={`${FILE_URL_PATH.USER.set(user_id)}/${FILE_NAME.BACKGROUND_IMG}`}
+              alt="Profile Cover"
+              fill
+              priority={true}
+              style={{ objectFit: "cover" }}
+            />
+          </div>
         </div>
         <section className={styles.UsersId__Head__Inner}>
           <div className={styles.UsersId__FaceInfo__Container}>
@@ -44,6 +47,7 @@ export const Profile = ({ user_id }) => {
                       className={styles.UserAvatarImage__Avatar}
                       width={140}
                       height={140}
+                      priority={true}
                     />
                   </div>
                 </div>
