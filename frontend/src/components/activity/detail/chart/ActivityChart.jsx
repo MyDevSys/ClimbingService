@@ -623,6 +623,26 @@ export const ActivityChart = ({ className }) => {
       chart.update("none");
     };
 
+    // グラフ要素に対するtouchmoveのイベントハンドラー関数
+    const handleTouchMove = (event) => {
+      // デフォルトのスクロール動作などを無効化
+      event.preventDefault();
+
+      // 最初のタッチポイントのみを処理（1本目の指）
+      if (event.touches.length === 1) {
+        const touch = event.touches[0]; // 1本目のタッチポイントを取得
+
+        // MouseEvent形式に変換して、既存のhandleMouseMoveを呼び出す
+        const simulatedMouseEvent = new MouseEvent("mousemove", {
+          clientX: touch.clientX,
+          clientY: touch.clientY,
+        });
+
+        // 既存のマウス移動ハンドラを呼び出す
+        handleMouseMove(simulatedMouseEvent);
+      }
+    };
+
     // グラフ要素に対するmouseleaveのイベントハンドラー関数
     const handleMouseLeave = () => {
       const chart = chartRef.current;
@@ -640,6 +660,12 @@ export const ActivityChart = ({ className }) => {
       chart.update("none");
     };
 
+    // グラフ要素に対するtouchmoveのイベントハンドラー関数
+    const handleTouchLeave = () => {
+      // 既存のマウスのmouseleaveと同じ処理を呼び出す
+      handleMouseLeave();
+    };
+
     // グラフを表示するcanvas要素のオブジェクトを取得
     const chart = chartRef.current;
     const canvas = chart.canvas;
@@ -647,12 +673,16 @@ export const ActivityChart = ({ className }) => {
     // グラフ要素のイベントハンドラを設定
     canvas.addEventListener("mousemove", handleMouseMove);
     canvas.addEventListener("mouseleave", handleMouseLeave);
+    canvas.addEventListener("touchmove", handleTouchMove);
+    canvas.addEventListener("touchend", handleTouchLeave);
 
     // クリーンアップ処理
     return () => {
       // グラフ要素のイベントハンドラを削除
       canvas.removeEventListener("mouseleave", handleMouseLeave);
       canvas.removeEventListener("mousemove", handleMouseMove);
+      canvas.removeEventListener("touchmove", handleTouchMove);
+      canvas.removeEventListener("touchend", handleTouchLeave);
 
       // カスタムプラグインの登録解除
       ChartJS.unregister(verticalLinePluginInstance);
