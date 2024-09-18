@@ -61,7 +61,7 @@ export const ActivityDiary = ({ activity_id }) => {
                   <figure
                     key={index}
                     className={styles.ImagesGalleryList__Item}
-                    style={{ paddingTop: `${item.aspect_ratio}%` }}
+                    style={{ paddingTop: `${item.aspect_ratio === 150.0 ? 66.7 : 150.0}%` }}
                   >
                     <Image
                       id={item.photo_name.split(".")[0]}
@@ -69,6 +69,7 @@ export const ActivityDiary = ({ activity_id }) => {
                       alt={item.photo_comment}
                       src={`${FILE_URL_PATH.ACTIVITY.set(activity_id)}/${item.photo_name}`}
                       sizes="(max-width: 1000px) 100vw, 1000px"
+                      loading="lazy"
                       fill
                     ></Image>
                     <figcaption className={styles.ImagesGalleryList__Caption}>
@@ -79,7 +80,6 @@ export const ActivityDiary = ({ activity_id }) => {
                               {index + 1}/{photos?.length}
                             </span>
                             <time
-                              // dateTime={isoDate[index]}
                               dateTime={item.date_time}
                               className={styles.ImagesGalleryList__Caption__OnList__Date}
                             >
