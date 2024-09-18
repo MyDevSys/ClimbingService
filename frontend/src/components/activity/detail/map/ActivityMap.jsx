@@ -12,7 +12,7 @@ import {
   CircleMarker,
 } from "react-leaflet";
 import Link from "next/link";
-import { useRecoilValue, useRecoilState, useSetRecoilState } from "recoil";
+import { useRecoilValue, useRecoilState } from "recoil";
 import { createPortal } from "react-dom";
 import { getColor } from "@utils/style/color";
 import { ICON_IDS, FILE_URL_PATH, GSI_TILE_URL, URL_PATH, FILE_NAME } from "@data/constants";
@@ -27,7 +27,6 @@ import {
   routeRestPointsState,
   routePhotosState,
   activityState,
-  isZoomActivityMapState,
 } from "@state/atoms";
 import AddIcon from "@mui/icons-material/Add";
 import RemoveIcon from "@mui/icons-material/Remove";
@@ -44,7 +43,6 @@ import styles from "./ActivityMap.module.css";
 const ControlPanel = ({ isEnlargedMap, activity_id }) => {
   const map = useMap();
   const [controlPanel, setControlPanel] = useState(false);
-  const isZoomMap = useRecoilValue(isZoomActivityMapState);
   //コントロールパネルの初期設定
   useEffect(() => {
     // 処理終了条件
@@ -79,7 +77,6 @@ const ControlPanel = ({ isEnlargedMap, activity_id }) => {
     <>
       {map &&
         controlPanel &&
-        !isZoomMap &&
         createPortal(
           <ButtonPanel
             linkDetailURL={URL_PATH.TRACK.set(activity_id)}
@@ -291,25 +288,19 @@ const ActivityMapper = ({ activity_id, isEnlargedMap }) => {
 const Routes = ({ coordinates }) => {
   const map = useMap();
   const polylineRef = useRef();
-  const setIsZoomMap = useSetRecoilState(isZoomActivityMapState);
 
   // 走行ルート全体が見えるように地図の表示領域を調整
   useLayoutEffect(() => {
-    map.on("moveend", () => {
-      setTimeout(() => {
-        setIsZoomMap(false);
-      }, 150);
-    });
-
     if (coordinates.length > 0 && polylineRef.current) {
       map.fitBounds(polylineRef.current.getBounds(), {
         padding: [60, 60], // 上下左右に余白を追加
+        animate: false,
       });
     }
 
     // クリーンアップ処理
     return () => {};
-  }, [coordinates.length, map, setIsZoomMap]);
+  }, [coordinates.length, map]);
 
   return (
     <>
@@ -352,7 +343,6 @@ const Spots = ({ spots }) => {
 const Pace = ({ coordinates, averagePace, isEnlargedMap }) => {
   const polylineRef = useRef([]);
   const isPaceButtonOn = useRecoilValue(isPaceButtonOnState);
-  const isZoomMap = useRecoilValue(isZoomActivityMapState);
   // 平均ペース表示ボタンのON/OFFによるコンポーネントの表示/非表示設定
   useEffect(() => {
     // 着色したポリラインの表示/非表示設定
@@ -386,7 +376,7 @@ const Pace = ({ coordinates, averagePace, isEnlargedMap }) => {
           }}
         />
       ))}
-      {!isZoomMap && <PaceColorBar isButtonOn={isPaceButtonOn} isEnlargedMap={isEnlargedMap} />}
+      <PaceColorBar isButtonOn={isPaceButtonOn} isEnlargedMap={isEnlargedMap} />
     </>
   );
 };
@@ -408,6 +398,7 @@ const PaceColorBar = ({ isButtonOn, isEnlargedMap }) => {
         const img = L.DomUtil.create("img");
         img.src = `${FILE_URL_PATH.IMAGE}/${FILE_NAME.PACE_BAR}`;
         img.className = `${styles.PaceColorBar__img} ${isEnlargedMap ? "is_large" : ""}`;
+        img.alt = "Pace Color Bar";
 
         // カラーバーのテキストの要素作成と設定
         const topText = L.DomUtil.create("span");
@@ -736,7 +727,6 @@ const Event = ({ activity_id, isEnlargedMap }) => {
 const ActivityMap = React.memo(
   ({ activity_id, className, hasWheelZoom = true, isEnlargedMap = true }) => {
     const activity = useRecoilValue(activityState);
-    const isZoomMap = useRecoilValue(isZoomActivityMapState);
 
     useEffect(() => {
       if (activity && isEnlargedMap) {
@@ -752,7 +742,6 @@ const ActivityMap = React.memo(
     return (
       <>
         <div className={styles.ActivityMap__Container}>
-          {isZoomMap && <div className={styles.ActivityMap__overlay}></div>}
           <MapContainer
             center={[33.529, 130.55]}
             zoom={10}
@@ -764,7 +753,7 @@ const ActivityMap = React.memo(
           >
             <TileLayer url={GSI_TILE_URL} maxZoom={18} minZoom={5} />
             <ControlPanel activity_id={activity_id} isEnlargedMap={isEnlargedMap} />
-            {!isZoomMap && <ScaleBar />}
+            <ScaleBar />
             <ActivityMapper activity_id={activity_id} isEnlargedMap={isEnlargedMap} />
             <Event activity_id={activity_id} isEnlargedMap={isEnlargedMap} />
           </MapContainer>
