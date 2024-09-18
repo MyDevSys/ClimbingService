@@ -40,7 +40,7 @@ export const ActivityArticle = ({ activity_id }) => {
                 className={styles.ActivitiesId__Photo__Link}
               >
                 <Image
-                  alt={item.photo_comment}
+                  alt={item.photo_name}
                   src={`${FILE_URL_PATH.ACTIVITY.set(activity_id)}/${item.photo_name}`}
                   className={styles.ActivitiesId__Photo__Image}
                   loading="lazy"
