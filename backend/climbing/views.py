@@ -293,14 +293,15 @@ class ActivityList(APIView):
         # 活動IDと活動タグ名を取得
         activity_tags = list(activity_instances.annotate(name=F("activity_tags__tag__name")).values("id", "name"))
 
-        # 活動IDとカバー写真のシーケンス番号、タイムスタンプを取得
+        # 活動IDとカバー写真のシーケンス番号、タイムスタンプ、アスペクト比を取得
         cover_photo = list(
             activity_instances.filter(activity_photos__is_cover_photo=True)
             .annotate(
                 seq_no=F("activity_photos__seq_no"),
                 timestamp=F("activity_photos__timestamp"),
+                aspect_ratio=F("activity_photos__aspect_ratio"),
             )
-            .values("id", "seq_no", "timestamp")
+            .values("id", "seq_no", "timestamp", "aspect_ratio")
         )
 
         # 取得したデータをまとめる
@@ -434,8 +435,9 @@ class ActivityDetail(APIView):
             .annotate(
                 seq_no=F("activity_photos__seq_no"),
                 timestamp=F("activity_photos__timestamp"),
+                aspect_ratio=F("activity_photos__aspect_ratio"),
             )
-            .values("id", "seq_no", "timestamp")
+            .values("id", "seq_no", "timestamp", "aspect_ratio")
             .first()
         )
 

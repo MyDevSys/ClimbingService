@@ -230,12 +230,16 @@ class ActivityPhotosSerializer(serializers.Serializer):
     """
 
     cover_photo_name = serializers.SerializerMethodField()
+    aspect_ratio = serializers.SerializerMethodField()
 
     def get_cover_photo_name(self, obj):
         seq_no = obj["seq_no"]
         timestamp = obj["timestamp"]
-        cover_photo_name = f"photo_{str(obj['id']).zfill(4)}_{str(seq_no).zfill(2)}_{str(timestamp)}"
+        cover_photo_name = f"photo_{str(obj['id']).zfill(4)}_{str(seq_no).zfill(2)}_{str(timestamp)}.webp"
         return cover_photo_name
+
+    def get_aspect_ratio(self, obj):
+        return obj["aspect_ratio"]
 
 
 class ActivityListSerializer(serializers.Serializer):
