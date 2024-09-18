@@ -21,6 +21,8 @@ export const Profile = ({ user_id }) => {
               alt="Profile Cover"
               fill
               priority={true}
+              sizes="(max-width: 768px) 100vw, 50vw"
+              loading="eager"
               style={{ objectFit: "cover" }}
             />
           </div>
@@ -28,12 +30,16 @@ export const Profile = ({ user_id }) => {
         <section className={styles.UsersId__Head__Inner}>
           <div className={styles.UsersId__FaceInfo__Container}>
             <div className={styles.UsersId__FaceInfo}>
-              <div
-                className={styles.UsersId__FaceInfo__Cover}
-                style={{
-                  backgroundImage: `url(${FILE_URL_PATH.USER.set(user_id)}/${FILE_NAME.BACKGROUND_IMG})`,
-                }}
-              >
+              <div className={styles.UsersId__FaceInfo__Cover}>
+                <Image
+                  src={`${FILE_URL_PATH.USER.set(user_id)}/${FILE_NAME.BACKGROUND_IMG}`}
+                  alt="Profile Cover"
+                  fill
+                  priority={true}
+                  sizes="(max-width: 768px) 100vw, 100vw"
+                  loading="eager"
+                  style={{ objectFit: "cover" }}
+                />
                 <div className={styles.UsersId__FaceInfo__Overlay}></div>
               </div>
               <div className={styles.UsersId__FaceInfo__Wrap}>
@@ -48,6 +54,8 @@ export const Profile = ({ user_id }) => {
                       width={140}
                       height={140}
                       priority={true}
+                      quality={50}
+                      loading="eager"
                     />
                   </div>
                 </div>

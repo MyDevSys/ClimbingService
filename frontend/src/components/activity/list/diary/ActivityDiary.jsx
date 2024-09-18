@@ -28,7 +28,7 @@ const Pagination = dynamic(() => import("@mui/material/Pagination"), {
 });
 
 // 登山の活動日記の一覧と検索フィルタを表示するコンポーネント
-export const ActivityDiary = ({ user_id, activityDataList }) => {
+export const ActivityDiary = React.memo(({ user_id, activityDataList }) => {
   const ITEMS_PER_PAGE = 15;
   const ACTIVITY_TYPES = [
     "登山",
@@ -419,7 +419,7 @@ export const ActivityDiary = ({ user_id, activityDataList }) => {
               <p className={styles.UserActivityList__FilterMessage}>{filterMessage.current}</p>
             )}
             <ul className={styles.UserActivityList__List}>
-              {paginatedItems?.map((item) => (
+              {paginatedItems?.map((item, index) => (
                 <li key={item.activity_id} className={styles.UserActivityList__Item}>
                   <article>
                     <Link
@@ -429,10 +429,12 @@ export const ActivityDiary = ({ user_id, activityDataList }) => {
                     >
                       <Image
                         alt={item.title}
-                        src={`${FILE_URL_PATH.ACTIVITY.set(item.activity_id)}/${item.cover_photo_name}_600x400.webp`}
+                        src={`${FILE_URL_PATH.ACTIVITY.set(item.activity_id)}/${item.cover_photo_name}`}
                         className={styles.ActivityItem__Thumbnail__Img}
-                        loading="lazy"
-                        sizes="(min-width: 768px) 33.33%"
+                        loading={index === 0 ? "eager" : "lazy"}
+                        priority={index === 0 ? true : false}
+                        quality={50}
+                        sizes="(min-width: 768px) 33vw 100vw"
                         fill
                       ></Image>
                       <div className={styles.ActivityParameter__Container}>
@@ -503,6 +505,7 @@ export const ActivityDiary = ({ user_id, activityDataList }) => {
                             className={styles.RidgeUserAvatarImage__Avatar}
                             height={40}
                             width={40}
+                            loading="lazy"
                           ></Image>
                         </div>
                         <span className={styles.ActivityItem__UserName}>{item.user_name}</span>
@@ -536,4 +539,6 @@ export const ActivityDiary = ({ user_id, activityDataList }) => {
       </div>
     </>
   );
-};
+});
+
+ActivityDiary.displayName = "ActivityDiary";

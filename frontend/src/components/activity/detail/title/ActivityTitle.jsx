@@ -17,12 +17,16 @@ export const ActivityTitle = ({ activity_id }) => {
   const activity = useRecoilValue(activityState);
   return (
     <>
-      <div
-        className={styles.ActivityDetailTabLayout__Image}
-        style={{
-          backgroundImage: `url(${FILE_URL_PATH.ACTIVITY.set(activity_id)}/${activity?.cover_photo_name})`,
-        }}
-      >
+      <div className={styles.ActivityDetailTabLayout__Image}>
+        <Image
+          src={`${FILE_URL_PATH.ACTIVITY.set(activity_id)}/${activity?.cover_photo_name}`}
+          alt="Activity Cover Photo"
+          fill
+          priority={true}
+          loading="eager"
+          sizes="(max-width: 768px) 100vw, 100vw"
+          style={{ objectFit: "cover" }}
+        />
         <header className={styles.ActivityDetailTabLayout__Header}>
           <div className={styles.ActivityDetailTabLayout__Header__Inner}>
             <h1 className={styles.ActivityDetailTabLayout__Title}>{activity?.title}</h1>
@@ -46,7 +50,7 @@ export const ActivityTitle = ({ activity_id }) => {
               >
                 <div className={styles.ActivityDetailTabLayout__UserAvatar}>
                   <Image
-                    alt={activity?.user_name}
+                    alt="Title Avatar Icon"
                     src={`${FILE_URL_PATH.USER.set(activity?.user_id)}/${FILE_NAME.ICON}`}
                     className={styles.UserAvatarImage__Avatar}
                     width={32}

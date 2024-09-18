@@ -57,6 +57,7 @@
 
 .UsersId__FaceInfo__Overlay {
     background: #0006;
+    position: absolute;
     height: 100%;
     width: 100%;
 }
