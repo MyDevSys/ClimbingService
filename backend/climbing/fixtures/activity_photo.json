@@ -8,7 +8,7 @@
       "comments": "菅原道真公の詠が刻まれた石碑",
       "is_cover_photo": true,
       "domo_points": 4,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 1,
       "timestamp": 1722765280
     }
@@ -22,7 +22,7 @@
       "comments": "天拝山 登山口",
       "is_cover_photo": false,
       "domo_points": 3,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 2,
       "timestamp": 1722765280
     }
@@ -36,7 +36,7 @@
       "comments": "天拝山社",
       "is_cover_photo": false,
       "domo_points": 1,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 3,
       "timestamp": 1722765280
     }
@@ -50,7 +50,7 @@
       "comments": "天拝山の眺望",
       "is_cover_photo": false,
       "domo_points": 3,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 4,
       "timestamp": 1722765280
     }
@@ -64,7 +64,7 @@
       "comments": "十坊山の眺望1",
       "is_cover_photo": false,
       "domo_points": 0,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 1,
       "timestamp": 1722765280
     }
@@ -78,7 +78,7 @@
       "comments": "十坊山の眺望2",
       "is_cover_photo": false,
       "domo_points": 2,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 2,
       "timestamp": 1722765280
     }
@@ -92,7 +92,7 @@
       "comments": "坊主岩",
       "is_cover_photo": true,
       "domo_points": 5,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 3,
       "timestamp": 1722765280
     }
@@ -106,7 +106,7 @@
       "comments": "九千部山の眺望1",
       "is_cover_photo": false,
       "domo_points": 0,
-      "aspect_ratio": 150.0,
+      "aspect_ratio": 66.7,
       "seq_no": 1,
       "timestamp": 1722765280
     }
@@ -120,7 +120,7 @@
       "comments": "九千部山の眺望2",
       "is_cover_photo": true,
       "domo_points": 3,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 2,
       "timestamp": 1722765280
     }
@@ -134,7 +134,7 @@
       "comments": "竈門神社の上宮",
       "is_cover_photo": false,
       "domo_points": 5,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 1,
       "timestamp": 1722765280
     }
@@ -148,7 +148,7 @@
       "comments": "宝満山の眺望1",
       "is_cover_photo": false,
       "domo_points": 5,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 2,
       "timestamp": 1722765280
     }
@@ -162,7 +162,7 @@
       "comments": "宝満山の眺望2",
       "is_cover_photo": true,
       "domo_points": 4,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 3,
       "timestamp": 1722765280
     }
@@ -176,7 +176,7 @@
       "comments": "仏頂山の眺望",
       "is_cover_photo": false,
       "domo_points": 5,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 4,
       "timestamp": 1722765280
     }
@@ -190,7 +190,7 @@
       "comments": "金山の眺望",
       "is_cover_photo": false,
       "domo_points": 3,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 1,
       "timestamp": 1722765280
     }
@@ -204,7 +204,7 @@
       "comments": "坊主ヶ滝",
       "is_cover_photo": true,
       "domo_points": 3,
-      "aspect_ratio": 150.0,
+      "aspect_ratio": 66.7,
       "seq_no": 2,
       "timestamp": 1722765280
     }
@@ -218,7 +218,7 @@
       "comments": "天智天皇欽仰之碑",
       "is_cover_photo": true,
       "domo_points": 0,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 1,
       "timestamp": 1722765280
     }
@@ -232,7 +232,7 @@
       "comments": "基山の眺望",
       "is_cover_photo": false,
       "domo_points": 1,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 2,
       "timestamp": 1722765280
     }
@@ -246,7 +246,7 @@
       "comments": "基肄城跡 石碑",
       "is_cover_photo": false,
       "domo_points": 4,
-      "aspect_ratio": 150.0,
+      "aspect_ratio": 66.7,
       "seq_no": 3,
       "timestamp": 1722765280
     }
@@ -260,7 +260,7 @@
       "comments": "基肄城 水門跡",
       "is_cover_photo": false,
       "domo_points": 5,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 4,
       "timestamp": 1722765280
     }
@@ -274,7 +274,7 @@
       "comments": "アンノ滝",
       "is_cover_photo": false,
       "domo_points": 4,
-      "aspect_ratio": 150.0,
+      "aspect_ratio": 66.7,
       "seq_no": 1,
       "timestamp": 1722765280
     }
@@ -288,7 +288,7 @@
       "comments": "井原山の眺望1",
       "is_cover_photo": true,
       "domo_points": 2,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 2,
       "timestamp": 1722765280
     }
@@ -302,7 +302,7 @@
       "comments": "井原山の眺望2",
       "is_cover_photo": false,
       "domo_points": 5,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 3,
       "timestamp": 1722765280
     }
@@ -316,7 +316,7 @@
       "comments": "冨士山の眺望",
       "is_cover_photo": false,
       "domo_points": 5,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 4,
       "timestamp": 1722765280
     }
@@ -330,7 +330,7 @@
       "comments": "雷山の眺望",
       "is_cover_photo": false,
       "domo_points": 1,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 5,
       "timestamp": 1722765280
     }
@@ -344,7 +344,7 @@
       "comments": "清賀の滝",
       "is_cover_photo": false,
       "domo_points": 4,
-      "aspect_ratio": 150.0,
+      "aspect_ratio": 66.7,
       "seq_no": 6,
       "timestamp": 1722765280
     }
@@ -358,7 +358,7 @@
       "comments": "脊振山の眺望1",
       "is_cover_photo": true,
       "domo_points": 5,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 1,
       "timestamp": 1722765280
     }
@@ -372,7 +372,7 @@
       "comments": "脊振山の眺望2",
       "is_cover_photo": false,
       "domo_points": 4,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 2,
       "timestamp": 1722765280
     }
@@ -386,7 +386,7 @@
       "comments": "脊振神社 上宮",
       "is_cover_photo": false,
       "domo_points": 4,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 3,
       "timestamp": 1722765280
     }
@@ -400,7 +400,7 @@
       "comments": "釈迦岳の眺望1",
       "is_cover_photo": false,
       "domo_points": 4,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 1,
       "timestamp": 1722765280
     }
@@ -414,7 +414,7 @@
       "comments": "釈迦岳の眺望2",
       "is_cover_photo": true,
       "domo_points": 3,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 2,
       "timestamp": 1722765280
     }
@@ -428,7 +428,7 @@
       "comments": "八ッ滝",
       "is_cover_photo": false,
       "domo_points": 3,
-      "aspect_ratio": 150.0,
+      "aspect_ratio": 66.7,
       "seq_no": 3,
       "timestamp": 1722765280
     }
@@ -442,7 +442,7 @@
       "comments": "古処山の眺望",
       "is_cover_photo": false,
       "domo_points": 3,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 1,
       "timestamp": 1722765280
     }
@@ -456,7 +456,7 @@
       "comments": "屏山の眺望",
       "is_cover_photo": false,
       "domo_points": 2,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 2,
       "timestamp": 1722765280
     }
@@ -470,7 +470,7 @@
       "comments": "江川岳の眺望",
       "is_cover_photo": false,
       "domo_points": 0,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 3,
       "timestamp": 1722765280
     }
@@ -484,7 +484,7 @@
       "comments": "馬見山の眺望",
       "is_cover_photo": false,
       "domo_points": 0,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 4,
       "timestamp": 1722765280
     }
@@ -498,7 +498,7 @@
       "comments": "馬見山の見晴し台の眺望",
       "is_cover_photo": true,
       "domo_points": 1,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 5,
       "timestamp": 1722765280
     }
@@ -512,7 +512,7 @@
       "comments": "二丈岳の眺望1",
       "is_cover_photo": false,
       "domo_points": 5,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 1,
       "timestamp": 1722765280
     }
@@ -526,7 +526,7 @@
       "comments": "二丈岳の眺望2",
       "is_cover_photo": true,
       "domo_points": 3,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 2,
       "timestamp": 1722765280
     }
@@ -540,7 +540,7 @@
       "comments": "女岳の眺望",
       "is_cover_photo": false,
       "domo_points": 1,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 3,
       "timestamp": 1722765280
     }
@@ -554,7 +554,7 @@
       "comments": "加茂ゆらりんこ橋",
       "is_cover_photo": false,
       "domo_points": 2,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 4,
       "timestamp": 1722765280
     }
@@ -568,7 +568,7 @@
       "comments": "大入海水浴場",
       "is_cover_photo": false,
       "domo_points": 5,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 5,
       "timestamp": 1722765280
     }
@@ -582,7 +582,7 @@
       "comments": "三郡山の眺望1",
       "is_cover_photo": false,
       "domo_points": 2,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 1,
       "timestamp": 1722765280
     }
@@ -596,7 +596,7 @@
       "comments": "三郡山の眺望2",
       "is_cover_photo": true,
       "domo_points": 3,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 2,
       "timestamp": 1722765280
     }
@@ -610,7 +610,7 @@
       "comments": "頭巾山の眺望",
       "is_cover_photo": false,
       "domo_points": 4,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 3,
       "timestamp": 1722765280
     }
@@ -624,7 +624,7 @@
       "comments": "天山神社 上宮",
       "is_cover_photo": false,
       "domo_points": 1,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 1,
       "timestamp": 1722765280
     }
@@ -638,7 +638,7 @@
       "comments": "天山の眺望1",
       "is_cover_photo": false,
       "domo_points": 4,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 2,
       "timestamp": 1722765280
     }
@@ -652,7 +652,7 @@
       "comments": "天山の眺望2",
       "is_cover_photo": false,
       "domo_points": 3,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 3,
       "timestamp": 1722765280
     }
@@ -666,7 +666,7 @@
       "comments": "天山の眺望3",
       "is_cover_photo": true,
       "domo_points": 4,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 4,
       "timestamp": 1722765280
     }
@@ -694,7 +694,7 @@
       "comments": "沓掛山方面の風景",
       "is_cover_photo": true,
       "domo_points": 4,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 1,
       "timestamp": 1722765280
     }
@@ -708,7 +708,7 @@
       "comments": "沓掛山の眺望1",
       "is_cover_photo": false,
       "domo_points": 0,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 2,
       "timestamp": 1722765280
     }
@@ -722,7 +722,7 @@
       "comments": "沓掛山の眺望2",
       "is_cover_photo": false,
       "domo_points": 5,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 3,
       "timestamp": 1722765280
     }
@@ -736,7 +736,7 @@
       "comments": "扇ヶ鼻分岐に向けた山道",
       "is_cover_photo": false,
       "domo_points": 5,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 4,
       "timestamp": 1722765280
     }
@@ -750,7 +750,7 @@
       "comments": "星生山に向けた山道から見た眺望",
       "is_cover_photo": false,
       "domo_points": 2,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 5,
       "timestamp": 1722765280
     }
@@ -764,7 +764,7 @@
       "comments": "星生山の眺望1",
       "is_cover_photo": false,
       "domo_points": 2,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 6,
       "timestamp": 1722765280
     }
@@ -778,7 +778,7 @@
       "comments": "星生山の眺望2",
       "is_cover_photo": false,
       "domo_points": 1,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 7,
       "timestamp": 1722765280
     }
@@ -792,7 +792,7 @@
       "comments": "星生山の眺望3",
       "is_cover_photo": false,
       "domo_points": 2,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 8,
       "timestamp": 1722765280
     }
@@ -806,7 +806,7 @@
       "comments": "扇ヶ鼻の眺望1",
       "is_cover_photo": false,
       "domo_points": 4,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 9,
       "timestamp": 1722765280
     }
@@ -820,7 +820,7 @@
       "comments": "扇ヶ鼻の眺望2",
       "is_cover_photo": false,
       "domo_points": 0,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 10,
       "timestamp": 1722765280
     }
@@ -834,7 +834,7 @@
       "comments": "扇ヶ鼻の眺望3",
       "is_cover_photo": false,
       "domo_points": 5,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 11,
       "timestamp": 1722765280
     }
@@ -848,7 +848,7 @@
       "comments": "久住山の眺望1",
       "is_cover_photo": false,
       "domo_points": 4,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 1,
       "timestamp": 1722765280
     }
@@ -862,7 +862,7 @@
       "comments": "久住山の眺望2",
       "is_cover_photo": false,
       "domo_points": 1,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 2,
       "timestamp": 1722765280
     }
@@ -876,7 +876,7 @@
       "comments": "久住山の眺望3",
       "is_cover_photo": false,
       "domo_points": 0,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 3,
       "timestamp": 1722765280
     }
@@ -890,7 +890,7 @@
       "comments": "天狗ヶ城の眺望1",
       "is_cover_photo": false,
       "domo_points": 5,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 4,
       "timestamp": 1722765280
     }
@@ -904,7 +904,7 @@
       "comments": "天狗ヶ城の眺望2",
       "is_cover_photo": false,
       "domo_points": 3,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 5,
       "timestamp": 1722765280
     }
@@ -918,7 +918,7 @@
       "comments": "天狗ヶ城から見た中岳",
       "is_cover_photo": false,
       "domo_points": 3,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 6,
       "timestamp": 1722765280
     }
@@ -932,7 +932,7 @@
       "comments": "天狗ヶ城から見た御池",
       "is_cover_photo": false,
       "domo_points": 2,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 7,
       "timestamp": 1722765280
     }
@@ -946,7 +946,7 @@
       "comments": "中岳の眺望1",
       "is_cover_photo": false,
       "domo_points": 0,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 8,
       "timestamp": 1722765280
     }
@@ -960,7 +960,7 @@
       "comments": "中岳の眺望2",
       "is_cover_photo": true,
       "domo_points": 0,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 9,
       "timestamp": 1722765280
     }
@@ -974,7 +974,7 @@
       "comments": "白口岳の眺望1",
       "is_cover_photo": false,
       "domo_points": 4,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 10,
       "timestamp": 1722765280
     }
@@ -988,7 +988,7 @@
       "comments": "白口岳の眺望2",
       "is_cover_photo": false,
       "domo_points": 0,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 11,
       "timestamp": 1722765280
     }
@@ -1002,7 +1002,7 @@
       "comments": "稲星山の眺望1",
       "is_cover_photo": false,
       "domo_points": 4,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 12,
       "timestamp": 1722765280
     }
@@ -1016,7 +1016,7 @@
       "comments": "稲星山の眺望2",
       "is_cover_photo": false,
       "domo_points": 2,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 13,
       "timestamp": 1722765280
     }
@@ -1030,7 +1030,7 @@
       "comments": "稲星山の眺望3",
       "is_cover_photo": false,
       "domo_points": 1,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 14,
       "timestamp": 1722765280
     }
@@ -1044,7 +1044,7 @@
       "comments": "稲星山の眺望4",
       "is_cover_photo": false,
       "domo_points": 1,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 15,
       "timestamp": 1722765280
     }
@@ -1058,7 +1058,7 @@
       "comments": "由布岳正面登山口からの眺望",
       "is_cover_photo": true,
       "domo_points": 4,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 1,
       "timestamp": 1722765280
     }
@@ -1072,7 +1072,7 @@
       "comments": "由布岳(東峰)の眺望",
       "is_cover_photo": false,
       "domo_points": 4,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 2,
       "timestamp": 1722765280
     }
@@ -1086,7 +1086,7 @@
       "comments": "由布岳(東峰)から見た由布岳(西峰)",
       "is_cover_photo": false,
       "domo_points": 3,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 3,
       "timestamp": 1722765280
     }
@@ -1100,7 +1100,7 @@
       "comments": "飯盛ヶ城から見るやまなみハイウェイ",
       "is_cover_photo": false,
       "domo_points": 2,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 4,
       "timestamp": 1722765280
     }
@@ -1114,7 +1114,7 @@
       "comments": "飯盛ヶ城から見る由布岳",
       "is_cover_photo": false,
       "domo_points": 2,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 5,
       "timestamp": 1722765280
     }
@@ -1128,7 +1128,7 @@
       "comments": "太宰府天満宮の楼門",
       "is_cover_photo": false,
       "domo_points": 4,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 1,
       "timestamp": 1722765280
     }
@@ -1142,7 +1142,7 @@
       "comments": "太宰府天満宮の御本殿",
       "is_cover_photo": false,
       "domo_points": 5,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 2,
       "timestamp": 1722765280
     }
@@ -1156,7 +1156,7 @@
       "comments": "包丁塚",
       "is_cover_photo": false,
       "domo_points": 3,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 3,
       "timestamp": 1722765280
     }
@@ -1170,7 +1170,7 @@
       "comments": "お石トンネル",
       "is_cover_photo": false,
       "domo_points": 2,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 4,
       "timestamp": 1722765280
     }
@@ -1184,7 +1184,7 @@
       "comments": "竈門神社の御本殿",
       "is_cover_photo": false,
       "domo_points": 1,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 5,
       "timestamp": 1722765280
     }
@@ -1198,7 +1198,7 @@
       "comments": "夢想権之助神社",
       "is_cover_photo": false,
       "domo_points": 0,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 6,
       "timestamp": 1722765280
     }
@@ -1212,7 +1212,7 @@
       "comments": "宝満山の眺望1",
       "is_cover_photo": false,
       "domo_points": 0,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 7,
       "timestamp": 1722765280
     }
@@ -1226,7 +1226,7 @@
       "comments": "宝満山の眺望2",
       "is_cover_photo": true,
       "domo_points": 2,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 8,
       "timestamp": 1722765280
     }
@@ -1240,7 +1240,7 @@
       "comments": "竈門神社の御本殿",
       "is_cover_photo": false,
       "domo_points": 1,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 1,
       "timestamp": 1722765280
     }
@@ -1254,7 +1254,7 @@
       "comments": "宝満山の眺望1",
       "is_cover_photo": true,
       "domo_points": 5,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 2,
       "timestamp": 1722765280
     }
@@ -1268,7 +1268,7 @@
       "comments": "宝満山の眺望2",
       "is_cover_photo": false,
       "domo_points": 3,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 3,
       "timestamp": 1722765280
     }
@@ -1282,7 +1282,7 @@
       "comments": "竈門神社の上宮",
       "is_cover_photo": false,
       "domo_points": 2,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 4,
       "timestamp": 1722765280
     }
@@ -1296,7 +1296,7 @@
       "comments": "仏頂山の眺望",
       "is_cover_photo": false,
       "domo_points": 2,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 5,
       "timestamp": 1722765280
     }
@@ -1310,7 +1310,7 @@
       "comments": "竈門山碑(中宮跡)",
       "is_cover_photo": false,
       "domo_points": 4,
-      "aspect_ratio": 150.0,
+      "aspect_ratio": 66.7,
       "seq_no": 6,
       "timestamp": 1722765280
     }
@@ -1338,7 +1338,7 @@
       "comments": "鷹取山の眺望1",
       "is_cover_photo": true,
       "domo_points": 3,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 2,
       "timestamp": 1722765280
     }
@@ -1352,7 +1352,7 @@
       "comments": "鷹取山の眺望2",
       "is_cover_photo": false,
       "domo_points": 0,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 3,
       "timestamp": 1722765280
     }
@@ -1366,7 +1366,7 @@
       "comments": "油山牧場のコスモス畑",
       "is_cover_photo": false,
       "domo_points": 4,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 1,
       "timestamp": 1722765280
     }
@@ -1380,7 +1380,7 @@
       "comments": "油山山頂の眺望1",
       "is_cover_photo": false,
       "domo_points": 2,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 2,
       "timestamp": 1722765280
     }
@@ -1394,7 +1394,7 @@
       "comments": "油山山頂の眺望2",
       "is_cover_photo": false,
       "domo_points": 5,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 3,
       "timestamp": 1722765280
     }
@@ -1408,7 +1408,7 @@
       "comments": "妙見望からの眺望",
       "is_cover_photo": true,
       "domo_points": 3,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 4,
       "timestamp": 1722765280
     }
@@ -1422,7 +1422,7 @@
       "comments": "白糸の滝",
       "is_cover_photo": false,
       "domo_points": 1,
-      "aspect_ratio": 150.0,
+      "aspect_ratio": 66.7,
       "seq_no": 1,
       "timestamp": 1722765280
     }
@@ -1436,7 +1436,7 @@
       "comments": "福智山の頂上付近の景色",
       "is_cover_photo": true,
       "domo_points": 5,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 2,
       "timestamp": 1722765280
     }
@@ -1450,7 +1450,7 @@
       "comments": "福智山の眺望1",
       "is_cover_photo": false,
       "domo_points": 3,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 3,
       "timestamp": 1722765280
     }
@@ -1464,7 +1464,7 @@
       "comments": "福智山の眺望2",
       "is_cover_photo": false,
       "domo_points": 3,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 4,
       "timestamp": 1722765280
     }
@@ -1478,7 +1478,7 @@
       "comments": "鷹取山の眺望",
       "is_cover_photo": false,
       "domo_points": 5,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 5,
       "timestamp": 1722765280
     }
@@ -1492,7 +1492,7 @@
       "comments": "三俣山(本峰)から見た日の出☀️",
       "is_cover_photo": false,
       "domo_points": 5,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 1,
       "timestamp": 1722765280
     }
@@ -1506,7 +1506,7 @@
       "comments": "三俣山(本峰)の朝焼け",
       "is_cover_photo": true,
       "domo_points": 5,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 2,
       "timestamp": 1722765280
     }
@@ -1520,7 +1520,7 @@
       "comments": "三俣山(本峰)の眺望",
       "is_cover_photo": false,
       "domo_points": 1,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 3,
       "timestamp": 1722765280
     }
@@ -1534,7 +1534,7 @@
       "comments": "三俣山(本峰)から見た由布岳",
       "is_cover_photo": false,
       "domo_points": 2,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 4,
       "timestamp": 1722765280
     }
@@ -1548,7 +1548,7 @@
       "comments": "三俣山(本峰)の頂上間近の眺望",
       "is_cover_photo": false,
       "domo_points": 2,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 5,
       "timestamp": 1722765280
     }
@@ -1562,7 +1562,7 @@
       "comments": "三俣山(南峰)から見た雲海☁️",
       "is_cover_photo": false,
       "domo_points": 4,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 6,
       "timestamp": 1722765280
     }
@@ -1576,7 +1576,7 @@
       "comments": "三俣山(南峰)の眺望1",
       "is_cover_photo": false,
       "domo_points": 3,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 7,
       "timestamp": 1722765280
     }
@@ -1590,7 +1590,7 @@
       "comments": "三俣山(南峰)の眺望2",
       "is_cover_photo": false,
       "domo_points": 2,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 8,
       "timestamp": 1722765280
     }
@@ -1604,7 +1604,7 @@
       "comments": "三俣山(西峰)の眺望",
       "is_cover_photo": false,
       "domo_points": 2,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 9,
       "timestamp": 1722765280
     }
@@ -1618,7 +1618,7 @@
       "comments": "三俣山(西峰)から見た三俣山(Ⅳ峰)",
       "is_cover_photo": false,
       "domo_points": 4,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 10,
       "timestamp": 1722765280
     }
@@ -1632,7 +1632,7 @@
       "comments": "諏蛾守越から見た三俣山",
       "is_cover_photo": false,
       "domo_points": 4,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 11,
       "timestamp": 1722765280
     }
@@ -1646,7 +1646,7 @@
       "comments": "宿泊した法華院温泉山荘♨️",
       "is_cover_photo": false,
       "domo_points": 0,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 12,
       "timestamp": 1722765280
     }
@@ -1660,7 +1660,7 @@
       "comments": "2日目に登る大船山",
       "is_cover_photo": false,
       "domo_points": 3,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 13,
       "timestamp": 1722765280
     }
@@ -1674,7 +1674,7 @@
       "comments": "大船山の眺望1",
       "is_cover_photo": false,
       "domo_points": 5,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 14,
       "timestamp": 1722765280
     }
@@ -1688,7 +1688,7 @@
       "comments": "大船山の眺望2",
       "is_cover_photo": false,
       "domo_points": 0,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 15,
       "timestamp": 1722765280
     }
@@ -1702,7 +1702,7 @@
       "comments": "北大船山の眺望",
       "is_cover_photo": false,
       "domo_points": 3,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 16,
       "timestamp": 1722765280
     }
@@ -1716,7 +1716,7 @@
       "comments": "北大船山から見た坊ガツル",
       "is_cover_photo": false,
       "domo_points": 0,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 17,
       "timestamp": 1722765280
     }
@@ -1730,7 +1730,7 @@
       "comments": "雨ヶ池の木道",
       "is_cover_photo": false,
       "domo_points": 4,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 18,
       "timestamp": 1722765280
     }
@@ -1744,7 +1744,7 @@
       "comments": "宝満山の頂上の眺望1",
       "is_cover_photo": false,
       "domo_points": 3,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 1,
       "timestamp": 1722765280
     }
@@ -1758,7 +1758,7 @@
       "comments": "宝満山の頂上の眺望2",
       "is_cover_photo": false,
       "domo_points": 5,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 2,
       "timestamp": 1722765280
     }
@@ -1772,7 +1772,7 @@
       "comments": "宝満山の頂上の眺望3",
       "is_cover_photo": false,
       "domo_points": 4,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 3,
       "timestamp": 1722765280
     }
@@ -1786,7 +1786,7 @@
       "comments": "仏頂山の頂上の眺望",
       "is_cover_photo": false,
       "domo_points": 0,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 4,
       "timestamp": 1722765280
     }
@@ -1800,7 +1800,7 @@
       "comments": "難所ヶ滝の眺望",
       "is_cover_photo": true,
       "domo_points": 1,
-      "aspect_ratio": 150.0,
+      "aspect_ratio": 66.7,
       "seq_no": 5,
       "timestamp": 1722765280
     }
@@ -1814,7 +1814,7 @@
       "comments": "天拝山からの眺望",
       "is_cover_photo": true,
       "domo_points": 0,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 1,
       "timestamp": 1722765280
     }
@@ -1828,7 +1828,7 @@
       "comments": "天拝山の山頂標識",
       "is_cover_photo": false,
       "domo_points": 5,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 2,
       "timestamp": 1722765280
     }
@@ -1842,7 +1842,7 @@
       "comments": "奥天拝の山頂標識",
       "is_cover_photo": false,
       "domo_points": 3,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 3,
       "timestamp": 1722765280
     }
@@ -1856,7 +1856,7 @@
       "comments": "大佐野山の山頂標識",
       "is_cover_photo": false,
       "domo_points": 1,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 4,
       "timestamp": 1722765280
     }
@@ -1870,7 +1870,7 @@
       "comments": "黒金山の山頂標識",
       "is_cover_photo": false,
       "domo_points": 2,
-      "aspect_ratio": 150.0,
+      "aspect_ratio": 66.7,
       "seq_no": 5,
       "timestamp": 1722765280
     }
@@ -1884,7 +1884,7 @@
       "comments": "高地山の眺望",
       "is_cover_photo": false,
       "domo_points": 2,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 6,
       "timestamp": 1722765280
     }
@@ -1898,7 +1898,7 @@
       "comments": "牛頸山の山頂標識",
       "is_cover_photo": false,
       "domo_points": 5,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 7,
       "timestamp": 1722765280
     }
@@ -1912,7 +1912,7 @@
       "comments": "牛頸山の眺望",
       "is_cover_photo": false,
       "domo_points": 5,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 8,
       "timestamp": 1722765280
     }
@@ -1926,7 +1926,7 @@
       "comments": "九千部山の山頂標識",
       "is_cover_photo": false,
       "domo_points": 5,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 1,
       "timestamp": 1722765280
     }
@@ -1940,7 +1940,7 @@
       "comments": "九千部山の眺望1",
       "is_cover_photo": true,
       "domo_points": 2,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 2,
       "timestamp": 1722765280
     }
@@ -1954,7 +1954,7 @@
       "comments": "九千部山の眺望2",
       "is_cover_photo": false,
       "domo_points": 4,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 3,
       "timestamp": 1722765280
     }
@@ -1968,7 +1968,7 @@
       "comments": "高良大社",
       "is_cover_photo": false,
       "domo_points": 3,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 1,
       "timestamp": 1722765280
     }
@@ -1982,7 +1982,7 @@
       "comments": "高良大社の樟樹",
       "is_cover_photo": false,
       "domo_points": 0,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 2,
       "timestamp": 1722765280
     }
@@ -1996,7 +1996,7 @@
       "comments": "高良山の山頂",
       "is_cover_photo": false,
       "domo_points": 5,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 3,
       "timestamp": 1722765280
     }
@@ -2010,7 +2010,7 @@
       "comments": "久留米森林つつじ公園",
       "is_cover_photo": false,
       "domo_points": 2,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 4,
       "timestamp": 1722765280
     }
@@ -2024,7 +2024,7 @@
       "comments": "兜山の山頂",
       "is_cover_photo": false,
       "domo_points": 0,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 5,
       "timestamp": 1722765280
     }
@@ -2038,7 +2038,7 @@
       "comments": "グライダー山の山頂1",
       "is_cover_photo": false,
       "domo_points": 2,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 6,
       "timestamp": 1722765280
     }
@@ -2052,7 +2052,7 @@
       "comments": "グライダー山の山頂2",
       "is_cover_photo": true,
       "domo_points": 5,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 7,
       "timestamp": 1722765280
     }
@@ -2066,7 +2066,7 @@
       "comments": "発心山の山頂",
       "is_cover_photo": false,
       "domo_points": 4,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 8,
       "timestamp": 1722765280
     }
@@ -2080,7 +2080,7 @@
       "comments": "百段ガンギ",
       "is_cover_photo": false,
       "domo_points": 4,
-      "aspect_ratio": 150.0,
+      "aspect_ratio": 66.7,
       "seq_no": 1,
       "timestamp": 1722765280
     }
@@ -2094,7 +2094,7 @@
       "comments": "宝満山頂上",
       "is_cover_photo": false,
       "domo_points": 3,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 2,
       "timestamp": 1722765280
     }
@@ -2108,7 +2108,7 @@
       "comments": "宝満山の頂上の景観",
       "is_cover_photo": true,
       "domo_points": 4,
-      "aspect_ratio": 66.7,
+      "aspect_ratio": 150.0,
       "seq_no": 3,
       "timestamp": 1722765280
     }
