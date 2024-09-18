@@ -4,7 +4,7 @@
     "photo_name": "photo_0023_01_1722765280.webp",
     "photo_comment": "宝満山の頂上の眺望1",
     "domo": 0,
-    "aspect_ratio": 66.7,
+    "aspect_ratio": 150.0,
     "coordinates": [
       33.539825,
       130.568994
@@ -15,7 +15,7 @@
     "photo_name": "photo_0023_02_1722765280.webp",
     "photo_comment": "宝満山の頂上の眺望2",
     "domo": 0,
-    "aspect_ratio": 66.7,
+    "aspect_ratio": 150.0,
     "coordinates": [
       33.540004,
       130.569058
@@ -26,7 +26,7 @@
     "photo_name": "photo_0023_03_1722765280.webp",
     "photo_comment": "宝満山の頂上の眺望3",
     "domo": 0,
-    "aspect_ratio": 66.7,
+    "aspect_ratio": 150.0,
     "coordinates": [
       33.539825,
       130.568994
@@ -37,7 +37,7 @@
     "photo_name": "photo_0023_04_1722765280.webp",
     "photo_comment": "仏頂山の頂上の眺望",
     "domo": 0,
-    "aspect_ratio": 66.7,
+    "aspect_ratio": 150.0,
     "coordinates": [
       33.54234,
       130.572404
@@ -48,7 +48,7 @@
     "photo_name": "photo_0023_05_1722765280.webp",
     "photo_comment": "難所ヶ滝の眺望",
     "domo": 0,
-    "aspect_ratio": 150.0,
+    "aspect_ratio": 66.7,
     "coordinates": [
       33.54603,
       130.573207

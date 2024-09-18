@@ -4,7 +4,7 @@
     "photo_name": "photo_0009_01_1722765280.webp",
     "photo_comment": "釈迦岳の眺望1",
     "domo": 0,
-    "aspect_ratio": 66.7,
+    "aspect_ratio": 150.0,
     "coordinates": [
       33.1869,
       130.887305
@@ -15,7 +15,7 @@
     "photo_name": "photo_0009_02_1722765280.webp",
     "photo_comment": "釈迦岳の眺望2",
     "domo": 0,
-    "aspect_ratio": 66.7,
+    "aspect_ratio": 150.0,
     "coordinates": [
       33.187478,
       130.889058
@@ -26,7 +26,7 @@
     "photo_name": "photo_0009_03_1722765280.webp",
     "photo_comment": "八ッ滝",
     "domo": 0,
-    "aspect_ratio": 150.0,
+    "aspect_ratio": 66.7,
     "coordinates": [
       33.18094,
       130.873042

@@ -4,7 +4,7 @@
     "photo_name": "photo_0011_01_1722765280.webp",
     "photo_comment": "二丈岳の眺望1",
     "domo": 0,
-    "aspect_ratio": 66.7,
+    "aspect_ratio": 150.0,
     "coordinates": [
       33.488419,
       130.126613
@@ -15,7 +15,7 @@
     "photo_name": "photo_0011_02_1722765280.webp",
     "photo_comment": "二丈岳の眺望2",
     "domo": 0,
-    "aspect_ratio": 66.7,
+    "aspect_ratio": 150.0,
     "coordinates": [
       33.488444,
       130.126399
@@ -26,7 +26,7 @@
     "photo_name": "photo_0011_03_1722765280.webp",
     "photo_comment": "女岳の眺望",
     "domo": 0,
-    "aspect_ratio": 66.7,
+    "aspect_ratio": 150.0,
     "coordinates": [
       33.475044,
       130.115836
@@ -37,7 +37,7 @@
     "photo_name": "photo_0011_04_1722765280.webp",
     "photo_comment": "加茂ゆらりんこ橋",
     "domo": 0,
-    "aspect_ratio": 66.7,
+    "aspect_ratio": 150.0,
     "coordinates": [
       33.493277,
       130.102956
@@ -48,7 +48,7 @@
     "photo_name": "photo_0011_05_1722765280.webp",
     "photo_comment": "大入海水浴場",
     "domo": 0,
-    "aspect_ratio": 66.7,
+    "aspect_ratio": 150.0,
     "coordinates": [
       33.508875,
       130.105933

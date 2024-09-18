@@ -4,7 +4,7 @@
     "photo_name": "photo_0016_01_1722765280.webp",
     "photo_comment": "由布岳正面登山口からの眺望",
     "domo": 0,
-    "aspect_ratio": 66.7,
+    "aspect_ratio": 150.0,
     "coordinates": [
       33.266782,
       131.394831
@@ -15,7 +15,7 @@
     "photo_name": "photo_0016_02_1722765280.webp",
     "photo_comment": "由布岳(東峰)の眺望",
     "domo": 0,
-    "aspect_ratio": 66.7,
+    "aspect_ratio": 150.0,
     "coordinates": [
       33.280703,
       131.392225
@@ -26,7 +26,7 @@
     "photo_name": "photo_0016_03_1722765280.webp",
     "photo_comment": "由布岳(東峰)から見た由布岳(西峰)",
     "domo": 0,
-    "aspect_ratio": 66.7,
+    "aspect_ratio": 150.0,
     "coordinates": [
       33.280618,
       131.391597
@@ -37,7 +37,7 @@
     "photo_name": "photo_0016_04_1722765280.webp",
     "photo_comment": "飯盛ヶ城から見るやまなみハイウェイ",
     "domo": 0,
-    "aspect_ratio": 66.7,
+    "aspect_ratio": 150.0,
     "coordinates": [
       33.271105,
       131.38844
@@ -48,7 +48,7 @@
     "photo_name": "photo_0016_05_1722765280.webp",
     "photo_comment": "飯盛ヶ城から見る由布岳",
     "domo": 0,
-    "aspect_ratio": 66.7,
+    "aspect_ratio": 150.0,
     "coordinates": [
       33.270866,
       131.388742

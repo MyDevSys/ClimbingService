@@ -4,7 +4,7 @@
     "photo_name": "photo_0002_01_1722765280.webp",
     "photo_comment": "十坊山の頂上",
     "domo": 0,
-    "aspect_ratio": 66.7,
+    "aspect_ratio": 150.0,
     "coordinates": [
       33.472623,
       130.068095
@@ -15,7 +15,7 @@
     "photo_name": "photo_0002_02_1722765280.webp",
     "photo_comment": "坊主岩",
     "domo": 0,
-    "aspect_ratio": 66.7,
+    "aspect_ratio": 150.0,
     "coordinates": [
       33.472546,
       130.068301
@@ -26,7 +26,7 @@
     "photo_name": "photo_0002_03_1722765280.webp",
     "photo_comment": "十坊山の眺望",
     "domo": 0,
-    "aspect_ratio": 66.7,
+    "aspect_ratio": 150.0,
     "coordinates": [
       33.472546,
       130.068301

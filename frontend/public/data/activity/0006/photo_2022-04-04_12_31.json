@@ -4,7 +4,7 @@
     "photo_name": "photo_0006_01_1722765280.webp",
     "photo_comment": "天智天皇欽仰之碑",
     "domo": 0,
-    "aspect_ratio": 66.7,
+    "aspect_ratio": 150.0,
     "coordinates": [
       33.442601,
       130.510515
@@ -15,7 +15,7 @@
     "photo_name": "photo_0006_02_1722765280.webp",
     "photo_comment": "基山の眺望",
     "domo": 0,
-    "aspect_ratio": 66.7,
+    "aspect_ratio": 150.0,
     "coordinates": [
       33.442721,
       130.51011
@@ -26,7 +26,7 @@
     "photo_name": "photo_0006_03_1722765280.webp",
     "photo_comment": "基肄城跡 石碑",
     "domo": 0,
-    "aspect_ratio": 150.0,
+    "aspect_ratio": 66.7,
     "coordinates": [
       33.443971,
       130.5095
@@ -37,7 +37,7 @@
     "photo_name": "photo_0006_04_1722765280.webp",
     "photo_comment": "基肄城 水門跡",
     "domo": 0,
-    "aspect_ratio": 66.7,
+    "aspect_ratio": 150.0,
     "coordinates": [
       33.44077,
       130.516199

@@ -4,7 +4,7 @@
     "photo_name": "photo_0015_01_1722765280.webp",
     "photo_comment": "久住山の眺望1",
     "domo": 0,
-    "aspect_ratio": 66.7,
+    "aspect_ratio": 150.0,
     "coordinates": [
       33.082161,
       131.241213
@@ -15,7 +15,7 @@
     "photo_name": "photo_0015_02_1722765280.webp",
     "photo_comment": "久住山の眺望2",
     "domo": 0,
-    "aspect_ratio": 66.7,
+    "aspect_ratio": 150.0,
     "coordinates": [
       33.082161,
       131.241213
@@ -26,7 +26,7 @@
     "photo_name": "photo_0015_03_1722765280.webp",
     "photo_comment": "久住山の眺望3",
     "domo": 0,
-    "aspect_ratio": 66.7,
+    "aspect_ratio": 150.0,
     "coordinates": [
       33.082161,
       131.241213
@@ -37,7 +37,7 @@
     "photo_name": "photo_0015_04_1722765280.webp",
     "photo_comment": "天狗ヶ城の眺望1",
     "domo": 0,
-    "aspect_ratio": 66.7,
+    "aspect_ratio": 150.0,
     "coordinates": [
       33.086561,
       131.245841
@@ -48,7 +48,7 @@
     "photo_name": "photo_0015_05_1722765280.webp",
     "photo_comment": "天狗ヶ城の眺望2",
     "domo": 0,
-    "aspect_ratio": 66.7,
+    "aspect_ratio": 150.0,
     "coordinates": [
       33.086561,
       131.245841
@@ -59,7 +59,7 @@
     "photo_name": "photo_0015_06_1722765280.webp",
     "photo_comment": "天狗ヶ城から見た中岳",
     "domo": 0,
-    "aspect_ratio": 66.7,
+    "aspect_ratio": 150.0,
     "coordinates": [
       33.086561,
       131.245841
@@ -70,7 +70,7 @@
     "photo_name": "photo_0015_07_1722765280.webp",
     "photo_comment": "天狗ヶ城から見た御池",
     "domo": 0,
-    "aspect_ratio": 66.7,
+    "aspect_ratio": 150.0,
     "coordinates": [
       33.086561,
       131.245841
@@ -81,7 +81,7 @@
     "photo_name": "photo_0015_08_1722765280.webp",
     "photo_comment": "中岳の眺望1",
     "domo": 0,
-    "aspect_ratio": 66.7,
+    "aspect_ratio": 150.0,
     "coordinates": [
       33.085837,
       131.249211
@@ -92,7 +92,7 @@
     "photo_name": "photo_0015_09_1722765280.webp",
     "photo_comment": "中岳の眺望2",
     "domo": 0,
-    "aspect_ratio": 66.7,
+    "aspect_ratio": 150.0,
     "coordinates": [
       33.085837,
       131.249211
@@ -103,7 +103,7 @@
     "photo_name": "photo_0015_10_1722765280.webp",
     "photo_comment": "白口岳の眺望1",
     "domo": 0,
-    "aspect_ratio": 66.7,
+    "aspect_ratio": 150.0,
     "coordinates": [
       33.08477,
       131.25503
@@ -114,7 +114,7 @@
     "photo_name": "photo_0015_11_1722765280.webp",
     "photo_comment": "白口岳の眺望2",
     "domo": 0,
-    "aspect_ratio": 66.7,
+    "aspect_ratio": 150.0,
     "coordinates": [
       33.08477,
       131.25503
@@ -125,7 +125,7 @@
     "photo_name": "photo_0015_12_1722765280.webp",
     "photo_comment": "稲星山の眺望1",
     "domo": 0,
-    "aspect_ratio": 66.7,
+    "aspect_ratio": 150.0,
     "coordinates": [
       33.081051,
       131.250347
@@ -136,7 +136,7 @@
     "photo_name": "photo_0015_13_1722765280.webp",
     "photo_comment": "稲星山の眺望2",
     "domo": 0,
-    "aspect_ratio": 66.7,
+    "aspect_ratio": 150.0,
     "coordinates": [
       33.081051,
       131.250347
@@ -147,7 +147,7 @@
     "photo_name": "photo_0015_14_1722765280.webp",
     "photo_comment": "稲星山の眺望3",
     "domo": 0,
-    "aspect_ratio": 66.7,
+    "aspect_ratio": 150.0,
     "coordinates": [
       33.081163,
       131.249746
@@ -158,7 +158,7 @@
     "photo_name": "photo_0015_15_1722765280.webp",
     "photo_comment": "稲星山の眺望4",
     "domo": 0,
-    "aspect_ratio": 66.7,
+    "aspect_ratio": 150.0,
     "coordinates": [
       33.081096,
       131.248895

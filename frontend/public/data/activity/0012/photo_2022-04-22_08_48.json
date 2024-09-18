@@ -4,7 +4,7 @@
     "photo_name": "photo_0012_01_1722765280.webp",
     "photo_comment": "三郡山の眺望1",
     "domo": 0,
-    "aspect_ratio": 66.7,
+    "aspect_ratio": 150.0,
     "coordinates": [
       33.555516,
       130.583843
@@ -15,7 +15,7 @@
     "photo_name": "photo_0012_02_1722765280.webp",
     "photo_comment": "三郡山の眺望2",
     "domo": 0,
-    "aspect_ratio": 66.7,
+    "aspect_ratio": 150.0,
     "coordinates": [
       33.555516,
       130.583843
@@ -26,7 +26,7 @@
     "photo_name": "photo_0012_03_1722765280.webp",
     "photo_comment": "頭巾山の眺望",
     "domo": 0,
-    "aspect_ratio": 66.7,
+    "aspect_ratio": 150.0,
     "coordinates": [
       33.553482,
       130.578099
