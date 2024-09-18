@@ -24,15 +24,15 @@ export const QUERY_NAME = {
 };
 
 // 地理院地図の標準地図タイルを取得するURL
-export const GSI_TILE_URL = process.env.NEXT_PUBLIC_GSI_TILE_URL
+export const GSI_TILE_URL = process.env.NEXT_PUBLIC_GSI_TILE_URL;
 // フロントエンドのURL
-export const FRONTEND_BASE_URL = process.env.NEXT_PUBLIC_FRONTEND_BASE_URL
+export const FRONTEND_BASE_URL = process.env.NEXT_PUBLIC_FRONTEND_BASE_URL;
 // バックエンドのURL
-export const BACKEND_BASE_URL = process.env.NEXT_PUBLIC_BACKEND_BASE_URL
+export const BACKEND_BASE_URL = process.env.NEXT_PUBLIC_BACKEND_BASE_URL;
 
 // 定数の@パラメータの置換関数
-const setParam = function (id) {
-  return this.url.replace("@", id);
+const setParam = function (value) {
+  return this.target.replace("@", value);
 };
 
 // ファイルURLパス
@@ -40,11 +40,11 @@ export const FILE_URL_PATH = {
   ICON: `/icon`,
   IMAGE: `/img`,
   USER: {
-    url: `/data/user/@`,
+    target: `/data/user/@`,
     set: setParam,
   },
   ACTIVITY: {
-    url: `/data/activity/@`,
+    target: `/data/activity/@`,
     set: setParam,
   },
   MAP: `/data/sys/map`,
@@ -59,19 +59,19 @@ export const API_URL_PATH = {
   CSRF: `${BACKEND_BASE_URL}/api/auth/csrf/`,
   TOKEN: `${BACKEND_BASE_URL}/api/auth/token/`,
   ACTIVITY: {
-    url: `${BACKEND_BASE_URL}/api/activities/@/`,
+    target: `${BACKEND_BASE_URL}/api/activities/@/`,
     set: setParam,
   },
   USER: {
-    url: `${BACKEND_BASE_URL}/api/users/@/`,
+    target: `${BACKEND_BASE_URL}/api/users/@/`,
     set: setParam,
   },
   PROFILE: {
-    url: `${BACKEND_BASE_URL}/api/users/profile/@/`,
+    target: `${BACKEND_BASE_URL}/api/users/profile/@/`,
     set: setParam,
   },
   ACHIEVEMENT: {
-    url: `${BACKEND_BASE_URL}/api/achievements/@/`,
+    target: `${BACKEND_BASE_URL}/api/achievements/@/`,
     set: setParam,
   },
 };
@@ -88,19 +88,19 @@ export const URL_PATH = {
   LOGIN: "/login",
   SERVER_ERROR: "/error",
   USER: {
-    url: `${DIR_PATH.USER}/@`,
+    target: `${DIR_PATH.USER}/@`,
     set: setParam,
   },
   ACTIVITY: {
-    url: `${DIR_PATH.ACTIVITY}/@`,
+    target: `${DIR_PATH.ACTIVITY}/@`,
     set: setParam,
   },
   ARTICLE: {
-    url: `${DIR_PATH.ACTIVITY}/@/articles`,
+    target: `${DIR_PATH.ACTIVITY}/@/articles`,
     set: setParam,
   },
   TRACK: {
-    url: `${DIR_PATH.ACTIVITY}/@/tracks`,
+    target: `${DIR_PATH.ACTIVITY}/@/tracks`,
     set: setParam,
   },
 };

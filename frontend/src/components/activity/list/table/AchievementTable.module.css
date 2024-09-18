@@ -15,7 +15,7 @@
 
 .tableHeaderCell:global(.MuiTableCell-root) {
   background-color:#F5F5F5;
-  padding: 16px 0px 16px 16px;
+  padding: 16px 0px 16px 10px;
   font-size: 1.5rem;
   font-weight: bold;
   white-space: nowrap; 
@@ -81,6 +81,12 @@
     display: none !important;
   }
   
+  .label__Counter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   
   .column__mountain{
     width: 40%;
