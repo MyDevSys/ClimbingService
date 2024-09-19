@@ -28,7 +28,7 @@ export default async function RecordsLayout({ children }) {
       () => serverFetch.get(API_URL_PATH.PROFILE.set(user_id)),
     ]);
   } catch (error) {
-    appLogger.warn(
+    appLogger.error(
       `${RecordsLayout.displayName} fetch Error (status : ${error?.response?.status || "none"}) \n  ${error?.message || ""}`,
     );
 

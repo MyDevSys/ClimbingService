@@ -21,7 +21,7 @@ export default async function ActivityLayout({ children, params }) {
       </SetCookie>
     );
   } catch (error) {
-    appLogger.warn(
+    appLogger.error(
       `${ActivityLayout.displayName} fetch Error (status : ${error?.response?.status || "none"}) \n  ${error?.message || ""}`,
     );
 

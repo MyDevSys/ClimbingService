@@ -50,7 +50,7 @@ export default async function ActivityListPage({ params }) {
       </>
     );
   } catch (error) {
-    appLogger.warn(
+    appLogger.error(
       `${ActivityListPage.displayName} fetch Error (status : ${error?.response?.status || "none"}) \n  ${error?.message || ""}`,
     );
 
