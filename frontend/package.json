@@ -26,6 +26,7 @@
     "leaflet": "^1.9.3",
     "modern-css-reset": "^1.4.0",
     "next": "^14.2.3",
+    "node-vault": "^0.10.2",
     "react": "^18",
     "react-autosuggest": "^10.1.0",
     "react-chartjs-2": "^5.2.0",
@@ -46,6 +47,7 @@
     "winston-daily-rotate-file": "^5.0.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.47.1",
     "cross-env": "^7.0.3",
     "eslint": "^8.57.0",
     "eslint-config-next": "14.2.3",
