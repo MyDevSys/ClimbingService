@@ -185,7 +185,7 @@ export const Header = ({ user_id, profile }) => {
                   >
                     <div className={styles.AccountMenu__Container}>
                       <button
-                        aria-label="アカウント"
+                        aria-label="アカウント_desktop"
                         onClick={handleAccountMenu}
                         className={styles.ContentHeader__Navigation__Avatar__Button}
                       >
@@ -198,7 +198,7 @@ export const Header = ({ user_id, profile }) => {
                   >
                     <div className={styles.AccountMenu__Container}>
                       <button
-                        aria-label="アカウント"
+                        aria-label="アカウント_Mobile"
                         onClick={toggleDrawer(true)}
                         className={styles.ContentHeader__Navigation__Button}
                       >

@@ -86,7 +86,7 @@ export function AchievementTable({ achievementList }) {
       columnName: "都道府県",
       count: Object.entries(prefectureCount)
         .filter(([_, value]) => value !== 0)
-        .map(([key, value]) => `${value}${key}`)
+        .map(([key, value]) => `${value} ${key}`)
         .join(""),
       className: "column__prefecture",
     },

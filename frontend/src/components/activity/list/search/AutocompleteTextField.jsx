@@ -259,6 +259,7 @@ export const AutocompleteTextField = ({
           return (
             <TextField
               {...params}
+              name="search"
               placeholder={isError ? "エラー発生中" : isLoading ? "読み込み中..." : "例.福岡県"}
               variant="outlined"
               fullWidth

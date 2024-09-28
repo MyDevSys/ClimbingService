@@ -48,6 +48,17 @@ const ClimbingMap = ({ climbingPrefectures, mapData, tabState }) => {
 
     currentPrefecture.layer = layer;
 
+    // 各レイヤーに対し、id属性として都道府県名を追加
+    layer.on("add", function () {
+      const pathElement = layer.getElement();
+      const idName = feature.properties.pref.toLowerCase();
+      if (pathElement) {
+        pathElement.setAttribute("id", idName);
+      } else {
+        console.error("Path element not found for", idName);
+      }
+    });
+
     // 各都道府県のレイヤーの設定
     layer.setStyle({
       color: currentPrefecture?.borderColor || NORMAL_BORDER_COLOR,

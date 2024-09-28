@@ -191,6 +191,14 @@
   padding-top: 16px;
 }
 
+.landmarkPopup__photo__caption span {
+  margin-right: 5px;
+}
+
+.landmarkPopup__photo__caption span:last-child {
+  margin-right: 0;
+}
+
 .landmarkPopup__photo__button{
   display: flex;
   justify-content: center;

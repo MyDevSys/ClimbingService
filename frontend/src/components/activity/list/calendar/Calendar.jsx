@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
+import { useRef, useEffect, forwardRef } from "react";
 import { usePathname, useSearchParams } from "next/navigation";
 import DatePicker, { registerLocale } from "react-datepicker";
 import { DoubleLeftArrow, LeftArrow, DoubleRightArrow, RightArrow } from "@components/icons";
@@ -15,6 +15,19 @@ import styles from "./Calendar.module.css";
 
 // 日本語ロケールを登録
 registerLocale("ja", ja);
+
+const CustomInput = forwardRef(({ value, onClick, onKeyDown }, ref) => (
+  <input
+    ref={ref}
+    value={value}
+    onClick={onClick} // クリック時にカレンダーを開く
+    onKeyDown={onKeyDown} // キーボードの入力を防ぐ
+    placeholder="日付を選択"
+    className="custom-input"
+  />
+));
+
+CustomInput.displayName = "CustomInput";
 
 // カレンダーを表示するコンポーネント
 export const Calendar = ({
@@ -35,7 +48,6 @@ export const Calendar = ({
   const calendarDate = useRef(null);
   const pathname = usePathname();
   const searchParams = useSearchParams();
-  const [isOpen, setIsOpen] = useState(false);
 
   // クエリパラメータの読み込み
   useEffect(() => {
@@ -109,42 +121,30 @@ export const Calendar = ({
   // カレンダーの日付のスタイルクラスの設定
   const dayClassName = (date) => {
     const today = new Date();
-    const style = !isSameMonth(date, calendarDate.current)
-      ? styles["datepicker--not-current-month"]
-      : !isSameDay(date, today)
-        ? styles["datepicker--current-month"]
-        : `${styles["datepicker--current-month"]} ${styles["datepicker--today"]}`;
+
+    const style =
+      date > maxDateValue || date < minDateValue
+        ? styles["datepicker--not-selectable"]
+        : !isSameMonth(date, calendarDate.current)
+          ? styles["datepicker--not-current-month"]
+          : !isSameDay(date, today)
+            ? styles["datepicker--current-month"]
+            : `${styles["datepicker--current-month"]} ${styles["datepicker--today"]}`;
 
     return style;
   };
 
-  // 日付の入力ボックスをフォーカスした際のハンドラ関数
-  const handleFocus = () => {
-    setIsOpen(true);
-  };
-
-  // 日付の入力ボックスのフォーカスを外した際のハンドラ関数
-  const handleClickOutside = () => {
-    setIsOpen(false);
-  };
-
   // 日付情報が変更した際のハンドラ関数
   const handleDateChange = (date) => {
-    // 開始日時/終了日時をstateに設定
-    setState(date);
+    if (date <= maxDateValue && date >= minDateValue) {
+      // 開始日時/終了日時をstateに設定
+      setState(date);
 
-    // 開始日時/終了日時のクエリパラメータの設定
-    setDateQueryParams(pathname, searchParams, date, isStartAt);
+      // 開始日時/終了日時のクエリパラメータの設定
+      setDateQueryParams(pathname, searchParams, date, isStartAt);
 
-    // １ページから表示するようにページを設定
-    setPage(1);
-
-    if (date === null) {
-      // 日付が削除された後にカレンダーを開く
-      setIsOpen(true);
-    } else {
-      // 日付が選択されたときにカレンダーを閉じる
-      setIsOpen(false);
+      // １ページから表示するようにページを設定
+      setPage(1);
     }
   };
 
@@ -154,12 +154,8 @@ export const Calendar = ({
         renderCustomHeader={renderHeader}
         showPopperArrow={false}
         showIcon
-        readOnly
         fixedHeight
         isClearable
-        open={isOpen}
-        onFocus={handleFocus}
-        onClickOutside={handleClickOutside}
         popperPlacement="bottom"
         className={className}
         calendarClassName={styles.datepicker__calendar}
@@ -170,8 +166,7 @@ export const Calendar = ({
         onChange={handleDateChange}
         locale="ja"
         dateFormat="yyyy/MM/dd"
-        minDate={minDateValue}
-        maxDate={maxDateValue}
+        showDisabledMonthNavigation
         dropdownMode="select"
         icon={<CalendarMonthIcon className={styles.datepicker__input__icon} />}
         id={typeStr}

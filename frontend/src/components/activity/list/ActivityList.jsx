@@ -161,7 +161,7 @@ export const ActivityList = ({
                     {tab.label}
                     <span
                       className={styles.UsersId__Tab__Count}
-                    >{`${tab.length} ${tab.name === TAB_ACTIVITY ? " 件" : " 座"}`}</span>
+                    >{`${tab.length} ${tab.name === TAB_ACTIVITY ? "件" : "座"}`}</span>
                   </Link>
                 </li>
               ))}

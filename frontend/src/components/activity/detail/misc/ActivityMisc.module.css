@@ -19,6 +19,13 @@
     margin-right: 8px;
 }
 
+
+.ActivitiesId__Misc__Plan{
+    color: #000;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
 .ActivitiesId__Misc__Value{
     color: #757575;
     flex: 1;

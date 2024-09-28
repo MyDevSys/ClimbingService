@@ -61,7 +61,10 @@ export const ActivityMisc = () => {
       <div className={styles.ActivitiesId__Misc}>
         <div className={styles.ActivitiesId__Misc__Label}>
           <PlanIcon className={styles.ActivitiesId__Misc__Icon} />
-          {activity?.is_plan_submitted ? "登山計画済み" : "登山計画未実施"}
+          登山計画
+        </div>
+        <div className={styles.ActivitiesId__Misc__Plan}>
+          {activity?.is_plan_submitted ? "提出済み" : "未提出"}
         </div>
       </div>
 
