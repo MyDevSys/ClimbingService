@@ -42,6 +42,7 @@ import styles from "./ActivityMap.module.css";
 // 地図のコントロールパネル用コンポーネント
 const ControlPanel = ({ isEnlargedMap, activity_id }) => {
   const map = useMap();
+  window.activityMap = map;
   const [controlPanel, setControlPanel] = useState(false);
   //コントロールパネルの初期設定
   useEffect(() => {
@@ -521,7 +522,7 @@ const PhotoPopup = ({
         </button>
       </div>
       <div className={styles["landmarkPopup__photo__caption"]}>
-        <span>{photo_item.date_time.match(/\d{2}:\d{2}/)[0]}&nbsp;</span>
+        <span>{photo_item.date_time.match(/\d{2}:\d{2}/)[0]}</span>
         <span>{photo_item.photo_comment}</span>
       </div>
     </div>
