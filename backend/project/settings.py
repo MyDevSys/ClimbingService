@@ -21,15 +21,18 @@ VAULT_ADDR = os.environ.get("VAULT_ADDR")
 if not VAULT_ADDR:
     raise Exception("VAULT_ADDR is not set in the environment")
 
-VAULT_TOKEN_PATH = os.environ.get("VAULT_TOKEN_PATH")
-if not VAULT_TOKEN_PATH:
-    raise Exception("VAULT_TOKEN_PATH is not set in the environment")
+VAULT_TOKEN = os.environ.get("VAULT_TOKEN")
 
-try:
-    with open(VAULT_TOKEN_PATH, "r") as token_file:
-        VAULT_TOKEN = token_file.read().strip()
-except FileNotFoundError:
-    raise Exception(f"Vault token file not found at {VAULT_TOKEN_PATH}")
+if not VAULT_TOKEN:
+    VAULT_TOKEN_PATH = os.environ.get("VAULT_TOKEN_PATH")
+    if not VAULT_TOKEN_PATH:
+        raise Exception("VAULT_TOKEN_PATH is not set in the environment")
+
+    try:
+        with open(VAULT_TOKEN_PATH, "r") as token_file:
+            VAULT_TOKEN = token_file.read().strip()
+    except FileNotFoundError:
+        raise Exception(f"Vault token file not found at {VAULT_TOKEN_PATH}")
 
 
 # Vaultからシークレットを取得する関数

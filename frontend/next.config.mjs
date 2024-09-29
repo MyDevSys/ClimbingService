@@ -11,10 +11,21 @@ axiosRetry(axios, {
 
 // Vaultの設定
 const VAULT_ADDR = process.env.VAULT_ADDR;
-const VAULT_TOKEN_PATH = process.env.VAULT_TOKEN_PATH;
+
+if (!VAULT_ADDR) {
+  throw new Error("VAULT_ADDR is not set in the environment");
+}
+
+const VAULT_TOKEN = process.env.VAULT_TOKEN;
 
 // トークンをファイルから読み込む関数
 function getVaultToken() {
+  const VAULT_TOKEN_PATH = process.env.VAULT_TOKEN_PATH;
+
+  if (!VAULT_TOKEN_PATH) {
+    throw new Error("VAULT_TOKEN_PATH is not set in the environment");
+  }
+
   try {
     const token = fs.readFileSync(path.resolve(VAULT_TOKEN_PATH), "utf8");
     return token.trim(); // 改行や余計な空白を削除
@@ -26,10 +37,16 @@ function getVaultToken() {
 
 // Vaultからシークレットを取得する関数
 async function getVaultSecret(path) {
-  const token = getVaultToken();
-  if (!token) {
-    console.error("Vault token is missing");
-    return null;
+  let token;
+
+  if (!VAULT_TOKEN) {
+    token = getVaultToken();
+    if (!token) {
+      console.error("Vault token is missing");
+      return null;
+    }
+  } else {
+    token = VAULT_TOKEN;
   }
 
   const url = `${VAULT_ADDR}/v1/${path}`;
