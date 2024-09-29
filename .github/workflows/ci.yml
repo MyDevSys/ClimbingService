@@ -19,9 +19,8 @@ jobs:
         env:
           VAULT_DEV_ROOT_TOKEN_ID: root
           VAULT_ADDR: http://127.0.0.1:8200
-        options: > 
-          --cap-add=IPC_LOCK 
-
+        options: "--cap-add=IPC_LOCK"
+        
     steps:
       - name: Check out the repository
         uses: actions/checkout@v4
