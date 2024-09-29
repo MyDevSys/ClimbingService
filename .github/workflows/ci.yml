@@ -68,14 +68,18 @@ jobs:
         run: |
           vault kv put secret/data/climbing-service/backend DB_NAME="$DB_NAME" DB_PASSWORD="$DB_PASSWORD" ALLOWED_HOSTS="$ALLOWED_HOSTS" COOKIE_DOMAIN="$COOKIE_DOMAIN" CORS_ALLOWED_ORIGINS="$CORS_ALLOWED_ORIGINS" CSRF_TRUSTED_ORIGINS="$CSRF_TRUSTED_ORIGINS" DB_HOST="$DB_HOST" DB_PORT="$DB_PORT" DB_USER="$DB_USER" DEBUG="$DEBUG" SECRET_KEY="$SECRET_KEY"
 
+      - name: Fetch Vault metadata
+        run: |
+          vault kv metadata get secret/climbing-service/backend    
+
       - name: Fetch Vault secrets
         run: |
           vault kv get secret/data/climbing-service/backend
 
-      - name: Get secret via curl to v1 API
-        run: |
-          curl -v --header "X-Vault-Token: $VAULT_TOKEN" --request GET http://127.0.0.1:8200/v1/secret/data/climbing-service/backend
-          
+      # - name: Get secret via curl to v1 API
+      #   run: |
+      #     curl -v --header "X-Vault-Token: $VAULT_TOKEN" --request GET http://127.0.0.1:8200/v1/secret/data/climbing-service/backend
+      #     curl --header "X-Vault-Token: $VAULT_TOKEN" --request　　 GET http://127.0.0.1:8200/v1/secret/data/climbing-service/backend
       # - name: Set up Python 3.12
       #   uses: actions/setup-python@v4
       #   with:
