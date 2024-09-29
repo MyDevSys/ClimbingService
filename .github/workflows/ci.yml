@@ -95,6 +95,7 @@ jobs:
       - name: Apply database migrations
         run: |
           cd backend
+          python manage.py makemigrations climbing
           python manage.py migrate
 
       - name: Load fixtures into the database
