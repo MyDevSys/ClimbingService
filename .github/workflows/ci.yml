@@ -44,10 +44,14 @@ jobs:
         ports:
           - 3306:3306
         env:
-          MYSQL_ROOT_PASSWORD: $DB_ROOT_PASSWORD
-          MYSQL_DATABASE: $DB_NAME
-          MYSQL_USER: $DB_USER
-          MYSQL_PASSWORD: $DB_PASSWORD
+          # MYSQL_ROOT_PASSWORD: $DB_ROOT_PASSWORD
+          # MYSQL_DATABASE: $DB_NAME
+          # MYSQL_USER: $DB_USER
+          # MYSQL_PASSWORD: $DB_PASSWORD
+          MYSQL_ROOT_PASSWORD: root
+          MYSQL_DATABASE: hoge
+          MYSQL_USER: test
+          MYSQL_PASSWORD: test
         options: --health-cmd="mysqladmin ping --silent" --health-interval=10s --health-timeout=5s --health-retries=3
 
     steps:
@@ -74,7 +78,8 @@ jobs:
           vault kv get secret/backend
       
       - name: Verify MySQL Connection
+        #mysql --host=$DB_HOST --port=$DB_PORT --user=$DB_USER --password=$DB_PASSWORD --database=$DB_NAME --execute="SHOW TABLES;"
         run: |
-          mysql --host=$DB_HOST --port=$DB_PORT --user=$DB_USER --password=$DB_PASSWORD --database=$DB_NAME --execute="SHOW TABLES;"
+          mysql --host=127.0.0.1 --port=3306 --user=test --password=test --database=hoge --execute="SHOW TABLES;"
       
       
