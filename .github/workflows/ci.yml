@@ -75,6 +75,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r backend/requirements.txt
 
-      - name: Retrieve MySQL user and host
+      - name: Configure MySQL authentication plugin for localhost
         run: |
-          mysql -u root -p$DB_PASSWORD -h 127.0.0.1 -e "SELECT user, host FROM mysql.user WHERE user = 'root';"
+          mysql -u root -p$DB_PASSWORD -h 127.0.0.1 -e "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '$DB_PASSWORD';"
+          mysql -u root -p$DB_PASSWORD -h 127.0.0.1 -e "FLUSH PRIVILEGES;"
