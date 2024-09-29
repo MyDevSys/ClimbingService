@@ -46,8 +46,8 @@ jobs:
         env:
           MYSQL_ROOT_PASSWORD: ${{ secrets.DB_PASSWORD }}
           MYSQL_DATABASE: ${{ secrets.DB_NAME }}
-          MYSQL_USER: ${{secrets.DB_USER}}
-          MYSQL_PASSWORD: ${{ secrets.DB_PASSWORD }}
+          # MYSQL_USER: ${{secrets.DB_USER}}
+          # MYSQL_PASSWORD: ${{ secrets.DB_PASSWORD }}
           # MYSQL_ROOT_PASSWORD: root
           # MYSQL_DATABASE: hoge
           # MYSQL_USER: test
