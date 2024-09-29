@@ -40,10 +40,10 @@ jobs:
         env:
             VAULT_ADDR: http://127.0.0.1:8200
             VAULT_TOKEN: root
-            VAULT_USERNAME: ${{ secrets.VAULT_USERNAME }}
-            VAULT_PASSWORD: ${{ secrets.VAULT_PASSWORD }}
+            DB_NAME: ${{ secrets.DB_NAME }}
+            DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
         run: |
-          vault kv put secret/test-database username=$VAULT_USERNAME password=$VAULT_PASSWORD
+          vault kv put secret/test-database username=$DB_NAME password=$DB_PASSWORD
 
       - name: Retrieve Vault Secret
         env:
