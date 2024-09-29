@@ -10,7 +10,7 @@ on:
   workflow_dispatch: 
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
 
     env:
@@ -20,7 +20,7 @@ jobs:
       COOKIE_DOMAIN: ${{secrets.COOKIE_DOMAIN}}
       CORS_ALLOWED_ORIGINS: ${{secrets.CORS_ALLOWED_ORIGINS}}
       CSRF_TRUSTED_ORIGINS: ${{secrets.CSRF_TRUSTED_ORIGINS}}
-      DB_HOST: 127.0.0.1  # DB_HOSTを127.0.0.1に固定
+      DB_HOST: 127.0.0.1
       DB_PORT: ${{secrets.DB_PORT}}
       DB_USER: ${{secrets.DB_USER}}
       DB_NAME: ${{ secrets.DB_NAME }}
@@ -68,10 +68,6 @@ jobs:
         run: |
           vault kv put secret/climbing-service/backend DB_NAME="$DB_NAME" DB_PASSWORD="$DB_PASSWORD" ALLOWED_HOSTS="$ALLOWED_HOSTS" COOKIE_DOMAIN="$COOKIE_DOMAIN" CORS_ALLOWED_ORIGINS="$CORS_ALLOWED_ORIGINS" CSRF_TRUSTED_ORIGINS="$CSRF_TRUSTED_ORIGINS" DB_HOST="$DB_HOST" DB_PORT="$DB_PORT" DB_USER="$DB_USER" DEBUG="$DEBUG" SECRET_KEY="$SECRET_KEY"
 
-      # - name: Get secret via curl to v1 API
-      #   run: |
-      #     curl -v --header "X-Vault-Token: $VAULT_TOKEN" --request GET http://127.0.0.1:8200/v1/secret/data/climbing-service/backend
-
       - name: Set up Python 3.12
         uses: actions/setup-python@v4
         with:
@@ -102,3 +98,8 @@ jobs:
         run: |
           cd backend
           python manage.py load_fixtures
+
+      - name: Django API test
+        run: |
+          cd backend
+          python manage.py test
