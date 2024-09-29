@@ -80,7 +80,7 @@ jobs:
       - name: Verify MySQL Connection
       # mysql --host=127.0.0.1 --port=3306 --user=root --password=root --database=hoge --execute="SHOW DATABASES;"
         run: |  
-          mysql --host=$DB_HOST --port=$DB_PORT --user=root --password=root --execute="SHOW DATABASES;"
+          mysql --host=$DB_HOST --port=$DB_PORT --user=$DB_USER --password=root --execute="SHOW DATABASES;"
 
           
       
