@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      VAULT_ADDR: http://127.0.0.1:8200
+      VAULT_ADDR: http://vault:8200
       VAULT_TOKEN: root
       ALLOWED_HOSTS: ${{secrets.ALLOWED_HOSTS}}
       COOKIE_DOMAIN: ${{secrets.COOKIE_DOMAIN}}
