@@ -35,7 +35,7 @@ jobs:
           - 8200:8200
         env:
           VAULT_DEV_ROOT_TOKEN_ID: root
-        options: "--cap-add=IPC_LOCK"
+        options: "--cap-add=IPC_LOCK --network-alias vault"
 
       mysql:
         image: mysql:8.0
@@ -63,6 +63,13 @@ jobs:
            curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
            sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
            sudo apt-get update && sudo apt-get install vault
+           
+      - name: Wait for Vault to be ready
+        run: |
+          while ! vault status; do
+            echo "Waiting for Vault to be ready..."
+            sleep 5
+          done
 
       - name: Configure Vault for test
         run: |
