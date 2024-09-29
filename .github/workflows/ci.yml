@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     services:
       vault:
-        image: vault:latest
+        image: vault:1.13.3
         ports:
           - 8200:8200
         env:
