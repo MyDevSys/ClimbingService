@@ -46,12 +46,12 @@ jobs:
         env:
           MYSQL_ROOT_PASSWORD: $DB_ROOT_PASSWORD
           MYSQL_DATABASE: $DB_NAME
-          MYSQL_USER: $DB_USER
-          MYSQL_PASSWORD: $DB_PASSWORD
+          # MYSQL_USER: $DB_USER
+          # MYSQL_PASSWORD: $DB_PASSWORD
           # MYSQL_ROOT_PASSWORD: root
           # MYSQL_DATABASE: hoge
-          # MYSQL_USER: test
-          # MYSQL_PASSWORD: test
+          MYSQL_USER: test
+          MYSQL_PASSWORD: test
         options: --health-cmd="mysqladmin ping --silent" --health-interval=10s --health-timeout=5s --health-retries=3
 
     steps:
