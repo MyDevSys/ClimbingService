@@ -1,0 +1,45 @@
+name: Climing Service CI Pipeline
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    services:
+      vault:
+        image: vault:latest
+        ports:
+          - 8200:8200
+        env:
+          VAULT_DEV_ROOT_TOKEN_ID: root
+          VAULT_ADDR: http://127.0.0.1:8200
+        options: > 
+          --cap-add=IPC_LOCK 
+          --network=host
+
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.12'
+
+      - name: Configure Vault for test
+        run: |
+          export VAULT_ADDR=http://127.0.0.1:8200
+          export VAULT_TOKEN=root
+          vault kv put secret/test-database username="testuser" password="testpassword"
+
+      - name: Retrieve Vault Secret
+        run: |
+          export VAULT_ADDR=http://127.0.0.1:8200
+          export VAULT_TOKEN=root
+          vault kv get secret/test-database
