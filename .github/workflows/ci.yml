@@ -11,6 +11,23 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
+    env:
+      VAULT_ADDR: http://127.0.0.1:8200
+      VAULT_TOKEN: root
+      ALLOWED_HOSTS: ${{secrets.ALLOWED_HOSTS}}
+      COOKIE_DOMAIN: ${{secrets.COOKIE_DOMAIN}}
+      CORS_ALLOWED_ORIGINS: ${{secrets.CORS_ALLOWED_ORIGINS}}
+      CSRF_TRUSTED_ORIGINS: ${{secrets.CSRF_TRUSTED_ORIGINS}}
+      DB_HOST: ${{secrets.DB_HOST}}
+      DB_PORT: ${{secrets.DB_PORT}}
+      DB_USER: ${{secrets.DB_USER}}
+      DB_NAME: ${{ secrets.DB_NAME }}
+      DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+      DB_ROOT_PASSWORD: ${{ secrets.DB_ROOT_PASSWORD }}
+      DEBUG: ${{secrets.DEBUG}}
+      SECRET_KEY: ${{secrets.SECRET_KEY}}
+
     services:
       vault:
         image: vault:1.13.3
@@ -20,6 +37,17 @@ jobs:
           VAULT_DEV_ROOT_TOKEN_ID: root
           VAULT_ADDR: http://127.0.0.1:8200
         options: "--cap-add=IPC_LOCK"
+
+      mysql:
+        image: mysql:8.0  # MySQLのバージョン8を指定
+        ports:
+          - 3306:3306
+        env:
+          MYSQL_ROOT_PASSWORD: $DB_ROOT_PASSWORD
+          MYSQL_DATABASE: $DB_NAME
+          MYSQL_USER: $DB_USER
+          MYSQL_PASSWORD: $DB_PASSWORD
+        options: --health-cmd="mysqladmin ping --silent" --health-interval=10s --health-timeout=5s --health-retries=3
 
     steps:
       - name: Check out the repository
@@ -37,27 +65,15 @@ jobs:
            sudo apt-get update && sudo apt-get install vault
 
       - name: Configure Vault for test
-        env:
-            VAULT_ADDR: http://127.0.0.1:8200
-            VAULT_TOKEN: root
-            ALLOWED_HOSTS: ${{secrets.ALLOWED_HOSTS}}
-            COOKIE_DOMAIN: ${{secrets.COOKIE_DOMAIN}}
-            CORS_ALLOWED_ORIGINS: ${{secrets.CORS_ALLOWED_ORIGINS}}
-            CSRF_TRUSTED_ORIGINS: ${{secrets.CSRF_TRUSTED_ORIGINS}}
-            DB_HOST: ${{secrets.DB_HOST}}
-            DB_PORT: ${{secrets.DB_PORT}}
-            DB_USER: ${{secrets.DB_USER}}
-            DEBUG: ${{secrets.DEBUG}}
-            SECRET_KEY: ${{secrets.SECRET_KEY}}
-            DB_NAME: ${{ secrets.DB_NAME }}
-            DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
-
         run: |
           vault kv put secret/backend DB_NAME="$DB_NAME" DB_PASSWORD="$DB_PASSWORD" ALLOWED_HOSTS="$ALLOWED_HOSTS" COOKIE_DOMAIN="$COOKIE_DOMAIN" CORS_ALLOWED_ORIGINS="$CORS_ALLOWED_ORIGINS" CSRF_TRUSTED_ORIGINS="$CSRF_TRUSTED_ORIGINS" DB_HOST="$DB_HOST" DB_PORT="$DB_PORT" DB_USER="$DB_USER" DEBUG="$DEBUG" SECRET_KEY="$SECRET_KEY"
 
       - name: Retrieve Vault Secret
-        env:
-          VAULT_ADDR: http://127.0.0.1:8200
-          VAULT_TOKEN: root
         run: |
           vault kv get secret/backend
+      
+      - name: Verify MySQL Connection
+        run: |
+          mysql --host=$DB_HOST --port=$DB_PORT --user=$DB_USER --password=$DB_PASSWORD --database=$DB_NAME --execute="SHOW TABLES;"
+      
+      
