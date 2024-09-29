@@ -33,18 +33,15 @@ jobs:
         image: vault:1.13.3
         ports:
           - 8200:8200
-        env:
-          VAULT_DEV_ROOT_TOKEN_ID: root
-          VAULT_ADDR: http://127.0.0.1:8200
         options: "--cap-add=IPC_LOCK"
 
       mysql:
-        image: mysql:8.0  # MySQLのバージョン8を指定
+        image: mysql:8.0
         ports:
           - 3306:3306
         env:
-          MYSQL_ROOT_PASSWORD: $DB_PASSWORD
-          MYSQL_DATABASE: $DB_NAME
+          MYSQL_ROOT_PASSWORD: ${{ secrets.DB_PASSWORD }}
+          MYSQL_DATABASE: ${{ secrets.DB_NAME }}
         options: --health-cmd="mysqladmin ping --silent" --health-interval=10s --health-timeout=5s --health-retries=3
 
     steps:
@@ -71,7 +68,6 @@ jobs:
           vault kv get secret/backend
       
       - name: Verify MySQL Connection
-      # mysql --host=127.0.0.1 --port=3306 --user=root --password=root --database=hoge --execute="SHOW DATABASES;"
         run: |  
           mysql --host=$DB_HOST --port=$DB_PORT --user=$DB_USER --password=$DB_PASSWORD --execute="SHOW DATABASES;"
 
