@@ -21,7 +21,6 @@ jobs:
           VAULT_ADDR: http://127.0.0.1:8200
         options: > 
           --cap-add=IPC_LOCK 
-          --network=host
 
     steps:
       - name: Check out the repository
