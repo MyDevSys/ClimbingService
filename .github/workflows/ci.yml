@@ -103,3 +103,29 @@ jobs:
         run: |
           cd backend
           python manage.py test
+
+      - name: Run Django development server
+        run: |
+          cd backend
+          python manage.py runserver 0.0.0.0:8000 &
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies for Next.js
+        run: |
+          cd frontend
+          npm install
+          npm install sharp
+          
+      - name: Build Next.js application
+        run: |
+          cd frontend
+          npm run build
+
+      - name: Run Next.js server
+        run: |
+          cd frontend
+          npm run dev
