@@ -76,14 +76,19 @@ jobs:
           sudo systemctl start apache2
           sudo a2enmod actions alias allowmethods auth_basic authn_core authn_file authz_core authz_groupfile authz_host authz_user autoindex cgid dir env include mime negotiation proxy proxy_http proxy_wstunnel rewrite setenvif socache_shmcb ssl
           sudo cp -r .github/workflows/config/apache/sites-available/* /etc/apache2/sites-available/
-          sudo echo "${{ secrets.SSL_CERT_MAIN }}" > /etc/ssl/certs/climbing-service.crt
-          sudo echo "${{ secrets.SSL_KEY_MAIN }}" > /etc/ssl/private/climbing-service.key
-          sudo echo "${{ secrets.SSL_CERT_API }}" > /etc/ssl/certs/api-climbing-service.crt
-          sudo echo "${{ secrets.SSL_KEY_API }}" > /etc/ssl/private/api-climbing-service.key
+          sudo echo "${{ secrets.SSL_CERT_MAIN }}" | sudo tee /etc/ssl/certs/climbing-service.crt > /dev/null
+          sudo echo "${{ secrets.SSL_KEY_MAIN }}" | sudo tee /etc/ssl/private/climbing-service.key > /dev/null
+          sudo echo "${{ secrets.SSL_CERT_API }}" | sudo tee /etc/ssl/certs/api-climbing-service.crt > /dev/null
+          sudo echo "${{ secrets.SSL_KEY_API }}" | sudo tee /etc/ssl/private/api-climbing-service.key > /dev/null
+          sudo chmod 644 /etc/ssl/certs/climbing-service.crt
+          sudo chmod 600 /etc/ssl/private/climbing-service.key
+          sudo chmod 644 /etc/ssl/certs/api-climbing-service.crt
+          sudo chmod 600 /etc/ssl/private/api-climbing-service.key
           sudo a2ensite default-ssl.conf
           sudo a2ensite 000-default.conf
           sudo a2ensite climbing-service.com.conf
           sudo a2ensite api.climbing-service.com.conf
+          sudo usermod -aG ssl-cert www-data
           sudo systemctl restart apache2
           
       - name: Install Vault CLI
