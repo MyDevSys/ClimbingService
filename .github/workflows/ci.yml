@@ -70,7 +70,8 @@ jobs:
       
       - name: Verify Vault secrets
         run: |
-          vault kv metadata get -path=secret/
+          vault kv metadata get secret/
+          vault kv get secret/
 
       # - name: Set up Python 3.12
       #   uses: actions/setup-python@v4
