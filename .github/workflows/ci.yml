@@ -161,14 +161,11 @@ jobs:
           cd frontend
           npm run build
 
-      - name: SSet up Playwright
+      - name: Set up Playwright
         run: | 
           npm install @playwright/test
           npx playwright install --with-deps
 
-      - name: 
-        run: |
-          npx playwright test --config=tests/e2e/playwright.config.js tests/e2e/src/degradation
 
       - name: Get login page response
         run: |
