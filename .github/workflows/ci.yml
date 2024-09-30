@@ -163,4 +163,9 @@ jobs:
         run: |
           cd frontend
           npm run start&
+
+      - name: Install Playwright
+        run: |
+          cd .
+          npm run start&        
       
