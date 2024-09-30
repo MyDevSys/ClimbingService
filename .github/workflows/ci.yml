@@ -186,5 +186,11 @@ jobs:
             name: playwright-report
             path: playwright-report/
             retention-days: 30
+
+      - name: Verify Playwright Report Directory
+        run: |
+          ls -la playwright-report
+          ls -la tests/e2e
+          ls -la tests/e2e/src/degradation
     
       
