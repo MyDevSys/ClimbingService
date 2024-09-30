@@ -167,18 +167,17 @@ jobs:
           echo "127.0.0.1 climbing-service.com" | sudo tee -a /etc/hosts
           echo "127.0.0.1 api.climbing-service.com" | sudo tee -a /etc/hosts
 
-      # - name: Set up Playwright
-      #   run: | 
-      #     npm install @playwright/test
-      #     npx playwright install --with-deps
+      - name: Set up Playwright
+        run: | 
+          npm install @playwright/test
+          npx playwright install --with-deps
 
-
-      - name: Get login page response
-        run: |
-          curl -i https://climbing-service.com/login
-          
-      # - name: E2E test
+      # - name: Get login page response
       #   run: |
-      #     npx playwright test --config=tests/e2e/playwright.config.js tests/e2e/src/degradation
+      #     curl -i https://climbing-service.com/login
+          
+      - name: E2E test
+        run: |
+          npx playwright test --config=tests/e2e/playwright.config.js tests/e2e/src/degradation
     
       
