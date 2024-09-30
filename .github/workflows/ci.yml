@@ -153,7 +153,7 @@ jobs:
       - name: Install dependencies for Next.js
         run: |
           cd frontend
-          npm install --production
+          npm install
           npm install sharp
           
       - name: Build Next.js application
@@ -161,9 +161,9 @@ jobs:
           cd frontend
           npm run build
 
-      - name: Install Playwright Browsers
-        run: | 
-          npx playwright install --with-deps
+      # - name: Install Playwright Browsers
+      #   run: | 
+      #     npx playwright install --with-deps
 
       - name: E2E test
         run: |
