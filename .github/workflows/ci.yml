@@ -153,7 +153,7 @@ jobs:
       - name: Install dependencies for Next.js
         run: |
           cd frontend
-          npm install
+          npm install --production
           npm install sharp
           
       - name: Build Next.js application
