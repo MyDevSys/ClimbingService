@@ -156,15 +156,16 @@ jobs:
           npm install
           npm install sharp
           
-      - name: Build Next.js application
+      - name: Build & Start Next.js application
         run: |
           cd frontend
           npm run build
+          npm run start &
 
-      - name: Set up Playwright
-        run: | 
-          npm install @playwright/test
-          npx playwright install --with-deps
+      # - name: Set up Playwright
+      #   run: | 
+      #     npm install @playwright/test
+      #     npx playwright install --with-deps
 
 
       - name: Get login page response
