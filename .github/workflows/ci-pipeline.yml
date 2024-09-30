@@ -195,6 +195,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Set timezone to JST
+        run: sudo timedatectl set-timezone Asia/Tokyo
+
+      - name: Check out the repository
+        uses: actions/checkout@v4
+        
       - name: Set up Playwright
         run: | 
           npm install @playwright/test
@@ -250,7 +256,7 @@ jobs:
 
             # 新しい資材に切り替える
             sudo -u www-data pm2 reload nextjs-app
-            
+
       - name: E2E test
         run: |
           npx playwright test --config=tests/e2e/playwright.config.js tests/e2e/src/degradation
