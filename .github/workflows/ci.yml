@@ -162,6 +162,11 @@ jobs:
           npm run build
           npm run start &
 
+      - name: Update /etc/hosts
+        run: |
+          echo "127.0.0.1 climbing-service.com" | sudo tee -a /etc/hosts
+          echo "127.0.0.1 api.climbing-service.com" | sudo tee -a /etc/hosts
+
       # - name: Set up Playwright
       #   run: | 
       #     npm install @playwright/test
