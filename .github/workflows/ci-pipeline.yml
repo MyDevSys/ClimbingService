@@ -211,48 +211,22 @@ jobs:
             cd /opt/ClimbingService/backend
 
             # 最新資材をGitからプル
-            git pull origin main || { 
-              echo "Git pull failed"; 
-              exit 1; 
-            }
+            git pull origin main
             
             # 依存パッケージをインストール
-            pip install -r requirements.txt || { 
-              echo "Dependencies installation failed, rolling back to previous state"; 
-              git checkout HEAD~1; 
-              pip install -r requirements.txt || { 
-                echo "Dependencies installation retry failed"; 
-                exit 1; 
-              }
-            }
+            pip install -r requirements.txt
 
-            # 新しい資材に切り替え
-            sudo -u www-data pm2 reload django-app || {
-                echo "PM2 reload failed, rolling back to previous state";
-                git checkout HEAD~1;
-                pip install -r requirements.txt || { 
-                  echo "Dependency installation retry failed";
-                  exit 1; 
-                }
-                sudo -u www-data pm2 reload django-app || { 
-                  echo "PM2 reload retry failed";
-                  exit 1; 
-                }
-            }
+            # マイグレーションファイルを作成
+            python manage.py makemigrations climbing
+
+            # マイグレーションの適用
+            python manage.py migrate
+
+            # 新しい資材に切り替えるためアプリケーションを再起動
+            sudo -u www-data pm2 reload django-app
 
             # 正常性確認
-            python manage.py test || {
-                echo "Health check failed, rolling back to previous state";
-                git checkout HEAD~1;
-                pip install -r requirements.txt || { 
-                  echo "Dependency installation retry failed";
-                  exit 1; 
-                }
-                sudo -u www-data pm2 reload django-app || { 
-                  echo "PM2 reload retry failed";
-                  exit 1; 
-                }
-            }
+            python manage.py test
 
 
             # cd /opt/ClimbingService/frontend
