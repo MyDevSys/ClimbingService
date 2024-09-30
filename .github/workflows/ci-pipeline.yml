@@ -195,6 +195,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Set up Playwright
+        run: | 
+          npm install @playwright/test
+          npx playwright install --with-deps
+        
       - name: Deploy to Production Server via SSH
         uses: appleboy/ssh-action@v1.0.3
         with:
@@ -245,3 +250,7 @@ jobs:
 
             # 新しい資材に切り替える
             sudo -u www-data pm2 reload nextjs-app
+            
+      - name: E2E test
+        run: |
+          npx playwright test --config=tests/e2e/playwright.config.js tests/e2e/src/degradation
