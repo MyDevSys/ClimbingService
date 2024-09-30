@@ -7,8 +7,8 @@ let page;
 
 // 初期化処理：すべてのテストの前に認証を行う
 test.beforeAll(async ({ browser }) => {
-  const EMAIL = "user1@example.com";
-  const PASSWORD = "qnusxt2q";
+  const EMAIL = process.env.TEST_EMAIL;
+  const PASSWORD = process.env.TEST_PASSWORD;
 
   // 新しいコンテキストを作成してログイン状態を保持
   context = await browser.newContext();

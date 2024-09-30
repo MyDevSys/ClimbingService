@@ -1,8 +1,8 @@
 import { test, expect } from "@playwright/test";
 
 test("活動リスト：テーブルのソート/フィルタ", async ({ page }) => {
-  const EMAIL = "user1@example.com";
-  const PASSWORD = "qnusxt2q";
+  const EMAIL = process.env.TEST_EMAIL;
+  const PASSWORD = process.env.TEST_PASSWORD;
 
   // ログインページにアクセス
   await page.goto("/login");
