@@ -227,14 +227,14 @@ jobs:
             }
 
             # 新しい資材に切り替え
-            pm2 reload django-app || {
+            sudo -u www-data pm2 reload django-app || {
                 echo "PM2 reload failed, rolling back to previous state";
                 git checkout HEAD~1;
                 pip install -r requirements.txt || { 
                   echo "Dependency installation retry failed";
                   exit 1; 
                 }
-                pm2 reload django-app || { 
+                sudo -u www-data pm2 reload django-app || { 
                   echo "PM2 reload retry failed";
                   exit 1; 
                 }
@@ -248,7 +248,7 @@ jobs:
                   echo "Dependency installation retry failed";
                   exit 1; 
                 }
-                pm2 reload django-app || { 
+                sudo -u www-data pm2 reload django-app || { 
                   echo "PM2 reload retry failed";
                   exit 1; 
                 }
