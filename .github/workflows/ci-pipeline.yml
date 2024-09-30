@@ -204,14 +204,17 @@ jobs:
           port: ${{ secrets.SERVER_SSH_PORT }}
           debug: true
           script: |
-            # 仮想環境をアクティベート
-            source /opt/ClimbingService/venv/bin/activate
-
-            # バックエンドの資材格納ディレクトリに移動
-            cd /opt/ClimbingService/backend
+            # アプリケーションの資材格納ディレクトリに移動
+            cd /opt/ClimbingService
 
             # 最新資材をGitからプル
             git pull origin main
+
+            # 仮想環境をアクティベート
+            source /opt/ClimbingService/venv/bin/activate
+
+            # バックエンドの作業ディレクトリに移動
+            cd /opt/ClimbingService/backend
             
             # 依存パッケージをインストール
             pip install -r requirements.txt
@@ -222,23 +225,23 @@ jobs:
             # マイグレーションの適用
             python manage.py migrate
 
-            # 新しい資材に切り替えるためアプリケーションを再起動
+            # 新しい資材に切り替える
             sudo -u www-data pm2 reload django-app
 
             # 正常性確認
             python manage.py test
 
+            # 仮想環境をディアクテベート
+            deactivate
 
-            # cd /opt/ClimbingService/frontend
-            # git pull origin main || { 
-            #   echo "Git pull failed"; 
-            #   exit 1; 
-            # }
-            # npm run build  || { 
-            #   echo "Build failed, rolling back"; 
-            #   git checkout HEAD~1; 
-            #   npm run build;
-            #   pm2 reload nextjs-app; 
-            #   exit 1; 
-            # }
-            # pm2 reload nextjs-app
+            # フロントエンドの資材格納ディレクトリに移動
+            cd /opt/ClimbingService/frontend
+
+            # 依存パッケージをインストール
+            npm install
+
+            # ビルド
+            npm run build
+
+            # 新しい資材に切り替える
+            sudo -u www-data pm2 reload nextjs-app
