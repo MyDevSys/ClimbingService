@@ -52,9 +52,12 @@ jobs:
         options: --health-cmd="mysqladmin ping --silent" --health-interval=10s --health-timeout=5s --health-retries=3
 
     steps:
+      - name: Set timezone to JST
+        run: sudo timedatectl set-timezone Asia/Tokyo
+
       - name: Check out the repository
         uses: actions/checkout@v4
-      
+        
       - name: Cache pip dependencies
         uses: actions/cache@v3
         with:
