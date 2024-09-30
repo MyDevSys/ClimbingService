@@ -189,14 +189,14 @@ jobs:
 
       - name: Verify Playwright Report Directory1
         run: |
-          ls -la playwright-report
+          sudo ls -la playwright-report
           
       - name: Verify Playwright Report Directory2
         run: |
-          ls -la tests/e2e
+          sudo ls -la tests/e2e
 
       - name: Verify Playwright Report Directory3
         run: |
-          ls -la tests/e2e/src/degradation
+          sudo ls -la tests/e2e/src/degradation
     
       
