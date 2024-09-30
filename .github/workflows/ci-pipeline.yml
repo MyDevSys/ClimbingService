@@ -187,7 +187,7 @@ jobs:
         uses: actions/upload-artifact@v4
         if: ${{ !cancelled() }}
         with:
-            name: E2E試験_github仮想環境
+            name: E2E_Test_Github_Virtual_Environment
             path: ./tests/e2e/playwright-report/
             retention-days: 30
 
@@ -268,6 +268,6 @@ jobs:
         uses: actions/upload-artifact@v4
         if: ${{ !cancelled() }}
         with:
-            name: E2E試験_商用環境
+            name: E2E_Test_Production_Environment
             path: ./tests/e2e/playwright-report/
             retention-days: 30
