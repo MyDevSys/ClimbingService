@@ -174,6 +174,6 @@ jobs:
       - name: E2E test
         run: |
           cd frontend/tests/playwright
-          npx playriht test src/degradation
+          npx playwriht test src/degradation
     
       
