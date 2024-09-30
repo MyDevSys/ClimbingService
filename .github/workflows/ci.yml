@@ -166,6 +166,6 @@ jobs:
 
       - name: Install Playwright
         run: |
-          cd .
-          npm run start&        
+          cd test/playwright
+          npm install -g        
       
