@@ -5,7 +5,7 @@ export default defineConfig({
   timeout: 60000,
 
   // 並列実行ワーカー数の設定
-  workers: 2,
+  workers: 4,
 
   // 共通設定
   use: {
