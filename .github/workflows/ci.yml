@@ -166,8 +166,16 @@ jobs:
           npm install @playwright/test
           npx playwright install --with-deps
 
-      - name: E2E test
+      - name: 
         run: |
           npx playwright test --config=tests/e2e/playwright.config.js tests/e2e/src/degradation
+
+      - name: Get login page response
+        run: |
+          curl -i https://climbing-service.com/login
+          
+      # - name: E2E test
+      #   run: |
+      #     npx playwright test --config=tests/e2e/playwright.config.js tests/e2e/src/degradation
     
       
