@@ -194,14 +194,6 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
 
-    # env:
-    #   SERVER_HOST: ${{ secrets.SERVER_HOST }}
-    #   SERVER_USER: ${{ secrets.SERVER_SSH_KEY }}
-    #   SERVER_SSH_KEY: ${{ secrets.SERVER_SSH_KEY }}
-    #   SERVER_SSH_PORT: ${{ secrets.SERVER_SSH_PORT }}
-      
-    # needs: e2e_tests
-
     steps:
       - name: Deploy to Production Server via SSH
         uses: appleboy/ssh-action@v1.0.3
@@ -212,11 +204,67 @@ jobs:
           port: ${{ secrets.SERVER_SSH_PORT }}
           debug: true
           script: |
-            uname -a
-            # cd /path/to/your/app
-            # git pull origin main
-            # npm install
-            # npm run build
-            # pm2 restart your-app-name
-    
-      
+            # 仮想環境をアクティベート
+            source /opt/ClimbingService/venv/bin/activate
+
+            # バックエンドの資材格納ディレクトリに移動
+            cd /opt/ClimbingService/backend
+
+            # 最新資材をGitからプル
+            git pull origin main || { 
+              echo "Git pull failed"; 
+              exit 1; 
+            }
+            
+            # 依存パッケージをインストール
+            pip install -r requirements.txt || { 
+              echo "Dependencies installation failed, rolling back to previous state"; 
+              git checkout HEAD~1; 
+              pip install -r requirements.txt || { 
+                echo "Dependencies installation retry failed"; 
+                exit 1; 
+              }
+            }
+
+            # 新しい資材に切り替え
+            pm2 reload django-app || {
+                echo "PM2 reload failed, rolling back to previous state";
+                git checkout HEAD~1;
+                pip install -r requirements.txt || { 
+                  echo "Dependency installation retry failed";
+                  exit 1; 
+                }
+                pm2 reload django-app || { 
+                  echo "PM2 reload retry failed";
+                  exit 1; 
+                }
+            }
+
+            # 正常性確認
+            python manage.py test || {
+                echo "Health check failed, rolling back to previous state";
+                git checkout HEAD~1;
+                pip install -r requirements.txt || { 
+                  echo "Dependency installation retry failed";
+                  exit 1; 
+                }
+                pm2 reload django-app || { 
+                  echo "PM2 reload retry failed";
+                  exit 1; 
+                }
+            }
+
+
+            # cd /opt/ClimbingService/frontend
+            # git pull origin main || { 
+            #   echo "Git pull failed"; 
+            #   exit 1; 
+            # }
+            # npm run build  || { 
+            #   echo "Build failed, rolling back"; 
+            #   git checkout HEAD~1; 
+            #   npm run build;
+            #   pm2 reload nextjs-app; 
+            #   exit 1; 
+            # }
+            # pm2 reload nextjs-app
