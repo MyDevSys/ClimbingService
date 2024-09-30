@@ -168,6 +168,6 @@ jobs:
 
       - name: E2E test
         run: |
-          npx playwright test tests/e2e/src/degradation
+          npx playwright test --config=tests/e2e/playwright.config.js tests/e2e/src/degradation
     
       
