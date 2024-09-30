@@ -189,14 +189,8 @@ jobs:
 
       - name: Verify Playwright Report Directory1
         run: |
-          ls -la ./playwright-report
+          find . -name "playwright-report"
           
-      - name: Verify Playwright Report Directory2
-        run: |
-          ls -la ./tests/e2e
 
-      - name: Verify Playwright Report Directory3
-        run: |
-          ls -la ./tests/e2e/src/degradation
     
       
