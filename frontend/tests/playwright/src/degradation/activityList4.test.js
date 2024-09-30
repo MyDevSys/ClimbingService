@@ -2,8 +2,8 @@ import { test, expect } from "@playwright/test";
 
 test("活動リスト：リストフィルターのリロード機能", async ({ page }) => {
   // 認証情報
-  const EMAIL = "user1@example.com";
-  const PASSWORD = "qnusxt2q";
+  const EMAIL = process.env.TEST_EMAIL;
+  const PASSWORD = process.env.TEST_PASSWORD;
 
   // 検索の入力フィールドに設定する文字列
   const SEARCH_STR = "高良山・発心山・鷹取山";

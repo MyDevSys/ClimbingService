@@ -30,6 +30,8 @@ jobs:
       BACKEND_BASE_URL: ${{secrets.BACKEND_BASE_URL}}
       FRONTEND_BASE_URL: ${{secrets.FRONTEND_BASE_URL}}
       GSI_TILE_URL: ${{secrets.GSI_TILE_URL}}
+      TEST_EMAIL: ${{secrets.TEST_EMAIL}}
+      TEST_PASSWORD: ${{secrets.TEST_PASSWORD}}
 
     services:
       vault:
@@ -167,5 +169,11 @@ jobs:
       - name: Install Playwright
         run: |
           cd frontend/tests/playwright
-          npm install  
+          npm install 
+
+      - name: E2E test
+        run: |
+          cd frontend/tests/playwright
+          npx playriht test src/degradation
+    
       
