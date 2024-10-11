@@ -1,0 +1,95 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "水源池前バス停",
+        "type": 26,
+        "id": "0001"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.307083,
+          33.494306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "花乱の滝登山口",
+        "type": 7,
+        "id": "0002"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.300528,
+          33.482556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "金山",
+        "type": 4,
+        "id": "0003"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.305861,
+          33.463528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "坊主ヶ滝",
+        "type": 20,
+        "id": "0004"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.322083,
+          33.474056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "坊主ヶ滝ルート登山口",
+        "type": 7,
+        "id": "0005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.32375,
+          33.477389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "多々良瀬バス停",
+        "type": 26,
+        "id": "0006"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.329944,
+          33.490222
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "椎原バス停",
+        "type": 26,
+        "id": "0001"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.353333,
+          33.469278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "矢筈峠",
+        "type": 8,
+        "id": "0002"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.3605,
+          33.433861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "テントサイト",
+        "type": 14,
+        "id": "0003"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.369167,
+          33.434611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "脊振山",
+        "type": 4,
+        "id": "0004"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.368611,
+          33.436444
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "九千部山",
+        "type": 4,
+        "id": "0001"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.446056,
+          33.41675
+        ]
+      }
+    }
+  ]
+}

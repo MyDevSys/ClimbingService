@@ -1,0 +1,15 @@
+{
+    "stay_days": 1,
+    "active_days":2,
+    "stay_info":[
+        {
+            "stay_place":{
+                "coordinates": [33.096361, 131.255639]
+            },
+            "stay_time":{
+                "start":"2022-11-25T12:36:04+09:00",
+                "end":"2022-11-26T07:19:04+09:00"
+            }
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "福吉駅",
+        "type": 27,
+        "id": "0001"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.079861,
+          33.501639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "中村登山口",
+        "type": 7,
+        "id": "0002"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.074139,
+          33.491611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "十坊山",
+        "type": 4,
+        "id": "0003"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.068139,
+          33.472611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "白木峠",
+        "type": 8,
+        "id": "0004"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.077083,
+          33.469861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "まむしの湯",
+        "type": 34,
+        "id": "0005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.074861,
+          33.489472
+        ]
+      }
+    }
+  ]
+}

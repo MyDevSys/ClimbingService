@@ -1,0 +1,140 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "アンノ滝",
+        "type": 20,
+        "id": "0001"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.254361,
+          33.483167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "井原山",
+        "type": 4,
+        "id": "0002"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.249833,
+          33.470389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "本富士山",
+        "type": 4,
+        "id": "0003"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.237444,
+          33.474389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "富士山",
+        "type": 4,
+        "id": "0004"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.234167,
+          33.477778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "雷山",
+        "type": 4,
+        "id": "0005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.223528,
+          33.478722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "上宮",
+        "type": 38,
+        "id": "0006"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.22175,
+          33.482306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "清賀の滝",
+        "type": 20,
+        "id": "0007"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.228528,
+          33.486111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "雷山登山口",
+        "type": 7,
+        "id": "0008"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.229528,
+          33.493917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "雷山観音前バス停",
+        "type": 26,
+        "id": "0009"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.230389,
+          33.495611
+        ]
+      }
+    }
+  ]
+}

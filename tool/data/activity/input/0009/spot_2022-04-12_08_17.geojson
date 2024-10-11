@@ -1,0 +1,110 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "御前岳登山口",
+        "type": 7,
+        "id": "0001"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.863611,
+          33.180111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "矢部越登山口",
+        "type": 7,
+        "id": "0002"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.885889,
+          33.180139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "釈迦岳(本釈迦)",
+        "type": 4,
+        "id": "0003"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.887,
+          33.186861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "釈迦岳ピーク",
+        "type": 38,
+        "id": "0004"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.88725,
+          33.187028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "釈迦岳（普賢岳）",
+        "type": 4,
+        "id": "0005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.888944,
+          33.187556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "展望ポイント",
+        "type": 21,
+        "id": "0006"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.888667,
+          33.187556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "展望所",
+        "type": 38,
+        "id": "0007"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.888778,
+          33.187722
+        ]
+      }
+    }
+  ]
+}

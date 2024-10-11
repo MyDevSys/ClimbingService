@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "田主丸駅",
+        "type": 27,
+        "id": "0001"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.692444,
+          33.338861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "平原公園登山口",
+        "type": 7,
+        "id": "0002"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.714778,
+          33.3195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "えぐ水登山口",
+        "type": 7,
+        "id": "0003"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.716361,
+          33.312556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "鷹取山",
+        "type": 4,
+        "id": "0004"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.72275,
+          33.302944
+        ]
+      }
+    }
+  ]
+}

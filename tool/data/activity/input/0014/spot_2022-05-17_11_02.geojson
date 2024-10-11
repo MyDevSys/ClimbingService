@@ -1,0 +1,95 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "牧ノ戸峠登山口",
+        "type": 7,
+        "id": "0001"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.208361,
+          33.096306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "牧ノ戸峠",
+        "type": 8,
+        "id": "0002"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.208278,
+          33.096417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "沓掛山",
+        "type": 4,
+        "id": "0003"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.214222,
+          33.094361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "星生山",
+        "type": 4,
+        "id": "0004"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.232722,
+          33.09075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "扇ヶ鼻",
+        "type": 4,
+        "id": "0005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.223639,
+          33.082333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "赤川登山口",
+        "type": 7,
+        "id": "0006"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.231333,
+          33.065694
+        ]
+      }
+    }
+  ]
+}

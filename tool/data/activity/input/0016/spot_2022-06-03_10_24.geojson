@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "由布岳正面登山口",
+        "type": 7,
+        "id": "0001"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.396194,
+          33.265111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "由布登山口バス停",
+        "type": 26,
+        "id": "0002"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.396444,
+          33.265028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "由布岳（東峰）",
+        "type": 4,
+        "id": "0003"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.392667,
+          33.280833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "飯盛ヶ城",
+        "type": 4,
+        "id": "0004"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.3885,
+          33.271111
+        ]
+      }
+    }
+  ]
+}

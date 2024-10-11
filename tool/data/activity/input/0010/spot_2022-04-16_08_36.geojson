@@ -1,0 +1,200 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "白山神社前バス停",
+        "type": 26,
+        "id": "0001"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.699028,
+          33.471556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "古処山登山口バス停",
+        "type": 26,
+        "id": "0002"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.703,
+          33.475028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "古処山登山口",
+        "type": 7,
+        "id": "0003"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.706028,
+          33.475889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "五合目登山口",
+        "type": 7,
+        "id": "0004"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.719472,
+          33.480889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "古処山",
+        "type": 4,
+        "id": "0005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.725639,
+          33.483833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "屏山",
+        "type": 4,
+        "id": "0006"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.740472,
+          33.487889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "江川岳",
+        "type": 4,
+        "id": "0007"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.748417,
+          33.483778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "宇土浦越",
+        "type": 8,
+        "id": "0008"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.755167,
+          33.487667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "筑前茅城跡",
+        "type": 23,
+        "id": "0009"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.758917,
+          33.48825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "馬見山",
+        "type": 4,
+        "id": "0010"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.767889,
+          33.486472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "避難小屋うまみ",
+        "type": 13,
+        "id": "0011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.768306,
+          33.486278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "展望ポイント",
+        "type": 21,
+        "id": "0012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.7685,
+          33.486222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "登山口",
+        "type": 7,
+        "id": "0013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.815472,
+          33.473222
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "赤川登山口",
+        "type": 7,
+        "id": "0001"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.231333,
+          33.065694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "久住山",
+        "type": 4,
+        "id": "0002"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.240861,
+          33.082194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "天狗ヶ城",
+        "type": 4,
+        "id": "0003"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.24575,
+          33.086556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "中岳",
+        "type": 4,
+        "id": "0004"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.249083,
+          33.085972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "稲星越",
+        "type": 8,
+        "id": "0005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.254639,
+          33.080889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "白口岳",
+        "type": 4,
+        "id": "0006"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.254917,
+          33.084833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "稲星山",
+        "type": 4,
+        "id": "0007"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.250528,
+          33.080889
+        ]
+      }
+    }
+  ]
+}

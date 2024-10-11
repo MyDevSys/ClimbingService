@@ -1,0 +1,125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "紫駅",
+        "type": 27,
+        "id": "0001"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.522194,
+          33.496472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "天拝山歴史自然公園",
+        "type": 31,
+        "id": "0002"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.510222,
+          33.489083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "天拝山登山口",
+        "type": 7,
+        "id": "0003"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.509056,
+          33.489167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "天拝山",
+        "type": 4,
+        "id": "0004"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.506139,
+          33.481778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "奥天拝",
+        "type": 4,
+        "id": "0005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.500389,
+          33.48075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "筑紫野市総合公園登山口",
+        "type": 7,
+        "id": "0006"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.504528,
+          33.473417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "基山登山口",
+        "type": 7,
+        "id": "0007"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.506889,
+          33.457083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "基山駅",
+        "type": 27,
+        "id": "0008"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.532333,
+          33.421222
+        ]
+      }
+    }
+  ]
+}

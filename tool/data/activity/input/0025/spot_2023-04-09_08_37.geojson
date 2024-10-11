@@ -1,0 +1,125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "0001",
+        "name": "登山口",
+        "type": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.498278,
+          33.403167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "0002",
+        "name": "杓子ヶ峰",
+        "type": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.498889,
+          33.406111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "0003",
+        "name": "奥山",
+        "type": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.495139,
+          33.408972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "0004",
+        "name": "河内ダムバス停",
+        "type": 26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.488972,
+          33.408028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "0005",
+        "name": "九千部山",
+        "type": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.446056,
+          33.41675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "0006",
+        "name": "城山",
+        "type": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.465361,
+          33.401472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "0007",
+        "name": "筑紫神社",
+        "type": 29
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.466583,
+          33.395056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "0008",
+        "name": "登山口",
+        "type": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.466389,
+          33.394306
+        ]
+      }
+    }
+  ]
+}

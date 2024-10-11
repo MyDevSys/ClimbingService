@@ -1,0 +1,170 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "登山口",
+        "type": 7,
+        "id": "0001"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.408861,
+          33.52
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "片縄山",
+        "type": 4,
+        "id": "0002"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.401306,
+          33.513528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "猿山",
+        "type": 4,
+        "id": "0003"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.397472,
+          33.512083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "糠塚山",
+        "type": 4,
+        "id": "0004"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.392722,
+          33.50775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "萩ノ原峠",
+        "type": 8,
+        "id": "0005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.38475,
+          33.507222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "油山",
+        "type": 4,
+        "id": "0006"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.3645,
+          33.511944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "国見岩",
+        "type": 19,
+        "id": "0007"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.365417,
+          33.515778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "妙見山",
+        "type": 4,
+        "id": "0008"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.365139,
+          33.524556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "片江山",
+        "type": 4,
+        "id": "0009"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.364167,
+          33.532778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "梅林登山口",
+        "type": 7,
+        "id": "0010"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.359861,
+          33.541611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "梅林駅",
+        "type": 27,
+        "id": "0011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.355111,
+          33.545861
+        ]
+      }
+    }
+  ]
+}

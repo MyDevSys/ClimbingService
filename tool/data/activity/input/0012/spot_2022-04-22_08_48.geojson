@@ -1,0 +1,140 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "内山",
+        "type": 26,
+        "id": "0001"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.55025,
+          33.528306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "竈門神社",
+        "type": 29,
+        "id": "0002"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.552139,
+          33.528861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "宝満山登山口",
+        "type": 7,
+        "id": "0003"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.552889,
+          33.529806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "難所ヶ滝",
+        "type": 20,
+        "id": "0004"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.573028,
+          33.546306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "頭巾山",
+        "type": 4,
+        "id": "0005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.578389,
+          33.553194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "三郡山",
+        "type": 4,
+        "id": "0006"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.584972,
+          33.5555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "頭巾山登山口",
+        "type": 7,
+        "id": "0007"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.561472,
+          33.558889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "昭和の森キャンプ場",
+        "type": 14,
+        "id": "0008"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.558833,
+          33.558833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "障子岳バス停",
+        "type": 26,
+        "id": "0009"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.540194,
+          33.564028
+        ]
+      }
+    }
+  ]
+}

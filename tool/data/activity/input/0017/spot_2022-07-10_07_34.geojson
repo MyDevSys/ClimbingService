@@ -1,0 +1,110 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "太宰府駅",
+        "type": 27,
+        "id": "0001"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.531278,
+          33.519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "太宰府天満宮",
+        "type": 29,
+        "id": "0002"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.534889,
+          33.521222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "内山",
+        "type": 26,
+        "id": "0003"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.55025,
+          33.528306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "竈門神社",
+        "type": 29,
+        "id": "0004"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.552139,
+          33.528861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "宝満山登山口",
+        "type": 7,
+        "id": "0005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.552889,
+          33.529806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "宝満山楞伽院山荘",
+        "type": 12,
+        "id": "0006"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.570417,
+          33.540444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "宝満山",
+        "type": 4,
+        "id": "0007"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.569056,
+          33.539917
+        ]
+      }
+    }
+  ]
+}
