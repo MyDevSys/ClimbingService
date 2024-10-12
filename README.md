@@ -61,7 +61,7 @@ Climbing Serviceは、登山の活動記録(ルート情報や写真、日記な
     | フレームワーク    | -                         | Django (v5.0.7)                      |
     | データーベース    | -                         | MySQL (v8.0.39)                      |
     | サーバー         | WSGI                      | Gunicorn                             |
-    | 開発―ル         | フォーマッター               | Black                                |
+    | 開発ツール        | フォーマッター               | Black                                |
     |                | 静的チェック                 | Flake8                               |
     |                | テスト                     | pytest (単体試験)、Playwright (E2E試験)  |
     | ユーティリティ    | CORS設定                   | corsheaders                          |
