@@ -29,7 +29,7 @@ Climbing Serviceは、登山の活動記録(ルート情報や写真、日記な
 ![レスポンシブデザイン画面](https://github.com/user-attachments/assets/5a7effc0-07dc-4108-9491-e5311b1b30b3)
 **図2** : レスポンシブデザイン画面
 
-### Gitプッシュを契機に自動でテスト・デプロイを行い、迅速に本番環境に反映するCI/CDパイプラインを実現
+### Gitプッシュで自動テスト・デプロイを行い、迅速に本番環境へ反映するCI/CDを実現
 ![CI/CDパイプライン構成図](https://github.com/user-attachments/assets/0cb680d0-129b-46f8-9320-ef0280e68252)
 **図3** : Climbing ServiceのCI/CDパイプライン構成図
 
