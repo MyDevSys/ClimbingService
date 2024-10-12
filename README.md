@@ -59,8 +59,6 @@ Climbing Serviceは、登山の活動記録(ルート情報や写真、日記な
     | -------------- | ------------------------- | ------------------------------------ |
     | 言語            | -                         | Python (v3.12)                       |
     | フレームワーク    | -                         | Django (v5.0.7)                      |
-    | データーベース    | -                         | MySQL (v8.0.39)                      |
-    | サーバー         | WSGI                      | Gunicorn                             |
     | 開発ツール        | フォーマッター               | Black                                |
     |                | 静的チェック                 | Flake8                               |
     |                | テスト                     | pytest (単体試験)、Playwright (E2E試験)  |
@@ -68,6 +66,8 @@ Climbing Serviceは、登山の活動記録(ルート情報や写真、日記な
     |                | 認証                       | simplejwt                            |
     |                | ログ出力/管理                | Python Logger                        |
     |                | 地理空間データ操作            | GeoPandas、Geopy、GeoJSON             |
+    | サーバー         | WSGI                      | Gunicorn                             |
+    | データーベース    | RDBMS                      | MySQL (v8.0.39)                      |
     
 
 - フロントエンド / バックエンド共通
