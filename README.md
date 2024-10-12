@@ -25,11 +25,11 @@ Climbing Serviceは、登山の活動記録(ルート情報や写真、日記な
 ![インタラクティブ操作画面](https://github.com/user-attachments/assets/8ed4cc6d-525f-45b8-942d-6932ff6c2e27)
 **図1** : インタラクティブ操作画面
 
-### （2） レスポンシブデザインを採用し、デバイスごとに最適な表示を提供。また、クロスブラウザに対応。
+### （2）レスポンシブデザインを採用し、デバイスごとに最適な表示を提供。また、クロスブラウザに対応。
 ![レスポンシブデザイン画面](https://github.com/user-attachments/assets/5a7effc0-07dc-4108-9491-e5311b1b30b3)
 **図2** : レスポンシブデザイン画面
 
-### （3） Gitプッシュで自動テスト・デプロイを行い、迅速に本番環境へ反映するCI/CDを実現
+### （3）Gitプッシュで自動テスト・デプロイを行い、迅速に本番環境へ反映するCI/CDを実現
 ![CI/CDパイプライン構成図](https://github.com/user-attachments/assets/0cb680d0-129b-46f8-9320-ef0280e68252)
 **図3** : Climbing ServiceのCI/CDパイプライン構成図
 
