@@ -218,7 +218,7 @@ test("活動トラック：地図への表示内容とボタン操作", async ()
       expect(photoPopupIndex).toHaveText("1/3");
 
       // ボップアップに想定した画像ファイルが表示されることを確認
-      const photoImgElement = map.locator('a[style*="photo_0027_01_1722765280.webp"]');
+      const photoImgElement = map.locator('a[style*="photo_0027_01_1728047971.webp"]');
       await photoImgElement.scrollIntoViewIfNeeded();
       await expect(photoImgElement).toBeVisible();
 
