@@ -123,7 +123,7 @@ test("活動詳細：その他情報の内容", async () => {
   const actualChecksum = await calculateChecksum(downloadPath);
 
   // チェックサムが一致することを確認
-  expect(actualChecksum).toBe("d0f38adc140f9e8e2405c6abd75c53eb17d4c889b46d8932f4a3d2fb76aa3122");
+  expect(actualChecksum).toBe("a09081fceb6dd4dbf61f84702f7e81591be2322eab4d9dbfde75cea1c3960748");
 
   // 試験後、ファイルを削除
   await deleteFile(downloadPath);
@@ -194,9 +194,9 @@ test("活動詳細：活動詳細の内容", async () => {
 
   // 活動写真に想定した写真ファイルが表示されていることを確認
   const photoImages = [
-    "photo_0027_01_1722765280.webp",
-    "photo_0027_02_1722765280.webp",
-    "photo_0027_03_1722765280.webp",
+    "photo_0027_01_1728047971.webp",
+    "photo_0027_02_1728047971.webp",
+    "photo_0027_03_1728047971.webp",
   ];
   const photoElements = page.locator('[class*="ActivitiesId__Photos"] img');
   const photoCount = await photoElements.count();
@@ -208,9 +208,9 @@ test("活動詳細：活動詳細の内容", async () => {
 
   // 活動写真のリンク先の確認
   const expectLinkUrl = [
-    "/activities/0027/articles#photo_0027_01_1722765280",
-    "/activities/0027/articles#photo_0027_02_1722765280",
-    "/activities/0027/articles#photo_0027_03_1722765280",
+    "/activities/0027/articles#photo_0027_01_1728047971",
+    "/activities/0027/articles#photo_0027_02_1728047971",
+    "/activities/0027/articles#photo_0027_03_1728047971",
   ];
 
   for (let index = 0; index < expectLinkUrl.length; index++) {

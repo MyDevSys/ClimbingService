@@ -65,9 +65,9 @@ test("活動日記：活動日記の内容", async () => {
 
   // 日記に想定した写真ファイルが表示されていることを確認
   const photoImages = [
-    "photo_0027_01_1722765280.webp",
-    "photo_0027_02_1722765280.webp",
-    "photo_0027_03_1722765280.webp",
+    "photo_0027_01_1728047971.webp",
+    "photo_0027_02_1728047971.webp",
+    "photo_0027_03_1728047971.webp",
   ];
   const photoElements = page.locator('[class*="Article__Photos"] img');
   const photoCount = await photoElements.count();
