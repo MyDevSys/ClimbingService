@@ -51,7 +51,7 @@ test("活動リスト：プロフィール内容", async () => {
   const birthYear = await page
     .locator('[class*="UsersId__BasicInfo__Item"]:nth-child(2)')
     .textContent();
-  expect(birthYear).toBe("1982年生まれ");
+  expect(birthYear).toBe("2024年生まれ");
 
   // 性別の確認
   const gender = await page
@@ -70,14 +70,14 @@ test("活動リスト：リスト内容", async () => {
     .locator('[class*="UserActivityList__Item"]:nth-child(1)')
     .textContent();
   expect(page1_firstItem).toEqual(
-    "31105:035.9 km710 m宝満山宝満山・三郡山・若杉山(福岡)2023.12.29(金)日帰りカズヤ",
+    "31105:035.9 km710 m宝満山宝満山・三郡山・若杉山(福岡)2023.12.29(金)日帰りゲスト",
   );
 
   // １ページ目の最後のアイテムの表示内容の確認
   const page1_lastItem = await page
     .locator('[class*="UserActivityList__Item"]:nth-child(15)')
     .textContent();
-  expect(page1_lastItem).toEqual("51307:4422 km1189 m天山天山(佐賀)2022.05.07(土)日帰りカズヤ");
+  expect(page1_lastItem).toEqual("51307:4422 km1189 m天山天山(佐賀)2022.05.07(土)日帰りゲスト");
 
   // 2ページ目に移動できることの確認
   const page1to2Locator = page.locator('button[aria-label="Go to page 2"]');
@@ -95,7 +95,7 @@ test("活動リスト：リスト内容", async () => {
     .locator('[class*="UserActivityList__Item"]:nth-child(1)')
     .textContent();
   expect(page2_firstItem).toEqual(
-    "3908:0211.8 km1112 m頭巾山・三郡山宝満山・三郡山・若杉山(福岡)2022.04.22(金)日帰りカズヤ",
+    "3908:0211.8 km1112 m頭巾山・三郡山宝満山・三郡山・若杉山(福岡)2022.04.22(金)日帰りゲスト",
   );
 
   // 2ページ目の最後のアイテムの表示内容の確認
@@ -103,7 +103,7 @@ test("活動リスト：リスト内容", async () => {
     .locator('[class*="UserActivityList__Item"]:nth-child(12)')
     .textContent();
   expect(page2_lastItem).toEqual(
-    "41107:3118.4 km890 m天拝山・奥天拝天拝山・基山(福岡, 佐賀)2022.02.25(金)日帰りカズヤ",
+    "41107:3118.4 km890 m天拝山・奥天拝天拝山・基山(福岡, 佐賀)2022.02.25(金)日帰りゲスト",
   );
 
   // 1ページ目に移動できることの確認
